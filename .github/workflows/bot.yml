@@ -2,7 +2,7 @@ name: Demo Memecoin Botu
 
 on:
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "17 * * * *"      # yedek: zincir koparsa saatlik yeniden başlatır
   workflow_dispatch:
     inputs:
       rapor_test:
@@ -12,6 +12,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: memecoin-bot
@@ -19,10 +20,12 @@ concurrency:
 
 jobs:
   run:
-    runs-on: ubuntu-22.04
-    timeout-minutes: 8
+    runs-on: ubuntu-24.04
+    timeout-minutes: 355
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
@@ -31,11 +34,12 @@ jobs:
       - name: Gerekli paketi kur
         run: pip install requests
 
-      - name: Botu çalıştır
+      - name: Botu çalıştır (yaklaşık 5,5 saat döngüde)
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           REPORT_NOW: ${{ github.event.inputs.rapor_test }}
+          LOOP_MINUTES: "330"
         run: python bot.py
 
       - name: Durumu kaydet
@@ -44,4 +48,17 @@ jobs:
           git config user.name "demo-bot"
           git config user.email "demo-bot@users.noreply.github.com"
           git add state.json trades.csv positions.csv
-          git diff --cached --quiet || (git commit -m "bot durumu" && git push)
+          git diff --cached --quiet || git commit -m "bot durumu"
+          git pull --rebase --autostash || true
+          git push || true
+
+      - name: Kendini yeniden başlat
+        if: ${{ !cancelled() }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if grep -q '"final_sent": true' state.json 2>/dev/null; then
+            echo "Deney bitti, yeniden başlatılmıyor."
+          else
+            gh workflow run bot.yml --ref main
+          fi
