@@ -15,8 +15,10 @@ Durum state.json dosyasinda, islemler trades.csv ve positions.csv dosyalarinda t
 import os
 import sys
 import csv
+import hashlib
 import json
 import math
+import subprocess
 import time
 from datetime import datetime, timedelta, timezone
 
@@ -32,7 +34,10 @@ EXPERIMENT_DAYS = 7        # deney suresi (gun)
 
 PCT_FEE = 0.01             # platform ucreti (%1)
 FIXED_FEE = 0.10           # islem basina sabit maliyet ($): ag ucreti, oncelik ucreti, bot koruma bahsisi
-RUG_LIQ_DROP = 0.5         # likidite girisin %50'sinin altina inerse "RUG" say
+RUG_LIQ_DROP = 0.10        # likidite girisin %10'unun altina inerse (havuz bosaldi) "RUG" say
+A_INTERVAL_SEC = 90        # dongu modunda A'nin ve acik pozisyonlarin kontrol sikligi (saniye)
+B_INTERVAL_SEC = 600       # dongu modunda B'nin yeni token taramasi sikligi (saniye)
+GIT_SYNC_SEC = 300         # dongu modunda durumu GitHub'a kaydetme sikligi (saniye)
 MAX_RUGCHECK_PER_RUN = 6   # bir calismada en fazla kac token guvenlik taramasina girsin
 
 STRATEGIES = {
@@ -64,6 +69,11 @@ STRATEGIES = {
 # =====================================================================
 
 TRT = timezone(timedelta(hours=3))   # Turkiye saati
+try:
+    CODE_HASH = hashlib.sha256(open(__file__, "rb").read()).hexdigest()
+except Exception:
+    CODE_HASH = ""
+TRADES_LOGGED = [0]   # kac islem kaydedildi (git kaydini tetiklemek icin)
 GT = "https://api.geckoterminal.com/api/v2"
 RUGCHECK = "https://api.rugcheck.xyz/v1/tokens"
 HEADERS = {"Accept": "application/json;version=20230302", "User-Agent": "memecoin-demo-bot"}
@@ -375,6 +385,7 @@ def append_csv(path, fields, row):
 
 
 def log_trade(sk, event, pos, price, tokens, usd_amt, cost, note, now):
+    TRADES_LOGGED[0] += 1
     append_csv(TRADES_CSV, TRADE_FIELDS, {
         "zaman_trt": trt_str(now), "strateji": sk, "olay": event, "token": pos["name"],
         "mint": pos["mint"], "havuz": pos["pool"], "fiyat_usd": fmt_price(price),
@@ -495,6 +506,8 @@ def sell_position(sk, acct, pos, fraction, price, liq, reason, now, zero=False):
     if zero:
         lines.append(f"Kalan pozisyon sıfıra yazıldı (kayıp değer ~{usd(lost_value)})")
         lines.append(f"Silinen adet: {fmt_qty(n)} token")
+        liq_txt = "havuz bulunamadı" if liq is None or liq == 0 else f"{liq:.0f} $"
+        lines.append(f"Likidite: girişte {pos['entry_liq']:.0f} $ → şimdi {liq_txt}")
     else:
         lines.append(f"Satılan: %{fraction * 100:.0f} ({fmt_qty(n)} token) | Net gelir: {usd(net)} (maliyet: {usd(fee_add)})")
         lines.append(f"Kalan adet: {fmt_qty(pos['tokens'])} token")
@@ -586,10 +599,12 @@ def screen(cfg, p, now, acct, f):
     return True
 
 
-def do_entries(state, now):
+def do_entries(state, now, only=None):
     day = trt_day(now)
     cache = {}
     for sk, cfg in STRATEGIES.items():
+        if only and sk not in only:
+            continue
         acct = state["accounts"][sk]
         free = MAX_OPEN - len(acct["positions"])
         if free <= 0 or acct["cash"] < TRADE_SIZE - 1e-9:
@@ -802,24 +817,48 @@ def startup_message(state):
     )
 
 
-def main():
-    now = utcnow()
-    ensure_csv(TRADES_CSV, TRADE_FIELDS)
-    ensure_csv(POSITIONS_CSV, POS_FIELDS)
-    state = load_state()
-    if state is None:
-        state = init_state(now)
-        tg_send(startup_message(state))
-    CURRENT_STATE["s"] = state
-    if state.get("final_sent"):
-        log("Deney bitti, yapilacak is yok.")
-        save_state(state)
-        return
+def sh(cmd):
+    try:
+        r = subprocess.run(cmd, capture_output=True, text=True, timeout=90)
+        return r.returncode
+    except Exception as e:
+        log("komut hatasi:", type(e).__name__)
+        return 1
 
+
+def git_sync(msg="bot durumu"):
+    """Dongu modunda durumu GitHub'a kaydeder (sadece GitHub Actions icinde)."""
+    if not os.environ.get("GITHUB_ACTIONS"):
+        return
+    sh(["git", "config", "user.name", "demo-bot"])
+    sh(["git", "config", "user.email", "demo-bot@users.noreply.github.com"])
+    sh(["git", "add", "state.json", "trades.csv", "positions.csv"])
+    if sh(["git", "diff", "--cached", "--quiet"]) == 0:
+        return
+    sh(["git", "commit", "-q", "-m", msg])
+    sh(["git", "pull", "--rebase", "--autostash", "-q"])
+    if sh(["git", "push", "-q"]) != 0:
+        log("git push basarisiz (bir sonraki seferde tekrar denenecek)")
+
+
+def code_changed():
+    """bot.py GitHub'da guncellendi mi? (guncellendiyse dongu biter, yeni kodla yeniden baslar)"""
+    if not os.environ.get("GITHUB_ACTIONS"):
+        return False
+    git_sync()
+    sh(["git", "pull", "--rebase", "--autostash", "-q"])
+    try:
+        return hashlib.sha256(open(__file__, "rb").read()).hexdigest() != CODE_HASH
+    except Exception:
+        return False
+
+
+def run_cycle(state, now, do_b):
     ending = now >= parse_iso(state["end"])
     steps = [("takip", lambda: track_positions(state, now))]
     if not ending:
-        steps.append(("giris", lambda: do_entries(state, now)))
+        only = ("A", "B") if do_b else ("A",)
+        steps.append(("giris", lambda: do_entries(state, now, only)))
     steps.append(("rapor", lambda: maybe_daily_report(state, now)))
     steps.append(("final", lambda: maybe_final(state, now)))
     for name, fn in steps:
@@ -828,13 +867,57 @@ def main():
         except Exception as e:
             log(f"HATA ({name}):", type(e).__name__, str(e)[:200])
 
-    if os.environ.get("REPORT_NOW", "").lower() == "true":
-        today = {trt_day(now)}
-        tg_send(build_report(state, today, "🧪 TEST RAPORU (bugüne kadar)") + DISCLAIMER)
 
-    save_state(state)
+def main():
+    ensure_csv(TRADES_CSV, TRADE_FIELDS)
+    ensure_csv(POSITIONS_CSV, POS_FIELDS)
+    state = load_state()
+    if state is None:
+        state = init_state(utcnow())
+        tg_send(startup_message(state))
+    CURRENT_STATE["s"] = state
+    if state.get("final_sent"):
+        log("Deney bitti, yapilacak is yok.")
+        save_state(state)
+        return
+
+    loop_min = float(os.environ.get("LOOP_MINUTES") or 0)
+    report_now = os.environ.get("REPORT_NOW", "").lower() == "true"
+    end_t = time.time() + loop_min * 60
+    last_b, last_check, last_sync = 0.0, time.time(), time.time()
+    trades_seen, cycles = TRADES_LOGGED[0], 0
+
+    while True:
+        t0 = time.time()
+        now = utcnow()
+        do_b = (t0 - last_b) >= B_INTERVAL_SEC - 5
+        run_cycle(state, now, do_b)
+        if do_b:
+            last_b = t0
+        cycles += 1
+        if report_now:
+            tg_send(build_report(state, {trt_day(now)}, "🧪 TEST RAPORU (bugüne kadar)") + DISCLAIMER)
+            report_now = False
+        save_state(state)
+
+        if loop_min <= 0:
+            break
+        if TRADES_LOGGED[0] != trades_seen or time.time() - last_sync >= GIT_SYNC_SEC:
+            git_sync()
+            trades_seen, last_sync = TRADES_LOGGED[0], time.time()
+        if state.get("final_sent"):
+            break
+        if time.time() + A_INTERVAL_SEC > end_t:
+            break
+        if time.time() - last_check >= 600:
+            last_check = time.time()
+            if code_changed():
+                log("Yeni kod bulundu, dongu yeniden basliyor.")
+                break
+        time.sleep(max(1, A_INTERVAL_SEC - (time.time() - t0)))
+
     A, B = state["accounts"]["A"], state["accounts"]["B"]
-    log(f"Bitti. A: acik={len(A['positions'])} kapali={len(A['closed'])} | "
+    log(f"Bitti ({cycles} tur). A: acik={len(A['positions'])} kapali={len(A['closed'])} | "
         f"B: acik={len(B['positions'])} kapali={len(B['closed'])}")
 
 
