@@ -119,6 +119,12 @@ def fmt_price(p):
     return f"{p:.4f}" if p >= 0.01 else f"{p:.3e}"
 
 
+def fmt_qty(x):
+    """Token adedi: Turk bicimi (binlik nokta, ondalik virgul), orn. 15.674,25"""
+    s = f"{x:,.2f}"
+    return s.replace(",", "X").replace(".", ",").replace("X", ".")
+
+
 def usd(x, sign=False):
     return f"{x:+.2f} $" if sign else f"{x:.2f} $"
 
@@ -383,7 +389,7 @@ def sim_buy(spend, price, liq):
     tokens = eff / exec_price
     fee_pct = max(spend - FIXED_FEE, 0) * PCT_FEE
     slip = eff - tokens * price
-    return tokens, {"fee_fixed": FIXED_FEE, "fee_pct": fee_pct, "slip": slip}
+    return tokens, {"fee_fixed": FIXED_FEE, "fee_pct": fee_pct, "slip": slip, "exec_price": exec_price}
 
 
 def sim_sell(tokens, price, liq):
@@ -409,7 +415,7 @@ def open_position(sk, acct, p, risk_label, risk_info, now):
         "opened": iso(now), "entry_price": p["price"], "entry_liq": p["liq"] or 0.0,
         "tokens": tokens, "cost": TRADE_SIZE, "proceeds": 0.0, "fees": total_cost,
         "partial": False, "risk": risk_label, "miss": 0,
-        "last_price": p["price"], "max_m": 1.0,
+        "last_price": p["price"], "max_m": 1.0, "entry_exec": c["exec_price"],
     }
     acct["positions"].append(pos)
     log_trade(sk, "ALIM", pos, p["price"], tokens, TRADE_SIZE, c, f"risk={risk_label}", now)
@@ -420,6 +426,8 @@ def open_position(sk, acct, p, risk_label, risk_info, now):
     msg = (f"🟢 [{sk}] DEMO ALIM\n"
            f"Token: {pos['name']} ({short(p['mint'])})\n"
            f"Fiyat: {fmt_price(p['price'])} $ | Likidite: {p['liq']:.0f} $\n"
+           f"Alınan adet: {fmt_qty(tokens)} token (gerçekleşen alış fiyatı: {fmt_price(c['exec_price'])} $)\n"
+           f"Anlık değer (adet × fiyat): {usd(tokens * p['price'])}\n"
            f"Tutar: {usd(TRADE_SIZE)} (maliyet: {usd(total_cost)})\n"
            f"Güvenlik: {risk_label}{extra}\n"
            f"Açık pozisyon: {len(acct['positions'])}/{MAX_OPEN}\n"
@@ -479,8 +487,10 @@ def sell_position(sk, acct, pos, fraction, price, liq, reason, now, zero=False):
              f"Fiyat çarpanı: {m:.2f}x"]
     if zero:
         lines.append(f"Kalan pozisyon sıfıra yazıldı (kayıp değer ~{usd(lost_value)})")
+        lines.append(f"Silinen adet: {fmt_qty(n)} token")
     else:
-        lines.append(f"Satılan: %{fraction * 100:.0f} | Net gelir: {usd(net)} (maliyet: {usd(fee_add)})")
+        lines.append(f"Satılan: %{fraction * 100:.0f} ({fmt_qty(n)} token) | Net gelir: {usd(net)} (maliyet: {usd(fee_add)})")
+        lines.append(f"Kalan adet: {fmt_qty(pos['tokens'])} token")
     if closing:
         pnl = pos["proceeds"] - pos["cost"]
         lines.append(f"POZİSYON KAPANDI | Toplam gelir: {usd(pos['proceeds'])} | K/Z: {usd(pnl, True)}")
@@ -684,13 +694,27 @@ def open_text(sk, acct):
             f"toplam K/Z {usd(equity(acct) - START_BALANCE, True)})")
 
 
+def open_positions_text(acct):
+    if not acct["positions"]:
+        return "Açık pozisyon yok."
+    L = ["Açık pozisyonlar (son kontrol fiyatıyla, adet × fiyat):"]
+    for pos in acct["positions"]:
+        val = pos["tokens"] * pos["last_price"]
+        m = pos["last_price"] / pos["entry_price"] if pos["entry_price"] else 0
+        buy = pos.get("entry_exec") or pos["entry_price"]
+        L.append(f"   • {pos['name']}: {fmt_qty(pos['tokens'])} token | alış {fmt_price(buy)} $ | "
+                 f"güncel {fmt_price(pos['last_price'])} $ | değer {usd(val)} ({m:.2f}x)")
+    return "\n".join(L)
+
+
 def build_report(state, days, title):
     A, B = state["accounts"]["A"], state["accounts"]["B"]
     parts = [title, ""]
     lbl = "bu dönem" if days else "tüm deney"
     blkA, sA = strategy_block("A", A, days, lbl)
     blkB, sB = strategy_block("B", B, days, lbl)
-    parts += [blkA, funnel_text(A, days), "", blkB, funnel_text(B, days), ""]
+    parts += [blkA, funnel_text(A, days), open_positions_text(A), "",
+              blkB, funnel_text(B, days), open_positions_text(B), ""]
     parts += ["── TOPLAM (deney başından beri) ──",
               f"A: {open_text('A', A)}", f"B: {open_text('B', B)}", ""]
     rt = risk_table(A)
