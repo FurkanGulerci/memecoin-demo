@@ -802,9 +802,11 @@ def maybe_final(state, now):
 # ---------------------------------------------------------------------
 #  Ana akis
 # ---------------------------------------------------------------------
-def startup_message(state):
+def startup_message(state, reset=False):
     A, B = STRATEGIES["A"], STRATEGIES["B"]
-    return (
+    head = ("🔄 DENEY SIFIRLANDI, her iki hesap 100 $'dan yeniden başlıyor "
+            "(eski sonuçlar arsiv klasörüne taşındı)\n\n" if reset else "")
+    return head + (
         "🤖 Demo memecoin botu başladı (SAHTE PARA, Solana)\n"
         f"Süre: {EXPERIMENT_DAYS} gün | Her strateji: {usd(START_BALANCE)} bakiye, işlem başı {usd(TRADE_SIZE)}, "
         f"en fazla {MAX_OPEN} açık pozisyon\n\n"
@@ -815,6 +817,18 @@ def startup_message(state):
         "Maliyet modeli: %1 ücret + işlem başı 0.10 $ + likiditeye bağlı kayma.\n"
         "Rapor: her gece 00:00 (TR saati). Her alım/satımda mesaj gelir."
     )
+
+
+def archive_and_reset():
+    """Eski durum ve CSV dosyalarini arsiv/ klasorune tasir; deney sifirdan baslar."""
+    stamp = utcnow().astimezone(TRT).strftime("%Y%m%d_%H%M")
+    os.makedirs("arsiv", exist_ok=True)
+    moved = []
+    for name in (STATE_FILE, TRADES_CSV, POSITIONS_CSV):
+        if os.path.exists(name):
+            os.replace(name, os.path.join("arsiv", f"{stamp}_{name}"))
+            moved.append(name)
+    log("Sifirlandi, arsive tasinan dosyalar:", moved)
 
 
 def sh(cmd):
@@ -832,7 +846,7 @@ def git_sync(msg="bot durumu"):
         return
     sh(["git", "config", "user.name", "demo-bot"])
     sh(["git", "config", "user.email", "demo-bot@users.noreply.github.com"])
-    sh(["git", "add", "state.json", "trades.csv", "positions.csv"])
+    sh(["git", "add", "-A"])
     if sh(["git", "diff", "--cached", "--quiet"]) == 0:
         return
     sh(["git", "commit", "-q", "-m", msg])
@@ -869,12 +883,15 @@ def run_cycle(state, now, do_b):
 
 
 def main():
+    reset = os.environ.get("RESET", "").strip().lower() == "true"
+    if reset:
+        archive_and_reset()
     ensure_csv(TRADES_CSV, TRADE_FIELDS)
     ensure_csv(POSITIONS_CSV, POS_FIELDS)
     state = load_state()
     if state is None:
         state = init_state(utcnow())
-        tg_send(startup_message(state))
+        tg_send(startup_message(state, reset))
     CURRENT_STATE["s"] = state
     if state.get("final_sent"):
         log("Deney bitti, yapilacak is yok.")
