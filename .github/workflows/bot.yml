@@ -9,6 +9,10 @@ on:
         description: "Test raporu da gönder (true / false)"
         required: false
         default: "false"
+      sifirla:
+        description: "Deneyi SIFIRLA: bakiyeler 100 $'dan başlar (true / false)"
+        required: false
+        default: "false"
 
 permissions:
   contents: write
@@ -39,6 +43,7 @@ jobs:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           REPORT_NOW: ${{ github.event.inputs.rapor_test }}
+          RESET: ${{ github.event.inputs.sifirla }}
           LOOP_MINUTES: "330"
         run: python bot.py
 
@@ -47,7 +52,7 @@ jobs:
         run: |
           git config user.name "demo-bot"
           git config user.email "demo-bot@users.noreply.github.com"
-          git add state.json trades.csv positions.csv
+          git add -A
           git diff --cached --quiet || git commit -m "bot durumu"
           git pull --rebase --autostash || true
           git push || true
