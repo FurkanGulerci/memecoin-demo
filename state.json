@@ -42,24 +42,6 @@
      "last_price": 1.21638447988167e-05,
      "max_m": 1.106119623106498,
      "entry_exec": 1.1007768701582673e-05
-    },
-    {
-     "mint": "5x9sPUui6nwnwVwaPxKVXBLpSgtWPh2k3pmGwUPvpump",
-     "pool": "AFVRz5zwMXVmEJHKU84jk63spcWFd124YwFMoctnP8PW",
-     "name": "WEFT",
-     "opened": "2026-10-18T19:26:46Z",
-     "entry_price": 7.949208181430107e-05,
-     "entry_liq": 34418.6684,
-     "tokens": 123225.12031672776,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20457865420558558,
-     "partial": false,
-     "risk": "riskli",
-     "miss": 0,
-     "last_price": 0.00010001603238978736,
-     "max_m": 1.258188615860277,
-     "entry_exec": 7.953735386752565e-05
     }
    ],
    "closed": [
@@ -224,6 +206,24 @@
      "risk": "riskli",
      "max_m": 1.137,
      "partial": false
+    },
+    {
+     "strategy": "A",
+     "token": "WEFT",
+     "mint": "5x9sPUui6nwnwVwaPxKVXBLpSgtWPh2k3pmGwUPvpump",
+     "pool": "AFVRz5zwMXVmEJHKU84jk63spcWFd124YwFMoctnP8PW",
+     "opened": "2026-10-18T19:26:46Z",
+     "closed": "2026-10-18T19:58:47Z",
+     "closed_day": "2026-10-18",
+     "hold_min": 32.0,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "pnl": -10.0,
+     "fees": 0.2046,
+     "reason": "RUG",
+     "risk": "riskli",
+     "max_m": 109.546,
+     "partial": false
     }
    ],
    "seen": [
@@ -270,7 +270,7 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 5.60944796294208e-05,
+     "last_price": 5.286779854681012e-05,
      "max_m": 1.0030143813997268,
      "entry_exec": 5.597490697166313e-05
     }
@@ -439,10 +439,10 @@
    ],
    "funnel": {
     "2026-10-18": {
-     "tarama": 545,
-     "yas": 173,
-     "likidite": 37,
-     "hacim": 37,
+     "tarama": 613,
+     "yas": 191,
+     "likidite": 39,
+     "hacim": 39,
      "yukselis": 16,
      "guvenlik_red": 3,
      "giris": 9
