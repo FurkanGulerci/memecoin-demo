@@ -57,8 +57,8 @@
      "partial": false,
      "risk": "riskli",
      "miss": 0,
-     "last_price": 8.43775594302945e-05,
-     "max_m": 1.0614586699013147,
+     "last_price": 9.032955508926433e-05,
+     "max_m": 1.1363339973946127,
      "entry_exec": 7.953735386752565e-05
     }
    ],
@@ -254,7 +254,7 @@
    }
   },
   "B": {
-   "cash": 46.12900673259138,
+   "cash": 53.57660871283624,
    "positions": [
     {
      "mint": "hyyhpJPLXKNwSdYTJMKJFF6AU5aXaLn9tDTjfkBpump",
@@ -270,7 +270,7 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 1.1463033974047572,
+     "last_price": 1.142694966063056,
      "max_m": 1.0132218003498201
     },
     {
@@ -287,26 +287,8 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.04344008255290839,
+     "last_price": 0.043363378090026085,
      "max_m": 1.0258111096516336
-    },
-    {
-     "mint": "3zxtzoumrXqaqS2CDRjnbVEbf1tb12d5fWwMfa2Npump",
-     "pool": "G3Na7nUtWFfaEk7mmGp9ZuSAR3brQqDV4eQaNWNptSwC",
-     "name": "CATSZN",
-     "opened": "2026-10-18T19:26:46Z",
-     "entry_price": 0.00035705300993959664,
-     "entry_liq": 55176.8646,
-     "tokens": 27439.95732883581,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20248064312508002,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.0003725636696753833,
-     "max_m": 1.0434407757503867,
-     "entry_exec": 0.0003571798557317882
     },
     {
      "mint": "AcV6CcpMGFrA1dhRFiCKNiVNje8QE6ZXR9ep9jh7pump",
@@ -322,7 +304,7 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 5.5925897643800305e-05,
+     "last_price": 5.542908081634328e-05,
      "max_m": 1.0,
      "entry_exec": 5.597490697166313e-05
     }
@@ -417,6 +399,24 @@
      "risk": "temiz",
      "max_m": 1.283,
      "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "CATSZN",
+     "mint": "3zxtzoumrXqaqS2CDRjnbVEbf1tb12d5fWwMfa2Npump",
+     "pool": "G3Na7nUtWFfaEk7mmGp9ZuSAR3brQqDV4eQaNWNptSwC",
+     "opened": "2026-10-18T19:26:46Z",
+     "closed": "2026-10-18T19:44:44Z",
+     "closed_day": "2026-10-18",
+     "hold_min": 18.0,
+     "cost": 10.0,
+     "proceeds": 7.4476,
+     "pnl": -2.5524,
+     "fees": 0.3811,
+     "reason": "STOP",
+     "risk": "temiz",
+     "max_m": 1.043,
+     "partial": false
     }
    ],
    "seen": [
@@ -437,10 +437,10 @@
    ],
    "funnel": {
     "2026-10-18": {
-     "tarama": 410,
-     "yas": 137,
-     "likidite": 33,
-     "hacim": 33,
+     "tarama": 478,
+     "yas": 155,
+     "likidite": 35,
+     "hacim": 35,
      "yukselis": 16,
      "guvenlik_red": 3,
      "giris": 9
