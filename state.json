@@ -6,25 +6,8 @@
  "final_sent": false,
  "accounts": {
   "A": {
-   "cash": 10.461961867654544,
+   "cash": 0.4619618676545443,
    "positions": [
-    {
-     "mint": "BrUqQEDnJembEDqcY9KvuiKifVMWBMceSyVrT8SJpump",
-     "pool": "DUdopfhygWz2QXtanDRu5Gb9J7PozwwipPR4uadCDTt6",
-     "name": "ELLWN",
-     "opened": "2026-10-18T17:51:35Z",
-     "entry_price": 0.056046807670677136,
-     "entry_liq": 107805.1504,
-     "tokens": 174.83989962215475,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20078177271659764,
-     "partial": false,
-     "risk": "riskli",
-     "miss": 0,
-     "last_price": 0.07400627536168239,
-     "max_m": 1.3204369425736513
-    },
     {
      "mint": "CzeuNQpXa5qFJw7sxwXC8CY1MArNhGVeuRzb2vAtJFE4",
      "pool": "E3MJwTgmyroayf94ApceSzNYgSFqzBZujvpeFRMzbTrW",
@@ -61,40 +44,22 @@
      "entry_exec": 1.1007768701582673e-05
     },
     {
-     "mint": "3ybVrCayvNajFdiBMZ33K4eVKkuAd8qV5vGGHmZ9kysD",
-     "pool": "BnDFXDzzPYbc2PDjRCwn68QcEXKnk4yXRwXF95ZP5DjQ",
-     "name": "swappy",
-     "opened": "2026-10-18T18:44:51Z",
-     "entry_price": 4.977847507970509e-05,
-     "entry_liq": 46503.7976,
-     "tokens": 196809.37326054496,
+     "mint": "5x9sPUui6nwnwVwaPxKVXBLpSgtWPh2k3pmGwUPvpump",
+     "pool": "AFVRz5zwMXVmEJHKU84jk63spcWFd124YwFMoctnP8PW",
+     "name": "WEFT",
+     "opened": "2026-10-18T19:26:46Z",
+     "entry_price": 7.949208181430107e-05,
+     "entry_liq": 34418.6684,
+     "tokens": 123225.12031672776,
      "cost": 10.0,
      "proceeds": 0.0,
-     "fees": 0.20312951769758508,
+     "fees": 0.20457865420558558,
      "partial": false,
      "risk": "riskli",
      "miss": 0,
-     "last_price": 4.977847507970509e-05,
+     "last_price": 7.949208181430107e-05,
      "max_m": 1.0,
-     "entry_exec": 4.979945740198564e-05
-    },
-    {
-     "mint": "72PG5oXxcJFKVzYmnFoPR7H4jxjCHdAHFHYuP2iFvDLg",
-     "pool": "GU6Xrvpr6BL6ayA6UxdFSYzi4mTbNfjzgfGfhActk2op",
-     "name": "Froggy",
-     "opened": "2026-10-18T18:44:51Z",
-     "entry_price": 1.0499931180635167e-05,
-     "entry_liq": 17892.1174,
-     "tokens": 932413.1689689266,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20972589390832058,
-     "partial": false,
-     "risk": "riskli",
-     "miss": 0,
-     "last_price": 1.0499931180635167e-05,
-     "max_m": 1.0,
-     "entry_exec": 1.051143455088484e-05
+     "entry_exec": 7.953735386752565e-05
     }
    ],
    "closed": [
@@ -205,6 +170,60 @@
      "risk": "riskli",
      "max_m": 1.055,
      "partial": false
+    },
+    {
+     "strategy": "A",
+     "token": "ELLWN",
+     "mint": "BrUqQEDnJembEDqcY9KvuiKifVMWBMceSyVrT8SJpump",
+     "pool": "DUdopfhygWz2QXtanDRu5Gb9J7PozwwipPR4uadCDTt6",
+     "opened": "2026-10-18T17:51:35Z",
+     "closed": "2026-10-18T19:26:46Z",
+     "closed_day": "2026-10-18",
+     "hold_min": 95.2,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "pnl": -10.0,
+     "fees": 0.2008,
+     "reason": "RUG",
+     "risk": "riskli",
+     "max_m": 1.32,
+     "partial": false
+    },
+    {
+     "strategy": "A",
+     "token": "swappy",
+     "mint": "3ybVrCayvNajFdiBMZ33K4eVKkuAd8qV5vGGHmZ9kysD",
+     "pool": "BnDFXDzzPYbc2PDjRCwn68QcEXKnk4yXRwXF95ZP5DjQ",
+     "opened": "2026-10-18T18:44:51Z",
+     "closed": "2026-10-18T19:26:46Z",
+     "closed_day": "2026-10-18",
+     "hold_min": 41.9,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "pnl": -10.0,
+     "fees": 0.2031,
+     "reason": "RUG",
+     "risk": "riskli",
+     "max_m": 1.0,
+     "partial": false
+    },
+    {
+     "strategy": "A",
+     "token": "Froggy",
+     "mint": "72PG5oXxcJFKVzYmnFoPR7H4jxjCHdAHFHYuP2iFvDLg",
+     "pool": "GU6Xrvpr6BL6ayA6UxdFSYzi4mTbNfjzgfGfhActk2op",
+     "opened": "2026-10-18T18:44:51Z",
+     "closed": "2026-10-18T19:26:46Z",
+     "closed_day": "2026-10-18",
+     "hold_min": 41.9,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "pnl": -10.0,
+     "fees": 0.2097,
+     "reason": "RUG",
+     "risk": "riskli",
+     "max_m": 1.137,
+     "partial": false
     }
    ],
    "seen": [
@@ -218,23 +237,24 @@
     "6uaAdqQoCRD9MMLWf3qJKtgFKaTau79NaNHstZq9tjmB",
     "Jbfodxr7uixGPac1r3n2sL1GjkqgjcKspkCRS5JfjGJ",
     "3ybVrCayvNajFdiBMZ33K4eVKkuAd8qV5vGGHmZ9kysD",
-    "72PG5oXxcJFKVzYmnFoPR7H4jxjCHdAHFHYuP2iFvDLg"
+    "72PG5oXxcJFKVzYmnFoPR7H4jxjCHdAHFHYuP2iFvDLg",
+    "5x9sPUui6nwnwVwaPxKVXBLpSgtWPh2k3pmGwUPvpump"
    ],
    "rejected": [],
    "funnel": {
     "2026-10-18": {
-     "tarama": 188,
-     "yas": 167,
-     "likidite": 120,
-     "hacim": 120,
-     "yukselis": 120,
+     "tarama": 248,
+     "yas": 222,
+     "likidite": 158,
+     "hacim": 158,
+     "yukselis": 158,
      "guvenlik_red": 0,
-     "giris": 11
+     "giris": 12
     }
    }
   },
   "B": {
-   "cash": 50.012391887938584,
+   "cash": 56.12900673259138,
    "positions": [
     {
      "mint": "hyyhpJPLXKNwSdYTJMKJFF6AU5aXaLn9tDTjfkBpump",
@@ -250,8 +270,8 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 1.1453053404646953,
-     "max_m": 1.0077099583946054
+     "last_price": 1.1515697838935979,
+     "max_m": 1.0132218003498201
     },
     {
      "mint": "8zu4jtmPogv3TQ1MEosD7EYCRu9Avxg6vNRjzZoFpump",
@@ -267,44 +287,26 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.042858531492409244,
-     "max_m": 1.0120781353193882
+     "last_price": 0.04342161080528184,
+     "max_m": 1.025374910574274
     },
     {
-     "mint": "6vwkHvvoJujaPy6SWdjqE2fFc1V3AW6pj6KTh9jipump",
-     "pool": "w6RsQbTcRXtXgdKc3TG19Q4abQv2y1zYbtKx98635HJ",
-     "name": "MEGA",
-     "opened": "2026-10-18T18:20:28Z",
-     "entry_price": 0.00015123568447942426,
-     "entry_liq": 35962.8711,
-     "tokens": 64770.829647531325,
+     "mint": "3zxtzoumrXqaqS2CDRjnbVEbf1tb12d5fWwMfa2Npump",
+     "pool": "G3Na7nUtWFfaEk7mmGp9ZuSAR3brQqDV4eQaNWNptSwC",
+     "name": "CATSZN",
+     "opened": "2026-10-18T19:26:46Z",
+     "entry_price": 0.00035705300993959664,
+     "entry_liq": 55176.8646,
+     "tokens": 27439.95732883581,
      "cost": 10.0,
      "proceeds": 0.0,
-     "fees": 0.2043392439554152,
+     "fees": 0.20248064312508002,
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.00013411007031150678,
-     "max_m": 1.021577549445907,
-     "entry_exec": 0.00015131811732742805
-    },
-    {
-     "mint": "6yMZv1NgnQWBeocyfCNKmdqGr3Enu3Lrdpz3TJRvpump",
-     "pool": "2aegSTad7cZTrd536XtXkjkY88hvthvwsDA5TuCtQD6v",
-     "name": "CATONICE",
-     "opened": "2026-10-18T18:44:51Z",
-     "entry_price": 0.0012818140650842677,
-     "entry_liq": 99209.6623,
-     "tokens": 7644.684320897473,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20093611434444564,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.0012818140650842677,
+     "last_price": 0.00035705300993959664,
      "max_m": 1.0,
-     "entry_exec": 0.0012820673279088886
+     "entry_exec": 0.0003571798557317882
     }
    ],
    "closed": [
@@ -361,6 +363,42 @@
      "risk": "temiz",
      "max_m": 1.0,
      "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "MEGA",
+     "mint": "6vwkHvvoJujaPy6SWdjqE2fFc1V3AW6pj6KTh9jipump",
+     "pool": "w6RsQbTcRXtXgdKc3TG19Q4abQv2y1zYbtKx98635HJ",
+     "opened": "2026-10-18T18:20:28Z",
+     "closed": "2026-10-18T19:26:46Z",
+     "closed_day": "2026-10-18",
+     "hold_min": 66.3,
+     "cost": 10.0,
+     "proceeds": 3.7727,
+     "pnl": -6.2273,
+     "fees": 0.3448,
+     "reason": "STOP",
+     "risk": "temiz",
+     "max_m": 1.022,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "CATONICE",
+     "mint": "6yMZv1NgnQWBeocyfCNKmdqGr3Enu3Lrdpz3TJRvpump",
+     "pool": "2aegSTad7cZTrd536XtXkjkY88hvthvwsDA5TuCtQD6v",
+     "opened": "2026-10-18T18:44:51Z",
+     "closed": "2026-10-18T19:26:46Z",
+     "closed_day": "2026-10-18",
+     "hold_min": 41.9,
+     "cost": 10.0,
+     "proceeds": 12.344,
+     "pnl": 2.344,
+     "fees": 0.4294,
+     "reason": "TP",
+     "risk": "temiz",
+     "max_m": 1.283,
+     "partial": false
     }
    ],
    "seen": [
@@ -370,7 +408,8 @@
     "3ZAnpeVBHAvZsySNMXp4g9nYaE1jsx6khgh29VYKpump",
     "6vwkHvvoJujaPy6SWdjqE2fFc1V3AW6pj6KTh9jipump",
     "8RpybikpGLbKsYJ4FXz12ExDz89R7VXAUZ3JXNcKpump",
-    "6yMZv1NgnQWBeocyfCNKmdqGr3Enu3Lrdpz3TJRvpump"
+    "6yMZv1NgnQWBeocyfCNKmdqGr3Enu3Lrdpz3TJRvpump",
+    "3zxtzoumrXqaqS2CDRjnbVEbf1tb12d5fWwMfa2Npump"
    ],
    "rejected": [
     "Bm67LrewgThV5H72LC4EkyPc9xk6iwMR1CkSkK8z72q9",
@@ -379,13 +418,13 @@
    ],
    "funnel": {
     "2026-10-18": {
-     "tarama": 277,
-     "yas": 98,
-     "likidite": 26,
-     "hacim": 26,
-     "yukselis": 14,
+     "tarama": 344,
+     "yas": 118,
+     "likidite": 30,
+     "hacim": 30,
+     "yukselis": 15,
      "guvenlik_red": 3,
-     "giris": 7
+     "giris": 8
     }
    }
   }
