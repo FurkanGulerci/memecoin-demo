@@ -6,7 +6,7 @@
  "final_sent": false,
  "accounts": {
   "A": {
-   "cash": 50.0,
+   "cash": 40.0,
    "positions": [
     {
      "mint": "7MLWdmYeoxWMFMit58QoNgdTTY1JJ6Si6ENzuKMwAeep",
@@ -22,27 +22,9 @@
      "partial": false,
      "risk": "riskli",
      "miss": 0,
-     "last_price": 0.0004973170867847049,
-     "max_m": 1.0,
+     "last_price": 0.0004981493432103871,
+     "max_m": 1.0016734925217692,
      "entry_exec": 0.0004973368305014087
-    },
-    {
-     "mint": "3pnmCCMfrTSpVgdLNRNg7igYJUjgDiNMCv9iRadNueu6",
-     "pool": "GKwa4k52151L5K2f48Guy7wu3jKkZ7JrZVExomgiAKff",
-     "name": "ANIMOL",
-     "opened": "2026-10-18T21:05:37Z",
-     "entry_price": 4.299877840378705e-05,
-     "entry_liq": 36890.7326,
-     "tokens": 227815.6575367239,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20420502466537033,
-     "partial": false,
-     "risk": "riskli",
-     "miss": 0,
-     "last_price": 4.299877840378705e-05,
-     "max_m": 1.0,
-     "entry_exec": 4.3021625932010745e-05
     },
     {
      "mint": "AusYWbP7kUMEaJgHW2TnTCFpxSJYFLFxzkcvGRyNWYkn",
@@ -58,7 +40,7 @@
      "partial": false,
      "risk": "riskli",
      "miss": 0,
-     "last_price": 3.07846467912295e-05,
+     "last_price": 2.8523714087464467e-05,
      "max_m": 1.0,
      "entry_exec": 3.080364226254512e-05
     },
@@ -76,7 +58,7 @@
      "partial": false,
      "risk": "riskli",
      "miss": 0,
-     "last_price": 1.0657512757935214e-05,
+     "last_price": 1.0323160711866811e-05,
      "max_m": 1.0,
      "entry_exec": 1.0668216647772254e-05
     },
@@ -94,29 +76,67 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 1.875220691869085e-05,
-     "max_m": 1.0,
+     "last_price": 1.9588314711420735e-05,
+     "max_m": 1.0445871675987382,
      "entry_exec": 1.8803144142692736e-05
+    },
+    {
+     "mint": "GkwychzDeDYMqrUqQuTLKtEqfLjoGevcWEVyyoZ12Toi",
+     "pool": "DH58Njmk1JQN3vexH2E9Tq5GcTTKaLkJbaz1kbabeECY",
+     "name": "EZECK",
+     "opened": "2026-10-18T21:07:07Z",
+     "entry_price": 4.744392982285812e-05,
+     "entry_liq": 47181.4241,
+     "tokens": 206494.90467984183,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "fees": 0.2030702335918077,
+     "partial": false,
+     "risk": "temiz",
+     "miss": 0,
+     "last_price": 4.744392982285812e-05,
+     "max_m": 1.0,
+     "entry_exec": 4.746364088351658e-05
     }
    ],
-   "closed": [],
+   "closed": [
+    {
+     "strategy": "A",
+     "token": "ANIMOL",
+     "mint": "3pnmCCMfrTSpVgdLNRNg7igYJUjgDiNMCv9iRadNueu6",
+     "pool": "GKwa4k52151L5K2f48Guy7wu3jKkZ7JrZVExomgiAKff",
+     "opened": "2026-10-18T21:05:37Z",
+     "closed": "2026-10-18T21:07:07Z",
+     "closed_day": "2026-10-19",
+     "hold_min": 1.5,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "pnl": -10.0,
+     "fees": 0.2042,
+     "reason": "RUG",
+     "risk": "riskli",
+     "max_m": 1.14,
+     "partial": false
+    }
+   ],
    "seen": [
     "7MLWdmYeoxWMFMit58QoNgdTTY1JJ6Si6ENzuKMwAeep",
     "3pnmCCMfrTSpVgdLNRNg7igYJUjgDiNMCv9iRadNueu6",
     "AusYWbP7kUMEaJgHW2TnTCFpxSJYFLFxzkcvGRyNWYkn",
     "7DxvxoHQLYLe7JyU3AMbiaxTWWe41oKWqHpD7gtTKpi7",
-    "9FrDQ7EhXFBaAWo63sbnmzJnUg77VgURrCqZKPDmpump"
+    "9FrDQ7EhXFBaAWo63sbnmzJnUg77VgURrCqZKPDmpump",
+    "GkwychzDeDYMqrUqQuTLKtEqfLjoGevcWEVyyoZ12Toi"
    ],
    "rejected": [],
    "funnel": {
     "2026-10-19": {
-     "tarama": 40,
-     "yas": 35,
-     "likidite": 24,
-     "hacim": 24,
-     "yukselis": 24,
+     "tarama": 100,
+     "yas": 83,
+     "likidite": 60,
+     "hacim": 60,
+     "yukselis": 60,
      "guvenlik_red": 0,
-     "giris": 5
+     "giris": 6
     }
    }
   },
