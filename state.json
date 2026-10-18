@@ -235,26 +235,8 @@
    }
   },
   "B": {
-   "cash": 80.70428913267246,
+   "cash": 89.46278024453525,
    "positions": [
-    {
-     "mint": "8RpybikpGLbKsYJ4FXz12ExDz89R7VXAUZ3JXNcKpump",
-     "pool": "C1gR6idrfxx3NeG8qCkAK452QTNBiu4oRzM13NRZT4i8",
-     "name": "DOGESTER",
-     "opened": "2026-10-18T21:37:07Z",
-     "entry_price": 0.0002286701364847706,
-     "entry_liq": 38902.3781,
-     "tokens": 42839.27994564928,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.203936007919083,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.00020768275442737565,
-     "max_m": 1.0,
-     "entry_exec": 0.00022878535802736764
-    },
     {
      "mint": "3A3qjns31YZA6Ung91ZpoPD7J3p1bDFbTJ4ANFAPpump",
      "pool": "Af7W724Kw2A7Z5PbaCAS6RNQ8ubiKEWqiSa715bxgbFA",
@@ -269,7 +251,7 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.0001549674454572928,
+     "last_price": 0.00016041475819380155,
      "max_m": 1.180442976914658,
      "entry_exec": 0.00017118538194557247
     }
@@ -399,6 +381,24 @@
      "reason": "SURE",
      "risk": "temiz",
      "max_m": 1.072,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "DOGESTER",
+     "mint": "8RpybikpGLbKsYJ4FXz12ExDz89R7VXAUZ3JXNcKpump",
+     "pool": "C1gR6idrfxx3NeG8qCkAK452QTNBiu4oRzM13NRZT4i8",
+     "opened": "2026-10-18T21:37:07Z",
+     "closed": "2026-10-18T23:37:07Z",
+     "closed_day": "2026-10-19",
+     "hold_min": 120.0,
+     "cost": 10.0,
+     "proceeds": 8.7585,
+     "pnl": -1.2415,
+     "fees": 0.3976,
+     "reason": "SURE",
+     "risk": "temiz",
+     "max_m": 1.0,
      "partial": false
     }
    ],
