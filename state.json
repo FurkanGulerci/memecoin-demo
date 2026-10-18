@@ -235,27 +235,8 @@
    }
   },
   "B": {
-   "cash": 89.46278024453525,
-   "positions": [
-    {
-     "mint": "3A3qjns31YZA6Ung91ZpoPD7J3p1bDFbTJ4ANFAPpump",
-     "pool": "Af7W724Kw2A7Z5PbaCAS6RNQ8ubiKEWqiSa715bxgbFA",
-     "name": "mucron",
-     "opened": "2026-10-18T22:19:07Z",
-     "entry_price": 0.0001710983668767289,
-     "entry_liq": 38543.5561,
-     "tokens": 57253.7204322515,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20398193642496326,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.00014648163851871903,
-     "max_m": 1.180442976914658,
-     "entry_exec": 0.00017118538194557247
-    }
-   ],
+   "cash": 97.57707190146067,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -399,6 +380,24 @@
      "reason": "SURE",
      "risk": "temiz",
      "max_m": 1.0,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "mucron",
+     "mint": "3A3qjns31YZA6Ung91ZpoPD7J3p1bDFbTJ4ANFAPpump",
+     "pool": "Af7W724Kw2A7Z5PbaCAS6RNQ8ubiKEWqiSa715bxgbFA",
+     "opened": "2026-10-18T22:19:07Z",
+     "closed": "2026-10-18T23:59:37Z",
+     "closed_day": "2026-10-19",
+     "hold_min": 100.5,
+     "cost": 10.0,
+     "proceeds": 8.1143,
+     "pnl": -1.8857,
+     "fees": 0.3907,
+     "reason": "STOP",
+     "risk": "temiz",
+     "max_m": 1.18,
      "partial": false
     }
    ],
