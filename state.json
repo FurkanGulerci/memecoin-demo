@@ -22,8 +22,8 @@
      "partial": true,
      "risk": "riskli",
      "miss": 0,
-     "last_price": 5.028865087936855e-05,
-     "max_m": 2.0276802478266363,
+     "last_price": 5.4286749236204005e-05,
+     "max_m": 2.1888869003270184,
      "entry_exec": 2.4812970393441145e-05
     },
     {
@@ -40,8 +40,8 @@
      "partial": false,
      "risk": "riskli",
      "miss": 0,
-     "last_price": 0.04976061444080232,
-     "max_m": 1.0,
+     "last_price": 0.08561951116009109,
+     "max_m": 1.7494074707239924,
      "entry_exec": 0.049773383214739834
     }
    ],
@@ -236,7 +236,7 @@
    }
   },
   "B": {
-   "cash": 50.27496866176864,
+   "cash": 58.025569805775085,
    "positions": [
     {
      "mint": "hyyhpJPLXKNwSdYTJMKJFF6AU5aXaLn9tDTjfkBpump",
@@ -252,7 +252,7 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 1.1750886920866679,
+     "last_price": 1.1704059277531798,
      "max_m": 1.0091492160094253,
      "entry_exec": 1.1644429406929027
     },
@@ -270,7 +270,7 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.26453192037254786,
+     "last_price": 0.26456254055045814,
      "max_m": 1.0135078514017877,
      "entry_exec": 0.2610452761501696
     },
@@ -288,27 +288,9 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.22041725106996954,
-     "max_m": 1.0154617843118576,
+     "last_price": 0.22083527393458083,
+     "max_m": 1.01738761471724,
      "entry_exec": 0.21706452273270677
-    },
-    {
-     "mint": "D3S6J9s1byrNBt3ZKwEDiPsNRqHtoEP8zQKdhyBdpump",
-     "pool": "HRMcDD9XawGTXH6QkBZs1mtiwyjTfg4bDMrL5DcjwXnb",
-     "name": "PIERRE",
-     "opened": "2026-10-18T21:37:07Z",
-     "entry_price": 0.0010928717653868184,
-     "entry_liq": 99640.6017,
-     "tokens": 8966.351376196677,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20092774241740957,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.0010928717653868184,
-     "max_m": 1.0,
-     "entry_exec": 0.001093086762807344
     },
     {
      "mint": "8RpybikpGLbKsYJ4FXz12ExDz89R7VXAUZ3JXNcKpump",
@@ -324,7 +306,7 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.0002286701364847706,
+     "last_price": 0.00020000368341601885,
      "max_m": 1.0,
      "entry_exec": 0.00022878535802736764
     }
@@ -364,6 +346,24 @@
      "reason": "STOP",
      "risk": "temiz",
      "max_m": 1.12,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "PIERRE",
+     "mint": "D3S6J9s1byrNBt3ZKwEDiPsNRqHtoEP8zQKdhyBdpump",
+     "pool": "HRMcDD9XawGTXH6QkBZs1mtiwyjTfg4bDMrL5DcjwXnb",
+     "opened": "2026-10-18T21:37:07Z",
+     "closed": "2026-10-18T21:40:07Z",
+     "closed_day": "2026-10-19",
+     "hold_min": 3.0,
+     "cost": 10.0,
+     "proceeds": 7.7506,
+     "pnl": -2.2494,
+     "fees": 0.3817,
+     "reason": "STOP",
+     "risk": "temiz",
+     "max_m": 1.0,
      "partial": false
     }
    ],
