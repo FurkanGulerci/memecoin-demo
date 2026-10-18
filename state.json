@@ -6,7 +6,7 @@
  "final_sent": false,
  "accounts": {
   "A": {
-   "cash": 0.0,
+   "cash": 2.640979526896288,
    "positions": [
     {
      "mint": "7DxvxoHQLYLe7JyU3AMbiaxTWWe41oKWqHpD7gtTKpi7",
@@ -22,27 +22,9 @@
      "partial": false,
      "risk": "riskli",
      "miss": 0,
-     "last_price": 1.181479177097973e-05,
+     "last_price": 1.1034739577414589e-05,
      "max_m": 1.1085880954899958,
      "entry_exec": 1.0668216647772254e-05
-    },
-    {
-     "mint": "9ZpbWssbJeUyDnoPXQimJadpq39Wg5Sc3jQ8GJCRBAGS",
-     "pool": "DZm6DHxTnWhwGzaKP3juSA72hWCNhTCkv5CVvzq5g4a6",
-     "name": "PIERRE",
-     "opened": "2026-10-18T21:08:37Z",
-     "entry_price": 0.00010974702465327178,
-     "entry_liq": 147235.8897,
-     "tokens": 89293.49442659938,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20030466578721134,
-     "partial": false,
-     "risk": "riskli",
-     "miss": 0,
-     "last_price": 0.00010974702465327178,
-     "max_m": 1.0,
-     "entry_exec": 0.00010976163563692283
     },
     {
      "mint": "4hNKMx5LoVj5sYLeUDaLhLL8BDbNcBiL2HMUnVQwBAGS",
@@ -58,8 +40,8 @@
      "partial": false,
      "risk": "riskli",
      "miss": 0,
-     "last_price": 0.06377653477237717,
-     "max_m": 1.0,
+     "last_price": 0.07775765656153787,
+     "max_m": 1.2192204678266116,
      "entry_exec": 0.06378784514338445
     },
     {
@@ -76,27 +58,9 @@
      "partial": false,
      "risk": "riskli",
      "miss": 0,
-     "last_price": 2.4801075481832158e-05,
-     "max_m": 1.0,
+     "last_price": 2.994649255001112e-05,
+     "max_m": 1.2074674976070372,
      "entry_exec": 2.4812970393441145e-05
-    },
-    {
-     "mint": "69kYLkux64zKtiF8aSTbA6MQ9TyigCgmhYW27WrTZvPF",
-     "pool": "GapCQW7PdNAUZ44xi99WsN3js1SbrRLKQzgDKP7PqHa6",
-     "name": "ANIMOL",
-     "opened": "2026-10-18T21:08:37Z",
-     "entry_price": 3.398424152445041e-05,
-     "entry_liq": 28141.3042489141,
-     "tokens": 288197.62823491317,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.2058221952909422,
-     "partial": false,
-     "risk": "riskli",
-     "miss": 0,
-     "last_price": 3.398424152445041e-05,
-     "max_m": 1.0,
-     "entry_exec": 3.400791345864614e-05
     }
    ],
    "closed": [
@@ -189,6 +153,42 @@
      "risk": "temiz",
      "max_m": 1.031,
      "partial": false
+    },
+    {
+     "strategy": "A",
+     "token": "PIERRE",
+     "mint": "9ZpbWssbJeUyDnoPXQimJadpq39Wg5Sc3jQ8GJCRBAGS",
+     "pool": "DZm6DHxTnWhwGzaKP3juSA72hWCNhTCkv5CVvzq5g4a6",
+     "opened": "2026-10-18T21:08:37Z",
+     "closed": "2026-10-18T21:10:07Z",
+     "closed_day": "2026-10-19",
+     "hold_min": 1.5,
+     "cost": 10.0,
+     "proceeds": 2.641,
+     "pnl": -7.359,
+     "fees": 0.3285,
+     "reason": "STOP",
+     "risk": "riskli",
+     "max_m": 1.0,
+     "partial": false
+    },
+    {
+     "strategy": "A",
+     "token": "ANIMOL",
+     "mint": "69kYLkux64zKtiF8aSTbA6MQ9TyigCgmhYW27WrTZvPF",
+     "pool": "GapCQW7PdNAUZ44xi99WsN3js1SbrRLKQzgDKP7PqHa6",
+     "opened": "2026-10-18T21:08:37Z",
+     "closed": "2026-10-18T21:10:07Z",
+     "closed_day": "2026-10-19",
+     "hold_min": 1.5,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "pnl": -10.0,
+     "fees": 0.2058,
+     "reason": "RUG",
+     "risk": "riskli",
+     "max_m": 1.392,
+     "partial": false
     }
    ],
    "seen": [
@@ -233,7 +233,7 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 1.1643109890951306,
+     "last_price": 1.1631061941025027,
      "max_m": 1.0,
      "entry_exec": 1.1644429406929027
     },
@@ -251,7 +251,7 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.26108066029531607,
+     "last_price": 0.260893075135713,
      "max_m": 1.000149893778953,
      "entry_exec": 0.2610452761501696
     },
@@ -269,7 +269,7 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.2171217647918689,
+     "last_price": 0.21701071249112955,
      "max_m": 1.0002794863751459,
      "entry_exec": 0.21706452273270677
     },
@@ -287,8 +287,8 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.006857013887971466,
-     "max_m": 1.0936177231429078,
+     "last_price": 0.0069730106324835195,
+     "max_m": 1.1121179183733407,
      "entry_exec": 0.00627054264565244
     }
    ],
