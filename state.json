@@ -22,7 +22,7 @@
      "partial": true,
      "risk": "riskli",
      "miss": 0,
-     "last_price": 5.998886918573048e-05,
+     "last_price": 5.993673225940508e-05,
      "max_m": 2.4188011213334226,
      "entry_exec": 2.4812970393441145e-05
     },
@@ -236,7 +236,7 @@
    }
   },
   "B": {
-   "cash": 58.025569805775085,
+   "cash": 48.025569805775085,
    "positions": [
     {
      "mint": "hyyhpJPLXKNwSdYTJMKJFF6AU5aXaLn9tDTjfkBpump",
@@ -252,8 +252,8 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 1.177547113239418,
-     "max_m": 1.011260472628288,
+     "last_price": 1.1779518873628356,
+     "max_m": 1.011608086805889,
      "entry_exec": 1.1644429406929027
     },
     {
@@ -270,8 +270,8 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.2634303671442516,
-     "max_m": 1.0141513074424302,
+     "last_price": 0.26485444890857457,
+     "max_m": 1.0146065535576798,
      "entry_exec": 0.2610452761501696
     },
     {
@@ -288,8 +288,8 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.22129758627788862,
-     "max_m": 1.0195174866522443,
+     "last_price": 0.22139501246184562,
+     "max_m": 1.019966328864546,
      "entry_exec": 0.21706452273270677
     },
     {
@@ -306,9 +306,27 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.00021466819703537442,
+     "last_price": 0.00022329522918204407,
      "max_m": 1.0,
      "entry_exec": 0.00022878535802736764
+    },
+    {
+     "mint": "3ZAnpeVBHAvZsySNMXp4g9nYaE1jsx6khgh29VYKpump",
+     "pool": "6aXb1e6uTMsz77zhncRYFe7AugzBxxcUnhCodhd3odag",
+     "name": "SUPERCORE",
+     "opened": "2026-10-18T21:47:37Z",
+     "entry_price": 0.00021377572076359687,
+     "entry_liq": 42772.3665,
+     "tokens": 45826.11325608893,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "fees": 0.20348960888536832,
+     "partial": false,
+     "risk": "temiz",
+     "miss": 0,
+     "last_price": 0.00021377572076359687,
+     "max_m": 1.0,
+     "entry_exec": 0.00021387369129974683
     }
    ],
    "closed": [
@@ -374,7 +392,8 @@
     "3NxfWMHmfQg8NJFW5AG1ti2xACdczWz24e9SKyk1pump",
     "9tpHqTJ2d8jMZJjZzsf9MCfnCEmbAjsqjPJ56PzSpump",
     "D3S6J9s1byrNBt3ZKwEDiPsNRqHtoEP8zQKdhyBdpump",
-    "8RpybikpGLbKsYJ4FXz12ExDz89R7VXAUZ3JXNcKpump"
+    "8RpybikpGLbKsYJ4FXz12ExDz89R7VXAUZ3JXNcKpump",
+    "3ZAnpeVBHAvZsySNMXp4g9nYaE1jsx6khgh29VYKpump"
    ],
    "rejected": [
     "Bm67LrewgThV5H72LC4EkyPc9xk6iwMR1CkSkK8z72q9",
@@ -382,13 +401,13 @@
    ],
    "funnel": {
     "2026-10-19": {
-     "tarama": 186,
-     "yas": 70,
-     "likidite": 30,
-     "hacim": 30,
-     "yukselis": 13,
+     "tarama": 252,
+     "yas": 91,
+     "likidite": 34,
+     "hacim": 34,
+     "yukselis": 15,
      "guvenlik_red": 2,
-     "giris": 7
+     "giris": 8
     }
    }
   }
