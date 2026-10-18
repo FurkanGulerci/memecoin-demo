@@ -6,7 +6,7 @@
  "final_sent": false,
  "accounts": {
   "A": {
-   "cash": 2.640979526896288,
+   "cash": 2.3703323846294513,
    "positions": [
     {
      "mint": "EZc7YtmgL4LuVuSwC437DQSsjZ4dFthupXoXUwp12YHN",
@@ -15,16 +15,34 @@
      "opened": "2026-10-18T21:08:37Z",
      "entry_price": 2.4801075481832158e-05,
      "entry_liq": 40870.4745,
-     "tokens": 394995.0306066828,
+     "tokens": 197497.5153033414,
+     "cost": 10.0,
+     "proceeds": 9.729352857733163,
+     "fees": 0.4062291698743761,
+     "partial": true,
+     "risk": "riskli",
+     "miss": 0,
+     "last_price": 5.028865087936855e-05,
+     "max_m": 2.0276802478266363,
+     "entry_exec": 2.4812970393441145e-05
+    },
+    {
+     "mint": "Gwtjg7G7ukBAbetNWiFMWfd6Gb8dQFuzEM1ovaoGBAGS",
+     "pool": "GqW73mz3Q1uvZJwqrNy499rS2DciZzKvgWdQusAtA58S",
+     "name": "AIWORM",
+     "opened": "2026-10-18T21:37:07Z",
+     "entry_price": 0.04976061444080232,
+     "entry_liq": 76390.0723,
+     "tokens": 196.91247343414548,
      "cost": 10.0,
      "proceeds": 0.0,
-     "fees": 0.20369843097505597,
+     "fees": 0.20151433085875697,
      "partial": false,
      "risk": "riskli",
      "miss": 0,
-     "last_price": 4.8220797446048244e-05,
-     "max_m": 1.9443026767678695,
-     "entry_exec": 2.4812970393441145e-05
+     "last_price": 0.04976061444080232,
+     "max_m": 1.0,
+     "entry_exec": 0.049773383214739834
     }
    ],
    "closed": [
@@ -201,23 +219,24 @@
     "9ZpbWssbJeUyDnoPXQimJadpq39Wg5Sc3jQ8GJCRBAGS",
     "4hNKMx5LoVj5sYLeUDaLhLL8BDbNcBiL2HMUnVQwBAGS",
     "EZc7YtmgL4LuVuSwC437DQSsjZ4dFthupXoXUwp12YHN",
-    "69kYLkux64zKtiF8aSTbA6MQ9TyigCgmhYW27WrTZvPF"
+    "69kYLkux64zKtiF8aSTbA6MQ9TyigCgmhYW27WrTZvPF",
+    "Gwtjg7G7ukBAbetNWiFMWfd6Gb8dQFuzEM1ovaoGBAGS"
    ],
    "rejected": [],
    "funnel": {
     "2026-10-19": {
-     "tarama": 145,
-     "yas": 119,
-     "likidite": 88,
-     "hacim": 88,
-     "yukselis": 88,
+     "tarama": 175,
+     "yas": 147,
+     "likidite": 108,
+     "hacim": 108,
+     "yukselis": 108,
      "guvenlik_red": 0,
-     "giris": 10
+     "giris": 11
     }
    }
   },
   "B": {
-   "cash": 70.27496866176864,
+   "cash": 50.27496866176864,
    "positions": [
     {
      "mint": "hyyhpJPLXKNwSdYTJMKJFF6AU5aXaLn9tDTjfkBpump",
@@ -233,8 +252,8 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 1.175034180146896,
-     "max_m": 1.0091024019419814,
+     "last_price": 1.1750886920866679,
+     "max_m": 1.0091492160094253,
      "entry_exec": 1.1644429406929027
     },
     {
@@ -251,7 +270,7 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.2645676420148155,
+     "last_price": 0.26453192037254786,
      "max_m": 1.0135078514017877,
      "entry_exec": 0.2610452761501696
     },
@@ -269,9 +288,45 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.220328741419437,
-     "max_m": 1.0150540205491654,
+     "last_price": 0.22041725106996954,
+     "max_m": 1.0154617843118576,
      "entry_exec": 0.21706452273270677
+    },
+    {
+     "mint": "D3S6J9s1byrNBt3ZKwEDiPsNRqHtoEP8zQKdhyBdpump",
+     "pool": "HRMcDD9XawGTXH6QkBZs1mtiwyjTfg4bDMrL5DcjwXnb",
+     "name": "PIERRE",
+     "opened": "2026-10-18T21:37:07Z",
+     "entry_price": 0.0010928717653868184,
+     "entry_liq": 99640.6017,
+     "tokens": 8966.351376196677,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "fees": 0.20092774241740957,
+     "partial": false,
+     "risk": "temiz",
+     "miss": 0,
+     "last_price": 0.0010928717653868184,
+     "max_m": 1.0,
+     "entry_exec": 0.001093086762807344
+    },
+    {
+     "mint": "8RpybikpGLbKsYJ4FXz12ExDz89R7VXAUZ3JXNcKpump",
+     "pool": "C1gR6idrfxx3NeG8qCkAK452QTNBiu4oRzM13NRZT4i8",
+     "name": "DOGESTER",
+     "opened": "2026-10-18T21:37:07Z",
+     "entry_price": 0.0002286701364847706,
+     "entry_liq": 38902.3781,
+     "tokens": 42839.27994564928,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "fees": 0.203936007919083,
+     "partial": false,
+     "risk": "temiz",
+     "miss": 0,
+     "last_price": 0.0002286701364847706,
+     "max_m": 1.0,
+     "entry_exec": 0.00022878535802736764
     }
    ],
    "closed": [
@@ -317,7 +372,9 @@
     "thKNTwBkTGX4UzQ2VHfP2BScCzJNh4HzkaYFuS7pump",
     "qv4MBqzPDNECM9LYtC8WXd1Bu29biq6eGRoHvLApump",
     "3NxfWMHmfQg8NJFW5AG1ti2xACdczWz24e9SKyk1pump",
-    "9tpHqTJ2d8jMZJjZzsf9MCfnCEmbAjsqjPJ56PzSpump"
+    "9tpHqTJ2d8jMZJjZzsf9MCfnCEmbAjsqjPJ56PzSpump",
+    "D3S6J9s1byrNBt3ZKwEDiPsNRqHtoEP8zQKdhyBdpump",
+    "8RpybikpGLbKsYJ4FXz12ExDz89R7VXAUZ3JXNcKpump"
    ],
    "rejected": [
     "Bm67LrewgThV5H72LC4EkyPc9xk6iwMR1CkSkK8z72q9",
@@ -325,13 +382,13 @@
    ],
    "funnel": {
     "2026-10-19": {
-     "tarama": 120,
-     "yas": 48,
-     "likidite": 25,
-     "hacim": 25,
-     "yukselis": 10,
+     "tarama": 186,
+     "yas": 70,
+     "likidite": 30,
+     "hacim": 30,
+     "yukselis": 13,
      "guvenlik_red": 2,
-     "giris": 5
+     "giris": 7
     }
    }
   }
