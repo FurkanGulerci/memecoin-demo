@@ -251,7 +251,7 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 1.2008296416672242,
+     "last_price": 1.2019422553535355,
      "max_m": 1.034048631138969,
      "entry_exec": 1.1644429406929027
     },
@@ -269,7 +269,7 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.2701576207244271,
+     "last_price": 0.27052096360586336,
      "max_m": 1.036453620863262,
      "entry_exec": 0.2610452761501696
     },
@@ -287,7 +287,7 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.22785942513725585,
+     "last_price": 0.22803055440394818,
      "max_m": 1.050938206384032,
      "entry_exec": 0.21706452273270677
     },
@@ -305,7 +305,7 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.00021432772319387707,
+     "last_price": 0.0002035303020843004,
      "max_m": 1.0,
      "entry_exec": 0.00022878535802736764
     },
@@ -323,7 +323,7 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.00016538054359230365,
+     "last_price": 0.00015925806294582874,
      "max_m": 1.0157328909820302,
      "entry_exec": 0.00017118538194557247
     }
