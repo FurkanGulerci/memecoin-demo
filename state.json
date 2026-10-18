@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 60.21895451399189,
+   "cash": 50.21895451399189,
    "positions": [
     {
      "mint": "hyyhpJPLXKNwSdYTJMKJFF6AU5aXaLn9tDTjfkBpump",
@@ -251,8 +251,8 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 1.2000928643790423,
-     "max_m": 1.0306224384442415,
+     "last_price": 1.2009726146241921,
+     "max_m": 1.0313779552628064,
      "entry_exec": 1.1644429406929027
     },
     {
@@ -269,8 +269,8 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.2691321452627613,
-     "max_m": 1.030993587164149,
+     "last_price": 0.26950362061102623,
+     "max_m": 1.0324166379166957,
      "entry_exec": 0.2610452761501696
     },
     {
@@ -287,8 +287,8 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.22671164715277134,
-     "max_m": 1.0444600530334764,
+     "last_price": 0.22720145744681178,
+     "max_m": 1.046716607966206,
      "entry_exec": 0.21706452273270677
     },
     {
@@ -305,9 +305,27 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.0002120658609352285,
+     "last_price": 0.00020446977071559305,
      "max_m": 1.0,
      "entry_exec": 0.00022878535802736764
+    },
+    {
+     "mint": "3A3qjns31YZA6Ung91ZpoPD7J3p1bDFbTJ4ANFAPpump",
+     "pool": "Af7W724Kw2A7Z5PbaCAS6RNQ8ubiKEWqiSa715bxgbFA",
+     "name": "mucron",
+     "opened": "2026-10-18T22:19:07Z",
+     "entry_price": 0.0001710983668767289,
+     "entry_liq": 38543.5561,
+     "tokens": 57253.7204322515,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "fees": 0.20398193642496326,
+     "partial": false,
+     "risk": "temiz",
+     "miss": 0,
+     "last_price": 0.0001710983668767289,
+     "max_m": 1.0,
+     "entry_exec": 0.00017118538194557247
     }
    ],
    "closed": [
@@ -392,7 +410,8 @@
     "9tpHqTJ2d8jMZJjZzsf9MCfnCEmbAjsqjPJ56PzSpump",
     "D3S6J9s1byrNBt3ZKwEDiPsNRqHtoEP8zQKdhyBdpump",
     "8RpybikpGLbKsYJ4FXz12ExDz89R7VXAUZ3JXNcKpump",
-    "3ZAnpeVBHAvZsySNMXp4g9nYaE1jsx6khgh29VYKpump"
+    "3ZAnpeVBHAvZsySNMXp4g9nYaE1jsx6khgh29VYKpump",
+    "3A3qjns31YZA6Ung91ZpoPD7J3p1bDFbTJ4ANFAPpump"
    ],
    "rejected": [
     "Bm67LrewgThV5H72LC4EkyPc9xk6iwMR1CkSkK8z72q9",
@@ -400,13 +419,13 @@
    ],
    "funnel": {
     "2026-10-19": {
-     "tarama": 252,
-     "yas": 91,
-     "likidite": 34,
-     "hacim": 34,
-     "yukselis": 15,
+     "tarama": 301,
+     "yas": 102,
+     "likidite": 36,
+     "hacim": 36,
+     "yukselis": 16,
      "guvenlik_red": 2,
-     "giris": 8
+     "giris": 9
     }
    }
   }
