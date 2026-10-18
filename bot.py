@@ -16,6 +16,7 @@ import os
 import sys
 import csv
 import json
+import math
 import time
 from datetime import datetime, timedelta, timezone
 
@@ -114,9 +115,14 @@ def log(*a):
 
 
 def fmt_price(p):
+    """Fiyat, e- gosterimi olmadan: en az 4 anlamli basamak (orn. 0.00001052)."""
     if p is None:
         return "?"
-    return f"{p:.4f}" if p >= 0.01 else f"{p:.3e}"
+    if p >= 1 or p <= 0:
+        return f"{p:.4f}"
+    digits = min(max(4, -math.floor(math.log10(p)) + 3), 18)
+    s = f"{p:.{digits}f}".rstrip("0")
+    return s + "0" if s.endswith(".") else s
 
 
 def fmt_qty(x):
@@ -371,8 +377,8 @@ def append_csv(path, fields, row):
 def log_trade(sk, event, pos, price, tokens, usd_amt, cost, note, now):
     append_csv(TRADES_CSV, TRADE_FIELDS, {
         "zaman_trt": trt_str(now), "strateji": sk, "olay": event, "token": pos["name"],
-        "mint": pos["mint"], "havuz": pos["pool"], "fiyat_usd": f"{price:.10g}",
-        "token_adedi": f"{tokens:.6g}", "tutar_usd": f"{usd_amt:.4f}",
+        "mint": pos["mint"], "havuz": pos["pool"], "fiyat_usd": fmt_price(price),
+        "token_adedi": f"{tokens:.2f}", "tutar_usd": f"{usd_amt:.4f}",
         "ucret_sabit": f"{cost.get('fee_fixed', 0):.4f}",
         "ucret_yuzde": f"{cost.get('fee_pct', 0):.4f}",
         "kayma": f"{cost.get('slip', 0):.4f}", "not": note})
@@ -431,6 +437,7 @@ def open_position(sk, acct, p, risk_label, risk_info, now):
            f"Tutar: {usd(TRADE_SIZE)} (maliyet: {usd(total_cost)})\n"
            f"Güvenlik: {risk_label}{extra}\n"
            f"Açık pozisyon: {len(acct['positions'])}/{MAX_OPEN}\n"
+           f"{balance_footer()}\n"
            f"https://dexscreener.com/solana/{p['pool']}")
     tg_send(msg)
 
@@ -499,7 +506,7 @@ def sell_position(sk, acct, pos, fraction, price, liq, reason, now, zero=False):
                          f"Alımdaki güvenlik etiketi: {pos['risk']}")
     else:
         lines.append(f"Kalan: %{100 - fraction * 100:.0f} pozisyon hâlâ açık")
-    lines.append(f"Bakiye (nakit): {usd(acct['cash'])}")
+    lines.append(balance_footer())
     tg_send("\n".join(lines))
 
 
@@ -623,6 +630,23 @@ def do_entries(state, now):
 # ---------------------------------------------------------------------
 def equity(acct):
     return acct["cash"] + sum(pos["tokens"] * pos["last_price"] for pos in acct["positions"])
+
+
+CURRENT_STATE = {"s": None}
+
+
+def balance_footer():
+    """Her mesajin sonuna eklenen guncel bakiye ozeti (A ve B)."""
+    st = CURRENT_STATE["s"]
+    if not st:
+        return ""
+    lines = ["💼 Güncel bakiye:"]
+    for sk in ("A", "B"):
+        a = st["accounts"][sk]
+        eq = equity(a)
+        lines.append(f"   {sk}: toplam {usd(eq)} (K/Z {usd(eq - START_BALANCE, True)}) | "
+                     f"nakit {usd(a['cash'])} | pozisyonlar {usd(eq - a['cash'])}")
+    return "\n".join(lines)
 
 
 def stats(acct, days=None):
@@ -786,6 +810,7 @@ def main():
     if state is None:
         state = init_state(now)
         tg_send(startup_message(state))
+    CURRENT_STATE["s"] = state
     if state.get("final_sent"):
         log("Deney bitti, yapilacak is yok.")
         save_state(state)
