@@ -22,8 +22,8 @@
      "partial": false,
      "risk": "riskli",
      "miss": 0,
-     "last_price": 3.904071538680115e-05,
-     "max_m": 1.5741541295416859,
+     "last_price": 4.020284666521646e-05,
+     "max_m": 1.6210122296779732,
      "entry_exec": 2.4812970393441145e-05
     }
    ],
@@ -217,7 +217,7 @@
    }
   },
   "B": {
-   "cash": 50.0,
+   "cash": 62.50044529741985,
    "positions": [
     {
      "mint": "hyyhpJPLXKNwSdYTJMKJFF6AU5aXaLn9tDTjfkBpump",
@@ -233,7 +233,7 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 1.170476405706034,
+     "last_price": 1.1709085953178104,
      "max_m": 1.0061789856658485,
      "entry_exec": 1.1644429406929027
     },
@@ -251,8 +251,8 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.2632179255775904,
-     "max_m": 1.009102745569224,
+     "last_price": 0.2634739397247719,
+     "max_m": 1.0093180878705648,
      "entry_exec": 0.2610452761501696
     },
     {
@@ -269,27 +269,9 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.21906837673157153,
-     "max_m": 1.0100153882435317,
+     "last_price": 0.21931249878379452,
+     "max_m": 1.0103721929922302,
      "entry_exec": 0.21706452273270677
-    },
-    {
-     "mint": "3NxfWMHmfQg8NJFW5AG1ti2xACdczWz24e9SKyk1pump",
-     "pool": "3p3yajJRqwrvgNs3M1UDVDXVUriZjZ8vE8bdpnpvkNRJ",
-     "name": "MINTER",
-     "opened": "2026-10-18T21:05:37Z",
-     "entry_price": 0.006270028130364736,
-     "entry_liq": 238875.4899,
-     "tokens": 1563.0226208245845,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.19980419903344088,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.007414579110516216,
-     "max_m": 1.182543196992786,
-     "entry_exec": 0.00627054264565244
     },
     {
      "mint": "9tpHqTJ2d8jMZJjZzsf9MCfnCEmbAjsqjPJ56PzSpump",
@@ -305,12 +287,31 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.0001530818661106746,
+     "last_price": 0.00014537523109568404,
      "max_m": 1.1203226388790495,
      "entry_exec": 0.0001582495887407987
     }
    ],
-   "closed": [],
+   "closed": [
+    {
+     "strategy": "B",
+     "token": "MINTER",
+     "mint": "3NxfWMHmfQg8NJFW5AG1ti2xACdczWz24e9SKyk1pump",
+     "pool": "3p3yajJRqwrvgNs3M1UDVDXVUriZjZ8vE8bdpnpvkNRJ",
+     "opened": "2026-10-18T21:05:37Z",
+     "closed": "2026-10-18T21:28:07Z",
+     "closed_day": "2026-10-19",
+     "hold_min": 22.5,
+     "cost": 10.0,
+     "proceeds": 12.5004,
+     "pnl": 2.5004,
+     "fees": 0.4283,
+     "reason": "TP",
+     "risk": "temiz",
+     "max_m": 1.299,
+     "partial": false
+    }
+   ],
    "seen": [
     "hyyhpJPLXKNwSdYTJMKJFF6AU5aXaLn9tDTjfkBpump",
     "thKNTwBkTGX4UzQ2VHfP2BScCzJNh4HzkaYFuS7pump",
