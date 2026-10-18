@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 48.025569805775085,
+   "cash": 60.21895451399189,
    "positions": [
     {
      "mint": "hyyhpJPLXKNwSdYTJMKJFF6AU5aXaLn9tDTjfkBpump",
@@ -251,8 +251,8 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 1.1969453871157198,
-     "max_m": 1.0304026537382804,
+     "last_price": 1.2000928643790423,
+     "max_m": 1.0306224384442415,
      "entry_exec": 1.1644429406929027
     },
     {
@@ -269,8 +269,8 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.26813982347832266,
-     "max_m": 1.0289069763930339,
+     "last_price": 0.2691321452627613,
+     "max_m": 1.030993587164149,
      "entry_exec": 0.2610452761501696
     },
     {
@@ -287,8 +287,8 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.22594789209906768,
-     "max_m": 1.0434008096266978,
+     "last_price": 0.22671164715277134,
+     "max_m": 1.0444600530334764,
      "entry_exec": 0.21706452273270677
     },
     {
@@ -305,27 +305,9 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.00021361744871901256,
+     "last_price": 0.0002120658609352285,
      "max_m": 1.0,
      "entry_exec": 0.00022878535802736764
-    },
-    {
-     "mint": "3ZAnpeVBHAvZsySNMXp4g9nYaE1jsx6khgh29VYKpump",
-     "pool": "6aXb1e6uTMsz77zhncRYFe7AugzBxxcUnhCodhd3odag",
-     "name": "SUPERCORE",
-     "opened": "2026-10-18T21:47:37Z",
-     "entry_price": 0.00021377572076359687,
-     "entry_liq": 42772.3665,
-     "tokens": 45826.11325608893,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20348960888536832,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.00023791601292252838,
-     "max_m": 1.1129234511417083,
-     "entry_exec": 0.00021387369129974683
     }
    ],
    "closed": [
@@ -381,6 +363,24 @@
      "reason": "STOP",
      "risk": "temiz",
      "max_m": 1.0,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "SUPERCORE",
+     "mint": "3ZAnpeVBHAvZsySNMXp4g9nYaE1jsx6khgh29VYKpump",
+     "pool": "6aXb1e6uTMsz77zhncRYFe7AugzBxxcUnhCodhd3odag",
+     "opened": "2026-10-18T21:47:37Z",
+     "closed": "2026-10-18T22:13:07Z",
+     "closed_day": "2026-10-19",
+     "hold_min": 25.5,
+     "cost": 10.0,
+     "proceeds": 12.1934,
+     "pnl": 2.1934,
+     "fees": 0.434,
+     "reason": "TP",
+     "risk": "temiz",
+     "max_m": 1.268,
      "partial": false
     }
    ],
