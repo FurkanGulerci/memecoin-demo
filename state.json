@@ -57,8 +57,8 @@
      "partial": false,
      "risk": "riskli",
      "miss": 0,
-     "last_price": 9.032955508926433e-05,
-     "max_m": 1.1363339973946127,
+     "last_price": 0.00010001603238978736,
+     "max_m": 1.258188615860277,
      "entry_exec": 7.953735386752565e-05
     }
    ],
@@ -254,42 +254,8 @@
    }
   },
   "B": {
-   "cash": 53.57660871283624,
+   "cash": 73.08131491081635,
    "positions": [
-    {
-     "mint": "hyyhpJPLXKNwSdYTJMKJFF6AU5aXaLn9tDTjfkBpump",
-     "pool": "5Jj7H9v191CXQWS6uk6XrsydmYo5isjDWqLyCUPqm1dX",
-     "name": "XTO",
-     "opened": "2026-10-18T17:51:35Z",
-     "entry_price": 1.1365426439660224,
-     "entry_liq": 2858864.3216,
-     "tokens": 8.623462437827063,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.1990672007703475,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 1.142694966063056,
-     "max_m": 1.0132218003498201
-    },
-    {
-     "mint": "8zu4jtmPogv3TQ1MEosD7EYCRu9Avxg6vNRjzZoFpump",
-     "pool": "432eUZA2otpK5wKskFTZD9EWZYYt39cpjS8bRsN7ARVf",
-     "name": "USDR",
-     "opened": "2026-10-18T17:51:35Z",
-     "entry_price": 0.042347057995560884,
-     "entry_liq": 549997.2739,
-     "tokens": 231.43640118057337,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.19934929692236397,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.043363378090026085,
-     "max_m": 1.0258111096516336
-    },
     {
      "mint": "AcV6CcpMGFrA1dhRFiCKNiVNje8QE6ZXR9ep9jh7pump",
      "pool": "9HGwPeDLTpVyKbumkofHhbNWQGm2SJdemHEPLX3rocBD",
@@ -304,8 +270,8 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 5.542908081634328e-05,
-     "max_m": 1.0,
+     "last_price": 5.60944796294208e-05,
+     "max_m": 1.0030143813997268,
      "entry_exec": 5.597490697166313e-05
     }
    ],
@@ -417,6 +383,42 @@
      "risk": "temiz",
      "max_m": 1.043,
      "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "XTO",
+     "mint": "hyyhpJPLXKNwSdYTJMKJFF6AU5aXaLn9tDTjfkBpump",
+     "pool": "5Jj7H9v191CXQWS6uk6XrsydmYo5isjDWqLyCUPqm1dX",
+     "opened": "2026-10-18T17:51:35Z",
+     "closed": "2026-10-18T19:53:56Z",
+     "closed_day": "2026-10-18",
+     "hold_min": 122.4,
+     "cost": 10.0,
+     "proceeds": 9.6907,
+     "pnl": -0.3093,
+     "fees": 0.398,
+     "reason": "SURE",
+     "risk": "temiz",
+     "max_m": 1.013,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "USDR",
+     "mint": "8zu4jtmPogv3TQ1MEosD7EYCRu9Avxg6vNRjzZoFpump",
+     "pool": "432eUZA2otpK5wKskFTZD9EWZYYt39cpjS8bRsN7ARVf",
+     "opened": "2026-10-18T17:51:35Z",
+     "closed": "2026-10-18T19:53:56Z",
+     "closed_day": "2026-10-18",
+     "hold_min": 122.4,
+     "cost": 10.0,
+     "proceeds": 9.814,
+     "pnl": -0.186,
+     "fees": 0.3999,
+     "reason": "SURE",
+     "risk": "temiz",
+     "max_m": 1.026,
+     "partial": false
     }
    ],
    "seen": [
@@ -437,10 +439,10 @@
    ],
    "funnel": {
     "2026-10-18": {
-     "tarama": 478,
-     "yas": 155,
-     "likidite": 35,
-     "hacim": 35,
+     "tarama": 545,
+     "yas": 173,
+     "likidite": 37,
+     "hacim": 37,
      "yukselis": 16,
      "guvenlik_red": 3,
      "giris": 9
