@@ -9,24 +9,6 @@
    "cash": 2.640979526896288,
    "positions": [
     {
-     "mint": "7DxvxoHQLYLe7JyU3AMbiaxTWWe41oKWqHpD7gtTKpi7",
-     "pool": "F2Zj2P3uNvcPTjeyFit7ZeswyuGSxkmoDzmhMUJYbhf8",
-     "name": "DREAMBEANS",
-     "opened": "2026-10-18T21:05:37Z",
-     "entry_price": 1.0657512757935214e-05,
-     "entry_liq": 19517.0698,
-     "tokens": 918710.2515439311,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20883377332468472,
-     "partial": false,
-     "risk": "riskli",
-     "miss": 0,
-     "last_price": 1.2580813641801644e-05,
-     "max_m": 1.180464328549305,
-     "entry_exec": 1.0668216647772254e-05
-    },
-    {
      "mint": "4hNKMx5LoVj5sYLeUDaLhLL8BDbNcBiL2HMUnVQwBAGS",
      "pool": "7YcWLNUjn6ohyGmvn8Y7dhJZiPFf1Ejho5hfrjx2Texc",
      "name": "ABSHIELD",
@@ -58,8 +40,8 @@
      "partial": false,
      "risk": "riskli",
      "miss": 0,
-     "last_price": 3.282912106445604e-05,
-     "max_m": 1.3236974778978745,
+     "last_price": 3.538917173563924e-05,
+     "max_m": 1.4269208511366096,
      "entry_exec": 2.4812970393441145e-05
     }
    ],
@@ -189,6 +171,24 @@
      "risk": "riskli",
      "max_m": 1.392,
      "partial": false
+    },
+    {
+     "strategy": "A",
+     "token": "DREAMBEANS",
+     "mint": "7DxvxoHQLYLe7JyU3AMbiaxTWWe41oKWqHpD7gtTKpi7",
+     "pool": "F2Zj2P3uNvcPTjeyFit7ZeswyuGSxkmoDzmhMUJYbhf8",
+     "opened": "2026-10-18T21:05:37Z",
+     "closed": "2026-10-18T21:17:37Z",
+     "closed_day": "2026-10-19",
+     "hold_min": 12.0,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "pnl": -10.0,
+     "fees": 0.2088,
+     "reason": "RUG",
+     "risk": "riskli",
+     "max_m": 1.258,
+     "partial": false
     }
    ],
    "seen": [
@@ -233,8 +233,8 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 1.1685535896138999,
-     "max_m": 1.0035369642863454,
+     "last_price": 1.1696823202250768,
+     "max_m": 1.0045063018512677,
      "entry_exec": 1.1644429406929027
     },
     {
@@ -251,8 +251,8 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.26232661543997515,
-     "max_m": 1.0049229087704679,
+     "last_price": 0.2627311498629869,
+     "max_m": 1.0064726024925057,
      "entry_exec": 0.2610452761501696
     },
     {
@@ -269,8 +269,8 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.21821413590074457,
-     "max_m": 1.005312037638556,
+     "last_price": 0.21849574718776713,
+     "max_m": 1.0066094202100841,
      "entry_exec": 0.21706452273270677
     },
     {
@@ -287,7 +287,7 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.006666016965665976,
+     "last_price": 0.006893883274131624,
      "max_m": 1.1121179183733407,
      "entry_exec": 0.00627054264565244
     },
@@ -305,8 +305,8 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.0001581523390392569,
-     "max_m": 1.0,
+     "last_price": 0.00017525483642812195,
+     "max_m": 1.1081393894820604,
      "entry_exec": 0.0001582495887407987
     }
    ],
