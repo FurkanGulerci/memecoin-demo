@@ -22,8 +22,8 @@
      "partial": false,
      "risk": "riskli",
      "miss": 0,
-     "last_price": 4.549821331997485e-05,
-     "max_m": 1.834525819386511,
+     "last_price": 4.8220797446048244e-05,
+     "max_m": 1.9443026767678695,
      "entry_exec": 2.4812970393441145e-05
     }
    ],
@@ -217,7 +217,7 @@
    }
   },
   "B": {
-   "cash": 62.50044529741985,
+   "cash": 70.27496866176864,
    "positions": [
     {
      "mint": "hyyhpJPLXKNwSdYTJMKJFF6AU5aXaLn9tDTjfkBpump",
@@ -233,8 +233,8 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 1.173804281151634,
-     "max_m": 1.0080461824283415,
+     "last_price": 1.175034180146896,
+     "max_m": 1.0091024019419814,
      "entry_exec": 1.1644429406929027
     },
     {
@@ -251,8 +251,8 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.2643418983902599,
-     "max_m": 1.0126430709087968,
+     "last_price": 0.2645676420148155,
+     "max_m": 1.0135078514017877,
      "entry_exec": 0.2610452761501696
     },
     {
@@ -269,27 +269,9 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.22006798646552006,
-     "max_m": 1.0138527230577608,
+     "last_price": 0.220328741419437,
+     "max_m": 1.0150540205491654,
      "entry_exec": 0.21706452273270677
-    },
-    {
-     "mint": "9tpHqTJ2d8jMZJjZzsf9MCfnCEmbAjsqjPJ56PzSpump",
-     "pool": "85rtDkpkSGiaWZDwzBs62XuPEtvGCq7KJjCu1gfyrAcd",
-     "name": "OPEQ",
-     "opened": "2026-10-18T21:16:07Z",
-     "entry_price": 0.0001581523390392569,
-     "entry_liq": 31877.7549,
-     "tokens": 61933.810242333864,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20502304456141313,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.00013460011046280578,
-     "max_m": 1.1203226388790495,
-     "entry_exec": 0.0001582495887407987
     }
    ],
    "closed": [
@@ -309,6 +291,24 @@
      "reason": "TP",
      "risk": "temiz",
      "max_m": 1.299,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "OPEQ",
+     "mint": "9tpHqTJ2d8jMZJjZzsf9MCfnCEmbAjsqjPJ56PzSpump",
+     "pool": "85rtDkpkSGiaWZDwzBs62XuPEtvGCq7KJjCu1gfyrAcd",
+     "opened": "2026-10-18T21:16:07Z",
+     "closed": "2026-10-18T21:35:37Z",
+     "closed_day": "2026-10-19",
+     "hold_min": 19.5,
+     "cost": 10.0,
+     "proceeds": 7.7745,
+     "pnl": -2.2255,
+     "fees": 0.3889,
+     "reason": "STOP",
+     "risk": "temiz",
+     "max_m": 1.12,
      "partial": false
     }
    ],
