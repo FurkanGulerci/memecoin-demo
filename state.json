@@ -235,8 +235,27 @@
    }
   },
   "B": {
-   "cash": 95.65334951490865,
-   "positions": [],
+   "cash": 85.65334951490865,
+   "positions": [
+    {
+     "mint": "GaPbQwLDPjSXGR9JxxG1aJLNthuxG58dM2XukBi8pump",
+     "pool": "5u57WosVAF9uyvbtw1pzYUeSeU2sqNQiQUt1bcd5MJDL",
+     "name": "Doomsday",
+     "opened": "2026-10-19T15:37:44Z",
+     "entry_price": 0.0012144918314961294,
+     "entry_liq": 99519.3411,
+     "tokens": 8068.452710045461,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "fees": 0.20093009083698038,
+     "partial": false,
+     "risk": "temiz",
+     "miss": 0,
+     "last_price": 0.0012144918314961294,
+     "max_m": 1.0,
+     "entry_exec": 0.0012147310459906975
+    }
+   ],
    "closed": [
     {
      "strategy": "B",
@@ -638,7 +657,8 @@
     "8CYyivwMZPg6Edaofxo3eHiveZkDrU6TtUDwtMjTpump",
     "BK11vXyxp34ie73Sa1xRcGtQB5DGyq5ncxSmL7mHpump",
     "4GGuUG6QZQ97LraPpUEoqLHuZZK9MrxnGogyqJLhpump",
-    "GWe3TNg1UPxeaSazxK8U49PDAqXCaX9Jc8zbttFLpump"
+    "GWe3TNg1UPxeaSazxK8U49PDAqXCaX9Jc8zbttFLpump",
+    "GaPbQwLDPjSXGR9JxxG1aJLNthuxG58dM2XukBi8pump"
    ],
    "rejected": [
     "Bm67LrewgThV5H72LC4EkyPc9xk6iwMR1CkSkK8z72q9",
@@ -648,13 +668,13 @@
    ],
    "funnel": {
     "2026-10-19": {
-     "tarama": 6821,
-     "yas": 1879,
-     "likidite": 452,
-     "hacim": 452,
-     "yukselis": 254,
+     "tarama": 6886,
+     "yas": 1900,
+     "likidite": 454,
+     "hacim": 454,
+     "yukselis": 255,
      "guvenlik_red": 4,
-     "giris": 21
+     "giris": 22
     }
    }
   }
