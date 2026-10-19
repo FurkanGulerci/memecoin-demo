@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 55.37307462458604,
+   "cash": 69.32877388456878,
    "positions": [
     {
      "mint": "T1LcgB4r9Zd9JBM5ZZ76oUjW4nVx3us7WXHDUxPpump",
@@ -251,7 +251,7 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.11004293665986725,
+     "last_price": 0.110040623239742,
      "max_m": 1.0,
      "entry_exec": 0.11081949226353584
     },
@@ -269,7 +269,7 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.03864236957406513,
+     "last_price": 0.03861076483128121,
      "max_m": 1.0010258798473866,
      "entry_exec": 0.03896909265360622
     },
@@ -287,27 +287,9 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.005472091276687045,
+     "last_price": 0.005603378864160844,
      "max_m": 1.1121062750192185,
      "entry_exec": 0.006078637212832258
-    },
-    {
-     "mint": "6yMZv1NgnQWBeocyfCNKmdqGr3Enu3Lrdpz3TJRvpump",
-     "pool": "2aegSTad7cZTrd536XtXkjkY88hvthvwsDA5TuCtQD6v",
-     "name": "CATONICE",
-     "opened": "2026-10-19T10:29:58Z",
-     "entry_price": 0.00013423960015503897,
-     "entry_liq": 32826.5246,
-     "tokens": 72967.67065366215,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.2048490672078211,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.00014547846422113922,
-     "max_m": 1.083722419115671,
-     "entry_exec": 0.00013431975986351568
     }
    ],
    "closed": [
@@ -525,6 +507,24 @@
      "reason": "STOP",
      "risk": "temiz",
      "max_m": 1.13,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "CATONICE",
+     "mint": "6yMZv1NgnQWBeocyfCNKmdqGr3Enu3Lrdpz3TJRvpump",
+     "pool": "2aegSTad7cZTrd536XtXkjkY88hvthvwsDA5TuCtQD6v",
+     "opened": "2026-10-19T10:29:58Z",
+     "closed": "2026-10-19T10:47:58Z",
+     "closed_day": "2026-10-19",
+     "hold_min": 18.0,
+     "cost": 10.0,
+     "proceeds": 13.9557,
+     "pnl": 3.9557,
+     "fees": 0.4568,
+     "reason": "TP",
+     "risk": "temiz",
+     "max_m": 1.45,
      "partial": false
     }
    ],
