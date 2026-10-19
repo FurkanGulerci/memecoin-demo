@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 63.64640819242844,
+   "cash": 75.6961968614263,
    "positions": [
     {
      "mint": "GisLeWojTwmb4XRnZxvGoZ9VA3AhXmUKPtUeEooRpump",
@@ -251,27 +251,9 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.028541622992221037,
+     "last_price": 0.02843510101625304,
      "max_m": 1.0342196329114501,
      "entry_exec": 0.027660929330816833
-    },
-    {
-     "mint": "6mdVwPt9zEqr3a378UQegzEFxU7JgKVqbXvGGcDpump",
-     "pool": "FLzqNNCHtEd32Vmdk1kkzWWmiyBqGk2vkhowbfZNQVpt",
-     "name": "FOMO",
-     "opened": "2026-10-19T17:33:14Z",
-     "entry_price": 0.0026298917537213766,
-     "entry_liq": 137493.0657,
-     "tokens": 3726.2381177044567,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20039710184678422,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.003274210833053421,
-     "max_m": 1.2449983268019733,
-     "entry_exec": 0.0026302666899983007
     }
    ],
    "closed": [
@@ -688,6 +670,24 @@
      "risk": "temiz",
      "max_m": 1.077,
      "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "FOMO",
+     "mint": "6mdVwPt9zEqr3a378UQegzEFxU7JgKVqbXvGGcDpump",
+     "pool": "FLzqNNCHtEd32Vmdk1kkzWWmiyBqGk2vkhowbfZNQVpt",
+     "opened": "2026-10-19T17:33:14Z",
+     "closed": "2026-10-19T17:54:14Z",
+     "closed_day": "2026-10-19",
+     "hold_min": 21.0,
+     "cost": 10.0,
+     "proceeds": 12.0498,
+     "pnl": 2.0498,
+     "fees": 0.4251,
+     "reason": "TP",
+     "risk": "temiz",
+     "max_m": 1.253,
+     "partial": false
     }
    ],
    "seen": [
@@ -725,10 +725,10 @@
    ],
    "funnel": {
     "2026-10-19": {
-     "tarama": 7620,
-     "yas": 2085,
-     "likidite": 458,
-     "hacim": 458,
+     "tarama": 7670,
+     "yas": 2095,
+     "likidite": 459,
+     "hacim": 459,
      "yukselis": 258,
      "guvenlik_red": 4,
      "giris": 25
