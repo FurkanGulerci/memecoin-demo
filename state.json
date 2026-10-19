@@ -235,27 +235,8 @@
    }
   },
   "B": {
-   "cash": 75.6961968614263,
-   "positions": [
-    {
-     "mint": "GisLeWojTwmb4XRnZxvGoZ9VA3AhXmUKPtUeEooRpump",
-     "pool": "749YMsoFHiDX484YRqsXEV4bVq7PskdTWsfCZcKAUmU7",
-     "name": "EVERNORTHX",
-     "opened": "2026-10-19T15:58:44Z",
-     "entry_price": 0.02765972244233519,
-     "entry_liq": 449242.7325,
-     "tokens": 354.3264900026616,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.19942763255952495,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.02843510101625304,
-     "max_m": 1.0342196329114501,
-     "entry_exec": 0.027660929330816833
-    }
-   ],
+   "cash": 85.62879049995291,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -687,6 +668,24 @@
      "reason": "TP",
      "risk": "temiz",
      "max_m": 1.253,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "EVERNORTHX",
+     "mint": "GisLeWojTwmb4XRnZxvGoZ9VA3AhXmUKPtUeEooRpump",
+     "pool": "749YMsoFHiDX484YRqsXEV4bVq7PskdTWsfCZcKAUmU7",
+     "opened": "2026-10-19T15:58:44Z",
+     "closed": "2026-10-19T17:58:44Z",
+     "closed_day": "2026-10-19",
+     "hold_min": 120.0,
+     "cost": 10.0,
+     "proceeds": 9.9326,
+     "pnl": -0.0674,
+     "fees": 0.4012,
+     "reason": "SURE",
+     "risk": "temiz",
+     "max_m": 1.034,
      "partial": false
     }
    ],
