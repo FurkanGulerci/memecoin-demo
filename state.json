@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 57.57707190146067,
+   "cash": 69.90731294644179,
    "positions": [
     {
      "mint": "T1LcgB4r9Zd9JBM5ZZ76oUjW4nVx3us7WXHDUxPpump",
@@ -251,7 +251,7 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.11081708938686856,
+     "last_price": 0.11022946690178814,
      "max_m": 1.0,
      "entry_exec": 0.11081949226353584
     },
@@ -269,27 +269,9 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.038967674286059586,
-     "max_m": 1.0,
+     "last_price": 0.03896577292973542,
+     "max_m": 1.0010258798473866,
      "entry_exec": 0.03896909265360622
-    },
-    {
-     "mint": "ArpPsesHXKbGeJsHdquM6acT3uNs7BChyetJjiNYpump",
-     "pool": "CkEeZKJpcro2dEp8RXJpSYfjF3TPoijmH8xVGuEAxoue",
-     "name": "godspeed",
-     "opened": "2026-10-19T09:58:28Z",
-     "entry_price": 0.0001146136578276158,
-     "entry_liq": 32011.1558,
-     "tokens": 85461.03689314464,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20499795993587017,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.0001146136578276158,
-     "max_m": 1.0,
-     "entry_exec": 0.00011468384138908334
     },
     {
      "mint": "J4dyfXc8EY3TXAeFdpAKZqWyW4S8XpdoABib7JMnpump",
@@ -305,8 +287,8 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.00012024598988019848,
-     "max_m": 1.0,
+     "last_price": 0.0001359222960797636,
+     "max_m": 1.1303686402780124,
      "entry_exec": 0.00012032086008691164
     }
    ],
@@ -471,6 +453,24 @@
      "reason": "STOP",
      "risk": "temiz",
      "max_m": 1.18,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "godspeed",
+     "mint": "ArpPsesHXKbGeJsHdquM6acT3uNs7BChyetJjiNYpump",
+     "pool": "CkEeZKJpcro2dEp8RXJpSYfjF3TPoijmH8xVGuEAxoue",
+     "opened": "2026-10-19T09:58:28Z",
+     "closed": "2026-10-19T10:02:58Z",
+     "closed_day": "2026-10-19",
+     "hold_min": 4.5,
+     "cost": 10.0,
+     "proceeds": 12.3302,
+     "pnl": 2.3302,
+     "fees": 0.4393,
+     "reason": "TP",
+     "risk": "temiz",
+     "max_m": 1.283,
      "partial": false
     }
    ],
