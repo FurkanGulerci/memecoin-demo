@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 63.38413763336142,
+   "cash": 63.64640819242844,
    "positions": [
     {
      "mint": "GisLeWojTwmb4XRnZxvGoZ9VA3AhXmUKPtUeEooRpump",
@@ -251,27 +251,9 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.02808688674036308,
-     "max_m": 1.0264597832625315,
+     "last_price": 0.02858070779514578,
+     "max_m": 1.033296984621977,
      "entry_exec": 0.027660929330816833
-    },
-    {
-     "mint": "HmioaUhV12ZiyQT18BcUp6G3L2ZaxBDH9jyYiGipump",
-     "pool": "4kuzqAJzdjZxai9KD8So5tGLUrH8y8UQmgQj3A5xxpRM",
-     "name": "NVIDIA SSI",
-     "opened": "2026-10-19T17:22:44Z",
-     "entry_price": 0.001967401097753716,
-     "entry_liq": 119069.2426,
-     "tokens": 4980.878972035214,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.2006132426395199,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.0021180427763020857,
-     "max_m": 1.0765688698254592,
-     "entry_exec": 0.001967724984892628
     },
     {
      "mint": "6mdVwPt9zEqr3a378UQegzEFxU7JgKVqbXvGGcDpump",
@@ -287,8 +269,8 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.0026298917537213766,
-     "max_m": 1.0,
+     "last_price": 0.0027050496269356195,
+     "max_m": 1.0285783143385625,
      "entry_exec": 0.0026302666899983007
     }
    ],
@@ -687,6 +669,24 @@
      "reason": "STOP",
      "risk": "temiz",
      "max_m": 1.153,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "NVIDIA SSI",
+     "mint": "HmioaUhV12ZiyQT18BcUp6G3L2ZaxBDH9jyYiGipump",
+     "pool": "4kuzqAJzdjZxai9KD8So5tGLUrH8y8UQmgQj3A5xxpRM",
+     "opened": "2026-10-19T17:22:44Z",
+     "closed": "2026-10-19T17:34:44Z",
+     "closed_day": "2026-10-19",
+     "hold_min": 12.0,
+     "cost": 10.0,
+     "proceeds": 0.2623,
+     "pnl": -9.7377,
+     "fees": 0.3043,
+     "reason": "STOP",
+     "risk": "temiz",
+     "max_m": 1.077,
      "partial": false
     }
    ],
