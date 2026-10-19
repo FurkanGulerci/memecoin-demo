@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 57.36732631630008,
+   "cash": 47.36732631630008,
    "positions": [
     {
      "mint": "T1LcgB4r9Zd9JBM5ZZ76oUjW4nVx3us7WXHDUxPpump",
@@ -251,8 +251,8 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.11079828717099618,
-     "max_m": 1.0,
+     "last_price": 0.11069702231794705,
+     "max_m": 1.0004837176928294,
      "entry_exec": 0.11081949226353584
     },
     {
@@ -269,7 +269,7 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.038687904967369145,
+     "last_price": 0.03872532560214506,
      "max_m": 1.0010258798473866,
      "entry_exec": 0.03896909265360622
     },
@@ -287,7 +287,7 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.0059102537125671345,
+     "last_price": 0.006118709492236583,
      "max_m": 1.1121062750192185,
      "entry_exec": 0.006078637212832258
     },
@@ -305,9 +305,27 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.00085043607523682,
+     "last_price": 0.000863702232728299,
      "max_m": 1.0844485672794153,
      "entry_exec": 0.0008962640780119163
+    },
+    {
+     "mint": "BK11vXyxp34ie73Sa1xRcGtQB5DGyq5ncxSmL7mHpump",
+     "pool": "7XmQ1vcaMfjJhY93aM7KMoZB8Zw9ZzVVoYuFEgGQnfZi",
+     "name": "Mimi",
+     "opened": "2026-10-19T11:01:28Z",
+     "entry_price": 6.595322457191281e-05,
+     "entry_liq": 22807.0799,
+     "tokens": 148477.7072262136,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "fees": 0.2074164313868147,
+     "partial": false,
+     "risk": "temiz",
+     "miss": 0,
+     "last_price": 6.595322457191281e-05,
+     "max_m": 1.0,
+     "entry_exec": 6.600990938705473e-05
     }
    ],
    "closed": [
@@ -582,7 +600,8 @@
     "3WdryhSr7fsFqG2u26eMiLRr8zye3BbFGyqUhBYFpump",
     "6yMZv1NgnQWBeocyfCNKmdqGr3Enu3Lrdpz3TJRvpump",
     "FGkCj28xhabWTYg9QyzACvs4NsN6LUyesP6EwiHepump",
-    "8CYyivwMZPg6Edaofxo3eHiveZkDrU6TtUDwtMjTpump"
+    "8CYyivwMZPg6Edaofxo3eHiveZkDrU6TtUDwtMjTpump",
+    "BK11vXyxp34ie73Sa1xRcGtQB5DGyq5ncxSmL7mHpump"
    ],
    "rejected": [
     "Bm67LrewgThV5H72LC4EkyPc9xk6iwMR1CkSkK8z72q9",
@@ -590,13 +609,13 @@
    ],
    "funnel": {
     "2026-10-19": {
-     "tarama": 5024,
-     "yas": 1478,
-     "likidite": 447,
-     "hacim": 447,
-     "yukselis": 249,
+     "tarama": 5102,
+     "yas": 1492,
+     "likidite": 448,
+     "hacim": 448,
+     "yukselis": 250,
      "guvenlik_red": 2,
-     "giris": 18
+     "giris": 19
     }
    }
   }
