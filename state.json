@@ -235,26 +235,8 @@
    }
   },
   "B": {
-   "cash": 75.65334951490865,
+   "cash": 83.38413763336142,
    "positions": [
-    {
-     "mint": "GaPbQwLDPjSXGR9JxxG1aJLNthuxG58dM2XukBi8pump",
-     "pool": "5u57WosVAF9uyvbtw1pzYUeSeU2sqNQiQUt1bcd5MJDL",
-     "name": "Doomsday",
-     "opened": "2026-10-19T15:37:44Z",
-     "entry_price": 0.0012144918314961294,
-     "entry_liq": 99519.3411,
-     "tokens": 8068.452710045461,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20093009083698038,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.0010570805468592384,
-     "max_m": 1.1534014137013617,
-     "entry_exec": 0.0012147310459906975
-    },
     {
      "mint": "GisLeWojTwmb4XRnZxvGoZ9VA3AhXmUKPtUeEooRpump",
      "pool": "749YMsoFHiDX484YRqsXEV4bVq7PskdTWsfCZcKAUmU7",
@@ -269,7 +251,7 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.028330463311346567,
+     "last_price": 0.028328467682023854,
      "max_m": 1.0244357372515394,
      "entry_exec": 0.027660929330816833
     }
@@ -651,6 +633,24 @@
      "reason": "SURE",
      "risk": "temiz",
      "max_m": 1.014,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "Doomsday",
+     "mint": "GaPbQwLDPjSXGR9JxxG1aJLNthuxG58dM2XukBi8pump",
+     "pool": "5u57WosVAF9uyvbtw1pzYUeSeU2sqNQiQUt1bcd5MJDL",
+     "opened": "2026-10-19T15:37:44Z",
+     "closed": "2026-10-19T16:54:14Z",
+     "closed_day": "2026-10-19",
+     "hold_min": 76.5,
+     "cost": 10.0,
+     "proceeds": 7.7308,
+     "pnl": -2.2692,
+     "fees": 0.3814,
+     "reason": "STOP",
+     "risk": "temiz",
+     "max_m": 1.153,
      "partial": false
     }
    ],
