@@ -643,16 +643,17 @@
    "rejected": [
     "Bm67LrewgThV5H72LC4EkyPc9xk6iwMR1CkSkK8z72q9",
     "GrHgi7F9YLhMuZjFsB7PbfchGcJrBWAfPYbKEV8Jrxqk",
-    "AexNQAyhQpno5PDmxDW625UkdVQ5kkqxcu9FjY2nT4ea"
+    "AexNQAyhQpno5PDmxDW625UkdVQ5kkqxcu9FjY2nT4ea",
+    "H7EWx3TMeRFKmPEMWVTnuYikXJqD9GSCz9Pu5wDwevdA"
    ],
    "funnel": {
     "2026-10-19": {
-     "tarama": 6614,
-     "yas": 1823,
-     "likidite": 451,
-     "hacim": 451,
-     "yukselis": 253,
-     "guvenlik_red": 3,
+     "tarama": 6688,
+     "yas": 1842,
+     "likidite": 452,
+     "hacim": 452,
+     "yukselis": 254,
+     "guvenlik_red": 4,
      "giris": 21
     }
    }
