@@ -235,27 +235,8 @@
    }
   },
   "B": {
-   "cash": 78.45273139396865,
-   "positions": [
-    {
-     "mint": "3Ckrmzsp6NbnW6zLcrj3z8BSn1H1gRN3fh6Un15DJcbf",
-     "pool": "9h51k8vijv2YdNQUGvpzKTKPzwLfd9gqpGrvFwy3cK6H",
-     "name": "김여정",
-     "opened": "2026-10-19T21:16:58Z",
-     "entry_price": 0.00011154629335396374,
-     "entry_liq": 27101.9712,
-     "tokens": 87801.36098707534,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20608363045842654,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.00011154629335396374,
-     "max_m": 1.0,
-     "entry_exec": 0.00011162697126577276
-    }
-   ],
+   "cash": 86.41933176725458,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -723,6 +704,24 @@
      "reason": "TP",
      "risk": "temiz",
      "max_m": 1.333,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "김여정",
+     "mint": "3Ckrmzsp6NbnW6zLcrj3z8BSn1H1gRN3fh6Un15DJcbf",
+     "pool": "9h51k8vijv2YdNQUGvpzKTKPzwLfd9gqpGrvFwy3cK6H",
+     "opened": "2026-10-19T21:16:58Z",
+     "closed": "2026-10-19T21:22:58Z",
+     "closed_day": "2026-10-20",
+     "hold_min": 6.0,
+     "cost": 10.0,
+     "proceeds": 7.9666,
+     "pnl": -2.0334,
+     "fees": 0.3927,
+     "reason": "STOP",
+     "risk": "temiz",
+     "max_m": 1.001,
      "partial": false
     }
    ],
