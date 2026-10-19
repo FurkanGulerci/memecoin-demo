@@ -235,44 +235,8 @@
    }
   },
   "B": {
-   "cash": 62.43475439525358,
+   "cash": 81.60255020513287,
    "positions": [
-    {
-     "mint": "T1LcgB4r9Zd9JBM5ZZ76oUjW4nVx3us7WXHDUxPpump",
-     "pool": "D7MjJZbKCz89dv7QkDmv9coZCnBnFw6WVe6atrwbHsx9",
-     "name": "XRC",
-     "opened": "2026-10-19T09:58:28Z",
-     "entry_price": 0.11081708938686856,
-     "entry_liq": 904015.0149,
-     "tokens": 88.44111987711148,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.19921251310337967,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.11154361972597564,
-     "max_m": 1.0065561218321726,
-     "entry_exec": 0.11081949226353584
-    },
-    {
-     "mint": "9zvMmVxDsdA9q4uQ64gdGeTqcUD9gQ1xQi7kTH6ppump",
-     "pool": "3kYNsEeBWns3nPyCCSLkZdLs6LpuJxVoYd6T4HrunBpM",
-     "name": "MUCRON",
-     "opened": "2026-10-19T09:58:28Z",
-     "entry_price": 0.038967674286059586,
-     "entry_liq": 538537.6683,
-     "tokens": 251.50701062302025,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.19935672938161825,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.038647935916012385,
-     "max_m": 1.0010258798473866,
-     "entry_exec": 0.03896909265360622
-    },
     {
      "mint": "EKosQw4oJFbXmeJ4qRnbH1quGFRTc3Eok6nwnFKDpump",
      "pool": "AscPffyZxMnHHFHqQWawtcrmasgUzCJtwyu6oS6CQD2R",
@@ -287,7 +251,7 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.005909807410368127,
+     "last_price": 0.006208168389774279,
      "max_m": 1.1648372640571492,
      "entry_exec": 0.006078637212832258
     }
@@ -579,6 +543,42 @@
      "reason": "STOP",
      "risk": "temiz",
      "max_m": 1.084,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "XRC",
+     "mint": "T1LcgB4r9Zd9JBM5ZZ76oUjW4nVx3us7WXHDUxPpump",
+     "pool": "D7MjJZbKCz89dv7QkDmv9coZCnBnFw6WVe6atrwbHsx9",
+     "opened": "2026-10-19T09:58:28Z",
+     "closed": "2026-10-19T11:58:28Z",
+     "closed_day": "2026-10-19",
+     "hold_min": 120.0,
+     "cost": 10.0,
+     "proceeds": 9.6625,
+     "pnl": -0.3375,
+     "fees": 0.398,
+     "reason": "SURE",
+     "risk": "temiz",
+     "max_m": 1.008,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "MUCRON",
+     "mint": "9zvMmVxDsdA9q4uQ64gdGeTqcUD9gQ1xQi7kTH6ppump",
+     "pool": "3kYNsEeBWns3nPyCCSLkZdLs6LpuJxVoYd6T4HrunBpM",
+     "opened": "2026-10-19T09:58:28Z",
+     "closed": "2026-10-19T11:58:28Z",
+     "closed_day": "2026-10-19",
+     "hold_min": 120.0,
+     "cost": 10.0,
+     "proceeds": 9.5053,
+     "pnl": -0.4947,
+     "fees": 0.3967,
+     "reason": "SURE",
+     "risk": "temiz",
+     "max_m": 1.001,
      "partial": false
     }
    ],
