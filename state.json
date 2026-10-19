@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 73.38413763336142,
+   "cash": 63.38413763336142,
    "positions": [
     {
      "mint": "GisLeWojTwmb4XRnZxvGoZ9VA3AhXmUKPtUeEooRpump",
@@ -251,7 +251,7 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.028288638667521796,
+     "last_price": 0.02808688674036308,
      "max_m": 1.0264597832625315,
      "entry_exec": 0.027660929330816833
     },
@@ -269,9 +269,27 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.00206966993748636,
-     "max_m": 1.051981692929525,
+     "last_price": 0.0021180427763020857,
+     "max_m": 1.0765688698254592,
      "entry_exec": 0.001967724984892628
+    },
+    {
+     "mint": "6mdVwPt9zEqr3a378UQegzEFxU7JgKVqbXvGGcDpump",
+     "pool": "FLzqNNCHtEd32Vmdk1kkzWWmiyBqGk2vkhowbfZNQVpt",
+     "name": "FOMO",
+     "opened": "2026-10-19T17:33:14Z",
+     "entry_price": 0.0026298917537213766,
+     "entry_liq": 137493.0657,
+     "tokens": 3726.2381177044567,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "fees": 0.20039710184678422,
+     "partial": false,
+     "risk": "temiz",
+     "miss": 0,
+     "last_price": 0.0026298917537213766,
+     "max_m": 1.0,
+     "entry_exec": 0.0026302666899983007
     }
    ],
    "closed": [
@@ -696,7 +714,8 @@
     "GWe3TNg1UPxeaSazxK8U49PDAqXCaX9Jc8zbttFLpump",
     "GaPbQwLDPjSXGR9JxxG1aJLNthuxG58dM2XukBi8pump",
     "GisLeWojTwmb4XRnZxvGoZ9VA3AhXmUKPtUeEooRpump",
-    "HmioaUhV12ZiyQT18BcUp6G3L2ZaxBDH9jyYiGipump"
+    "HmioaUhV12ZiyQT18BcUp6G3L2ZaxBDH9jyYiGipump",
+    "6mdVwPt9zEqr3a378UQegzEFxU7JgKVqbXvGGcDpump"
    ],
    "rejected": [
     "Bm67LrewgThV5H72LC4EkyPc9xk6iwMR1CkSkK8z72q9",
@@ -706,13 +725,13 @@
    ],
    "funnel": {
     "2026-10-19": {
-     "tarama": 7505,
-     "yas": 2057,
-     "likidite": 457,
-     "hacim": 457,
-     "yukselis": 257,
+     "tarama": 7554,
+     "yas": 2069,
+     "likidite": 458,
+     "hacim": 458,
+     "yukselis": 258,
      "guvenlik_red": 4,
-     "giris": 24
+     "giris": 25
     }
    }
   }
