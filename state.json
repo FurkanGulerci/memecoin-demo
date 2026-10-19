@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 83.38413763336142,
+   "cash": 73.38413763336142,
    "positions": [
     {
      "mint": "GisLeWojTwmb4XRnZxvGoZ9VA3AhXmUKPtUeEooRpump",
@@ -251,9 +251,27 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.02832076702195389,
+     "last_price": 0.028294181819878448,
      "max_m": 1.0264597832625315,
      "entry_exec": 0.027660929330816833
+    },
+    {
+     "mint": "HmioaUhV12ZiyQT18BcUp6G3L2ZaxBDH9jyYiGipump",
+     "pool": "4kuzqAJzdjZxai9KD8So5tGLUrH8y8UQmgQj3A5xxpRM",
+     "name": "NVIDIA SSI",
+     "opened": "2026-10-19T17:22:44Z",
+     "entry_price": 0.001967401097753716,
+     "entry_liq": 119069.2426,
+     "tokens": 4980.878972035214,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "fees": 0.2006132426395199,
+     "partial": false,
+     "risk": "temiz",
+     "miss": 0,
+     "last_price": 0.001967401097753716,
+     "max_m": 1.0,
+     "entry_exec": 0.001967724984892628
     }
    ],
    "closed": [
@@ -677,7 +695,8 @@
     "4GGuUG6QZQ97LraPpUEoqLHuZZK9MrxnGogyqJLhpump",
     "GWe3TNg1UPxeaSazxK8U49PDAqXCaX9Jc8zbttFLpump",
     "GaPbQwLDPjSXGR9JxxG1aJLNthuxG58dM2XukBi8pump",
-    "GisLeWojTwmb4XRnZxvGoZ9VA3AhXmUKPtUeEooRpump"
+    "GisLeWojTwmb4XRnZxvGoZ9VA3AhXmUKPtUeEooRpump",
+    "HmioaUhV12ZiyQT18BcUp6G3L2ZaxBDH9jyYiGipump"
    ],
    "rejected": [
     "Bm67LrewgThV5H72LC4EkyPc9xk6iwMR1CkSkK8z72q9",
@@ -687,13 +706,13 @@
    ],
    "funnel": {
     "2026-10-19": {
-     "tarama": 7439,
-     "yas": 2038,
-     "likidite": 456,
-     "hacim": 456,
-     "yukselis": 256,
+     "tarama": 7505,
+     "yas": 2057,
+     "likidite": 457,
+     "hacim": 457,
+     "yukselis": 257,
      "guvenlik_red": 4,
-     "giris": 23
+     "giris": 24
     }
    }
   }
