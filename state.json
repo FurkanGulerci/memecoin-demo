@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 63.90247959411451,
+   "cash": 77.19478536903,
    "positions": [
     {
      "mint": "ctJ2i4k7xcoKp6Tovb6AXSsC4AtLVJiTkfbd2GMpump",
@@ -251,27 +251,9 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.7964426602044289,
-     "max_m": 1.008945260485975,
+     "last_price": 0.7971930203347826,
+     "max_m": 1.0096827147950158,
      "entry_exec": 0.7896899644382147
-    },
-    {
-     "mint": "ESnW5ZbLmoEAg2QEMxnMsY9R3aS8Kw58HJacYURmpump",
-     "pool": "9YF6sZskPr7yEShde3MqP4aCxgYNRicdrXpxr9gFYe27",
-     "name": "COLLECTOOOR",
-     "opened": "2026-10-19T23:01:58Z",
-     "entry_price": 0.0004987366029396605,
-     "entry_liq": 75022.575,
-     "tokens": 19646.522418069264,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20156014963425067,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.0004987366029396605,
-     "max_m": 1.0,
-     "entry_exec": 0.0004988669135147217
     }
    ],
    "closed": [
@@ -777,6 +759,24 @@
      "reason": "STOP",
      "risk": "temiz",
      "max_m": 1.133,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "COLLECTOOOR",
+     "mint": "ESnW5ZbLmoEAg2QEMxnMsY9R3aS8Kw58HJacYURmpump",
+     "pool": "9YF6sZskPr7yEShde3MqP4aCxgYNRicdrXpxr9gFYe27",
+     "opened": "2026-10-19T23:01:58Z",
+     "closed": "2026-10-19T23:06:28Z",
+     "closed_day": "2026-10-20",
+     "hold_min": 4.5,
+     "cost": 10.0,
+     "proceeds": 13.2923,
+     "pnl": 3.2923,
+     "fees": 0.4414,
+     "reason": "TP",
+     "risk": "temiz",
+     "max_m": 1.381,
      "partial": false
     }
    ],
