@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 66.41933176725458,
+   "cash": 73.90247959411451,
    "positions": [
     {
      "mint": "ctJ2i4k7xcoKp6Tovb6AXSsC4AtLVJiTkfbd2GMpump",
@@ -251,27 +251,9 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.7898727810609177,
-     "max_m": 1.0004853808754877,
+     "last_price": 0.7905635031377817,
+     "max_m": 1.0011142869879128,
      "entry_exec": 0.7896899644382147
-    },
-    {
-     "mint": "7gPmhsksQ5vwtgE7vCn121qHyZjep4R5J7NNDygaHTho",
-     "pool": "FUZd6G6viy7Hzfmb6NsBD9bfyhEAotrDUkPDF1ZJqG9f",
-     "name": "Onion",
-     "opened": "2026-10-19T22:19:58Z",
-     "entry_price": 0.00046586850382458256,
-     "entry_liq": 60625.209,
-     "tokens": 21031.32531659476,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20216794130993437,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.0004548071012106361,
-     "max_m": 1.132516928549222,
-     "entry_exec": 0.00046601913348116603
     }
    ],
    "closed": [
@@ -759,6 +741,24 @@
      "reason": "STOP",
      "risk": "temiz",
      "max_m": 1.001,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "Onion",
+     "mint": "7gPmhsksQ5vwtgE7vCn121qHyZjep4R5J7NNDygaHTho",
+     "pool": "FUZd6G6viy7Hzfmb6NsBD9bfyhEAotrDUkPDF1ZJqG9f",
+     "opened": "2026-10-19T22:19:58Z",
+     "closed": "2026-10-19T22:28:58Z",
+     "closed_day": "2026-10-20",
+     "hold_min": 9.0,
+     "cost": 10.0,
+     "proceeds": 7.4831,
+     "pnl": -2.5169,
+     "fees": 0.381,
+     "reason": "STOP",
+     "risk": "temiz",
+     "max_m": 1.133,
      "partial": false
     }
    ],
