@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 54.3313621038276,
+   "cash": 62.43475439525358,
    "positions": [
     {
      "mint": "T1LcgB4r9Zd9JBM5ZZ76oUjW4nVx3us7WXHDUxPpump",
@@ -251,8 +251,8 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.11083367032097527,
-     "max_m": 1.0004837176928294,
+     "last_price": 0.11087289549095238,
+     "max_m": 1.0005035875278134,
      "entry_exec": 0.11081949226353584
     },
     {
@@ -269,7 +269,7 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.038542905376602876,
+     "last_price": 0.03856210988500355,
      "max_m": 1.0010258798473866,
      "entry_exec": 0.03896909265360622
     },
@@ -287,27 +287,9 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.006173890890471937,
+     "last_price": 0.006003526230891717,
      "max_m": 1.1648372640571492,
      "entry_exec": 0.006078637212832258
-    },
-    {
-     "mint": "FGkCj28xhabWTYg9QyzACvs4NsN6LUyesP6EwiHepump",
-     "pool": "3ENsvQnHuHtQzMBxpDG4pkxwbBnzJvFcz2yyCfxC9QNH",
-     "name": "UHI",
-     "opened": "2026-10-19T10:50:58Z",
-     "entry_price": 0.0008960799991577399,
-     "entry_liq": 95420.8468,
-     "tokens": 10935.393083855906,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20101297462884576,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.0007823305912994073,
-     "max_m": 1.0844485672794153,
-     "entry_exec": 0.0008962640780119163
     }
    ],
    "closed": [
@@ -580,6 +562,24 @@
      "risk": "temiz",
      "max_m": 1.025,
      "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "UHI",
+     "mint": "FGkCj28xhabWTYg9QyzACvs4NsN6LUyesP6EwiHepump",
+     "pool": "3ENsvQnHuHtQzMBxpDG4pkxwbBnzJvFcz2yyCfxC9QNH",
+     "opened": "2026-10-19T10:50:58Z",
+     "closed": "2026-10-19T11:22:28Z",
+     "closed_day": "2026-10-19",
+     "hold_min": 31.5,
+     "cost": 10.0,
+     "proceeds": 8.1034,
+     "pnl": -1.8966,
+     "fees": 0.3855,
+     "reason": "STOP",
+     "risk": "temiz",
+     "max_m": 1.084,
+     "partial": false
     }
    ],
    "seen": [
@@ -609,8 +609,8 @@
    ],
    "funnel": {
     "2026-10-19": {
-     "tarama": 5170,
-     "yas": 1503,
+     "tarama": 5236,
+     "yas": 1514,
      "likidite": 448,
      "hacim": 448,
      "yukselis": 250,
