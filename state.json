@@ -235,8 +235,45 @@
    }
   },
   "B": {
-   "cash": 86.41933176725458,
-   "positions": [],
+   "cash": 66.41933176725458,
+   "positions": [
+    {
+     "mint": "ctJ2i4k7xcoKp6Tovb6AXSsC4AtLVJiTkfbd2GMpump",
+     "pool": "51Fk2LMfAz85d2w5ZqGdtmHgEJvStK1j8WDb9WB3YYK3",
+     "name": "XTO",
+     "opened": "2026-10-19T22:19:58Z",
+     "entry_price": 0.7896835690122628,
+     "entry_liq": 2420382.5415,
+     "tokens": 12.411199890291666,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "fees": 0.19907937490987332,
+     "partial": false,
+     "risk": "temiz",
+     "miss": 0,
+     "last_price": 0.7896835690122628,
+     "max_m": 1.0,
+     "entry_exec": 0.7896899644382147
+    },
+    {
+     "mint": "7gPmhsksQ5vwtgE7vCn121qHyZjep4R5J7NNDygaHTho",
+     "pool": "FUZd6G6viy7Hzfmb6NsBD9bfyhEAotrDUkPDF1ZJqG9f",
+     "name": "Onion",
+     "opened": "2026-10-19T22:19:58Z",
+     "entry_price": 0.00046586850382458256,
+     "entry_liq": 60625.209,
+     "tokens": 21031.32531659476,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "fees": 0.20216794130993437,
+     "partial": false,
+     "risk": "temiz",
+     "miss": 0,
+     "last_price": 0.00046586850382458256,
+     "max_m": 1.0,
+     "entry_exec": 0.00046601913348116603
+    }
+   ],
    "closed": [
     {
      "strategy": "B",
@@ -752,7 +789,9 @@
     "HmioaUhV12ZiyQT18BcUp6G3L2ZaxBDH9jyYiGipump",
     "6mdVwPt9zEqr3a378UQegzEFxU7JgKVqbXvGGcDpump",
     "ESABfJpt9cocXgWX7HF8WwSXrcv785oyaA8imwojpump",
-    "3Ckrmzsp6NbnW6zLcrj3z8BSn1H1gRN3fh6Un15DJcbf"
+    "3Ckrmzsp6NbnW6zLcrj3z8BSn1H1gRN3fh6Un15DJcbf",
+    "ctJ2i4k7xcoKp6Tovb6AXSsC4AtLVJiTkfbd2GMpump",
+    "7gPmhsksQ5vwtgE7vCn121qHyZjep4R5J7NNDygaHTho"
    ],
    "rejected": [
     "Bm67LrewgThV5H72LC4EkyPc9xk6iwMR1CkSkK8z72q9",
@@ -772,13 +811,13 @@
      "giris": 26
     },
     "2026-10-20": {
-     "tarama": 510,
-     "yas": 123,
-     "likidite": 2,
-     "hacim": 2,
-     "yukselis": 2,
+     "tarama": 582,
+     "yas": 142,
+     "likidite": 4,
+     "hacim": 4,
+     "yukselis": 4,
      "guvenlik_red": 1,
-     "giris": 1
+     "giris": 3
     }
    }
   }
