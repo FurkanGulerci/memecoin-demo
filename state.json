@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 85.65334951490865,
+   "cash": 75.65334951490865,
    "positions": [
     {
      "mint": "GaPbQwLDPjSXGR9JxxG1aJLNthuxG58dM2XukBi8pump",
@@ -251,9 +251,27 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.0012549753999876341,
-     "max_m": 1.0449865345169045,
+     "last_price": 0.0012919814499992158,
+     "max_m": 1.0638041495986246,
      "entry_exec": 0.0012147310459906975
+    },
+    {
+     "mint": "GisLeWojTwmb4XRnZxvGoZ9VA3AhXmUKPtUeEooRpump",
+     "pool": "749YMsoFHiDX484YRqsXEV4bVq7PskdTWsfCZcKAUmU7",
+     "name": "EVERNORTHX",
+     "opened": "2026-10-19T15:58:44Z",
+     "entry_price": 0.02765972244233519,
+     "entry_liq": 449242.7325,
+     "tokens": 354.3264900026616,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "fees": 0.19942763255952495,
+     "partial": false,
+     "risk": "temiz",
+     "miss": 0,
+     "last_price": 0.02765972244233519,
+     "max_m": 1.0,
+     "entry_exec": 0.027660929330816833
     }
    ],
    "closed": [
@@ -658,7 +676,8 @@
     "BK11vXyxp34ie73Sa1xRcGtQB5DGyq5ncxSmL7mHpump",
     "4GGuUG6QZQ97LraPpUEoqLHuZZK9MrxnGogyqJLhpump",
     "GWe3TNg1UPxeaSazxK8U49PDAqXCaX9Jc8zbttFLpump",
-    "GaPbQwLDPjSXGR9JxxG1aJLNthuxG58dM2XukBi8pump"
+    "GaPbQwLDPjSXGR9JxxG1aJLNthuxG58dM2XukBi8pump",
+    "GisLeWojTwmb4XRnZxvGoZ9VA3AhXmUKPtUeEooRpump"
    ],
    "rejected": [
     "Bm67LrewgThV5H72LC4EkyPc9xk6iwMR1CkSkK8z72q9",
@@ -668,13 +687,13 @@
    ],
    "funnel": {
     "2026-10-19": {
-     "tarama": 6932,
-     "yas": 1910,
-     "likidite": 454,
-     "hacim": 454,
-     "yukselis": 255,
+     "tarama": 6998,
+     "yas": 1930,
+     "likidite": 455,
+     "hacim": 455,
+     "yukselis": 256,
      "guvenlik_red": 4,
-     "giris": 22
+     "giris": 23
     }
    }
   }
