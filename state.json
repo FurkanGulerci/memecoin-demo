@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 72.89020471962272,
+   "cash": 85.97442661263311,
    "positions": [
     {
      "mint": "4GGuUG6QZQ97LraPpUEoqLHuZZK9MrxnGogyqJLhpump",
@@ -251,27 +251,9 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.02608620557426355,
+     "last_price": 0.02614571834319463,
      "max_m": 1.0143785208144782,
      "entry_exec": 0.026096770219117632
-    },
-    {
-     "mint": "GWe3TNg1UPxeaSazxK8U49PDAqXCaX9Jc8zbttFLpump",
-     "pool": "CYE8bNGpo5RZRUEVnjxCRh997r8crqUtSUvJVPVBHBHJ",
-     "name": "COMPUTE",
-     "opened": "2026-10-19T14:24:14Z",
-     "entry_price": 0.00040147714093808625,
-     "entry_liq": 57724.3899,
-     "tokens": 24404.061689640486,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.2023270855664558,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.00040147714093808625,
-     "max_m": 1.0,
-     "entry_exec": 0.00040161347420952147
     }
    ],
    "closed": [
@@ -615,6 +597,24 @@
      "reason": "SURE",
      "risk": "temiz",
      "max_m": 1.228,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "COMPUTE",
+     "mint": "GWe3TNg1UPxeaSazxK8U49PDAqXCaX9Jc8zbttFLpump",
+     "pool": "CYE8bNGpo5RZRUEVnjxCRh997r8crqUtSUvJVPVBHBHJ",
+     "opened": "2026-10-19T14:24:14Z",
+     "closed": "2026-10-19T14:30:14Z",
+     "closed_day": "2026-10-19",
+     "hold_min": 6.0,
+     "cost": 10.0,
+     "proceeds": 13.0842,
+     "pnl": 3.0842,
+     "fees": 0.4409,
+     "reason": "TP",
+     "risk": "temiz",
+     "max_m": 1.36,
      "partial": false
     }
    ],
