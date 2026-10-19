@@ -235,27 +235,8 @@
    }
   },
   "B": {
-   "cash": 75.62879049995291,
-   "positions": [
-    {
-     "mint": "ESABfJpt9cocXgWX7HF8WwSXrcv785oyaA8imwojpump",
-     "pool": "2sA5714M6Bst4zdPxS5TRfPPEAz1pCAmDYhGGatFrAZW",
-     "name": "Kim",
-     "opened": "2026-10-19T19:52:58Z",
-     "entry_price": 0.0006047498875263054,
-     "entry_liq": 76581.8807,
-     "tokens": 16202.552769459231,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.2015080350305018,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.0006047498875263054,
-     "max_m": 1.0,
-     "entry_exec": 0.0006049046801115349
-    }
-   ],
+   "cash": 88.45273139396865,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -705,6 +686,24 @@
      "reason": "SURE",
      "risk": "temiz",
      "max_m": 1.034,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "Kim",
+     "mint": "ESABfJpt9cocXgWX7HF8WwSXrcv785oyaA8imwojpump",
+     "pool": "2sA5714M6Bst4zdPxS5TRfPPEAz1pCAmDYhGGatFrAZW",
+     "opened": "2026-10-19T19:52:58Z",
+     "closed": "2026-10-19T19:54:28Z",
+     "closed_day": "2026-10-19",
+     "hold_min": 1.5,
+     "cost": 10.0,
+     "proceeds": 12.8239,
+     "pnl": 2.8239,
+     "fees": 0.4363,
+     "reason": "TP",
+     "risk": "temiz",
+     "max_m": 1.333,
      "partial": false
     }
    ],
