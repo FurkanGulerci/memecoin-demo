@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 49.328773884568776,
+   "cash": 57.36732631630008,
    "positions": [
     {
      "mint": "T1LcgB4r9Zd9JBM5ZZ76oUjW4nVx3us7WXHDUxPpump",
@@ -251,7 +251,7 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.11017103802189307,
+     "last_price": 0.11079828717099618,
      "max_m": 1.0,
      "entry_exec": 0.11081949226353584
     },
@@ -269,7 +269,7 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.038612542299830424,
+     "last_price": 0.038687904967369145,
      "max_m": 1.0010258798473866,
      "entry_exec": 0.03896909265360622
     },
@@ -287,7 +287,7 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.0055472848412703255,
+     "last_price": 0.0059102537125671345,
      "max_m": 1.1121062750192185,
      "entry_exec": 0.006078637212832258
     },
@@ -305,27 +305,9 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.0008960799991577399,
-     "max_m": 1.0,
+     "last_price": 0.00085043607523682,
+     "max_m": 1.0844485672794153,
      "entry_exec": 0.0008962640780119163
-    },
-    {
-     "mint": "8CYyivwMZPg6Edaofxo3eHiveZkDrU6TtUDwtMjTpump",
-     "pool": "HaEwLk7YSUN3TSyiT87Zzwq1JDpGvP2mvFfpBdE8Seit",
-     "name": "Mimi",
-     "opened": "2026-10-19T10:50:58Z",
-     "entry_price": 0.0004572716102534585,
-     "entry_liq": 62879.1504,
-     "tokens": 21426.971105102075,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.2020544199156477,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.0004572716102534585,
-     "max_m": 1.0,
-     "entry_exec": 0.0004574141604954253
     }
    ],
    "closed": [
@@ -561,6 +543,24 @@
      "reason": "TP",
      "risk": "temiz",
      "max_m": 1.45,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "Mimi",
+     "mint": "8CYyivwMZPg6Edaofxo3eHiveZkDrU6TtUDwtMjTpump",
+     "pool": "HaEwLk7YSUN3TSyiT87Zzwq1JDpGvP2mvFfpBdE8Seit",
+     "opened": "2026-10-19T10:50:58Z",
+     "closed": "2026-10-19T10:56:58Z",
+     "closed_day": "2026-10-19",
+     "hold_min": 6.0,
+     "cost": 10.0,
+     "proceeds": 8.0386,
+     "pnl": -1.9614,
+     "fees": 0.3866,
+     "reason": "STOP",
+     "risk": "temiz",
+     "max_m": 1.105,
      "partial": false
     }
    ],
