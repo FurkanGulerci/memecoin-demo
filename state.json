@@ -235,27 +235,8 @@
    }
   },
   "B": {
-   "cash": 85.97442661263311,
-   "positions": [
-    {
-     "mint": "4GGuUG6QZQ97LraPpUEoqLHuZZK9MrxnGogyqJLhpump",
-     "pool": "FvWC9j6Wu9eP1zNZwGMMMJkz3T5TZ3TfVrek3iPWFddL",
-     "name": "SARP",
-     "opened": "2026-10-19T12:56:58Z",
-     "entry_price": 0.026095602864489614,
-     "entry_liq": 438192.4696,
-     "tokens": 375.5637160348721,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.19943841604202833,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.02626618696420337,
-     "max_m": 1.0143785208144782,
-     "entry_exec": 0.026096770219117632
-    }
-   ],
+   "cash": 95.65334951490865,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -616,6 +597,24 @@
      "risk": "temiz",
      "max_m": 1.36,
      "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "SARP",
+     "mint": "4GGuUG6QZQ97LraPpUEoqLHuZZK9MrxnGogyqJLhpump",
+     "pool": "FvWC9j6Wu9eP1zNZwGMMMJkz3T5TZ3TfVrek3iPWFddL",
+     "opened": "2026-10-19T12:56:58Z",
+     "closed": "2026-10-19T14:57:14Z",
+     "closed_day": "2026-10-19",
+     "hold_min": 120.3,
+     "cost": 10.0,
+     "proceeds": 9.6789,
+     "pnl": -0.3211,
+     "fees": 0.3987,
+     "reason": "SURE",
+     "risk": "temiz",
+     "max_m": 1.014,
+     "partial": false
     }
    ],
    "seen": [
@@ -648,8 +647,8 @@
    ],
    "funnel": {
     "2026-10-19": {
-     "tarama": 6547,
-     "yas": 1805,
+     "tarama": 6614,
+     "yas": 1823,
      "likidite": 451,
      "hacim": 451,
      "yukselis": 253,
