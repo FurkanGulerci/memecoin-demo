@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 35.97527324551233,
+   "cash": 43.3916311945766,
    "positions": [
     {
      "mint": "FP9HKxKKzBfQrRJHY5DNoMvNgEqCaMJoKejvtvtopump",
@@ -251,27 +251,9 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.001511483200748176,
+     "last_price": 0.0016192532681563792,
      "max_m": 1.0,
      "entry_exec": 0.0016444545256509584
-    },
-    {
-     "mint": "4Y9mNjAjLRLbSn87ZiWf4JxtP9dik9pF3w1AE6Fopump",
-     "pool": "4m6AUo7oEQVqiE78s2guSoTqcRHwYuN7VbjwoiMN7iqU",
-     "name": "people",
-     "opened": "2026-10-20T21:59:52Z",
-     "entry_price": 0.00010492312783195873,
-     "entry_liq": 29007.8319,
-     "tokens": 93348.16511315222,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20561853895393883,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 9.050556221009729e-05,
-     "max_m": 1.0,
-     "entry_exec": 0.00010499402948220452
     }
    ],
    "closed": [
@@ -1281,6 +1263,24 @@
      "reason": "STOP",
      "risk": "temiz",
      "max_m": 1.119,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "people",
+     "mint": "4Y9mNjAjLRLbSn87ZiWf4JxtP9dik9pF3w1AE6Fopump",
+     "pool": "4m6AUo7oEQVqiE78s2guSoTqcRHwYuN7VbjwoiMN7iqU",
+     "opened": "2026-10-20T21:59:52Z",
+     "closed": "2026-10-20T22:02:52Z",
+     "closed_day": "2026-10-21",
+     "hold_min": 3.0,
+     "cost": 10.0,
+     "proceeds": 7.4164,
+     "pnl": -2.5836,
+     "fees": 0.386,
+     "reason": "STOP",
+     "risk": "temiz",
+     "max_m": 1.0,
      "partial": false
     }
    ],
