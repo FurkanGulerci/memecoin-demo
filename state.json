@@ -235,8 +235,27 @@
    }
   },
   "B": {
-   "cash": 74.26031801779983,
-   "positions": [],
+   "cash": 64.26031801779983,
+   "positions": [
+    {
+     "mint": "giUU7i2mBB6S9sFsSpeQFmNh8knRyk5UsLmzkhPpump",
+     "pool": "EihrKg5P2ZSVW4up3XazZ9795dBNpMiCLZSxyLFaVccT",
+     "name": "FOMO",
+     "opened": "2026-10-20T03:27:43Z",
+     "entry_price": 0.0017293741803366834,
+     "entry_liq": 111172.0213,
+     "tokens": 5666.368962019518,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "fees": 0.20072782082227308,
+     "partial": false,
+     "risk": "temiz",
+     "miss": 0,
+     "last_price": 0.0017293741803366834,
+     "max_m": 1.0,
+     "entry_exec": 0.00172967910591316
+    }
+   ],
    "closed": [
     {
      "strategy": "B",
@@ -904,7 +923,8 @@
     "k1hrnH27hJzsrJtFirKabtih7rSnaZoRvkKfEACpump",
     "FFUd9sB1Aehe5aWNX7QkBrJvXPkLvh18RW9iMpqtpump",
     "wNedNtJcdFKtdLP4FwpgGgspd6J6fepyngEND53pump",
-    "Cv37ZBhXDgza5cgePpjHshEXz9JPsLNcwUAQrBgcpump"
+    "Cv37ZBhXDgza5cgePpjHshEXz9JPsLNcwUAQrBgcpump",
+    "giUU7i2mBB6S9sFsSpeQFmNh8knRyk5UsLmzkhPpump"
    ],
    "rejected": [
     "Bm67LrewgThV5H72LC4EkyPc9xk6iwMR1CkSkK8z72q9",
@@ -924,13 +944,13 @@
      "giris": 26
     },
     "2026-10-20": {
-     "tarama": 2572,
-     "yas": 527,
-     "likidite": 38,
-     "hacim": 13,
-     "yukselis": 10,
+     "tarama": 2646,
+     "yas": 541,
+     "likidite": 40,
+     "hacim": 14,
+     "yukselis": 11,
      "guvenlik_red": 1,
-     "giris": 9
+     "giris": 10
     }
    }
   }
