@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 54.83005492406133,
+   "cash": 66.85903554777967,
    "positions": [
     {
      "mint": "k1hrnH27hJzsrJtFirKabtih7rSnaZoRvkKfEACpump",
@@ -251,27 +251,9 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.23972366613715554,
+     "last_price": 0.24045489466525372,
      "max_m": 1.0181276819849583,
      "entry_exec": 0.2364852461941978
-    },
-    {
-     "mint": "FFUd9sB1Aehe5aWNX7QkBrJvXPkLvh18RW9iMpqtpump",
-     "pool": "JBQoRRrWrHK8jbxUXogVigU3gva6hbrw4d6wi1UHN2yA",
-     "name": "GDC",
-     "opened": "2026-10-20T01:42:43Z",
-     "entry_price": 0.0004864639186075681,
-     "entry_liq": 60378.9628,
-     "tokens": 20140.895898245733,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20218085707228556,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.0005377742476827802,
-     "max_m": 1.1513023565243454,
-     "entry_exec": 0.00048662184887483903
     }
    ],
    "closed": [
@@ -849,6 +831,24 @@
      "reason": "STOP",
      "risk": "temiz",
      "max_m": 1.0,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "GDC",
+     "mint": "FFUd9sB1Aehe5aWNX7QkBrJvXPkLvh18RW9iMpqtpump",
+     "pool": "JBQoRRrWrHK8jbxUXogVigU3gva6hbrw4d6wi1UHN2yA",
+     "opened": "2026-10-20T01:42:43Z",
+     "closed": "2026-10-20T02:12:43Z",
+     "closed_day": "2026-10-20",
+     "hold_min": 30.0,
+     "cost": 10.0,
+     "proceeds": 12.029,
+     "pnl": 2.029,
+     "fees": 0.4289,
+     "reason": "TP",
+     "risk": "temiz",
+     "max_m": 1.251,
      "partial": false
     }
    ],
