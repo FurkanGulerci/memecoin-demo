@@ -235,8 +235,27 @@
    }
   },
   "B": {
-   "cash": 74.49243472034581,
-   "positions": [],
+   "cash": 64.49243472034581,
+   "positions": [
+    {
+     "mint": "q6379YK9gEVdzAQ71Y5iJiCzDC4AEHJVyQn391Hpump",
+     "pool": "Bn3Eriz4GsSqKwabVcSkcwiK9KmNxhvivFUDknzDecwA",
+     "name": "Apple",
+     "opened": "2026-10-20T03:48:43Z",
+     "entry_price": 0.0018045972384231235,
+     "entry_liq": 113227.1954,
+     "tokens": 5430.188701714771,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "fees": 0.20069646476907738,
+     "partial": false,
+     "risk": "temiz",
+     "miss": 0,
+     "last_price": 0.0018045972384231235,
+     "max_m": 1.0,
+     "entry_exec": 0.001804909652017248
+    }
+   ],
    "closed": [
     {
      "strategy": "B",
@@ -942,7 +961,8 @@
     "wNedNtJcdFKtdLP4FwpgGgspd6J6fepyngEND53pump",
     "Cv37ZBhXDgza5cgePpjHshEXz9JPsLNcwUAQrBgcpump",
     "giUU7i2mBB6S9sFsSpeQFmNh8knRyk5UsLmzkhPpump",
-    "ARvS1ZAVDG5GsFc17S2ZT95cdL83GHwL9iSL3us6cpCd"
+    "ARvS1ZAVDG5GsFc17S2ZT95cdL83GHwL9iSL3us6cpCd",
+    "q6379YK9gEVdzAQ71Y5iJiCzDC4AEHJVyQn391Hpump"
    ],
    "rejected": [
     "Bm67LrewgThV5H72LC4EkyPc9xk6iwMR1CkSkK8z72q9",
@@ -962,13 +982,13 @@
      "giris": 26
     },
     "2026-10-20": {
-     "tarama": 2700,
-     "yas": 547,
-     "likidite": 42,
-     "hacim": 15,
-     "yukselis": 12,
+     "tarama": 2773,
+     "yas": 559,
+     "likidite": 44,
+     "hacim": 16,
+     "yukselis": 13,
      "guvenlik_red": 1,
-     "giris": 11
+     "giris": 12
     }
    }
   }
