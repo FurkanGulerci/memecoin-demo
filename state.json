@@ -235,27 +235,8 @@
    }
   },
   "B": {
-   "cash": 54.1371751612982,
-   "positions": [
-    {
-     "mint": "D3tSj2izyLwXMr1svmwmtg6sLr4RubYVJfvmCKJUpump",
-     "pool": "6eegAZeqEmsu89W49jskm8FHWBAQHiHxfAVuuT9UsSpu",
-     "name": "STICKFU",
-     "opened": "2026-10-20T07:42:57Z",
-     "entry_price": 8.760908635766933e-05,
-     "entry_liq": 25349.6526,
-     "tokens": 111785.51783181274,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20657291473593292,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 8.760908635766933e-05,
-     "max_m": 1.0,
-     "entry_exec": 8.76768314008808e-05
-    }
-   ],
+   "cash": 61.820458416043316,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -1011,6 +992,24 @@
      "reason": "RUG",
      "risk": "temiz",
      "max_m": 1.01,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "STICKFU",
+     "mint": "D3tSj2izyLwXMr1svmwmtg6sLr4RubYVJfvmCKJUpump",
+     "pool": "6eegAZeqEmsu89W49jskm8FHWBAQHiHxfAVuuT9UsSpu",
+     "opened": "2026-10-20T07:42:57Z",
+     "closed": "2026-10-20T07:48:57Z",
+     "closed_day": "2026-10-20",
+     "hold_min": 6.0,
+     "cost": 10.0,
+     "proceeds": 7.6833,
+     "pnl": -2.3167,
+     "fees": 0.3906,
+     "reason": "STOP",
+     "risk": "temiz",
+     "max_m": 1.167,
      "partial": false
     }
    ],
