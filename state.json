@@ -235,8 +235,27 @@
    }
   },
   "B": {
-   "cash": 64.1371751612982,
-   "positions": [],
+   "cash": 54.1371751612982,
+   "positions": [
+    {
+     "mint": "D3tSj2izyLwXMr1svmwmtg6sLr4RubYVJfvmCKJUpump",
+     "pool": "6eegAZeqEmsu89W49jskm8FHWBAQHiHxfAVuuT9UsSpu",
+     "name": "STICKFU",
+     "opened": "2026-10-20T07:42:57Z",
+     "entry_price": 8.760908635766933e-05,
+     "entry_liq": 25349.6526,
+     "tokens": 111785.51783181274,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "fees": 0.20657291473593292,
+     "partial": false,
+     "risk": "temiz",
+     "miss": 0,
+     "last_price": 8.760908635766933e-05,
+     "max_m": 1.0,
+     "entry_exec": 8.76768314008808e-05
+    }
+   ],
    "closed": [
     {
      "strategy": "B",
@@ -1037,7 +1056,8 @@
     "ECFmFaHyJ8krXErN1QAxqUq97xCFUWYv9Ax5j2Aspump",
     "3eYs1iGSBQTzxZ94RN8W5c4RCipUJmVbAnueFrrapump",
     "UeJPVWRyFw6GKHRJgrPNj2DeoRa6nRCAi9oL9aRpump",
-    "KFciGKfycMHbZK7vndvAjHCSesCw7UKJYZbm5Kwpump"
+    "KFciGKfycMHbZK7vndvAjHCSesCw7UKJYZbm5Kwpump",
+    "D3tSj2izyLwXMr1svmwmtg6sLr4RubYVJfvmCKJUpump"
    ],
    "rejected": [
     "Bm67LrewgThV5H72LC4EkyPc9xk6iwMR1CkSkK8z72q9",
@@ -1058,13 +1078,13 @@
      "giris": 26
     },
     "2026-10-20": {
-     "tarama": 4327,
-     "yas": 811,
-     "likidite": 71,
-     "hacim": 21,
-     "yukselis": 18,
+     "tarama": 4400,
+     "yas": 825,
+     "likidite": 74,
+     "hacim": 23,
+     "yukselis": 19,
      "guvenlik_red": 2,
-     "giris": 16
+     "giris": 17
     }
    }
   }
