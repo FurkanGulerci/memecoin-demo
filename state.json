@@ -251,7 +251,7 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.010762835757261856,
+     "last_price": 0.01072855978243354,
      "max_m": 1.0635104435939151,
      "entry_exec": 0.010148842617543292
     },
@@ -269,7 +269,7 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.00037139492153568645,
+     "last_price": 0.0003532852995856401,
      "max_m": 1.0576943974716086,
      "entry_exec": 0.00040859911129790557
     }
@@ -1175,9 +1175,9 @@
      "giris": 26
     },
     "2026-10-20": {
-     "tarama": 7071,
-     "yas": 1287,
-     "likidite": 127,
+     "tarama": 7121,
+     "yas": 1292,
+     "likidite": 128,
      "hacim": 38,
      "yukselis": 26,
      "guvenlik_red": 4,
