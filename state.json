@@ -235,27 +235,8 @@
    }
   },
   "B": {
-   "cash": 43.3916311945766,
-   "positions": [
-    {
-     "mint": "FP9HKxKKzBfQrRJHY5DNoMvNgEqCaMJoKejvtvtopump",
-     "pool": "6wwtB1qkyubqwSGCk7dj35nTU8oD2S5v1NUy8Y6cLkiE",
-     "name": "DTC",
-     "opened": "2026-10-20T21:59:52Z",
-     "entry_price": 0.0016441760558207183,
-     "entry_liq": 115736.5558,
-     "tokens": 5960.031029815354,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20065968882909874,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.0016192532681563792,
-     "max_m": 1.0,
-     "entry_exec": 0.0016444545256509584
-    }
-   ],
+   "cash": 58.81166709249556,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -1281,6 +1262,24 @@
      "reason": "STOP",
      "risk": "temiz",
      "max_m": 1.0,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "DTC",
+     "mint": "FP9HKxKKzBfQrRJHY5DNoMvNgEqCaMJoKejvtvtopump",
+     "pool": "6wwtB1qkyubqwSGCk7dj35nTU8oD2S5v1NUy8Y6cLkiE",
+     "opened": "2026-10-20T21:59:52Z",
+     "closed": "2026-10-20T22:07:22Z",
+     "closed_day": "2026-10-21",
+     "hold_min": 7.5,
+     "cost": 10.0,
+     "proceeds": 15.42,
+     "pnl": 5.42,
+     "fees": 0.461,
+     "reason": "TP",
+     "risk": "temiz",
+     "max_m": 1.6,
      "partial": false
     }
    ],
