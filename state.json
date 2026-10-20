@@ -235,27 +235,8 @@
    }
   },
   "B": {
-   "cash": 64.31598286976754,
-   "positions": [
-    {
-     "mint": "k1hrnH27hJzsrJtFirKabtih7rSnaZoRvkKfEACpump",
-     "pool": "Ekwkyj7isDnnJHenNQboJD9J8w9EMQUDvMqcKkTJK6Tj",
-     "name": "NODF",
-     "opened": "2026-10-20T01:21:43Z",
-     "entry_price": 0.2364817224054863,
-     "entry_liq": 1315491.6773,
-     "tokens": 41.44444593364433,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.19914604147073706,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.24520726883539348,
-     "max_m": 1.037464508282204,
-     "entry_exec": 0.2364852461941978
-    }
-   ],
+   "cash": 74.26031801779983,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -867,6 +848,24 @@
      "reason": "STOP",
      "risk": "temiz",
      "max_m": 1.0,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "NODF",
+     "mint": "k1hrnH27hJzsrJtFirKabtih7rSnaZoRvkKfEACpump",
+     "pool": "Ekwkyj7isDnnJHenNQboJD9J8w9EMQUDvMqcKkTJK6Tj",
+     "opened": "2026-10-20T01:21:43Z",
+     "closed": "2026-10-20T03:21:43Z",
+     "closed_day": "2026-10-20",
+     "hold_min": 120.0,
+     "cost": 10.0,
+     "proceeds": 9.9443,
+     "pnl": -0.0557,
+     "fees": 0.4008,
+     "reason": "SURE",
+     "risk": "temiz",
+     "max_m": 1.037,
      "partial": false
     }
    ],
