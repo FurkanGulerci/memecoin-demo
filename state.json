@@ -235,27 +235,8 @@
    }
   },
   "B": {
-   "cash": 54.83221412590002,
-   "positions": [
-    {
-     "mint": "7LRu3HmrDxFcvaEHj9Fysxbfux2e8VWHx6UfDE9jpump",
-     "pool": "7dty59DXcxmgN3qCKz6uNMTqKDPMEoSArWGaUFTjDE9a",
-     "name": "JEANNE",
-     "opened": "2026-10-20T17:37:22Z",
-     "entry_price": 7.562079714135855e-05,
-     "entry_liq": 24289.6167,
-     "tokens": 129502.69275674934,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.206903141782176,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 6.767446996840091e-05,
-     "max_m": 1.160685111361169,
-     "entry_exec": 7.568182399426747e-05
-    }
-   ],
+   "cash": 62.33284409830574,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -1173,6 +1154,24 @@
      "reason": "SURE",
      "risk": "temiz",
      "max_m": 1.042,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "JEANNE",
+     "mint": "7LRu3HmrDxFcvaEHj9Fysxbfux2e8VWHx6UfDE9jpump",
+     "pool": "7dty59DXcxmgN3qCKz6uNMTqKDPMEoSArWGaUFTjDE9a",
+     "opened": "2026-10-20T17:37:22Z",
+     "closed": "2026-10-20T18:14:52Z",
+     "closed_day": "2026-10-20",
+     "hold_min": 37.5,
+     "cost": 10.0,
+     "proceeds": 7.5006,
+     "pnl": -2.4994,
+     "fees": 0.3891,
+     "reason": "STOP",
+     "risk": "temiz",
+     "max_m": 1.161,
      "partial": false
     }
    ],
