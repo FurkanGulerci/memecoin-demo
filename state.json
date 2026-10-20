@@ -235,8 +235,27 @@
    }
   },
   "B": {
-   "cash": 76.67542275588998,
-   "positions": [],
+   "cash": 66.67542275588998,
+   "positions": [
+    {
+     "mint": "ECFmFaHyJ8krXErN1QAxqUq97xCFUWYv9Ax5j2Aspump",
+     "pool": "3pUeKCLPfocGPGYo6MvbfkZSuqTUkQ3EAPZ99aDhSj8r",
+     "name": "BORLY",
+     "opened": "2026-10-20T05:12:43Z",
+     "entry_price": 0.0020640607272288916,
+     "entry_liq": 130365.22,
+     "tokens": 4747.692929987591,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "fees": 0.20047347827034495,
+     "partial": false,
+     "risk": "temiz",
+     "miss": 0,
+     "last_price": 0.0020640607272288916,
+     "max_m": 1.0,
+     "entry_exec": 0.0020643710839204628
+    }
+   ],
    "closed": [
     {
      "strategy": "B",
@@ -961,14 +980,16 @@
     "Cv37ZBhXDgza5cgePpjHshEXz9JPsLNcwUAQrBgcpump",
     "giUU7i2mBB6S9sFsSpeQFmNh8knRyk5UsLmzkhPpump",
     "ARvS1ZAVDG5GsFc17S2ZT95cdL83GHwL9iSL3us6cpCd",
-    "q6379YK9gEVdzAQ71Y5iJiCzDC4AEHJVyQn391Hpump"
+    "q6379YK9gEVdzAQ71Y5iJiCzDC4AEHJVyQn391Hpump",
+    "ECFmFaHyJ8krXErN1QAxqUq97xCFUWYv9Ax5j2Aspump"
    ],
    "rejected": [
     "Bm67LrewgThV5H72LC4EkyPc9xk6iwMR1CkSkK8z72q9",
     "GrHgi7F9YLhMuZjFsB7PbfchGcJrBWAfPYbKEV8Jrxqk",
     "AexNQAyhQpno5PDmxDW625UkdVQ5kkqxcu9FjY2nT4ea",
     "H7EWx3TMeRFKmPEMWVTnuYikXJqD9GSCz9Pu5wDwevdA",
-    "2UhJZJKVQ2efeVauoNc2zdCPuzJEaXN9VUp79d2vm8Km"
+    "2UhJZJKVQ2efeVauoNc2zdCPuzJEaXN9VUp79d2vm8Km",
+    "J7XfjJFz58R6PDnPwhK43bWN9Uu8aaoFP6W6oWoLBrp1"
    ],
    "funnel": {
     "2026-10-19": {
@@ -981,13 +1002,13 @@
      "giris": 26
     },
     "2026-10-20": {
-     "tarama": 3275,
-     "yas": 639,
-     "likidite": 51,
-     "hacim": 16,
-     "yukselis": 13,
-     "guvenlik_red": 1,
-     "giris": 12
+     "tarama": 3349,
+     "yas": 653,
+     "likidite": 54,
+     "hacim": 18,
+     "yukselis": 15,
+     "guvenlik_red": 2,
+     "giris": 13
     }
    }
   }
