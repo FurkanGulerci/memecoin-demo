@@ -235,27 +235,8 @@
    }
   },
   "B": {
-   "cash": 52.33284409830574,
-   "positions": [
-    {
-     "mint": "Df18xmSEf64DXaKMMfoCrJaEgqBKVc7rXfmKDyagpump",
-     "pool": "3q3PQQehBSibz5w2wwMh9oqiqEo48PdWXV7xLJFqrxJm",
-     "name": "PEPEMON",
-     "opened": "2026-10-20T19:01:22Z",
-     "entry_price": 0.0015802825799661206,
-     "entry_liq": 117029.9125,
-     "tokens": 6201.016688021204,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.2006413498408845,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.0019344143955563036,
-     "max_m": 1.2240939817217849,
-     "entry_exec": 0.0015805472704069727
-    }
-   ],
+   "cash": 64.74605618215304,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -1191,6 +1172,24 @@
      "reason": "STOP",
      "risk": "temiz",
      "max_m": 1.161,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "PEPEMON",
+     "mint": "Df18xmSEf64DXaKMMfoCrJaEgqBKVc7rXfmKDyagpump",
+     "pool": "3q3PQQehBSibz5w2wwMh9oqiqEo48PdWXV7xLJFqrxJm",
+     "opened": "2026-10-20T19:01:22Z",
+     "closed": "2026-10-20T19:31:22Z",
+     "closed_day": "2026-10-20",
+     "hold_min": 30.0,
+     "cost": 10.0,
+     "proceeds": 12.4132,
+     "pnl": 2.4132,
+     "fees": 0.4295,
+     "reason": "TP",
+     "risk": "temiz",
+     "max_m": 1.29,
      "partial": false
     }
    ],
