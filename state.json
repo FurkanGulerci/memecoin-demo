@@ -235,27 +235,8 @@
    }
   },
   "B": {
-   "cash": 64.49243472034581,
-   "positions": [
-    {
-     "mint": "q6379YK9gEVdzAQ71Y5iJiCzDC4AEHJVyQn391Hpump",
-     "pool": "Bn3Eriz4GsSqKwabVcSkcwiK9KmNxhvivFUDknzDecwA",
-     "name": "Apple",
-     "opened": "2026-10-20T03:48:43Z",
-     "entry_price": 0.0018045972384231235,
-     "entry_liq": 113227.1954,
-     "tokens": 5430.188701714771,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20069646476907738,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.0022349575566990073,
-     "max_m": 1.2384799827422641,
-     "entry_exec": 0.001804909652017248
-    }
-   ],
+   "cash": 76.67542275588998,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -921,6 +902,24 @@
      "reason": "STOP",
      "risk": "temiz",
      "max_m": 1.0,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "Apple",
+     "mint": "q6379YK9gEVdzAQ71Y5iJiCzDC4AEHJVyQn391Hpump",
+     "pool": "Bn3Eriz4GsSqKwabVcSkcwiK9KmNxhvivFUDknzDecwA",
+     "opened": "2026-10-20T03:48:43Z",
+     "closed": "2026-10-20T04:14:13Z",
+     "closed_day": "2026-10-20",
+     "hold_min": 25.5,
+     "cost": 10.0,
+     "proceeds": 12.183,
+     "pnl": 2.183,
+     "fees": 0.4272,
+     "reason": "TP",
+     "risk": "temiz",
+     "max_m": 1.266,
      "partial": false
     }
    ],
