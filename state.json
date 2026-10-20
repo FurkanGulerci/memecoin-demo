@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 44.29060721193174,
+   "cash": 56.911267640665685,
    "positions": [
     {
      "mint": "78rKNTKpmuSC6VFWPndzcUmW372dXssHYhYk2vsUpump",
@@ -251,27 +251,9 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.010769742616520401,
+     "last_price": 0.010781777581987282,
      "max_m": 1.0679017304572953,
      "entry_exec": 0.010148842617543292
-    },
-    {
-     "mint": "fpam8wyNiDSHtwx1znYeipGgRNnBcBTcN1iechcpump",
-     "pool": "8zWfFv4ecULvsStkjZY1SdsjDgjroZvYRM2vzANNF2ko",
-     "name": "DARKCAT",
-     "opened": "2026-10-20T14:04:09Z",
-     "entry_price": 0.0004084533377061413,
-     "entry_liq": 54924.2303,
-     "tokens": 23986.836312167572,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.2024966472842868,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.00043677359364159275,
-     "max_m": 1.128262890815851,
-     "entry_exec": 0.00040859911129790557
     }
    ],
    "closed": [
@@ -1119,6 +1101,24 @@
      "reason": "TP",
      "risk": "temiz",
      "max_m": 1.271,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "DARKCAT",
+     "mint": "fpam8wyNiDSHtwx1znYeipGgRNnBcBTcN1iechcpump",
+     "pool": "8zWfFv4ecULvsStkjZY1SdsjDgjroZvYRM2vzANNF2ko",
+     "opened": "2026-10-20T14:04:09Z",
+     "closed": "2026-10-20T15:02:39Z",
+     "closed_day": "2026-10-20",
+     "hold_min": 58.5,
+     "cost": 10.0,
+     "proceeds": 12.6207,
+     "pnl": 2.6207,
+     "fees": 0.4364,
+     "reason": "TP",
+     "risk": "temiz",
+     "max_m": 1.312,
      "partial": false
     }
    ],
