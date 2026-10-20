@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 32.07155278863108,
+   "cash": 44.29060721193174,
    "positions": [
     {
      "mint": "78rKNTKpmuSC6VFWPndzcUmW372dXssHYhYk2vsUpump",
@@ -251,8 +251,8 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.010812583255362456,
-     "max_m": 1.065477246735959,
+     "last_price": 0.010769742616520401,
+     "max_m": 1.0679017304572953,
      "entry_exec": 0.010148842617543292
     },
     {
@@ -269,27 +269,9 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.00043654601090066243,
+     "last_price": 0.00043677359364159275,
      "max_m": 1.128262890815851,
      "entry_exec": 0.00040859911129790557
-    },
-    {
-     "mint": "6KEiPuRtAEcGgv9Ryi9Zx27yg4mZXm69sZpHUrBZKD9D",
-     "pool": "2Qp3sQMDTyFYGJho2y2QUeF9wcam91q6nxqj7aMLCQ39",
-     "name": "PUNANI",
-     "opened": "2026-10-20T14:56:39Z",
-     "entry_price": 0.0002956542088580659,
-     "entry_liq": 49096.6614,
-     "tokens": 33136.98295975083,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.202911519091659,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.0002956542088580659,
-     "max_m": 1.0,
-     "entry_exec": 0.00029577224975202443
     }
    ],
    "closed": [
@@ -1119,6 +1101,24 @@
      "reason": "TP",
      "risk": "temiz",
      "max_m": 1.464,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "PUNANI",
+     "mint": "6KEiPuRtAEcGgv9Ryi9Zx27yg4mZXm69sZpHUrBZKD9D",
+     "pool": "2Qp3sQMDTyFYGJho2y2QUeF9wcam91q6nxqj7aMLCQ39",
+     "opened": "2026-10-20T14:56:39Z",
+     "closed": "2026-10-20T14:59:39Z",
+     "closed_day": "2026-10-20",
+     "hold_min": 3.0,
+     "cost": 10.0,
+     "proceeds": 12.2191,
+     "pnl": 2.2191,
+     "fees": 0.4331,
+     "reason": "TP",
+     "risk": "temiz",
+     "max_m": 1.271,
      "partial": false
     }
    ],
