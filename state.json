@@ -235,27 +235,8 @@
    }
   },
   "B": {
-   "cash": 61.99702763709547,
-   "positions": [
-    {
-     "mint": "UeJPVWRyFw6GKHRJgrPNj2DeoRa6nRCAi9oL9aRpump",
-     "pool": "J4KyPGT6RSw2VvrYHFEUWuHNChR6SMY8AjCGJsm1eJob",
-     "name": "Haaland",
-     "opened": "2026-10-20T06:18:57Z",
-     "entry_price": 0.0019925850689362463,
-     "entry_liq": 120091.4625,
-     "tokens": 4917.933311771064,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20059951294079265,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.0024232259078833607,
-     "max_m": 1.2161216831645811,
-     "entry_exec": 0.0019929103098127268
-    }
-   ],
+   "cash": 74.1371751612982,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -975,6 +956,24 @@
      "reason": "STOP",
      "risk": "temiz",
      "max_m": 1.102,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "Haaland",
+     "mint": "UeJPVWRyFw6GKHRJgrPNj2DeoRa6nRCAi9oL9aRpump",
+     "pool": "J4KyPGT6RSw2VvrYHFEUWuHNChR6SMY8AjCGJsm1eJob",
+     "opened": "2026-10-20T06:18:57Z",
+     "closed": "2026-10-20T06:44:27Z",
+     "closed_day": "2026-10-20",
+     "hold_min": 25.5,
+     "cost": 10.0,
+     "proceeds": 12.1401,
+     "pnl": 2.1401,
+     "fees": 0.4265,
+     "reason": "TP",
+     "risk": "temiz",
+     "max_m": 1.262,
      "partial": false
     }
    ],
