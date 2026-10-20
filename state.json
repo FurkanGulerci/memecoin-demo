@@ -235,27 +235,8 @@
    }
   },
   "B": {
-   "cash": 48.08667305780852,
-   "positions": [
-    {
-     "mint": "EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump",
-     "pool": "GS1bQcY4W3ScfJMo5Ch9c1xggBUqNpvjoWY7Yc7pJGdL",
-     "name": "MONEYBIZ",
-     "opened": "2026-10-20T19:53:52Z",
-     "entry_price": 0.0014547728648072647,
-     "entry_liq": 110560.2204,
-     "tokens": 6735.939923532683,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20073738027273275,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.0012964221664294336,
-     "max_m": 1.119279101965037,
-     "entry_exec": 0.0014550307917324532
-    }
-   ],
+   "cash": 55.97527324551233,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -1245,6 +1226,24 @@
      "reason": "STOP",
      "risk": "temiz",
      "max_m": 1.109,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "MONEYBIZ",
+     "mint": "EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump",
+     "pool": "GS1bQcY4W3ScfJMo5Ch9c1xggBUqNpvjoWY7Yc7pJGdL",
+     "opened": "2026-10-20T19:53:52Z",
+     "closed": "2026-10-20T21:53:52Z",
+     "closed_day": "2026-10-21",
+     "hold_min": 120.0,
+     "cost": 10.0,
+     "proceeds": 7.8886,
+     "pnl": -2.1114,
+     "fees": 0.3828,
+     "reason": "STOP",
+     "risk": "temiz",
+     "max_m": 1.119,
      "partial": false
     }
    ],
