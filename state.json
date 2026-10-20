@@ -235,26 +235,8 @@
    }
   },
   "B": {
-   "cash": 27.987161593108297,
+   "cash": 42.07155278863108,
    "positions": [
-    {
-     "mint": "5org5Hza3TQ3ps5LHYzQfZkJhokHF73AWc1vZZcmpump",
-     "pool": "BYFpqnfqqs2wYZgX3Vxm6V5Hk8PE6FJi62MtyKz5Hp2D",
-     "name": "DUST",
-     "opened": "2026-10-20T13:01:09Z",
-     "entry_price": 0.00022418805812747059,
-     "entry_liq": 41081.7079,
-     "tokens": 43696.9114129423,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20367428416435746,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.00020948354287952668,
-     "max_m": 1.244853690241894,
-     "entry_exec": 0.00022429502871219192
-    },
     {
      "mint": "78rKNTKpmuSC6VFWPndzcUmW372dXssHYhYk2vsUpump",
      "pool": "BH5RMb2kTA6c257s5zHYPEdU9hGMMujkJdLN75msebWA",
@@ -269,8 +251,8 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.010682545299554848,
-     "max_m": 1.0526632429171816,
+     "last_price": 0.010687388025550084,
+     "max_m": 1.0546156329183367,
      "entry_exec": 0.010148842617543292
     },
     {
@@ -287,7 +269,7 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.0004159934812805729,
+     "last_price": 0.00038165565608998004,
      "max_m": 1.0576943974716086,
      "entry_exec": 0.00040859911129790557
     }
@@ -1102,6 +1084,24 @@
      "risk": "temiz",
      "max_m": 1.0,
      "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "DUST",
+     "mint": "5org5Hza3TQ3ps5LHYzQfZkJhokHF73AWc1vZZcmpump",
+     "pool": "BYFpqnfqqs2wYZgX3Vxm6V5Hk8PE6FJi62MtyKz5Hp2D",
+     "opened": "2026-10-20T13:01:09Z",
+     "closed": "2026-10-20T14:14:39Z",
+     "closed_day": "2026-10-20",
+     "hold_min": 73.5,
+     "cost": 10.0,
+     "proceeds": 14.0844,
+     "pnl": 4.0844,
+     "fees": 0.4565,
+     "reason": "TP",
+     "risk": "temiz",
+     "max_m": 1.464,
+     "partial": false
     }
    ],
    "seen": [
@@ -1175,9 +1175,9 @@
      "giris": 26
     },
     "2026-10-20": {
-     "tarama": 7004,
-     "yas": 1276,
-     "likidite": 126,
+     "tarama": 7071,
+     "yas": 1287,
+     "likidite": 127,
      "hacim": 38,
      "yukselis": 26,
      "guvenlik_red": 4,
