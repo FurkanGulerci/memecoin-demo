@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 47.10069619303866,
+   "cash": 54.83355538377599,
    "positions": [
     {
      "mint": "DKCEtA5gfkfwaVxg1ZxdXBUHMYUigsDg8PRcMvEypump",
@@ -251,27 +251,9 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.0317830033852744,
-     "max_m": 1.0270746677932763,
+     "last_price": 0.03188520099961746,
+     "max_m": 1.0282925283268936,
      "entry_exec": 0.031009173130107603
-    },
-    {
-     "mint": "2qgnTgJbZU6Tu6CMrm5Z5ePDGuUAyGTACbBoBCw6pump",
-     "pool": "9sePMpY87xr3SXUNvein2xXUtCLuNUETkQVawdMEqsLu",
-     "name": "earth",
-     "opened": "2026-10-20T16:55:22Z",
-     "entry_price": 6.981077179718357e-05,
-     "entry_liq": 22579.4286,
-     "tokens": 140272.03157349446,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.2075012142954497,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 6.414568920266437e-05,
-     "max_m": 1.1532691333889677,
-     "entry_exec": 6.98713769955263e-05
     }
    ],
    "closed": [
@@ -1156,6 +1138,24 @@
      "risk": "temiz",
      "max_m": 1.068,
      "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "earth",
+     "mint": "2qgnTgJbZU6Tu6CMrm5Z5ePDGuUAyGTACbBoBCw6pump",
+     "pool": "9sePMpY87xr3SXUNvein2xXUtCLuNUETkQVawdMEqsLu",
+     "opened": "2026-10-20T16:55:22Z",
+     "closed": "2026-10-20T17:05:52Z",
+     "closed_day": "2026-10-20",
+     "hold_min": 10.5,
+     "cost": 10.0,
+     "proceeds": 7.7329,
+     "pnl": -2.2671,
+     "fees": 0.3924,
+     "reason": "STOP",
+     "risk": "temiz",
+     "max_m": 1.153,
+     "partial": false
     }
    ],
    "seen": [
@@ -1232,10 +1232,10 @@
      "giris": 26
     },
     "2026-10-20": {
-     "tarama": 8101,
-     "yas": 1418,
-     "likidite": 150,
-     "hacim": 45,
+     "tarama": 8173,
+     "yas": 1428,
+     "likidite": 152,
+     "hacim": 46,
      "yukselis": 29,
      "guvenlik_red": 4,
      "giris": 25
