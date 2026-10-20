@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 64.26031801779983,
+   "cash": 54.26031801779983,
    "positions": [
     {
      "mint": "giUU7i2mBB6S9sFsSpeQFmNh8knRyk5UsLmzkhPpump",
@@ -251,9 +251,27 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.0018981435499515584,
-     "max_m": 1.097589851597078,
+     "last_price": 0.0020183413532391435,
+     "max_m": 1.1670934932347623,
      "entry_exec": 0.00172967910591316
+    },
+    {
+     "mint": "ARvS1ZAVDG5GsFc17S2ZT95cdL83GHwL9iSL3us6cpCd",
+     "pool": "HHiSX7XXHRSaQg3fbHmQdotsnCVisVw17SeuzVF8KFKf",
+     "name": "Lacy",
+     "opened": "2026-10-20T03:38:13Z",
+     "entry_price": 9.889898235174231e-05,
+     "entry_liq": 27241.5516,
+     "tokens": 99029.8626506827,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "fees": 0.20604736141466712,
+     "partial": false,
+     "risk": "temiz",
+     "miss": 0,
+     "last_price": 9.889898235174231e-05,
+     "max_m": 1.0,
+     "entry_exec": 9.89701463544586e-05
     }
    ],
    "closed": [
@@ -924,7 +942,8 @@
     "FFUd9sB1Aehe5aWNX7QkBrJvXPkLvh18RW9iMpqtpump",
     "wNedNtJcdFKtdLP4FwpgGgspd6J6fepyngEND53pump",
     "Cv37ZBhXDgza5cgePpjHshEXz9JPsLNcwUAQrBgcpump",
-    "giUU7i2mBB6S9sFsSpeQFmNh8knRyk5UsLmzkhPpump"
+    "giUU7i2mBB6S9sFsSpeQFmNh8knRyk5UsLmzkhPpump",
+    "ARvS1ZAVDG5GsFc17S2ZT95cdL83GHwL9iSL3us6cpCd"
    ],
    "rejected": [
     "Bm67LrewgThV5H72LC4EkyPc9xk6iwMR1CkSkK8z72q9",
@@ -944,13 +963,13 @@
      "giris": 26
     },
     "2026-10-20": {
-     "tarama": 2646,
-     "yas": 541,
-     "likidite": 40,
-     "hacim": 14,
-     "yukselis": 11,
+     "tarama": 2700,
+     "yas": 547,
+     "likidite": 42,
+     "hacim": 15,
+     "yukselis": 12,
      "guvenlik_red": 1,
-     "giris": 10
+     "giris": 11
     }
    }
   }
