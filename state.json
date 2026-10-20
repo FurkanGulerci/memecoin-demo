@@ -2,7 +2,7 @@
  "version": 1,
  "start": "2026-10-18T21:05:36Z",
  "end": "2026-10-25T21:05:36Z",
- "reported_through": "2026-10-19",
+ "reported_through": "2026-10-20",
  "final_sent": false,
  "accounts": {
   "A": {
@@ -251,8 +251,8 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.3755056584224861,
-     "max_m": 1.0196531274253606,
+     "last_price": 0.37537350243324774,
+     "max_m": 1.0199557604048939,
      "entry_exec": 0.3682723988609902
     },
     {
@@ -269,7 +269,7 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.001403818859762904,
+     "last_price": 0.0014680341561583775,
      "max_m": 1.0338802336790611,
      "entry_exec": 0.0014550307917324532
     }
