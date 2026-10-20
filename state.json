@@ -236,26 +236,7 @@
   },
   "B": {
    "cash": 64.1371751612982,
-   "positions": [
-    {
-     "mint": "KFciGKfycMHbZK7vndvAjHCSesCw7UKJYZbm5Kwpump",
-     "pool": "6YPBGw5j3oeuL3uSmP9QDc4FrpQzF1SHMdfx4fwsBPFi",
-     "name": "FOMO",
-     "opened": "2026-10-20T06:50:27Z",
-     "entry_price": 0.0015326519730811975,
-     "entry_liq": 104711.7701,
-     "tokens": 6393.601269150273,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20083439974238554,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.0015326519730811975,
-     "max_m": 1.0,
-     "entry_exec": 0.001532938884895864
-    }
-   ],
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -993,6 +974,24 @@
      "reason": "TP",
      "risk": "temiz",
      "max_m": 1.262,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "FOMO",
+     "mint": "KFciGKfycMHbZK7vndvAjHCSesCw7UKJYZbm5Kwpump",
+     "pool": "6YPBGw5j3oeuL3uSmP9QDc4FrpQzF1SHMdfx4fwsBPFi",
+     "opened": "2026-10-20T06:50:27Z",
+     "closed": "2026-10-20T06:53:27Z",
+     "closed_day": "2026-10-20",
+     "hold_min": 3.0,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "pnl": -10.0,
+     "fees": 0.2008,
+     "reason": "RUG",
+     "risk": "temiz",
+     "max_m": 1.01,
      "partial": false
     }
    ],
