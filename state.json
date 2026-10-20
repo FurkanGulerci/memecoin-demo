@@ -235,45 +235,8 @@
    }
   },
   "B": {
-   "cash": 54.26031801779983,
-   "positions": [
-    {
-     "mint": "giUU7i2mBB6S9sFsSpeQFmNh8knRyk5UsLmzkhPpump",
-     "pool": "EihrKg5P2ZSVW4up3XazZ9795dBNpMiCLZSxyLFaVccT",
-     "name": "FOMO",
-     "opened": "2026-10-20T03:27:43Z",
-     "entry_price": 0.0017293741803366834,
-     "entry_liq": 111172.0213,
-     "tokens": 5666.368962019518,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20072782082227308,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.0020183413532391435,
-     "max_m": 1.1670934932347623,
-     "entry_exec": 0.00172967910591316
-    },
-    {
-     "mint": "ARvS1ZAVDG5GsFc17S2ZT95cdL83GHwL9iSL3us6cpCd",
-     "pool": "HHiSX7XXHRSaQg3fbHmQdotsnCVisVw17SeuzVF8KFKf",
-     "name": "Lacy",
-     "opened": "2026-10-20T03:38:13Z",
-     "entry_price": 9.889898235174231e-05,
-     "entry_liq": 27241.5516,
-     "tokens": 99029.8626506827,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20604736141466712,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 9.889898235174231e-05,
-     "max_m": 1.0,
-     "entry_exec": 9.89701463544586e-05
-    }
-   ],
+   "cash": 74.49243472034581,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -903,6 +866,42 @@
      "reason": "SURE",
      "risk": "temiz",
      "max_m": 1.037,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "FOMO",
+     "mint": "giUU7i2mBB6S9sFsSpeQFmNh8knRyk5UsLmzkhPpump",
+     "pool": "EihrKg5P2ZSVW4up3XazZ9795dBNpMiCLZSxyLFaVccT",
+     "opened": "2026-10-20T03:27:43Z",
+     "closed": "2026-10-20T03:44:13Z",
+     "closed_day": "2026-10-20",
+     "hold_min": 16.5,
+     "cost": 10.0,
+     "proceeds": 12.1411,
+     "pnl": 2.1411,
+     "fees": 0.4268,
+     "reason": "TP",
+     "risk": "temiz",
+     "max_m": 1.262,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "Lacy",
+     "mint": "ARvS1ZAVDG5GsFc17S2ZT95cdL83GHwL9iSL3us6cpCd",
+     "pool": "HHiSX7XXHRSaQg3fbHmQdotsnCVisVw17SeuzVF8KFKf",
+     "opened": "2026-10-20T03:38:13Z",
+     "closed": "2026-10-20T03:44:13Z",
+     "closed_day": "2026-10-20",
+     "hold_min": 6.0,
+     "cost": 10.0,
+     "proceeds": 8.0911,
+     "pnl": -1.9089,
+     "fees": 0.3943,
+     "reason": "STOP",
+     "risk": "temiz",
+     "max_m": 1.0,
      "partial": false
     }
    ],
