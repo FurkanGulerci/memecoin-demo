@@ -235,27 +235,8 @@
    }
   },
   "B": {
-   "cash": 56.911267640665685,
-   "positions": [
-    {
-     "mint": "78rKNTKpmuSC6VFWPndzcUmW372dXssHYhYk2vsUpump",
-     "pool": "BH5RMb2kTA6c257s5zHYPEdU9hGMMujkJdLN75msebWA",
-     "name": "SOULJA",
-     "opened": "2026-10-20T13:11:39Z",
-     "entry_price": 0.01014811277151747,
-     "entry_liq": 272555.1685,
-     "tokens": 965.7258831719381,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.1997048311978668,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.010773830596687281,
-     "max_m": 1.0679017304572953,
-     "entry_exec": 0.010148842617543292
-    }
-   ],
+   "cash": 67.10069619303866,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -1119,6 +1100,24 @@
      "reason": "TP",
      "risk": "temiz",
      "max_m": 1.312,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "SOULJA",
+     "mint": "78rKNTKpmuSC6VFWPndzcUmW372dXssHYhYk2vsUpump",
+     "pool": "BH5RMb2kTA6c257s5zHYPEdU9hGMMujkJdLN75msebWA",
+     "opened": "2026-10-20T13:11:39Z",
+     "closed": "2026-10-20T15:11:39Z",
+     "closed_day": "2026-10-20",
+     "hold_min": 120.0,
+     "cost": 10.0,
+     "proceeds": 10.1894,
+     "pnl": 0.1894,
+     "fees": 0.4044,
+     "reason": "SURE",
+     "risk": "temiz",
+     "max_m": 1.068,
      "partial": false
     }
    ],
