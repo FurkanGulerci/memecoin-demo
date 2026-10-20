@@ -235,27 +235,8 @@
    }
   },
   "B": {
-   "cash": 51.820458416043316,
-   "positions": [
-    {
-     "mint": "D42TjMjz5H7toPu5md5KBXreZkCSdZMEfLQwmBhJXvb1",
-     "pool": "EQEu6NyEq8nECAiem1YkTu3uDBiGTEA2tYBLBmr9YJ7Y",
-     "name": "Pokémon",
-     "opened": "2026-10-20T08:03:57Z",
-     "entry_price": 0.0016614458809161813,
-     "entry_liq": 298758.9023,
-     "tokens": 5898.691673977529,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.1996430154754611,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.0014435397109559456,
-     "max_m": 1.023510060050609,
-     "entry_exec": 0.0016615548907629406
-    }
-   ],
+   "cash": 59.930722195516374,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -1030,6 +1011,24 @@
      "risk": "temiz",
      "max_m": 1.167,
      "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "Pokémon",
+     "mint": "D42TjMjz5H7toPu5md5KBXreZkCSdZMEfLQwmBhJXvb1",
+     "pool": "EQEu6NyEq8nECAiem1YkTu3uDBiGTEA2tYBLBmr9YJ7Y",
+     "opened": "2026-10-20T08:03:57Z",
+     "closed": "2026-10-20T09:17:27Z",
+     "closed_day": "2026-10-20",
+     "hold_min": 73.5,
+     "cost": 10.0,
+     "proceeds": 8.1103,
+     "pnl": -1.8897,
+     "fees": 0.3832,
+     "reason": "STOP",
+     "risk": "temiz",
+     "max_m": 1.024,
+     "partial": false
     }
    ],
    "seen": [
@@ -1097,10 +1096,10 @@
      "giris": 26
     },
     "2026-10-20": {
-     "tarama": 4990,
-     "yas": 932,
-     "likidite": 85,
-     "hacim": 26,
+     "tarama": 5064,
+     "yas": 946,
+     "likidite": 87,
+     "hacim": 27,
      "yukselis": 20,
      "guvenlik_red": 2,
      "giris": 18
