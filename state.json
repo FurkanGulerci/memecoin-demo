@@ -235,26 +235,8 @@
    }
   },
   "B": {
-   "cash": 56.67542275588998,
+   "cash": 54.350362513452595,
    "positions": [
-    {
-     "mint": "ECFmFaHyJ8krXErN1QAxqUq97xCFUWYv9Ax5j2Aspump",
-     "pool": "3pUeKCLPfocGPGYo6MvbfkZSuqTUkQ3EAPZ99aDhSj8r",
-     "name": "BORLY",
-     "opened": "2026-10-20T05:12:43Z",
-     "entry_price": 0.0020640607272288916,
-     "entry_liq": 130365.22,
-     "tokens": 4747.692929987591,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20047347827034495,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.0018955207082860133,
-     "max_m": 1.2009441950300783,
-     "entry_exec": 0.0020643710839204628
-    },
     {
      "mint": "3eYs1iGSBQTzxZ94RN8W5c4RCipUJmVbAnueFrrapump",
      "pool": "9NG25YwUEH5UHrMfckFxjfeLaMPNSxEKLdnFLBxbuZjN",
@@ -269,9 +251,27 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 8.647979220829898e-05,
-     "max_m": 1.0532615705110038,
+     "last_price": 9.27603136523319e-05,
+     "max_m": 1.1015718090739575,
      "entry_exec": 8.680084446154588e-05
+    },
+    {
+     "mint": "UeJPVWRyFw6GKHRJgrPNj2DeoRa6nRCAi9oL9aRpump",
+     "pool": "J4KyPGT6RSw2VvrYHFEUWuHNChR6SMY8AjCGJsm1eJob",
+     "name": "Haaland",
+     "opened": "2026-10-20T06:18:57Z",
+     "entry_price": 0.0019925850689362463,
+     "entry_liq": 120091.4625,
+     "tokens": 4917.933311771064,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "fees": 0.20059951294079265,
+     "partial": false,
+     "risk": "temiz",
+     "miss": 0,
+     "last_price": 0.0019925850689362463,
+     "max_m": 1.0,
+     "entry_exec": 0.0019929103098127268
     }
    ],
    "closed": [
@@ -958,6 +958,24 @@
      "risk": "temiz",
      "max_m": 1.266,
      "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "BORLY",
+     "mint": "ECFmFaHyJ8krXErN1QAxqUq97xCFUWYv9Ax5j2Aspump",
+     "pool": "3pUeKCLPfocGPGYo6MvbfkZSuqTUkQ3EAPZ99aDhSj8r",
+     "opened": "2026-10-20T05:12:43Z",
+     "closed": "2026-10-20T06:18:57Z",
+     "closed_day": "2026-10-20",
+     "hold_min": 66.2,
+     "cost": 10.0,
+     "proceeds": 7.6749,
+     "pnl": -2.3251,
+     "fees": 0.3801,
+     "reason": "STOP",
+     "risk": "temiz",
+     "max_m": 1.201,
+     "partial": false
     }
    ],
    "seen": [
@@ -1000,7 +1018,8 @@
     "ARvS1ZAVDG5GsFc17S2ZT95cdL83GHwL9iSL3us6cpCd",
     "q6379YK9gEVdzAQ71Y5iJiCzDC4AEHJVyQn391Hpump",
     "ECFmFaHyJ8krXErN1QAxqUq97xCFUWYv9Ax5j2Aspump",
-    "3eYs1iGSBQTzxZ94RN8W5c4RCipUJmVbAnueFrrapump"
+    "3eYs1iGSBQTzxZ94RN8W5c4RCipUJmVbAnueFrrapump",
+    "UeJPVWRyFw6GKHRJgrPNj2DeoRa6nRCAi9oL9aRpump"
    ],
    "rejected": [
     "Bm67LrewgThV5H72LC4EkyPc9xk6iwMR1CkSkK8z72q9",
@@ -1021,13 +1040,13 @@
      "giris": 26
     },
     "2026-10-20": {
-     "tarama": 3747,
-     "yas": 712,
-     "likidite": 61,
-     "hacim": 19,
-     "yukselis": 16,
+     "tarama": 3821,
+     "yas": 724,
+     "likidite": 63,
+     "hacim": 20,
+     "yukselis": 17,
      "guvenlik_red": 2,
-     "giris": 14
+     "giris": 15
     }
    }
   }
