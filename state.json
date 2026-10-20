@@ -235,27 +235,8 @@
    }
   },
   "B": {
-   "cash": 49.930722195516374,
-   "positions": [
-    {
-     "mint": "687h1VDXkAWCKBZqPmefvs4y4k1VtPogoriikhsqpump",
-     "pool": "HNB2hfCs2ptY575vnV5Wi9bkyvPDxwsnZg5FQhuDJTLv",
-     "name": "EVOLVE",
-     "opened": "2026-10-20T10:20:27Z",
-     "entry_price": 0.00013828368091152446,
-     "entry_liq": 32087.9255,
-     "tokens": 70832.7715659067,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.2049836187012543,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.00013828368091152446,
-     "max_m": 1.0,
-     "entry_exec": 0.00013836815619844284
-    }
-   ],
+   "cash": 57.9871615931083,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -1047,6 +1028,24 @@
      "reason": "STOP",
      "risk": "temiz",
      "max_m": 1.024,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "EVOLVE",
+     "mint": "687h1VDXkAWCKBZqPmefvs4y4k1VtPogoriikhsqpump",
+     "pool": "HNB2hfCs2ptY575vnV5Wi9bkyvPDxwsnZg5FQhuDJTLv",
+     "opened": "2026-10-20T10:20:27Z",
+     "closed": "2026-10-20T10:24:57Z",
+     "closed_day": "2026-10-20",
+     "hold_min": 4.5,
+     "cost": 10.0,
+     "proceeds": 8.0564,
+     "pnl": -1.9436,
+     "fees": 0.392,
+     "reason": "STOP",
+     "risk": "temiz",
+     "max_m": 1.0,
      "partial": false
     }
    ],
