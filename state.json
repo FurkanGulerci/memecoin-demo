@@ -235,26 +235,8 @@
    }
   },
   "B": {
-   "cash": 54.350362513452595,
+   "cash": 61.99702763709547,
    "positions": [
-    {
-     "mint": "3eYs1iGSBQTzxZ94RN8W5c4RCipUJmVbAnueFrrapump",
-     "pool": "9NG25YwUEH5UHrMfckFxjfeLaMPNSxEKLdnFLBxbuZjN",
-     "name": "MIRIAM",
-     "opened": "2026-10-20T06:08:27Z",
-     "entry_price": 8.673516171637853e-05,
-     "entry_liq": 25884.7683,
-     "tokens": 112913.64802726079,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20641647836929006,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 9.27603136523319e-05,
-     "max_m": 1.1015718090739575,
-     "entry_exec": 8.680084446154588e-05
-    },
     {
      "mint": "UeJPVWRyFw6GKHRJgrPNj2DeoRa6nRCAi9oL9aRpump",
      "pool": "J4KyPGT6RSw2VvrYHFEUWuHNChR6SMY8AjCGJsm1eJob",
@@ -269,8 +251,8 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.0019925850689362463,
-     "max_m": 1.0,
+     "last_price": 0.0021279333818620544,
+     "max_m": 1.0679259897285411,
      "entry_exec": 0.0019929103098127268
     }
    ],
@@ -975,6 +957,24 @@
      "reason": "STOP",
      "risk": "temiz",
      "max_m": 1.201,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "MIRIAM",
+     "mint": "3eYs1iGSBQTzxZ94RN8W5c4RCipUJmVbAnueFrrapump",
+     "pool": "9NG25YwUEH5UHrMfckFxjfeLaMPNSxEKLdnFLBxbuZjN",
+     "opened": "2026-10-20T06:08:27Z",
+     "closed": "2026-10-20T06:24:57Z",
+     "closed_day": "2026-10-20",
+     "hold_min": 16.5,
+     "cost": 10.0,
+     "proceeds": 7.6467,
+     "pnl": -2.3533,
+     "fees": 0.3898,
+     "reason": "STOP",
+     "risk": "temiz",
+     "max_m": 1.102,
      "partial": false
     }
    ],
