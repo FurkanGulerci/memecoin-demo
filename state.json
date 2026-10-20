@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 44.57799175280216,
+   "cash": 48.08667305780852,
    "positions": [
     {
      "mint": "EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump",
@@ -251,27 +251,9 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.001422489654572959,
+     "last_price": 0.0013179420298038776,
      "max_m": 1.119279101965037,
      "entry_exec": 0.0014550307917324532
-    },
-    {
-     "mint": "CicoFLHq5c3n6w61e68WfnooFWUzTLisp3a2HdiWpump",
-     "pool": "EvdxxQA1TPuANNW2EMMHsJ36G9QumjHHCL8nui9SADxp",
-     "name": "ENERGY",
-     "opened": "2026-10-20T21:38:52Z",
-     "entry_price": 0.0002489261146883671,
-     "entry_liq": 43468.546,
-     "tokens": 39355.38171729995,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20341773703492744,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.00023123684908164365,
-     "max_m": 1.0902502466824766,
-     "entry_exec": 0.00024903836711337625
     }
    ],
    "closed": [
@@ -1245,6 +1227,24 @@
      "reason": "SURE",
      "risk": "temiz",
      "max_m": 1.024,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "ENERGY",
+     "mint": "CicoFLHq5c3n6w61e68WfnooFWUzTLisp3a2HdiWpump",
+     "pool": "EvdxxQA1TPuANNW2EMMHsJ36G9QumjHHCL8nui9SADxp",
+     "opened": "2026-10-20T21:38:52Z",
+     "closed": "2026-10-20T21:47:52Z",
+     "closed_day": "2026-10-21",
+     "hold_min": 9.0,
+     "cost": 10.0,
+     "proceeds": 3.5087,
+     "pnl": -6.4913,
+     "fees": 0.3408,
+     "reason": "STOP",
+     "risk": "temiz",
+     "max_m": 1.109,
      "partial": false
     }
    ],
