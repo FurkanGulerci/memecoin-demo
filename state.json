@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 23.41098111911102,
+   "cash": 43.57218205901273,
    "positions": [
     {
      "mint": "AaNn1wQpmzc3kcfux5TJUGX3z7PDKhAtRYVtbss4pump",
@@ -251,45 +251,9 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.0008286123792559665,
+     "last_price": 0.0008296928871779927,
      "max_m": 1.031645280381422,
      "entry_exec": 0.0008075238362218422
-    },
-    {
-     "mint": "GNE7e774tkGyxMMzP36ofhNuRrUZ15H4e1LE1xekpump",
-     "pool": "Ds6CaQYBQL7GjDATf9CVH189S9ef1mz7dkTrSoV7RWEM",
-     "name": "KIMCHIBULL",
-     "opened": "2026-10-21T21:32:40Z",
-     "entry_price": 0.009381291907767727,
-     "entry_liq": 286165.1787,
-     "tokens": 1044.6672787304624,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.19967131173618052,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.008126799896838418,
-     "max_m": 1.192717238283268,
-     "entry_exec": 0.009381934515945324
-    },
-    {
-     "mint": "YKVRK6dCgdxbY4YhNf7Csr7a8JP9v78AWgtMqnwpump",
-     "pool": "FjSgzn9YD3Pb2nckpUy88Npn9pWndYrJGchgC3CZdQfZ",
-     "name": "JONATHAN",
-     "opened": "2026-10-21T21:32:40Z",
-     "entry_price": 5.707924985699983e-05,
-     "entry_liq": 20403.7317,
-     "tokens": 171543.83031006387,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20840684830508333,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 5.31862649974678e-05,
-     "max_m": 1.1409146633436078,
-     "entry_exec": 5.713408626987507e-05
     }
    ],
    "closed": [
@@ -1551,6 +1515,42 @@
      "reason": "STOP",
      "risk": "temiz",
      "max_m": 1.15,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "KIMCHIBULL",
+     "mint": "GNE7e774tkGyxMMzP36ofhNuRrUZ15H4e1LE1xekpump",
+     "pool": "Ds6CaQYBQL7GjDATf9CVH189S9ef1mz7dkTrSoV7RWEM",
+     "opened": "2026-10-21T21:32:40Z",
+     "closed": "2026-10-21T21:58:10Z",
+     "closed_day": "2026-10-22",
+     "hold_min": 25.5,
+     "cost": 10.0,
+     "proceeds": 8.077,
+     "pnl": -1.923,
+     "fees": 0.3828,
+     "reason": "STOP",
+     "risk": "temiz",
+     "max_m": 1.193,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "JONATHAN",
+     "mint": "YKVRK6dCgdxbY4YhNf7Csr7a8JP9v78AWgtMqnwpump",
+     "pool": "FjSgzn9YD3Pb2nckpUy88Npn9pWndYrJGchgC3CZdQfZ",
+     "opened": "2026-10-21T21:32:40Z",
+     "closed": "2026-10-21T21:58:10Z",
+     "closed_day": "2026-10-22",
+     "hold_min": 25.5,
+     "cost": 10.0,
+     "proceeds": 12.0842,
+     "pnl": 2.0842,
+     "fees": 0.4467,
+     "reason": "TP",
+     "risk": "temiz",
+     "max_m": 1.258,
      "partial": false
     }
    ],
