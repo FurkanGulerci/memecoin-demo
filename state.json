@@ -235,27 +235,8 @@
    }
   },
   "B": {
-   "cash": 46.60701033817372,
-   "positions": [
-    {
-     "mint": "4wopERxtKHjzaANSywo9BVVycGJ7q7uXJ38Q6EoCpump",
-     "pool": "13ah1XkrFTsXeaPdvVQn8giGpS3HJVXfVwq9qtAPSqxf",
-     "name": "Pokecity",
-     "opened": "2026-10-21T05:48:21Z",
-     "entry_price": 0.0012459958150046668,
-     "entry_liq": 98537.3823,
-     "tokens": 7864.4330590587215,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20094932102848356,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.001092011572481211,
-     "max_m": 1.0,
-     "entry_exec": 0.001246243680427876
-    }
-   ],
+   "cash": 54.62733495700667,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -1335,6 +1316,24 @@
      "reason": "SURE",
      "risk": "temiz",
      "max_m": 1.034,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "Pokecity",
+     "mint": "4wopERxtKHjzaANSywo9BVVycGJ7q7uXJ38Q6EoCpump",
+     "pool": "13ah1XkrFTsXeaPdvVQn8giGpS3HJVXfVwq9qtAPSqxf",
+     "opened": "2026-10-21T05:48:21Z",
+     "closed": "2026-10-21T05:54:21Z",
+     "closed_day": "2026-10-21",
+     "hold_min": 6.0,
+     "cost": 10.0,
+     "proceeds": 8.0203,
+     "pnl": -1.9797,
+     "fees": 0.3845,
+     "reason": "STOP",
+     "risk": "temiz",
+     "max_m": 1.0,
      "partial": false
     }
    ],
