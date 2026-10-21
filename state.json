@@ -235,8 +235,27 @@
    }
   },
   "B": {
-   "cash": 60.04280903603872,
-   "positions": [],
+   "cash": 50.04280903603872,
+   "positions": [
+    {
+     "mint": "54UN9YwDyazXjRXhxMvzWG7yNstGqjtHnh1WGgpepump",
+     "pool": "8DrmDNRrbr9dAmWp5wkCZEFsCBQqH2g6Vsf1SfSQSS4U",
+     "name": "HUMANOID",
+     "opened": "2026-10-21T16:03:53Z",
+     "entry_price": 0.00011871552031448265,
+     "entry_liq": 31374.2565,
+     "tokens": 82507.15939410015,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "fees": 0.20511964285944567,
+     "partial": false,
+     "risk": "temiz",
+     "miss": 0,
+     "last_price": 0.00011871552031448265,
+     "max_m": 1.0,
+     "entry_exec": 0.00011878969136708446
+    }
+   ],
    "closed": [
     {
      "strategy": "B",
@@ -1531,7 +1550,8 @@
     "FjLFsaPKSxJGh25iTKCLEkthbeHKLJrxvHyJG9wqpump",
     "5hvGRZsrfWqi2pMKE51KFKQR9zEFVyvXx2mhVkH7pump",
     "CRSKskFKBiqu3dZxKwD2akjp9DxXDohBFy8dpvAYpump",
-    "TbX69Z9YEbBF647xRQSEKkdM5z99aAM8zyfXuUapump"
+    "TbX69Z9YEbBF647xRQSEKkdM5z99aAM8zyfXuUapump",
+    "54UN9YwDyazXjRXhxMvzWG7yNstGqjtHnh1WGgpepump"
    ],
    "rejected": [
     "Bm67LrewgThV5H72LC4EkyPc9xk6iwMR1CkSkK8z72q9",
@@ -1548,7 +1568,8 @@
     "3z3VVdRPvu742VDsNKtjASJfrPVQZDKJ8B4VC63FYbnD",
     "8wATzNsH7MmdReZ6T7Z6KfHP8PtZH1NpQFv55jzsBb8W",
     "F7uXVws14u2tmWaG4GNgC36Q1LBxt9exTG6mfRTZkAUB",
-    "6fHPjbN54GN2eh7jZ4YwWUSD9VK4JTThgZEH4NLtg82A"
+    "6fHPjbN54GN2eh7jZ4YwWUSD9VK4JTThgZEH4NLtg82A",
+    "6ZnRmsdbBjq83hAVS2KLERiZMf6nZEMqELHmnD7gTQtz"
    ],
    "funnel": {
     "2026-10-19": {
@@ -1570,13 +1591,13 @@
      "giris": 29
     },
     "2026-10-21": {
-     "tarama": 7537,
-     "yas": 585,
-     "likidite": 40,
-     "hacim": 40,
-     "yukselis": 19,
-     "guvenlik_red": 6,
-     "giris": 13
+     "tarama": 7611,
+     "yas": 592,
+     "likidite": 42,
+     "hacim": 42,
+     "yukselis": 21,
+     "guvenlik_red": 7,
+     "giris": 14
     }
    }
   }
