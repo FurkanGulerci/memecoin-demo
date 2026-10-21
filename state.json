@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 42.56010543659861,
+   "cash": 50.00479261855926,
    "positions": [
     {
      "mint": "4pvnbgFEj4iSn1QZ3rm94B13JqV4QMgP8PCz9T8Cpump",
@@ -251,27 +251,9 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.07618216904028681,
+     "last_price": 0.07620318238298414,
      "max_m": 1.0174322962535243,
      "entry_exec": 0.07503151945831456
-    },
-    {
-     "mint": "5hvGRZsrfWqi2pMKE51KFKQR9zEFVyvXx2mhVkH7pump",
-     "pool": "Gqkw1hxJTWhANVTHZ47EUrivaRpywaxgxL7fUwFc23Re",
-     "name": "TIMQ",
-     "opened": "2026-10-21T09:07:51Z",
-     "entry_price": 0.0003854709841751837,
-     "entry_liq": 53077.1554,
-     "tokens": 25416.65162150244,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20261828502167684,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.00037223751837158733,
-     "max_m": 1.0062122084222531,
-     "entry_exec": 0.00038561334301440294
     }
    ],
    "closed": [
@@ -1425,6 +1407,24 @@
      "reason": "TP",
      "risk": "temiz",
      "max_m": 1.274,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "TIMQ",
+     "mint": "5hvGRZsrfWqi2pMKE51KFKQR9zEFVyvXx2mhVkH7pump",
+     "pool": "Gqkw1hxJTWhANVTHZ47EUrivaRpywaxgxL7fUwFc23Re",
+     "opened": "2026-10-21T09:07:51Z",
+     "closed": "2026-10-21T10:20:06Z",
+     "closed_day": "2026-10-21",
+     "hold_min": 72.3,
+     "cost": 10.0,
+     "proceeds": 7.4447,
+     "pnl": -2.5553,
+     "fees": 0.381,
+     "reason": "STOP",
+     "risk": "temiz",
+     "max_m": 1.006,
      "partial": false
     }
    ],
