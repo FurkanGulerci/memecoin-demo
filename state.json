@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 33.24651522304602,
+   "cash": 39.04755506471172,
    "positions": [
     {
      "mint": "Sw8jwPfkaDMD8RqFN9mtoV6N2jmDvm4HajCv7mypump",
@@ -251,27 +251,9 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.00759442015145937,
+     "last_price": 0.0075409340675629205,
      "max_m": 1.0004059962531007,
      "entry_exec": 0.007619829173265973
-    },
-    {
-     "mint": "54PyFJGjCWxe96vc5f4yzN7KppHhTvuPMSq6gDJ3pump",
-     "pool": "2JPJ39D4B5QcoG4vGPSdGAnBMp752LnY447F2exmLvAP",
-     "name": "KIMCHI",
-     "opened": "2026-10-21T23:38:40Z",
-     "entry_price": 0.00018306936059875106,
-     "entry_liq": 38234.1742,
-     "tokens": 53509.65196765392,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20402222841989665,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.00016805936221735214,
-     "max_m": 1.018095693632903,
-     "entry_exec": 0.00018316321709445265
     }
    ],
    "closed": [
@@ -1587,6 +1569,24 @@
      "reason": "SURE",
      "risk": "temiz",
      "max_m": 1.032,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "KIMCHI",
+     "mint": "54PyFJGjCWxe96vc5f4yzN7KppHhTvuPMSq6gDJ3pump",
+     "pool": "2JPJ39D4B5QcoG4vGPSdGAnBMp752LnY447F2exmLvAP",
+     "opened": "2026-10-21T23:38:40Z",
+     "closed": "2026-10-21T23:46:10Z",
+     "closed_day": "2026-10-22",
+     "hold_min": 7.5,
+     "cost": 10.0,
+     "proceeds": 5.801,
+     "pnl": -4.199,
+     "fees": 0.3661,
+     "reason": "STOP",
+     "risk": "temiz",
+     "max_m": 1.018,
      "partial": false
     }
    ],
