@@ -235,27 +235,8 @@
    }
   },
   "B": {
-   "cash": 44.62733495700667,
-   "positions": [
-    {
-     "mint": "AMuS3KCHeipZwTZmEFRuzW6Dr9YMYksWU8Rgboaupump",
-     "pool": "A8HS75tMWQSTJ2YHzaerJHEHkNa2QzNZNdf3CkhsAjRJ",
-     "name": "KIMCHIBOSS",
-     "opened": "2026-10-21T07:12:21Z",
-     "entry_price": 0.00017258468731016962,
-     "entry_liq": 37454.9583,
-     "tokens": 56759.805844141934,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20412665660282608,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.00017198406328129093,
-     "max_m": 1.1127754609728984,
-     "entry_exec": 0.00017267500926470384
-    }
-   ],
+   "cash": 57.24204656087749,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -1354,6 +1335,24 @@
      "risk": "temiz",
      "max_m": 1.0,
      "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "KIMCHIBOSS",
+     "mint": "AMuS3KCHeipZwTZmEFRuzW6Dr9YMYksWU8Rgboaupump",
+     "pool": "A8HS75tMWQSTJ2YHzaerJHEHkNa2QzNZNdf3CkhsAjRJ",
+     "opened": "2026-10-21T07:12:21Z",
+     "closed": "2026-10-21T07:34:51Z",
+     "closed_day": "2026-10-21",
+     "hold_min": 22.5,
+     "cost": 10.0,
+     "proceeds": 12.6147,
+     "pnl": 2.6147,
+     "fees": 0.4402,
+     "reason": "TP",
+     "risk": "temiz",
+     "max_m": 1.312,
+     "partial": false
     }
    ],
    "seen": [
@@ -1456,8 +1455,8 @@
      "giris": 29
     },
     "2026-10-21": {
-     "tarama": 4022,
-     "yas": 292,
+     "tarama": 4075,
+     "yas": 294,
      "likidite": 27,
      "hacim": 27,
      "yukselis": 12,
