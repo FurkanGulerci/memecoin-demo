@@ -235,27 +235,8 @@
    }
   },
   "B": {
-   "cash": 49.81059870673669,
-   "positions": [
-    {
-     "mint": "TbX69Z9YEbBF647xRQSEKkdM5z99aAM8zyfXuUapump",
-     "pool": "AW9UyqdrLpqnt3gp8sTpECMTMECpfyC59iLa2bwKmLjg",
-     "name": "XTO",
-     "opened": "2026-10-21T13:33:36Z",
-     "entry_price": 0.8662148606248994,
-     "entry_liq": 2544811.2485,
-     "tokens": 11.314657542391906,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.19907549389852813,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.9184950471339588,
-     "max_m": 1.060596345094273,
-     "entry_exec": 0.8662215328461528
-    }
-   ],
+   "cash": 60.04280903603872,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -1462,6 +1443,24 @@
      "risk": "temiz",
      "max_m": 1.043,
      "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "XTO",
+     "mint": "TbX69Z9YEbBF647xRQSEKkdM5z99aAM8zyfXuUapump",
+     "pool": "AW9UyqdrLpqnt3gp8sTpECMTMECpfyC59iLa2bwKmLjg",
+     "opened": "2026-10-21T13:33:36Z",
+     "closed": "2026-10-21T15:33:53Z",
+     "closed_day": "2026-10-21",
+     "hold_min": 120.3,
+     "cost": 10.0,
+     "proceeds": 10.2322,
+     "pnl": 0.2322,
+     "fees": 0.4035,
+     "reason": "SURE",
+     "risk": "temiz",
+     "max_m": 1.065,
+     "partial": false
     }
    ],
    "seen": [
@@ -1571,10 +1570,10 @@
      "giris": 29
     },
     "2026-10-21": {
-     "tarama": 7338,
-     "yas": 570,
-     "likidite": 37,
-     "hacim": 37,
+     "tarama": 7394,
+     "yas": 572,
+     "likidite": 38,
+     "hacim": 38,
      "yukselis": 19,
      "guvenlik_red": 6,
      "giris": 13
