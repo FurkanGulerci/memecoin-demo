@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 46.678036782734566,
+   "cash": 36.678036782734566,
    "positions": [
     {
      "mint": "WeKoqUt3DiQhr25PDohmy5oU8PEwK2ekJtinLpJpump",
@@ -251,9 +251,27 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.0854150772173788,
+     "last_price": 0.08535819896899165,
      "max_m": 1.034146022440057,
      "entry_exec": 0.0825968584811646
+    },
+    {
+     "mint": "4wopERxtKHjzaANSywo9BVVycGJ7q7uXJ38Q6EoCpump",
+     "pool": "13ah1XkrFTsXeaPdvVQn8giGpS3HJVXfVwq9qtAPSqxf",
+     "name": "Pokecity",
+     "opened": "2026-10-21T05:48:21Z",
+     "entry_price": 0.0012459958150046668,
+     "entry_liq": 98537.3823,
+     "tokens": 7864.4330590587215,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "fees": 0.20094932102848356,
+     "partial": false,
+     "risk": "temiz",
+     "miss": 0,
+     "last_price": 0.0012459958150046668,
+     "max_m": 1.0,
+     "entry_exec": 0.001246243680427876
     }
    ],
    "closed": [
@@ -1380,7 +1398,8 @@
     "FP9HKxKKzBfQrRJHY5DNoMvNgEqCaMJoKejvtvtopump",
     "4Y9mNjAjLRLbSn87ZiWf4JxtP9dik9pF3w1AE6Fopump",
     "7thgKgtK1rp1UtLpWUZEuu9vakedTMoZzuyps6RGpump",
-    "WeKoqUt3DiQhr25PDohmy5oU8PEwK2ekJtinLpJpump"
+    "WeKoqUt3DiQhr25PDohmy5oU8PEwK2ekJtinLpJpump",
+    "4wopERxtKHjzaANSywo9BVVycGJ7q7uXJ38Q6EoCpump"
    ],
    "rejected": [
     "Bm67LrewgThV5H72LC4EkyPc9xk6iwMR1CkSkK8z72q9",
@@ -1415,13 +1434,13 @@
      "giris": 29
     },
     "2026-10-21": {
-     "tarama": 3357,
-     "yas": 236,
-     "likidite": 21,
-     "hacim": 21,
-     "yukselis": 7,
+     "tarama": 3406,
+     "yas": 238,
+     "likidite": 22,
+     "hacim": 22,
+     "yukselis": 8,
      "guvenlik_red": 2,
-     "giris": 5
+     "giris": 6
     }
    }
   }
