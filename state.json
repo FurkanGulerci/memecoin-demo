@@ -235,27 +235,8 @@
    }
   },
   "B": {
-   "cash": 50.04280903603872,
-   "positions": [
-    {
-     "mint": "54UN9YwDyazXjRXhxMvzWG7yNstGqjtHnh1WGgpepump",
-     "pool": "8DrmDNRrbr9dAmWp5wkCZEFsCBQqH2g6Vsf1SfSQSS4U",
-     "name": "HUMANOID",
-     "opened": "2026-10-21T16:03:53Z",
-     "entry_price": 0.00011871552031448265,
-     "entry_liq": 31374.2565,
-     "tokens": 82507.15939410015,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20511964285944567,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.00010770443214662999,
-     "max_m": 1.0600821610793842,
-     "entry_exec": 0.00011878969136708446
-    }
-   ],
+   "cash": 58.121899138963556,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -1479,6 +1460,24 @@
      "reason": "SURE",
      "risk": "temiz",
      "max_m": 1.065,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "HUMANOID",
+     "mint": "54UN9YwDyazXjRXhxMvzWG7yNstGqjtHnh1WGgpepump",
+     "pool": "8DrmDNRrbr9dAmWp5wkCZEFsCBQqH2g6Vsf1SfSQSS4U",
+     "opened": "2026-10-21T16:03:53Z",
+     "closed": "2026-10-21T16:32:23Z",
+     "closed_day": "2026-10-21",
+     "hold_min": 28.5,
+     "cost": 10.0,
+     "proceeds": 8.0791,
+     "pnl": -1.9209,
+     "fees": 0.3924,
+     "reason": "STOP",
+     "risk": "temiz",
+     "max_m": 1.06,
      "partial": false
     }
    ],
