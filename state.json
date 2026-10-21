@@ -2,7 +2,7 @@
  "version": 1,
  "start": "2026-10-18T21:05:36Z",
  "end": "2026-10-25T21:05:36Z",
- "reported_through": "2026-10-20",
+ "reported_through": "2026-10-21",
  "final_sent": false,
  "accounts": {
   "A": {
@@ -251,7 +251,7 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.0008154921621521176,
+     "last_price": 0.000814783663624844,
      "max_m": 1.0111405497962467,
      "entry_exec": 0.0008075238362218422
     }
@@ -1636,6 +1636,15 @@
      "yukselis": 23,
      "guvenlik_red": 7,
      "giris": 16
+    },
+    "2026-10-22": {
+     "tarama": 50,
+     "yas": 2,
+     "likidite": 0,
+     "hacim": 0,
+     "yukselis": 0,
+     "guvenlik_red": 0,
+     "giris": 0
     }
    }
   }
