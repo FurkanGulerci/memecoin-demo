@@ -235,27 +235,8 @@
    }
   },
   "B": {
-   "cash": 47.24204656087749,
-   "positions": [
-    {
-     "mint": "Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump",
-     "pool": "YQ4NNeQxHAtdcB8ohx21eJ9U8eTzxNRvGNHkRaA4Pnw",
-     "name": "PHP",
-     "opened": "2026-10-21T07:43:51Z",
-     "entry_price": 0.0005860917819307278,
-     "entry_liq": 67456.4172,
-     "tokens": 16717.77881919248,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20184722193570098,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.0005860917819307278,
-     "max_m": 1.0,
-     "entry_exec": 0.000586262092949105
-    }
-   ],
+   "cash": 60.31265797966171,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -1371,6 +1352,24 @@
      "reason": "TP",
      "risk": "temiz",
      "max_m": 1.312,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "PHP",
+     "mint": "Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump",
+     "pool": "YQ4NNeQxHAtdcB8ohx21eJ9U8eTzxNRvGNHkRaA4Pnw",
+     "opened": "2026-10-21T07:43:51Z",
+     "closed": "2026-10-21T07:45:21Z",
+     "closed_day": "2026-10-21",
+     "hold_min": 1.5,
+     "cost": 10.0,
+     "proceeds": 13.0706,
+     "pnl": 3.0706,
+     "fees": 0.4393,
+     "reason": "TP",
+     "risk": "temiz",
+     "max_m": 1.358,
      "partial": false
     }
    ],
