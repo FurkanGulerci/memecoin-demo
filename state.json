@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 40.31265797966171,
+   "cash": 30.312657979661708,
    "positions": [
     {
      "mint": "4pvnbgFEj4iSn1QZ3rm94B13JqV4QMgP8PCz9T8Cpump",
@@ -251,7 +251,7 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.07556189687916787,
+     "last_price": 0.07563557070589934,
      "max_m": 1.0099211407961848,
      "entry_exec": 0.07503151945831456
     },
@@ -269,9 +269,27 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.0001657721253524656,
+     "last_price": 0.00015979271797481872,
      "max_m": 1.2007782619776168,
      "entry_exec": 0.0001447684030498198
+    },
+    {
+     "mint": "5hvGRZsrfWqi2pMKE51KFKQR9zEFVyvXx2mhVkH7pump",
+     "pool": "Gqkw1hxJTWhANVTHZ47EUrivaRpywaxgxL7fUwFc23Re",
+     "name": "TIMQ",
+     "opened": "2026-10-21T09:07:51Z",
+     "entry_price": 0.0003854709841751837,
+     "entry_liq": 53077.1554,
+     "tokens": 25416.65162150244,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "fees": 0.20261828502167684,
+     "partial": false,
+     "risk": "temiz",
+     "miss": 0,
+     "last_price": 0.0003854709841751837,
+     "max_m": 1.0,
+     "entry_exec": 0.00038561334301440294
     }
    ],
    "closed": [
@@ -1475,7 +1493,8 @@
     "AMuS3KCHeipZwTZmEFRuzW6Dr9YMYksWU8Rgboaupump",
     "Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump",
     "4pvnbgFEj4iSn1QZ3rm94B13JqV4QMgP8PCz9T8Cpump",
-    "FjLFsaPKSxJGh25iTKCLEkthbeHKLJrxvHyJG9wqpump"
+    "FjLFsaPKSxJGh25iTKCLEkthbeHKLJrxvHyJG9wqpump",
+    "5hvGRZsrfWqi2pMKE51KFKQR9zEFVyvXx2mhVkH7pump"
    ],
    "rejected": [
     "Bm67LrewgThV5H72LC4EkyPc9xk6iwMR1CkSkK8z72q9",
@@ -1513,13 +1532,13 @@
      "giris": 29
     },
     "2026-10-21": {
-     "tarama": 4618,
-     "yas": 340,
-     "likidite": 30,
-     "hacim": 30,
-     "yukselis": 15,
+     "tarama": 4698,
+     "yas": 349,
+     "likidite": 31,
+     "hacim": 31,
+     "yukselis": 16,
      "guvenlik_red": 5,
-     "giris": 10
+     "giris": 11
     }
    }
   }
