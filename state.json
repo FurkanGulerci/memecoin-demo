@@ -235,26 +235,8 @@
    }
   },
   "B": {
-   "cash": 36.678036782734566,
+   "cash": 46.60701033817372,
    "positions": [
-    {
-     "mint": "WeKoqUt3DiQhr25PDohmy5oU8PEwK2ekJtinLpJpump",
-     "pool": "C9xk22W7XkBEsb9zCPtCyaNSzbD5xwtBEaLJ4Ksbqq8n",
-     "name": "UDR",
-     "opened": "2026-10-21T03:49:37Z",
-     "entry_price": 0.08259479354360692,
-     "entry_liq": 784054.2863,
-     "tokens": 118.66068734605713,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.19924502690992102,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.08535819896899165,
-     "max_m": 1.034146022440057,
-     "entry_exec": 0.0825968584811646
-    },
     {
      "mint": "4wopERxtKHjzaANSywo9BVVycGJ7q7uXJ38Q6EoCpump",
      "pool": "13ah1XkrFTsXeaPdvVQn8giGpS3HJVXfVwq9qtAPSqxf",
@@ -269,7 +251,7 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.0012459958150046668,
+     "last_price": 0.001092011572481211,
      "max_m": 1.0,
      "entry_exec": 0.001246243680427876
     }
@@ -1335,6 +1317,24 @@
      "reason": "STOP",
      "risk": "temiz",
      "max_m": 1.104,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "UDR",
+     "mint": "WeKoqUt3DiQhr25PDohmy5oU8PEwK2ekJtinLpJpump",
+     "pool": "C9xk22W7XkBEsb9zCPtCyaNSzbD5xwtBEaLJ4Ksbqq8n",
+     "opened": "2026-10-21T03:49:37Z",
+     "closed": "2026-10-21T05:49:51Z",
+     "closed_day": "2026-10-21",
+     "hold_min": 120.2,
+     "cost": 10.0,
+     "proceeds": 9.929,
+     "pnl": -0.071,
+     "fees": 0.4008,
+     "reason": "SURE",
+     "risk": "temiz",
+     "max_m": 1.034,
      "partial": false
     }
    ],
