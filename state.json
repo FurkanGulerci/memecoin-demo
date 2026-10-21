@@ -235,27 +235,8 @@
    }
   },
   "B": {
-   "cash": 43.57218205901273,
-   "positions": [
-    {
-     "mint": "AaNn1wQpmzc3kcfux5TJUGX3z7PDKhAtRYVtbss4pump",
-     "pool": "9hDcir9rHepBfs2ifv43ejeLLHarqA5pdJu19deMFNPQ",
-     "name": "Laura",
-     "opened": "2026-10-21T20:05:23Z",
-     "entry_price": 0.0008073177494219908,
-     "entry_liq": 76788.2394,
-     "tokens": 12137.103030736394,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20150129672306977,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.0008237490803442282,
-     "max_m": 1.031645280381422,
-     "entry_exec": 0.0008075238362218422
-    }
-   ],
+   "cash": 53.24651522304602,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -1551,6 +1532,24 @@
      "reason": "TP",
      "risk": "temiz",
      "max_m": 1.258,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "Laura",
+     "mint": "AaNn1wQpmzc3kcfux5TJUGX3z7PDKhAtRYVtbss4pump",
+     "pool": "9hDcir9rHepBfs2ifv43ejeLLHarqA5pdJu19deMFNPQ",
+     "opened": "2026-10-21T20:05:23Z",
+     "closed": "2026-10-21T22:05:40Z",
+     "closed_day": "2026-10-22",
+     "hold_min": 120.3,
+     "cost": 10.0,
+     "proceeds": 9.6743,
+     "pnl": -0.3257,
+     "fees": 0.4028,
+     "reason": "SURE",
+     "risk": "temiz",
+     "max_m": 1.032,
      "partial": false
     }
    ],
