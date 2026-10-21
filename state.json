@@ -235,8 +235,27 @@
    }
   },
   "B": {
-   "cash": 57.24204656087749,
-   "positions": [],
+   "cash": 47.24204656087749,
+   "positions": [
+    {
+     "mint": "Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump",
+     "pool": "YQ4NNeQxHAtdcB8ohx21eJ9U8eTzxNRvGNHkRaA4Pnw",
+     "name": "PHP",
+     "opened": "2026-10-21T07:43:51Z",
+     "entry_price": 0.0005860917819307278,
+     "entry_liq": 67456.4172,
+     "tokens": 16717.77881919248,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "fees": 0.20184722193570098,
+     "partial": false,
+     "risk": "temiz",
+     "miss": 0,
+     "last_price": 0.0005860917819307278,
+     "max_m": 1.0,
+     "entry_exec": 0.000586262092949105
+    }
+   ],
    "closed": [
     {
      "strategy": "B",
@@ -1417,7 +1436,8 @@
     "7thgKgtK1rp1UtLpWUZEuu9vakedTMoZzuyps6RGpump",
     "WeKoqUt3DiQhr25PDohmy5oU8PEwK2ekJtinLpJpump",
     "4wopERxtKHjzaANSywo9BVVycGJ7q7uXJ38Q6EoCpump",
-    "AMuS3KCHeipZwTZmEFRuzW6Dr9YMYksWU8Rgboaupump"
+    "AMuS3KCHeipZwTZmEFRuzW6Dr9YMYksWU8Rgboaupump",
+    "Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump"
    ],
    "rejected": [
     "Bm67LrewgThV5H72LC4EkyPc9xk6iwMR1CkSkK8z72q9",
@@ -1455,13 +1475,13 @@
      "giris": 29
     },
     "2026-10-21": {
-     "tarama": 4075,
-     "yas": 294,
-     "likidite": 27,
-     "hacim": 27,
-     "yukselis": 12,
+     "tarama": 4147,
+     "yas": 302,
+     "likidite": 28,
+     "hacim": 28,
+     "yukselis": 13,
      "guvenlik_red": 5,
-     "giris": 7
+     "giris": 8
     }
    }
   }
