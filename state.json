@@ -235,8 +235,27 @@
    }
   },
   "B": {
-   "cash": 51.42667677814559,
-   "positions": [],
+   "cash": 41.42667677814559,
+   "positions": [
+    {
+     "mint": "547q1FEqDR6mkJ5bjVKt9xT3RNVYnLkH6ZdMD91Bpump",
+     "pool": "9izbEkzhmzStsutp1ComkJsHxQNVnoEpvjHFL9Ngp5aq",
+     "name": "Doroni",
+     "opened": "2026-10-22T22:57:53Z",
+     "entry_price": 0.35796945304122174,
+     "entry_liq": 1612084.0477,
+     "tokens": 27.379098254754343,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "fees": 0.19911917298371956,
+     "partial": false,
+     "risk": "temiz",
+     "miss": 0,
+     "last_price": 0.35796945304122174,
+     "max_m": 1.0,
+     "entry_exec": 0.35797380574059157
+    }
+   ],
    "closed": [
     {
      "strategy": "B",
@@ -2025,7 +2044,8 @@
     "J9MTHwpKBzN57BqnB4jeB95xdG343LdQDR786Y7gpump",
     "FRxQFfRZZpr6aXWsVAhYQ1n3rUPHD89QbNqQFmqNpump",
     "8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump",
-    "HfWDdM3mLB8Qjw9jTRKV7sYBmu5FdX3LrQWa2d9rpump"
+    "HfWDdM3mLB8Qjw9jTRKV7sYBmu5FdX3LrQWa2d9rpump",
+    "547q1FEqDR6mkJ5bjVKt9xT3RNVYnLkH6ZdMD91Bpump"
    ],
    "rejected": [
     "Bm67LrewgThV5H72LC4EkyPc9xk6iwMR1CkSkK8z72q9",
@@ -2094,13 +2114,13 @@
      "giris": 20
     },
     "2026-10-23": {
-     "tarama": 723,
-     "yas": 64,
-     "likidite": 10,
-     "hacim": 10,
-     "yukselis": 5,
+     "tarama": 790,
+     "yas": 70,
+     "likidite": 11,
+     "hacim": 11,
+     "yukselis": 6,
      "guvenlik_red": 2,
-     "giris": 3
+     "giris": 4
     }
    }
   }
