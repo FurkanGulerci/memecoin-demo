@@ -235,26 +235,8 @@
    }
   },
   "B": {
-   "cash": 33.41855533971399,
+   "cash": 49.101573531894154,
    "positions": [
-    {
-     "mint": "EU1MHvQvBoJ7DnLorurze1hwR2JWuyoKyAmkwymwpump",
-     "pool": "FQ75g9yWEK5jhyjVX3vWyXQ8AXKYJFNXaM5dYDBfqYyb",
-     "name": "ヤギ",
-     "opened": "2026-10-22T11:07:37Z",
-     "entry_price": 0.00023018959773448886,
-     "entry_liq": 41330.6317,
-     "tokens": 42557.76086721826,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20364614549445664,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.0002479397609567681,
-     "max_m": 1.1781099504551158,
-     "entry_exec": 0.00023029877043060306
-    },
     {
      "mint": "4vT4trZuQpoPxBAKNwBF4gVhZdy6UCUqxeeYNmuQtfQd",
      "pool": "7F5PZ3MgwTV9Pkp6J7vNBnrW374LdrTJdy9NQMZ7NqTm",
@@ -269,8 +251,8 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.00015857353027363884,
-     "max_m": 1.0,
+     "last_price": 0.0001707934008084422,
+     "max_m": 1.0770612252481004,
      "entry_exec": 0.0001586629378372273
     }
    ],
@@ -1713,6 +1695,24 @@
      "reason": "TP",
      "risk": "temiz",
      "max_m": 1.329,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "ヤギ",
+     "mint": "EU1MHvQvBoJ7DnLorurze1hwR2JWuyoKyAmkwymwpump",
+     "pool": "FQ75g9yWEK5jhyjVX3vWyXQ8AXKYJFNXaM5dYDBfqYyb",
+     "opened": "2026-10-22T11:07:37Z",
+     "closed": "2026-10-22T11:33:07Z",
+     "closed_day": "2026-10-22",
+     "hold_min": 25.5,
+     "cost": 10.0,
+     "proceeds": 15.683,
+     "pnl": 5.683,
+     "fees": 0.475,
+     "reason": "TP",
+     "risk": "temiz",
+     "max_m": 1.629,
      "partial": false
     }
    ],
