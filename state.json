@@ -251,7 +251,7 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.08826149066446587,
+     "last_price": 0.0877579877232834,
      "max_m": 1.0012834754111872,
      "entry_exec": 0.0882014118254571
     },
@@ -269,7 +269,7 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.2234883988894246,
+     "last_price": 0.22332193764839994,
      "max_m": 1.0029356975095045,
      "entry_exec": 0.22323129960616847
     },
@@ -287,7 +287,7 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.0011404438659908722,
+     "last_price": 0.0011299920504792662,
      "max_m": 1.0,
      "entry_exec": 0.0011895572977114368
     }
@@ -1938,7 +1938,8 @@
     "H178pHox53TZkieS5EAwhU7pSNjgQ6btxLy6ohBWBEib",
     "nB41BqzvvFoRAus2x3WCv55jpvyvpWLwV4GRGRMWwdw",
     "K7a52uRyupZnK3wdAoUVjGq5q7PR5m7hoY96x5PwQxq",
-    "51kfv9LEWxtZwkRdhBXd5WYX1xopsGq6z5uA5C2H1q5s"
+    "51kfv9LEWxtZwkRdhBXd5WYX1xopsGq6z5uA5C2H1q5s",
+    "Ecmsss7ijkFgaWoXR7YN4zmiYPZRBKwRwddFc4ymmmCM"
    ],
    "funnel": {
     "2026-10-19": {
@@ -1969,12 +1970,12 @@
      "giris": 16
     },
     "2026-10-22": {
-     "tarama": 7160,
-     "yas": 639,
-     "likidite": 38,
-     "hacim": 38,
-     "yukselis": 25,
-     "guvenlik_red": 8,
+     "tarama": 7225,
+     "yas": 643,
+     "likidite": 39,
+     "hacim": 39,
+     "yukselis": 26,
+     "guvenlik_red": 9,
      "giris": 17
     }
    }
