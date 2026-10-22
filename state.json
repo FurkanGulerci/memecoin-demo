@@ -235,8 +235,27 @@
    }
   },
   "B": {
-   "cash": 53.3531317902664,
-   "positions": [],
+   "cash": 43.3531317902664,
+   "positions": [
+    {
+     "mint": "HfWDdM3mLB8Qjw9jTRKV7sYBmu5FdX3LrQWa2d9rpump",
+     "pool": "F22JVg2DwbmLyEJhH4CtVdgULASYX3QTp3MrEiytqSP2",
+     "name": "CYBERCAT",
+     "opened": "2026-10-22T22:05:23Z",
+     "entry_price": 0.00012534787172050586,
+     "entry_liq": 29576.841,
+     "tokens": 78138.61194393843,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "fees": 0.2054912936328181,
+     "partial": false,
+     "risk": "temiz",
+     "miss": 0,
+     "last_price": 0.00012534787172050586,
+     "max_m": 1.0,
+     "entry_exec": 0.00012543094580476878
+    }
+   ],
    "closed": [
     {
      "strategy": "B",
@@ -2006,7 +2025,8 @@
     "HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump",
     "J9MTHwpKBzN57BqnB4jeB95xdG343LdQDR786Y7gpump",
     "FRxQFfRZZpr6aXWsVAhYQ1n3rUPHD89QbNqQFmqNpump",
-    "8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump"
+    "8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump",
+    "HfWDdM3mLB8Qjw9jTRKV7sYBmu5FdX3LrQWa2d9rpump"
    ],
    "rejected": [
     "Bm67LrewgThV5H72LC4EkyPc9xk6iwMR1CkSkK8z72q9",
@@ -2074,13 +2094,13 @@
      "giris": 20
     },
     "2026-10-23": {
-     "tarama": 380,
-     "yas": 34,
-     "likidite": 5,
-     "hacim": 5,
-     "yukselis": 3,
+     "tarama": 454,
+     "yas": 42,
+     "likidite": 7,
+     "hacim": 7,
+     "yukselis": 4,
      "guvenlik_red": 1,
-     "giris": 2
+     "giris": 3
     }
    }
   }
