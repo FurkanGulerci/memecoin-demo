@@ -235,27 +235,8 @@
    }
   },
   "B": {
-   "cash": 49.101573531894154,
-   "positions": [
-    {
-     "mint": "4vT4trZuQpoPxBAKNwBF4gVhZdy6UCUqxeeYNmuQtfQd",
-     "pool": "7F5PZ3MgwTV9Pkp6J7vNBnrW374LdrTJdy9NQMZ7NqTm",
-     "name": "SHAV",
-     "opened": "2026-10-22T11:28:37Z",
-     "entry_price": 0.00015857353027363884,
-     "entry_liq": 34766.1676,
-     "tokens": 61772.46011954519,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.2045229251561535,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.00017846660036015732,
-     "max_m": 1.1300007522447308,
-     "entry_exec": 0.0001586629378372273
-    }
-   ],
+   "cash": 61.23619639967583,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -1713,6 +1694,24 @@
      "reason": "TP",
      "risk": "temiz",
      "max_m": 1.629,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "SHAV",
+     "mint": "4vT4trZuQpoPxBAKNwBF4gVhZdy6UCUqxeeYNmuQtfQd",
+     "pool": "7F5PZ3MgwTV9Pkp6J7vNBnrW374LdrTJdy9NQMZ7NqTm",
+     "opened": "2026-10-22T11:28:37Z",
+     "closed": "2026-10-22T11:42:07Z",
+     "closed_day": "2026-10-22",
+     "hold_min": 13.5,
+     "cost": 10.0,
+     "proceeds": 12.1346,
+     "pnl": 2.1346,
+     "fees": 0.4359,
+     "reason": "TP",
+     "risk": "temiz",
+     "max_m": 1.262,
      "partial": false
     }
    ],
