@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 45.85543287229473,
+   "cash": 53.3531317902664,
    "positions": [
     {
      "mint": "FRxQFfRZZpr6aXWsVAhYQ1n3rUPHD89QbNqQFmqNpump",
@@ -254,24 +254,6 @@
      "last_price": 4.8467325850937924e-06,
      "max_m": 1.0,
      "entry_exec": 4.846832831393946e-06
-    },
-    {
-     "mint": "8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump",
-     "pool": "6KGbV6LxuATyk32jUaRuujgW63jmEJLezgyUxMqFWER7",
-     "name": "McRib",
-     "opened": "2026-10-22T21:33:53Z",
-     "entry_price": 0.000334945382413622,
-     "entry_liq": 53524.1389,
-     "tokens": 29250.774707939214,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20258807955459818,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.0003364385892873324,
-     "max_m": 1.1528858094673904,
-     "entry_exec": 0.0003350680485512004
     }
    ],
    "closed": [
@@ -1912,6 +1894,24 @@
      "risk": "temiz",
      "max_m": 1.035,
      "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "McRib",
+     "mint": "8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump",
+     "pool": "6KGbV6LxuATyk32jUaRuujgW63jmEJLezgyUxMqFWER7",
+     "opened": "2026-10-22T21:33:53Z",
+     "closed": "2026-10-22T21:44:23Z",
+     "closed_day": "2026-10-23",
+     "hold_min": 10.5,
+     "cost": 10.0,
+     "proceeds": 7.4977,
+     "pnl": -2.5023,
+     "fees": 0.3818,
+     "reason": "STOP",
+     "risk": "temiz",
+     "max_m": 1.153,
+     "partial": false
     }
    ],
    "seen": [
@@ -2075,8 +2075,8 @@
      "giris": 20
     },
     "2026-10-23": {
-     "tarama": 270,
-     "yas": 27,
+     "tarama": 316,
+     "yas": 28,
      "likidite": 4,
      "hacim": 4,
      "yukselis": 3,
