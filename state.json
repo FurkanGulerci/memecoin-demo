@@ -235,27 +235,8 @@
    }
   },
   "B": {
-   "cash": 38.62069955483986,
-   "positions": [
-    {
-     "mint": "CMo7GfUhSGXuEfnY7qAzv8hhsV2M2P8GpWqmWikhpump",
-     "pool": "4SMPAuRkMTMFiMnW1oDcDQdi54CC9R4of9xtr4phiYiG",
-     "name": "CYBER",
-     "opened": "2026-10-22T00:31:10Z",
-     "entry_price": 0.00048441446214966203,
-     "entry_liq": 70233.8976,
-     "tokens": 20227.028936828934,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.2017346566803619,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.0004899624965713675,
-     "max_m": 1.0114530734633422,
-     "entry_exec": 0.00048454966028918625
-    }
-   ],
+   "cash": 52.59055947269962,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -1605,6 +1586,24 @@
      "reason": "SURE",
      "risk": "temiz",
      "max_m": 1.005,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "CYBER",
+     "mint": "CMo7GfUhSGXuEfnY7qAzv8hhsV2M2P8GpWqmWikhpump",
+     "pool": "4SMPAuRkMTMFiMnW1oDcDQdi54CC9R4of9xtr4phiYiG",
+     "opened": "2026-10-22T00:31:10Z",
+     "closed": "2026-10-22T00:37:10Z",
+     "closed_day": "2026-10-22",
+     "hold_min": 6.0,
+     "cost": 10.0,
+     "proceeds": 13.9699,
+     "pnl": 3.9699,
+     "fees": 0.4487,
+     "reason": "TP",
+     "risk": "temiz",
+     "max_m": 1.451,
      "partial": false
     }
    ],
