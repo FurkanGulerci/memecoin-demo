@@ -235,27 +235,8 @@
    }
   },
   "B": {
-   "cash": 39.04755506471172,
-   "positions": [
-    {
-     "mint": "Sw8jwPfkaDMD8RqFN9mtoV6N2jmDvm4HajCv7mypump",
-     "pool": "rTmifZw9vdTByn7vzZ12CJS4Kbst6o1V2kFZhHdRFk2",
-     "name": "XBC",
-     "opened": "2026-10-21T22:14:40Z",
-     "entry_price": 0.007619204259680359,
-     "entry_liq": 238995.6713,
-     "tokens": 1286.2493078436225,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.19980379466695747,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.007645124089864025,
-     "max_m": 1.0048008148191405,
-     "entry_exec": 0.007619829173265973
-    }
-   ],
+   "cash": 48.62069955483986,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -1587,6 +1568,24 @@
      "reason": "STOP",
      "risk": "temiz",
      "max_m": 1.018,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "XBC",
+     "mint": "Sw8jwPfkaDMD8RqFN9mtoV6N2jmDvm4HajCv7mypump",
+     "pool": "rTmifZw9vdTByn7vzZ12CJS4Kbst6o1V2kFZhHdRFk2",
+     "opened": "2026-10-21T22:14:40Z",
+     "closed": "2026-10-22T00:14:40Z",
+     "closed_day": "2026-10-22",
+     "hold_min": 120.0,
+     "cost": 10.0,
+     "proceeds": 9.5731,
+     "pnl": -0.4269,
+     "fees": 0.3983,
+     "reason": "SURE",
+     "risk": "temiz",
+     "max_m": 1.005,
      "partial": false
     }
    ],
