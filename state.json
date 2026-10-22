@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 41.097475725452256,
+   "cash": 53.955157364227446,
    "positions": [
     {
      "mint": "8cENLm4vr5cFd9pfy2AcXjEPRv47aZrAMZbYhWWjpump",
@@ -254,24 +254,6 @@
      "last_price": 0.08819925882141832,
      "max_m": 1.0,
      "entry_exec": 0.0882014118254571
-    },
-    {
-     "mint": "635BZjhhzBvn7EsErsL3ABMRmfsfEjGi8YJTCia9pump",
-     "pool": "92KgVDBs9TSRBX5XxYJRczFRsawA4sLTaKWnMDAJfWA1",
-     "name": "VECTOR",
-     "opened": "2026-10-22T15:22:55Z",
-     "entry_price": 0.00013515473840148475,
-     "entry_liq": 33048.3195,
-     "tokens": 72473.89384799679,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20480983603701847,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.00014944111336210157,
-     "max_m": 1.1057038408685187,
-     "entry_exec": 0.00013523490293699603
     }
    ],
    "closed": [
@@ -1767,6 +1749,24 @@
      "reason": "SURE",
      "risk": "temiz",
      "max_m": 1.027,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "VECTOR",
+     "mint": "635BZjhhzBvn7EsErsL3ABMRmfsfEjGi8YJTCia9pump",
+     "pool": "92KgVDBs9TSRBX5XxYJRczFRsawA4sLTaKWnMDAJfWA1",
+     "opened": "2026-10-22T15:22:55Z",
+     "closed": "2026-10-22T15:37:55Z",
+     "closed_day": "2026-10-22",
+     "hold_min": 15.0,
+     "cost": 10.0,
+     "proceeds": 12.8577,
+     "pnl": 2.8577,
+     "fees": 0.4448,
+     "reason": "TP",
+     "risk": "temiz",
+     "max_m": 1.337,
      "partial": false
     }
    ],
