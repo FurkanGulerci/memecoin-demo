@@ -235,27 +235,8 @@
    }
   },
   "B": {
-   "cash": 40.64123646133623,
-   "positions": [
-    {
-     "mint": "B28EEeqoZ8NhCtkXLmNkWQp2NUp9mixH54V4etaLpump",
-     "pool": "8Xs4XAL95GGVwBtYteJcuykUu6jiGDfmUKFYw8fLGnUM",
-     "name": "TIB",
-     "opened": "2026-10-22T08:09:07Z",
-     "entry_price": 0.00019030267771948537,
-     "entry_liq": 39653.8721,
-     "tokens": 51476.71912565069,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20384251017482685,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.0002312797933746959,
-     "max_m": 1.2153260066871607,
-     "entry_exec": 0.0001903967495689948
-    }
-   ],
+   "cash": 53.41855533971399,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -1677,6 +1658,24 @@
      "reason": "TP",
      "risk": "temiz",
      "max_m": 1.268,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "TIB",
+     "mint": "B28EEeqoZ8NhCtkXLmNkWQp2NUp9mixH54V4etaLpump",
+     "pool": "8Xs4XAL95GGVwBtYteJcuykUu6jiGDfmUKFYw8fLGnUM",
+     "opened": "2026-10-22T08:09:07Z",
+     "closed": "2026-10-22T08:21:07Z",
+     "closed_day": "2026-10-22",
+     "hold_min": 12.0,
+     "cost": 10.0,
+     "proceeds": 12.7773,
+     "pnl": 2.7773,
+     "fees": 0.4417,
+     "reason": "TP",
+     "risk": "temiz",
+     "max_m": 1.329,
      "partial": false
     }
    ],
