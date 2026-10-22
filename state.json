@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 31.790146635543536,
+   "cash": 46.10705717574606,
    "positions": [
     {
      "mint": "8cENLm4vr5cFd9pfy2AcXjEPRv47aZrAMZbYhWWjpump",
@@ -251,8 +251,8 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.08853302188877915,
-     "max_m": 1.003784193561497,
+     "last_price": 0.08827545542208255,
+     "max_m": 1.0039374595556454,
      "entry_exec": 0.0882014118254571
     },
     {
@@ -269,27 +269,9 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.22310058578611805,
+     "last_price": 0.22337043985704463,
      "max_m": 1.0029356975095045,
      "entry_exec": 0.22323129960616847
-    },
-    {
-     "mint": "Baw61KXAJk4MMnNJPBa87S8F77oNhMy7gQ63S8SLpump",
-     "pool": "HfT2fJjb1SmDsdjHbCkJuvnVdzDSY1525j4rhYXwdTDt",
-     "name": "SHAVCOIN",
-     "opened": "2026-10-22T16:05:07Z",
-     "entry_price": 0.0011893127601925743,
-     "entry_liq": 95334.6907,
-     "tokens": 8239.199590348384,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.2010147934252357,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.001423996446025887,
-     "max_m": 1.2265788966235516,
-     "entry_exec": 0.0011895572977114368
     }
    ],
    "closed": [
@@ -1822,6 +1804,24 @@
      "risk": "temiz",
      "max_m": 1.0,
      "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "SHAVCOIN",
+     "mint": "Baw61KXAJk4MMnNJPBa87S8F77oNhMy7gQ63S8SLpump",
+     "pool": "HfT2fJjb1SmDsdjHbCkJuvnVdzDSY1525j4rhYXwdTDt",
+     "opened": "2026-10-22T16:05:07Z",
+     "closed": "2026-10-22T16:36:37Z",
+     "closed_day": "2026-10-22",
+     "hold_min": 31.5,
+     "cost": 10.0,
+     "proceeds": 14.3169,
+     "pnl": 4.3169,
+     "fees": 0.4504,
+     "reason": "TP",
+     "risk": "temiz",
+     "max_m": 1.487,
+     "partial": false
     }
    ],
    "seen": [
@@ -1970,8 +1970,8 @@
      "giris": 16
     },
     "2026-10-22": {
-     "tarama": 7268,
-     "yas": 644,
+     "tarama": 7330,
+     "yas": 647,
      "likidite": 39,
      "hacim": 39,
      "yukselis": 26,
