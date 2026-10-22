@@ -235,27 +235,8 @@
    }
   },
   "B": {
-   "cash": 58.22993010039281,
-   "positions": [
-    {
-     "mint": "J9MTHwpKBzN57BqnB4jeB95xdG343LdQDR786Y7gpump",
-     "pool": "4xzEdmqCB4E9H5G8rUfKRrnKuc8NRqBo5tr6q4br7Px1",
-     "name": "MOON",
-     "opened": "2026-10-22T20:20:23Z",
-     "entry_price": 0.00016501291019326012,
-     "entry_liq": 34643.2559,
-     "tokens": 59361.764358462475,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20454250900356302,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.00014846086657859496,
-     "max_m": 1.0348202222071712,
-     "entry_exec": 0.00016510627852662187
-    }
-   ],
+   "cash": 65.85543287229473,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -1875,6 +1856,24 @@
      "reason": "SURE",
      "risk": "temiz",
      "max_m": 1.073,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "MOON",
+     "mint": "J9MTHwpKBzN57BqnB4jeB95xdG343LdQDR786Y7gpump",
+     "pool": "4xzEdmqCB4E9H5G8rUfKRrnKuc8NRqBo5tr6q4br7Px1",
+     "opened": "2026-10-22T20:20:23Z",
+     "closed": "2026-10-22T20:48:53Z",
+     "closed_day": "2026-10-22",
+     "hold_min": 28.5,
+     "cost": 10.0,
+     "proceeds": 7.6255,
+     "pnl": -2.3745,
+     "fees": 0.3865,
+     "reason": "STOP",
+     "risk": "temiz",
+     "max_m": 1.035,
      "partial": false
     }
    ],
