@@ -236,26 +236,7 @@
   },
   "B": {
    "cash": 53.3531317902664,
-   "positions": [
-    {
-     "mint": "FRxQFfRZZpr6aXWsVAhYQ1n3rUPHD89QbNqQFmqNpump",
-     "pool": "5PUAumgorPTAypDLPUMGMxi9wDx6tYMXu7VhTVDRkD9H",
-     "name": "ARMY",
-     "opened": "2026-10-22T21:33:53Z",
-     "entry_price": 4.8467325850937924e-06,
-     "entry_liq": 947722.2799,
-     "tokens": 2022145.252569241,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.19920271257994332,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 4.8237347858506095e-06,
-     "max_m": 1.0,
-     "entry_exec": 4.846832831393946e-06
-    }
-   ],
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -1912,6 +1893,24 @@
      "risk": "temiz",
      "max_m": 1.153,
      "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "ARMY",
+     "mint": "FRxQFfRZZpr6aXWsVAhYQ1n3rUPHD89QbNqQFmqNpump",
+     "pool": "5PUAumgorPTAypDLPUMGMxi9wDx6tYMXu7VhTVDRkD9H",
+     "opened": "2026-10-22T21:33:53Z",
+     "closed": "2026-10-22T21:54:53Z",
+     "closed_day": "2026-10-23",
+     "hold_min": 21.0,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "pnl": -10.0,
+     "fees": 0.1992,
+     "reason": "RUG",
+     "risk": "temiz",
+     "max_m": 1.0,
+     "partial": false
     }
    ],
    "seen": [
@@ -2075,10 +2074,10 @@
      "giris": 20
     },
     "2026-10-23": {
-     "tarama": 316,
-     "yas": 28,
-     "likidite": 4,
-     "hacim": 4,
+     "tarama": 380,
+     "yas": 34,
+     "likidite": 5,
+     "hacim": 5,
      "yukselis": 3,
      "guvenlik_red": 1,
      "giris": 2
