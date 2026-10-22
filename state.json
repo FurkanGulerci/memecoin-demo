@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 45.785174337318,
+   "cash": 35.785174337318,
    "positions": [
     {
      "mint": "zDCwvt2HxLiNhVegZaR1b5zcHDJaT9qpK1rqWKGpump",
@@ -251,7 +251,7 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.222716029090464,
+     "last_price": 0.22283148012595638,
      "max_m": 1.0029356975095045,
      "entry_exec": 0.22323129960616847
     },
@@ -269,9 +269,27 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.1968135147010486,
-     "max_m": 1.0025712758814689,
+     "last_price": 0.198218679735302,
+     "max_m": 1.0056513615134166,
      "entry_exec": 0.19710799086152583
+    },
+    {
+     "mint": "HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump",
+     "pool": "MFsvPTXCy6eiT1qMpMGKJf6a8K8fdj7YKUFPKDeEXEX",
+     "name": "VIRTUAL",
+     "opened": "2026-10-22T17:50:07Z",
+     "entry_price": 0.0002174422678881805,
+     "entry_liq": 38739.2901,
+     "tokens": 45051.23735922674,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "fees": 0.20395677744101287,
+     "partial": false,
+     "risk": "temiz",
+     "miss": 0,
+     "last_price": 0.0002174422678881805,
+     "max_m": 1.0,
+     "entry_exec": 0.0002175522932222571
     }
    ],
    "closed": [
@@ -1931,7 +1949,8 @@
     "3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1",
     "zDCwvt2HxLiNhVegZaR1b5zcHDJaT9qpK1rqWKGpump",
     "Baw61KXAJk4MMnNJPBa87S8F77oNhMy7gQ63S8SLpump",
-    "ChjYk79x48RLPRKbKJcz5bfZ17rJXSgy9toreEaupump"
+    "ChjYk79x48RLPRKbKJcz5bfZ17rJXSgy9toreEaupump",
+    "HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump"
    ],
    "rejected": [
     "Bm67LrewgThV5H72LC4EkyPc9xk6iwMR1CkSkK8z72q9",
@@ -1989,13 +2008,13 @@
      "giris": 16
     },
     "2026-10-22": {
-     "tarama": 7653,
-     "yas": 662,
-     "likidite": 40,
-     "hacim": 40,
-     "yukselis": 27,
+     "tarama": 7697,
+     "yas": 664,
+     "likidite": 41,
+     "hacim": 41,
+     "yukselis": 28,
      "guvenlik_red": 9,
-     "giris": 18
+     "giris": 19
     }
    }
   }
