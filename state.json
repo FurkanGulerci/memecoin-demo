@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 45.37601307241874,
+   "cash": 57.914142508092276,
    "positions": [
     {
      "mint": "ChjYk79x48RLPRKbKJcz5bfZ17rJXSgy9toreEaupump",
@@ -251,27 +251,9 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.19860521919581214,
+     "last_price": 0.19859658766960903,
      "max_m": 1.009592332468174,
      "entry_exec": 0.19710799086152583
-    },
-    {
-     "mint": "HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump",
-     "pool": "MFsvPTXCy6eiT1qMpMGKJf6a8K8fdj7YKUFPKDeEXEX",
-     "name": "VIRTUAL",
-     "opened": "2026-10-22T17:50:07Z",
-     "entry_price": 0.0002174422678881805,
-     "entry_liq": 38739.2901,
-     "tokens": 45051.23735922674,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20395677744101287,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.00026329445779378434,
-     "max_m": 1.2108706386799797,
-     "entry_exec": 0.0002175522932222571
     }
    ],
    "closed": [
@@ -1858,6 +1840,24 @@
      "risk": "temiz",
      "max_m": 1.003,
      "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "VIRTUAL",
+     "mint": "HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump",
+     "pool": "MFsvPTXCy6eiT1qMpMGKJf6a8K8fdj7YKUFPKDeEXEX",
+     "opened": "2026-10-22T17:50:07Z",
+     "closed": "2026-10-22T18:15:53Z",
+     "closed_day": "2026-10-22",
+     "hold_min": 25.8,
+     "cost": 10.0,
+     "proceeds": 12.5381,
+     "pnl": 2.5381,
+     "fees": 0.4389,
+     "reason": "TP",
+     "risk": "temiz",
+     "max_m": 1.304,
+     "partial": false
     }
    ],
    "seen": [
@@ -2008,8 +2008,8 @@
      "giris": 16
     },
     "2026-10-22": {
-     "tarama": 7830,
-     "yas": 672,
+     "tarama": 7876,
+     "yas": 673,
      "likidite": 42,
      "hacim": 42,
      "yukselis": 28,
