@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 43.955157364227446,
+   "cash": 51.790146635543536,
    "positions": [
     {
      "mint": "8cENLm4vr5cFd9pfy2AcXjEPRv47aZrAMZbYhWWjpump",
@@ -254,24 +254,6 @@
      "last_price": 0.08819925882141832,
      "max_m": 1.0,
      "entry_exec": 0.0882014118254571
-    },
-    {
-     "mint": "3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1",
-     "pool": "C73M9QWLSAY16TKQEsEjSThBVXwMpbg94ijZRzYCxbiR",
-     "name": "BLACKTOBER",
-     "opened": "2026-10-22T15:43:55Z",
-     "entry_price": 0.000656533448382184,
-     "entry_liq": 69521.1882,
-     "tokens": 14924.201258176132,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20176268361989552,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.000656533448382184,
-     "max_m": 1.0,
-     "entry_exec": 0.0006567185627190991
     }
    ],
    "closed": [
@@ -1785,6 +1767,24 @@
      "reason": "TP",
      "risk": "temiz",
      "max_m": 1.337,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "BLACKTOBER",
+     "mint": "3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1",
+     "pool": "C73M9QWLSAY16TKQEsEjSThBVXwMpbg94ijZRzYCxbiR",
+     "opened": "2026-10-22T15:43:55Z",
+     "closed": "2026-10-22T15:48:37Z",
+     "closed_day": "2026-10-22",
+     "hold_min": 4.7,
+     "cost": 10.0,
+     "proceeds": 7.835,
+     "pnl": -2.165,
+     "fees": 0.3838,
+     "reason": "STOP",
+     "risk": "temiz",
+     "max_m": 1.0,
      "partial": false
     }
    ],
