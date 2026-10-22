@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 41.790146635543536,
+   "cash": 31.790146635543536,
    "positions": [
     {
      "mint": "8cENLm4vr5cFd9pfy2AcXjEPRv47aZrAMZbYhWWjpump",
@@ -251,7 +251,7 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.08819925882141832,
+     "last_price": 0.08776449800008128,
      "max_m": 1.0,
      "entry_exec": 0.0882014118254571
     },
@@ -269,9 +269,27 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.2238475988325646,
+     "last_price": 0.22362877526422875,
      "max_m": 1.0027761582992154,
      "entry_exec": 0.22323129960616847
+    },
+    {
+     "mint": "Baw61KXAJk4MMnNJPBa87S8F77oNhMy7gQ63S8SLpump",
+     "pool": "HfT2fJjb1SmDsdjHbCkJuvnVdzDSY1525j4rhYXwdTDt",
+     "name": "SHAVCOIN",
+     "opened": "2026-10-22T16:05:07Z",
+     "entry_price": 0.0011893127601925743,
+     "entry_liq": 95334.6907,
+     "tokens": 8239.199590348384,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "fees": 0.2010147934252357,
+     "partial": false,
+     "risk": "temiz",
+     "miss": 0,
+     "last_price": 0.0011893127601925743,
+     "max_m": 1.0,
+     "entry_exec": 0.0011895572977114368
     }
    ],
    "closed": [
@@ -1893,7 +1911,8 @@
     "8cENLm4vr5cFd9pfy2AcXjEPRv47aZrAMZbYhWWjpump",
     "635BZjhhzBvn7EsErsL3ABMRmfsfEjGi8YJTCia9pump",
     "3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1",
-    "zDCwvt2HxLiNhVegZaR1b5zcHDJaT9qpK1rqWKGpump"
+    "zDCwvt2HxLiNhVegZaR1b5zcHDJaT9qpK1rqWKGpump",
+    "Baw61KXAJk4MMnNJPBa87S8F77oNhMy7gQ63S8SLpump"
    ],
    "rejected": [
     "Bm67LrewgThV5H72LC4EkyPc9xk6iwMR1CkSkK8z72q9",
@@ -1950,13 +1969,13 @@
      "giris": 16
     },
     "2026-10-22": {
-     "tarama": 7112,
-     "yas": 635,
-     "likidite": 37,
-     "hacim": 37,
-     "yukselis": 24,
+     "tarama": 7160,
+     "yas": 639,
+     "likidite": 38,
+     "hacim": 38,
+     "yukselis": 25,
      "guvenlik_red": 8,
-     "giris": 16
+     "giris": 17
     }
    }
   }
