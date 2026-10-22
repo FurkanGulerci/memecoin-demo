@@ -235,27 +235,8 @@
    }
   },
   "B": {
-   "cash": 42.59055947269962,
-   "positions": [
-    {
-     "mint": "7u4JmWrWG41kYkKpyqbuYJR4uZhE7oLCUMCGfNkNCFWq",
-     "pool": "GPecc6SAytzmwyxc5Xwc64wT1LWNKnauWKkVLjfYtmtL",
-     "name": "CI",
-     "opened": "2026-10-22T01:34:10Z",
-     "entry_price": 0.00010999209632515369,
-     "entry_liq": 29747.0469,
-     "tokens": 89047.72388985059,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20545417637186442,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 9.731943607947495e-05,
-     "max_m": 1.0134518536437236,
-     "entry_exec": 0.00011006457629533068
-    }
-   ],
+   "cash": 50.490713296992965,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -1623,6 +1604,24 @@
      "reason": "TP",
      "risk": "temiz",
      "max_m": 1.451,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "CI",
+     "mint": "7u4JmWrWG41kYkKpyqbuYJR4uZhE7oLCUMCGfNkNCFWq",
+     "pool": "GPecc6SAytzmwyxc5Xwc64wT1LWNKnauWKkVLjfYtmtL",
+     "opened": "2026-10-22T01:34:10Z",
+     "closed": "2026-10-22T01:41:40Z",
+     "closed_day": "2026-10-22",
+     "hold_min": 7.5,
+     "cost": 10.0,
+     "proceeds": 7.9002,
+     "pnl": -2.0998,
+     "fees": 0.3911,
+     "reason": "STOP",
+     "risk": "temiz",
+     "max_m": 1.013,
      "partial": false
     }
    ],
