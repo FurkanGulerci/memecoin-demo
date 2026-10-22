@@ -235,27 +235,8 @@
    }
   },
   "B": {
-   "cash": 51.23619639967583,
-   "positions": [
-    {
-     "mint": "eEomAEbGqwfzckzYjN6x1rc7tmqbdKJoHZdR25Upump",
-     "pool": "J7QRnWXoxh1XAgBGkhz4LDed837NJy6z55KTGyWpwNWp",
-     "name": "Moonoween",
-     "opened": "2026-10-22T12:42:07Z",
-     "entry_price": 0.07063757698572708,
-     "entry_liq": 719307.4541,
-     "tokens": 138.74673136266819,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.1992670818515327,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.07250802388476227,
-     "max_m": 1.0268052433047383,
-     "entry_exec": 0.07063950194532007
-    }
-   ],
+   "cash": 61.097475725452256,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -1731,6 +1712,24 @@
      "reason": "TP",
      "risk": "temiz",
      "max_m": 1.262,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "Moonoween",
+     "mint": "eEomAEbGqwfzckzYjN6x1rc7tmqbdKJoHZdR25Upump",
+     "pool": "J7QRnWXoxh1XAgBGkhz4LDed837NJy6z55KTGyWpwNWp",
+     "opened": "2026-10-22T12:42:07Z",
+     "closed": "2026-10-22T14:42:25Z",
+     "closed_day": "2026-10-22",
+     "hold_min": 120.3,
+     "cost": 10.0,
+     "proceeds": 9.8613,
+     "pnl": -0.1387,
+     "fees": 0.4002,
+     "reason": "SURE",
+     "risk": "temiz",
+     "max_m": 1.027,
      "partial": false
     }
    ],
