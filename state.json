@@ -235,27 +235,8 @@
    }
   },
   "B": {
-   "cash": 40.490713296992965,
-   "positions": [
-    {
-     "mint": "DYR8KqxtvkRHxcoFSMw62335Se3UfuE8GitP2iePpump",
-     "pool": "BSeENMUc2FgLdcgkG4B1uvfPpcCQXtGszJf9oX5vUce1",
-     "name": "SURY",
-     "opened": "2026-10-22T04:25:22Z",
-     "entry_price": 0.0006777325239490324,
-     "entry_liq": 74976.3799,
-     "tokens": 14457.677516053847,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.2015617266036484,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.0006777325239490324,
-     "max_m": 1.0,
-     "entry_exec": 0.0006779097119241276
-    }
-   ],
+   "cash": 48.4360800163909,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -1641,6 +1622,24 @@
      "reason": "STOP",
      "risk": "temiz",
      "max_m": 1.013,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "SURY",
+     "mint": "DYR8KqxtvkRHxcoFSMw62335Se3UfuE8GitP2iePpump",
+     "pool": "BSeENMUc2FgLdcgkG4B1uvfPpcCQXtGszJf9oX5vUce1",
+     "opened": "2026-10-22T04:25:22Z",
+     "closed": "2026-10-22T04:29:52Z",
+     "closed_day": "2026-10-22",
+     "hold_min": 4.5,
+     "cost": 10.0,
+     "proceeds": 7.9454,
+     "pnl": -2.0546,
+     "fees": 0.3847,
+     "reason": "STOP",
+     "risk": "temiz",
+     "max_m": 1.066,
      "partial": false
     }
    ],
