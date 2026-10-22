@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 51.790146635543536,
+   "cash": 41.790146635543536,
    "positions": [
     {
      "mint": "8cENLm4vr5cFd9pfy2AcXjEPRv47aZrAMZbYhWWjpump",
@@ -254,6 +254,24 @@
      "last_price": 0.08819925882141832,
      "max_m": 1.0,
      "entry_exec": 0.0882014118254571
+    },
+    {
+     "mint": "zDCwvt2HxLiNhVegZaR1b5zcHDJaT9qpK1rqWKGpump",
+     "pool": "Dq5WbjRvv1iQ4XDtBBwae3qJ4s383gS4D425MGkfePTz",
+     "name": "NODF",
+     "opened": "2026-10-22T15:54:37Z",
+     "entry_price": 0.2232278828928553,
+     "entry_liq": 1280678.9916,
+     "tokens": 43.9051334525724,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "fees": 0.19915001125398407,
+     "partial": false,
+     "risk": "temiz",
+     "miss": 0,
+     "last_price": 0.2232278828928553,
+     "max_m": 1.0,
+     "entry_exec": 0.22323129960616847
     }
    ],
    "closed": [
@@ -1874,7 +1892,8 @@
     "eEomAEbGqwfzckzYjN6x1rc7tmqbdKJoHZdR25Upump",
     "8cENLm4vr5cFd9pfy2AcXjEPRv47aZrAMZbYhWWjpump",
     "635BZjhhzBvn7EsErsL3ABMRmfsfEjGi8YJTCia9pump",
-    "3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1"
+    "3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1",
+    "zDCwvt2HxLiNhVegZaR1b5zcHDJaT9qpK1rqWKGpump"
    ],
    "rejected": [
     "Bm67LrewgThV5H72LC4EkyPc9xk6iwMR1CkSkK8z72q9",
@@ -1931,13 +1950,13 @@
      "giris": 16
     },
     "2026-10-22": {
-     "tarama": 7050,
-     "yas": 631,
-     "likidite": 36,
-     "hacim": 36,
-     "yukselis": 23,
+     "tarama": 7112,
+     "yas": 635,
+     "likidite": 37,
+     "hacim": 37,
+     "yukselis": 24,
      "guvenlik_red": 8,
-     "giris": 15
+     "giris": 16
     }
    }
   }
