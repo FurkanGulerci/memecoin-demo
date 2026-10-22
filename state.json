@@ -235,27 +235,8 @@
    }
   },
   "B": {
-   "cash": 43.3531317902664,
-   "positions": [
-    {
-     "mint": "HfWDdM3mLB8Qjw9jTRKV7sYBmu5FdX3LrQWa2d9rpump",
-     "pool": "F22JVg2DwbmLyEJhH4CtVdgULASYX3QTp3MrEiytqSP2",
-     "name": "CYBERCAT",
-     "opened": "2026-10-22T22:05:23Z",
-     "entry_price": 0.00012534787172050586,
-     "entry_liq": 29576.841,
-     "tokens": 78138.61194393843,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.2054912936328181,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.00010896173238324457,
-     "max_m": 1.0,
-     "entry_exec": 0.00012543094580476878
-    }
-   ],
+   "cash": 51.42667677814559,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -1927,6 +1908,24 @@
      "pnl": -10.0,
      "fees": 0.1992,
      "reason": "RUG",
+     "risk": "temiz",
+     "max_m": 1.0,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "CYBERCAT",
+     "mint": "HfWDdM3mLB8Qjw9jTRKV7sYBmu5FdX3LrQWa2d9rpump",
+     "pool": "F22JVg2DwbmLyEJhH4CtVdgULASYX3QTp3MrEiytqSP2",
+     "opened": "2026-10-22T22:05:23Z",
+     "closed": "2026-10-22T22:24:53Z",
+     "closed_day": "2026-10-23",
+     "hold_min": 19.5,
+     "cost": 10.0,
+     "proceeds": 8.0735,
+     "pnl": -1.9265,
+     "fees": 0.393,
+     "reason": "STOP",
      "risk": "temiz",
      "max_m": 1.0,
      "partial": false
