@@ -235,27 +235,8 @@
    }
   },
   "B": {
-   "cash": 57.914142508092276,
-   "positions": [
-    {
-     "mint": "ChjYk79x48RLPRKbKJcz5bfZ17rJXSgy9toreEaupump",
-     "pool": "7qeR6mS37VjJJTfKaoB6dXonV4hzQkzoyRzxExkX9AhR",
-     "name": "USDF",
-     "opened": "2026-10-22T17:39:37Z",
-     "entry_price": 0.19710476942724997,
-     "entry_liq": 1199356.361,
-     "tokens": 49.72401147797956,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.19916018263490737,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.21025132246333378,
-     "max_m": 1.0719766738163141,
-     "entry_exec": 0.19710799086152583
-    }
-   ],
+   "cash": 68.2299301003928,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -1857,6 +1838,24 @@
      "reason": "TP",
      "risk": "temiz",
      "max_m": 1.304,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "USDF",
+     "mint": "ChjYk79x48RLPRKbKJcz5bfZ17rJXSgy9toreEaupump",
+     "pool": "7qeR6mS37VjJJTfKaoB6dXonV4hzQkzoyRzxExkX9AhR",
+     "opened": "2026-10-22T17:39:37Z",
+     "closed": "2026-10-22T19:39:53Z",
+     "closed_day": "2026-10-22",
+     "hold_min": 120.3,
+     "cost": 10.0,
+     "proceeds": 10.3158,
+     "pnl": 0.3158,
+     "fees": 0.4045,
+     "reason": "SURE",
+     "risk": "temiz",
+     "max_m": 1.073,
      "partial": false
     }
    ],
