@@ -235,27 +235,8 @@
    }
   },
   "B": {
-   "cash": 38.4360800163909,
-   "positions": [
-    {
-     "mint": "EhuiZVks9ExNTQUg2ZLeW4SQUMAGiwwhK73rASzBpump",
-     "pool": "2ouUbdTw81sHRyhW6YYn1zuQZX28exXi8S6F7BXvcBnq",
-     "name": "OA",
-     "opened": "2026-10-22T05:07:22Z",
-     "entry_price": 0.008366792241909955,
-     "entry_liq": 258328.3394,
-     "tokens": 1171.327800602879,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.19974364518238036,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.010439928633755863,
-     "max_m": 1.2477815071660792,
-     "entry_exec": 0.008367427115582379
-    }
-   ],
+   "cash": 50.64123646133623,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -1660,6 +1641,24 @@
      "risk": "temiz",
      "max_m": 1.066,
      "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "OA",
+     "mint": "EhuiZVks9ExNTQUg2ZLeW4SQUMAGiwwhK73rASzBpump",
+     "pool": "2ouUbdTw81sHRyhW6YYn1zuQZX28exXi8S6F7BXvcBnq",
+     "opened": "2026-10-22T05:07:22Z",
+     "closed": "2026-10-22T05:49:22Z",
+     "closed_day": "2026-10-22",
+     "hold_min": 42.0,
+     "cost": 10.0,
+     "proceeds": 12.2052,
+     "pnl": 2.2052,
+     "fees": 0.4251,
+     "reason": "TP",
+     "risk": "temiz",
+     "max_m": 1.268,
+     "partial": false
     }
    ],
    "seen": [
@@ -1795,8 +1794,8 @@
      "giris": 16
     },
     "2026-10-22": {
-     "tarama": 3267,
-     "yas": 266,
+     "tarama": 3317,
+     "yas": 267,
      "likidite": 15,
      "hacim": 15,
      "yukselis": 13,
