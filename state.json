@@ -235,8 +235,27 @@
    }
   },
   "B": {
-   "cash": 61.23619639967583,
-   "positions": [],
+   "cash": 51.23619639967583,
+   "positions": [
+    {
+     "mint": "eEomAEbGqwfzckzYjN6x1rc7tmqbdKJoHZdR25Upump",
+     "pool": "J7QRnWXoxh1XAgBGkhz4LDed837NJy6z55KTGyWpwNWp",
+     "name": "Moonoween",
+     "opened": "2026-10-22T12:42:07Z",
+     "entry_price": 0.07063757698572708,
+     "entry_liq": 719307.4541,
+     "tokens": 138.74673136266819,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "fees": 0.1992670818515327,
+     "partial": false,
+     "risk": "temiz",
+     "miss": 0,
+     "last_price": 0.07063757698572708,
+     "max_m": 1.0,
+     "entry_exec": 0.07063950194532007
+    }
+   ],
    "closed": [
     {
      "strategy": "B",
@@ -1797,7 +1816,8 @@
     "EhuiZVks9ExNTQUg2ZLeW4SQUMAGiwwhK73rASzBpump",
     "B28EEeqoZ8NhCtkXLmNkWQp2NUp9mixH54V4etaLpump",
     "EU1MHvQvBoJ7DnLorurze1hwR2JWuyoKyAmkwymwpump",
-    "4vT4trZuQpoPxBAKNwBF4gVhZdy6UCUqxeeYNmuQtfQd"
+    "4vT4trZuQpoPxBAKNwBF4gVhZdy6UCUqxeeYNmuQtfQd",
+    "eEomAEbGqwfzckzYjN6x1rc7tmqbdKJoHZdR25Upump"
    ],
    "rejected": [
     "Bm67LrewgThV5H72LC4EkyPc9xk6iwMR1CkSkK8z72q9",
@@ -1852,13 +1872,13 @@
      "giris": 16
     },
     "2026-10-22": {
-     "tarama": 5907,
-     "yas": 548,
-     "likidite": 29,
-     "hacim": 29,
-     "yukselis": 17,
+     "tarama": 5974,
+     "yas": 555,
+     "likidite": 30,
+     "hacim": 30,
+     "yukselis": 18,
      "guvenlik_red": 6,
-     "giris": 11
+     "giris": 12
     }
    }
   }
