@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 31.42667677814559,
+   "cash": 46.1946697073874,
    "positions": [
     {
      "mint": "547q1FEqDR6mkJ5bjVKt9xT3RNVYnLkH6ZdMD91Bpump",
@@ -251,27 +251,9 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.36191988431336636,
-     "max_m": 1.0110356658608233,
+     "last_price": 0.3623133210344793,
+     "max_m": 1.0121347448961164,
      "entry_exec": 0.35797380574059157
-    },
-    {
-     "mint": "HKh5uh37FyRhRbDPcmPCoTcfByRLdY65RFZj9AvZpump",
-     "pool": "4UPijxPh3AcSHtXzLFHSjbDibZUNnFFYVhzTjpCqDBbH",
-     "name": "BTC",
-     "opened": "2026-10-22T23:39:53Z",
-     "entry_price": 0.0007732522599029238,
-     "entry_liq": 74053.3919,
-     "tokens": 12671.681495223369,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.2015936470484691,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.0009495146306069739,
-     "max_m": 1.2279493767353211,
-     "entry_exec": 0.0007734569404774354
     }
    ],
    "closed": [
@@ -1965,6 +1947,24 @@
      "reason": "STOP",
      "risk": "temiz",
      "max_m": 1.0,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "BTC",
+     "mint": "HKh5uh37FyRhRbDPcmPCoTcfByRLdY65RFZj9AvZpump",
+     "pool": "4UPijxPh3AcSHtXzLFHSjbDibZUNnFFYVhzTjpCqDBbH",
+     "opened": "2026-10-22T23:39:53Z",
+     "closed": "2026-10-22T23:42:53Z",
+     "closed_day": "2026-10-23",
+     "hold_min": 3.0,
+     "cost": 10.0,
+     "proceeds": 14.768,
+     "pnl": 4.768,
+     "fees": 0.4564,
+     "reason": "TP",
+     "risk": "temiz",
+     "max_m": 1.533,
      "partial": false
     }
    ],
