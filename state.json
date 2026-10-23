@@ -235,8 +235,27 @@
    }
   },
   "B": {
-   "cash": 56.07569293126856,
-   "positions": [],
+   "cash": 46.07569293126856,
+   "positions": [
+    {
+     "mint": "2hPYWv4SydoBYmiecpqVi1AdTDSM4xeHbKeBDBQMpump",
+     "pool": "HQxwqV7ubzdj2fppxVvRoKw8Bykcg5rpJe1Aa1t5npEm",
+     "name": "zonki",
+     "opened": "2026-10-23T10:37:25Z",
+     "entry_price": 0.00010980817275019248,
+     "entry_liq": 28877.5639,
+     "tokens": 89195.10615162634,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "fees": 0.20564837523045848,
+     "partial": false,
+     "risk": "temiz",
+     "miss": 0,
+     "last_price": 0.00010980817275019248,
+     "max_m": 1.0,
+     "entry_exec": 0.0001098827101941993
+    }
+   ],
    "closed": [
     {
      "strategy": "B",
@@ -2196,7 +2215,8 @@
     "6CaTKnA3eJEisxYrS4dKGmqBPJ8apePbc65xteJhpump",
     "ENxyhuUVEJZZB4ttstSkLq6mpfnMKW976PLiFPNpump",
     "g22PMViZFFRBHMrrPyf1S2CYSQ16QXnBibzWqWCpump",
-    "z1gC6KiMdhnp5RjRtH63JjXhrWKpqK1qaDVBLfCpump"
+    "z1gC6KiMdhnp5RjRtH63JjXhrWKpqK1qaDVBLfCpump",
+    "2hPYWv4SydoBYmiecpqVi1AdTDSM4xeHbKeBDBQMpump"
    ],
    "rejected": [
     "Bm67LrewgThV5H72LC4EkyPc9xk6iwMR1CkSkK8z72q9",
@@ -2231,7 +2251,8 @@
     "5h86r9mEnhhpy8kXU6vYUQLvkzLmmCSstTxdVLYDURFG",
     "NGHCR4McASm7fHJq2PGCkoaLHYYxGnJopzeTJV18QEq",
     "Dwgz5py8Jos3xsKV5frYYEFq1brjB7uX7ZGqq9LZtDKV",
-    "Edt7HRHSYbPwgmvjN7yjoikvH5M7hFdNcr78uFSd5yNa"
+    "Edt7HRHSYbPwgmvjN7yjoikvH5M7hFdNcr78uFSd5yNa",
+    "Fzxj8ZLR1t5UW1ez1j9hsuN47waTnu4392hC1UnxWLkN"
    ],
    "funnel": {
     "2026-10-19": {
@@ -2271,13 +2292,13 @@
      "giris": 20
     },
     "2026-10-23": {
-     "tarama": 5057,
-     "yas": 368,
-     "likidite": 28,
-     "hacim": 28,
-     "yukselis": 20,
-     "guvenlik_red": 8,
-     "giris": 12
+     "tarama": 5130,
+     "yas": 377,
+     "likidite": 30,
+     "hacim": 30,
+     "yukselis": 22,
+     "guvenlik_red": 9,
+     "giris": 13
     }
    }
   }
