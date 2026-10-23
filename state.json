@@ -235,27 +235,8 @@
    }
   },
   "B": {
-   "cash": 46.24101018792331,
-   "positions": [
-    {
-     "mint": "8d3LbpJBEwcUhA5Xn2s1FUNNo2qLdzw3CQJsgtJqpump",
-     "pool": "7BdVCwUrbB8wvnLdj4FZ1w5cynb78Sz1H87UU64znhsY",
-     "name": "SSB",
-     "opened": "2026-10-23T02:10:09Z",
-     "entry_price": 6.88853406821415e-05,
-     "entry_liq": 21039.7859,
-     "tokens": 142147.47533591502,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.2081227343791882,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 7.935280295095987e-05,
-     "max_m": 1.1519548595559468,
-     "entry_exec": 6.894951863787114e-05
-    }
-   ],
+   "cash": 58.292075405829806,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -2020,6 +2001,24 @@
      "risk": "temiz",
      "max_m": 1.253,
      "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "SSB",
+     "mint": "8d3LbpJBEwcUhA5Xn2s1FUNNo2qLdzw3CQJsgtJqpump",
+     "pool": "7BdVCwUrbB8wvnLdj4FZ1w5cynb78Sz1H87UU64znhsY",
+     "opened": "2026-10-23T02:10:09Z",
+     "closed": "2026-10-23T02:20:39Z",
+     "closed_day": "2026-10-23",
+     "hold_min": 10.5,
+     "cost": 10.0,
+     "proceeds": 12.0511,
+     "pnl": 2.0511,
+     "fees": 0.4436,
+     "reason": "TP",
+     "risk": "temiz",
+     "max_m": 1.255,
+     "partial": false
     }
    ],
    "seen": [
@@ -2190,8 +2189,8 @@
      "giris": 20
     },
     "2026-10-23": {
-     "tarama": 1964,
-     "yas": 150,
+     "tarama": 2027,
+     "yas": 156,
      "likidite": 15,
      "hacim": 15,
      "yukselis": 10,
