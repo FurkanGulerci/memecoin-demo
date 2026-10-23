@@ -235,27 +235,8 @@
    }
   },
   "B": {
-   "cash": 43.926255725450574,
-   "positions": [
-    {
-     "mint": "z1gC6KiMdhnp5RjRtH63JjXhrWKpqK1qaDVBLfCpump",
-     "pool": "HchM41tYxTJMFwMDaK4iFMVKASr7Uq13UPPxj5G6v3hC",
-     "name": "GUST",
-     "opened": "2026-10-23T09:34:25Z",
-     "entry_price": 0.0001500832478840268,
-     "entry_liq": 33591.2006,
-     "tokens": 65265.67183502613,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20471599566622717,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.00018196500535701265,
-     "max_m": 1.2124271557450683,
-     "entry_exec": 0.00015017082831498714
-    }
-   ],
+   "cash": 56.07569293126856,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -2091,6 +2072,24 @@
      "reason": "SURE",
      "risk": "temiz",
      "max_m": 1.025,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "GUST",
+     "mint": "z1gC6KiMdhnp5RjRtH63JjXhrWKpqK1qaDVBLfCpump",
+     "pool": "HchM41tYxTJMFwMDaK4iFMVKASr7Uq13UPPxj5G6v3hC",
+     "opened": "2026-10-23T09:34:25Z",
+     "closed": "2026-10-23T10:17:55Z",
+     "closed_day": "2026-10-23",
+     "hold_min": 43.5,
+     "cost": 10.0,
+     "proceeds": 12.1494,
+     "pnl": 2.1494,
+     "fees": 0.4366,
+     "reason": "TP",
+     "risk": "temiz",
+     "max_m": 1.264,
      "partial": false
     }
    ],
