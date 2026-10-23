@@ -235,27 +235,8 @@
    }
   },
   "B": {
-   "cash": 46.07569293126856,
-   "positions": [
-    {
-     "mint": "2hPYWv4SydoBYmiecpqVi1AdTDSM4xeHbKeBDBQMpump",
-     "pool": "HQxwqV7ubzdj2fppxVvRoKw8Bykcg5rpJe1Aa1t5npEm",
-     "name": "zonki",
-     "opened": "2026-10-23T10:37:25Z",
-     "entry_price": 0.00010980817275019248,
-     "entry_liq": 28877.5639,
-     "tokens": 89195.10615162634,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20564837523045848,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.00010980817275019248,
-     "max_m": 1.0,
-     "entry_exec": 0.0001098827101941993
-    }
-   ],
+   "cash": 54.08725319373825,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -2109,6 +2090,24 @@
      "reason": "TP",
      "risk": "temiz",
      "max_m": 1.264,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "zonki",
+     "mint": "2hPYWv4SydoBYmiecpqVi1AdTDSM4xeHbKeBDBQMpump",
+     "pool": "HQxwqV7ubzdj2fppxVvRoKw8Bykcg5rpJe1Aa1t5npEm",
+     "opened": "2026-10-23T10:37:25Z",
+     "closed": "2026-10-23T10:38:55Z",
+     "closed_day": "2026-10-23",
+     "hold_min": 1.5,
+     "cost": 10.0,
+     "proceeds": 8.0116,
+     "pnl": -1.9884,
+     "fees": 0.3927,
+     "reason": "STOP",
+     "risk": "temiz",
+     "max_m": 1.0,
      "partial": false
     }
    ],
