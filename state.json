@@ -235,27 +235,8 @@
    }
   },
   "B": {
-   "cash": 46.21307646806427,
-   "positions": [
-    {
-     "mint": "5UHeHyfB4fo7sy4hHN9gGBJvYSQdz7w6ienZoSTDpump",
-     "pool": "2cWWmt2C4E8kjPdR6bJ8bcQTBYoimMniBJsRXHHwCs69",
-     "name": "scribes",
-     "opened": "2026-10-23T01:07:09Z",
-     "entry_price": 0.00014235713308851023,
-     "entry_liq": 33771.6652,
-     "tokens": 68808.0345430518,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20468546899596535,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.00012212611329933486,
-     "max_m": 1.0,
-     "entry_exec": 0.00014243976106987494
-    }
-   ],
+   "cash": 54.19356179244262,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -1983,6 +1964,24 @@
      "reason": "SURE",
      "risk": "temiz",
      "max_m": 1.043,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "scribes",
+     "mint": "5UHeHyfB4fo7sy4hHN9gGBJvYSQdz7w6ienZoSTDpump",
+     "pool": "2cWWmt2C4E8kjPdR6bJ8bcQTBYoimMniBJsRXHHwCs69",
+     "opened": "2026-10-23T01:07:09Z",
+     "closed": "2026-10-23T01:14:39Z",
+     "closed_day": "2026-10-23",
+     "hold_min": 7.5,
+     "cost": 10.0,
+     "proceeds": 7.9805,
+     "pnl": -2.0195,
+     "fees": 0.3908,
+     "reason": "STOP",
+     "risk": "temiz",
+     "max_m": 1.0,
      "partial": false
     }
    ],
