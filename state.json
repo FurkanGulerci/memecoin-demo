@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 34.08725319373825,
+   "cash": 46.13665486609962,
    "positions": [
     {
      "mint": "2qPoPQQCHGtDbgdSxXfrzW1iRS3cGbKmMWSMapZ4pump",
@@ -251,27 +251,9 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.04573383569639298,
-     "max_m": 1.0360346566085221,
+     "last_price": 0.04579478843082298,
+     "max_m": 1.0374154536556746,
      "entry_exec": 0.04414467872100307
-    },
-    {
-     "mint": "2JSj9dzLQwAi3q1dHYjCPF5Gveg81hBTRy8EeM3Fpump",
-     "pool": "5SpztG8hdXCG3YWx7hWjHGHF8CYGNRSWZ1smmfQQkAMX",
-     "name": "ARCTIS",
-     "opened": "2026-10-23T12:04:37Z",
-     "entry_price": 8.394518106158366e-05,
-     "entry_liq": 22795.9198,
-     "tokens": 116654.45625250673,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.2074205482427322,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 9.955774295936144e-05,
-     "max_m": 1.202320981224116,
-     "entry_exec": 8.401736474417274e-05
     }
    ],
    "closed": [
@@ -2145,6 +2127,24 @@
      "reason": "STOP",
      "risk": "temiz",
      "max_m": 1.0,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "ARCTIS",
+     "mint": "2JSj9dzLQwAi3q1dHYjCPF5Gveg81hBTRy8EeM3Fpump",
+     "pool": "5SpztG8hdXCG3YWx7hWjHGHF8CYGNRSWZ1smmfQQkAMX",
+     "opened": "2026-10-23T12:04:37Z",
+     "closed": "2026-10-23T12:16:37Z",
+     "closed_day": "2026-10-23",
+     "hold_min": 12.0,
+     "cost": 10.0,
+     "proceeds": 12.0494,
+     "pnl": 2.0494,
+     "fees": 0.4417,
+     "reason": "TP",
+     "risk": "temiz",
+     "max_m": 1.254,
      "partial": false
     }
    ],
