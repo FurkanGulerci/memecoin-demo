@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 35.07107656591562,
+   "cash": 42.820027115107024,
    "positions": [
     {
      "mint": "YtCbkq4nggXF1NrgQ3gfdFBn76BivmzanJmiJRWpump",
@@ -251,27 +251,9 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.20991460606134002,
-     "max_m": 1.0049096462115914,
+     "last_price": 0.2111885229628523,
+     "max_m": 1.006004229335791,
      "entry_exec": 0.20993139586085002
-    },
-    {
-     "mint": "6bW6xsZxYqcvqabk9rRgQwgjPNwe8SACPusx5o1wpump",
-     "pool": "GUkDEvSyoJJ5yFHUYKuePjwTTAZYLBmWsHQ2fYaCMKYm",
-     "name": "TRUTH",
-     "opened": "2026-10-23T22:51:49Z",
-     "entry_price": 0.00036169791615650436,
-     "entry_liq": 59537.8888,
-     "tokens": 27088.27943166347,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20222577730222485,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.000359555699903675,
-     "max_m": 1.1636248721231564,
-     "entry_exec": 0.00036181700003225817
     }
    ],
    "closed": [
@@ -2308,6 +2290,24 @@
      "risk": "temiz",
      "max_m": 1.0,
      "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "TRUTH",
+     "mint": "6bW6xsZxYqcvqabk9rRgQwgjPNwe8SACPusx5o1wpump",
+     "pool": "GUkDEvSyoJJ5yFHUYKuePjwTTAZYLBmWsHQ2fYaCMKYm",
+     "opened": "2026-10-23T22:51:49Z",
+     "closed": "2026-10-23T23:23:19Z",
+     "closed_day": "2026-10-24",
+     "hold_min": 31.5,
+     "cost": 10.0,
+     "proceeds": 7.749,
+     "pnl": -2.251,
+     "fees": 0.3837,
+     "reason": "STOP",
+     "risk": "temiz",
+     "max_m": 1.164,
+     "partial": false
     }
    ],
    "seen": [
@@ -2512,8 +2512,8 @@
      "giris": 21
     },
     "2026-10-24": {
-     "tarama": 962,
-     "yas": 84,
+     "tarama": 1027,
+     "yas": 88,
      "likidite": 12,
      "hacim": 12,
      "yukselis": 3,
