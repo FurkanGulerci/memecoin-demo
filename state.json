@@ -235,8 +235,27 @@
    }
   },
   "B": {
-   "cash": 54.07824288391604,
-   "positions": [],
+   "cash": 44.07824288391604,
+   "positions": [
+    {
+     "mint": "g22PMViZFFRBHMrrPyf1S2CYSQ16QXnBibzWqWCpump",
+     "pool": "6a3vvWsBzBh5jCYEgPdZLusoZEGhZ96pTtWa1pknRQo4",
+     "name": "TRUTH",
+     "opened": "2026-10-23T07:07:25Z",
+     "entry_price": 0.19953856670021772,
+     "entry_liq": 1210225.897,
+     "tokens": 49.11752859652644,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "fees": 0.19915874399215755,
+     "partial": false,
+     "risk": "temiz",
+     "miss": 0,
+     "last_price": 0.19953856670021772,
+     "max_m": 1.0,
+     "entry_exec": 0.19954179862162527
+    }
+   ],
    "closed": [
     {
      "strategy": "B",
@@ -2158,7 +2177,8 @@
     "BbaZXnPRUWYfvuhNWwK25vzhWd5PRwDJ5N47nJtgpump",
     "8d3LbpJBEwcUhA5Xn2s1FUNNo2qLdzw3CQJsgtJqpump",
     "6CaTKnA3eJEisxYrS4dKGmqBPJ8apePbc65xteJhpump",
-    "ENxyhuUVEJZZB4ttstSkLq6mpfnMKW976PLiFPNpump"
+    "ENxyhuUVEJZZB4ttstSkLq6mpfnMKW976PLiFPNpump",
+    "g22PMViZFFRBHMrrPyf1S2CYSQ16QXnBibzWqWCpump"
    ],
    "rejected": [
     "Bm67LrewgThV5H72LC4EkyPc9xk6iwMR1CkSkK8z72q9",
@@ -2190,7 +2210,8 @@
     "B1Y2fJW8rtirrBuUcda14pSaeiASHaGqTxQdxU8Mpump",
     "9TErWawMz5BnWwocKg3yB6tKWKYBLk4MTLcD5wHaEBmL",
     "BKQnGn4AzAvrhis3ATCGdVWmNwkb84hkCehUN5VqYmU7",
-    "5h86r9mEnhhpy8kXU6vYUQLvkzLmmCSstTxdVLYDURFG"
+    "5h86r9mEnhhpy8kXU6vYUQLvkzLmmCSstTxdVLYDURFG",
+    "NGHCR4McASm7fHJq2PGCkoaLHYYxGnJopzeTJV18QEq"
    ],
    "funnel": {
     "2026-10-19": {
@@ -2230,13 +2251,13 @@
      "giris": 20
     },
     "2026-10-23": {
-     "tarama": 3753,
-     "yas": 288,
-     "likidite": 21,
-     "hacim": 21,
-     "yukselis": 15,
-     "guvenlik_red": 5,
-     "giris": 10
+     "tarama": 3819,
+     "yas": 295,
+     "likidite": 23,
+     "hacim": 23,
+     "yukselis": 17,
+     "guvenlik_red": 6,
+     "giris": 11
     }
    }
   }
