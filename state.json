@@ -235,26 +235,8 @@
    }
   },
   "B": {
-   "cash": 36.357490671969416,
+   "cash": 48.390680919216166,
    "positions": [
-    {
-     "mint": "6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump",
-     "pool": "DNm2wASF4PP9XivPucrwm3CV9AnAsuugEgANqUDtLgs",
-     "name": "ODIE",
-     "opened": "2026-10-23T15:03:07Z",
-     "entry_price": 0.003214367354603311,
-     "entry_liq": 173836.1606,
-     "tokens": 3048.7787702887717,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20010504937614487,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.003458589330843138,
-     "max_m": 1.1285993856635974,
-     "entry_exec": 0.0032147298110028746
-    },
     {
      "mint": "FuX4Pwc66aBnM4bX3zyvXGsXHE5wsjHgXuAeqQBnpump",
      "pool": "3QgPRE1yZx3UA6cSPmbNGnU9nrT2vN1Ps754PNyfhVKo",
@@ -269,8 +251,8 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.07062829407531707,
-     "max_m": 1.001044350970454,
+     "last_price": 0.07070674409726305,
+     "max_m": 1.0021562559418355,
      "entry_exec": 0.07055653390141854
     }
    ],
@@ -2181,6 +2163,24 @@
      "reason": "SURE",
      "risk": "temiz",
      "max_m": 1.064,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "ODIE",
+     "mint": "6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump",
+     "pool": "DNm2wASF4PP9XivPucrwm3CV9AnAsuugEgANqUDtLgs",
+     "opened": "2026-10-23T15:03:07Z",
+     "closed": "2026-10-23T15:22:37Z",
+     "closed_day": "2026-10-23",
+     "hold_min": 19.5,
+     "cost": 10.0,
+     "proceeds": 12.0332,
+     "pnl": 2.0332,
+     "fees": 0.4243,
+     "reason": "TP",
+     "risk": "temiz",
+     "max_m": 1.251,
      "partial": false
     }
    ],
