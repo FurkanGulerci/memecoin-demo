@@ -235,26 +235,8 @@
    }
   },
   "B": {
-   "cash": 26.393736071006394,
+   "cash": 36.24608054499099,
    "positions": [
-    {
-     "mint": "FuX4Pwc66aBnM4bX3zyvXGsXHE5wsjHgXuAeqQBnpump",
-     "pool": "3QgPRE1yZx3UA6cSPmbNGnU9nrT2vN1Ps754PNyfhVKo",
-     "name": "GOIF",
-     "opened": "2026-10-23T15:13:37Z",
-     "entry_price": 0.07055461029958068,
-     "entry_liq": 718969.7181,
-     "tokens": 138.90988485480224,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.19926720730980224,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.07236641987099325,
-     "max_m": 1.025679534813097,
-     "entry_exec": 0.07055653390141854
-    },
     {
      "mint": "7rkkR4t5evHGLCDzdRqA6zEJknPWSyYBPCEQp8PSpump",
      "pool": "9c3Ksk7D6wiaokri1T9G5eHdBJXfeDdXebVJAcorKFJ",
@@ -269,7 +251,7 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.1757535759066986,
+     "last_price": 0.17573670031885555,
      "max_m": 1.0037904255190662,
      "entry_exec": 0.17509293531852285
     },
@@ -287,8 +269,8 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.0004781301289867755,
-     "max_m": 1.0,
+     "last_price": 0.0005297515862041457,
+     "max_m": 1.107965288292464,
      "entry_exec": 0.0004782861449183772
     }
    ],
@@ -2235,6 +2217,24 @@
      "reason": "STOP",
      "risk": "temiz",
      "max_m": 1.0,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "GOIF",
+     "mint": "FuX4Pwc66aBnM4bX3zyvXGsXHE5wsjHgXuAeqQBnpump",
+     "pool": "3QgPRE1yZx3UA6cSPmbNGnU9nrT2vN1Ps754PNyfhVKo",
+     "opened": "2026-10-23T15:13:37Z",
+     "closed": "2026-10-23T17:13:58Z",
+     "closed_day": "2026-10-23",
+     "hold_min": 120.4,
+     "cost": 10.0,
+     "proceeds": 9.8523,
+     "pnl": -0.1477,
+     "fees": 0.4001,
+     "reason": "SURE",
+     "risk": "temiz",
+     "max_m": 1.026,
      "partial": false
     }
    ],
