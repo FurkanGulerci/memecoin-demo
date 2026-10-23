@@ -251,7 +251,7 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.21018046564045176,
+     "last_price": 0.2099998901770887,
      "max_m": 1.0049096462115914,
      "entry_exec": 0.20993139586085002
     },
@@ -269,7 +269,7 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.0026848014532112694,
+     "last_price": 0.0024221148114692455,
      "max_m": 1.0,
      "entry_exec": 0.002828115304636508
     }
