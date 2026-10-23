@@ -235,8 +235,27 @@
    }
   },
   "B": {
-   "cash": 56.24101018792331,
-   "positions": [],
+   "cash": 46.24101018792331,
+   "positions": [
+    {
+     "mint": "8d3LbpJBEwcUhA5Xn2s1FUNNo2qLdzw3CQJsgtJqpump",
+     "pool": "7BdVCwUrbB8wvnLdj4FZ1w5cynb78Sz1H87UU64znhsY",
+     "name": "SSB",
+     "opened": "2026-10-23T02:10:09Z",
+     "entry_price": 6.88853406821415e-05,
+     "entry_liq": 21039.7859,
+     "tokens": 142147.47533591502,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "fees": 0.2081227343791882,
+     "partial": false,
+     "risk": "temiz",
+     "miss": 0,
+     "last_price": 6.88853406821415e-05,
+     "max_m": 1.0,
+     "entry_exec": 6.894951863787114e-05
+    }
+   ],
    "closed": [
     {
      "strategy": "B",
@@ -2101,7 +2120,8 @@
     "547q1FEqDR6mkJ5bjVKt9xT3RNVYnLkH6ZdMD91Bpump",
     "HKh5uh37FyRhRbDPcmPCoTcfByRLdY65RFZj9AvZpump",
     "5UHeHyfB4fo7sy4hHN9gGBJvYSQdz7w6ienZoSTDpump",
-    "BbaZXnPRUWYfvuhNWwK25vzhWd5PRwDJ5N47nJtgpump"
+    "BbaZXnPRUWYfvuhNWwK25vzhWd5PRwDJ5N47nJtgpump",
+    "8d3LbpJBEwcUhA5Xn2s1FUNNo2qLdzw3CQJsgtJqpump"
    ],
    "rejected": [
     "Bm67LrewgThV5H72LC4EkyPc9xk6iwMR1CkSkK8z72q9",
@@ -2170,13 +2190,13 @@
      "giris": 20
     },
     "2026-10-23": {
-     "tarama": 1897,
-     "yas": 143,
-     "likidite": 14,
-     "hacim": 14,
-     "yukselis": 9,
+     "tarama": 1964,
+     "yas": 150,
+     "likidite": 15,
+     "hacim": 15,
+     "yukselis": 10,
      "guvenlik_red": 2,
-     "giris": 7
+     "giris": 8
     }
    }
   }
