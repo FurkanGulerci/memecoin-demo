@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 28.015720028225687,
+   "cash": 35.07107656591562,
    "positions": [
     {
      "mint": "YtCbkq4nggXF1NrgQ3gfdFBn76BivmzanJmiJRWpump",
@@ -251,27 +251,9 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.2089413752946205,
+     "last_price": 0.20899790013501449,
      "max_m": 1.0049096462115914,
      "entry_exec": 0.20993139586085002
-    },
-    {
-     "mint": "26Aawi1sZSNR8Raumc3hdvKbke6RJ1dYaKqgrHXopump",
-     "pool": "2PowDQNwdS3D6bUxRrMPZucSDAkPPnotACDE64Wzp7uH",
-     "name": "BITCHES",
-     "opened": "2026-10-23T22:30:49Z",
-     "entry_price": 0.0028277551964963218,
-     "entry_liq": 153925.033,
-     "tokens": 3465.558841936858,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.2002479759492763,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.0024841397914201237,
-     "max_m": 1.0,
-     "entry_exec": 0.002828115304636508
     },
     {
      "mint": "6bW6xsZxYqcvqabk9rRgQwgjPNwe8SACPusx5o1wpump",
@@ -287,8 +269,8 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.00036169791615650436,
-     "max_m": 1.0,
+     "last_price": 0.00040081424411581387,
+     "max_m": 1.108146401215052,
      "entry_exec": 0.00036181700003225817
     }
    ],
@@ -2307,6 +2289,24 @@
      "reason": "SURE",
      "risk": "temiz",
      "max_m": 1.024,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "BITCHES",
+     "mint": "26Aawi1sZSNR8Raumc3hdvKbke6RJ1dYaKqgrHXopump",
+     "pool": "2PowDQNwdS3D6bUxRrMPZucSDAkPPnotACDE64Wzp7uH",
+     "opened": "2026-10-23T22:30:49Z",
+     "closed": "2026-10-23T22:53:19Z",
+     "closed_day": "2026-10-24",
+     "hold_min": 22.5,
+     "cost": 10.0,
+     "proceeds": 7.0554,
+     "pnl": -2.9446,
+     "fees": 0.3732,
+     "reason": "STOP",
+     "risk": "temiz",
+     "max_m": 1.0,
      "partial": false
     }
    ],
