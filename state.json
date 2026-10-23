@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 44.08725319373825,
+   "cash": 34.08725319373825,
    "positions": [
     {
      "mint": "2qPoPQQCHGtDbgdSxXfrzW1iRS3cGbKmMWSMapZ4pump",
@@ -251,9 +251,27 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.04525842439908192,
-     "max_m": 1.0289053919989037,
+     "last_price": 0.04535670956063547,
+     "max_m": 1.030802740954741,
      "entry_exec": 0.04414467872100307
+    },
+    {
+     "mint": "2JSj9dzLQwAi3q1dHYjCPF5Gveg81hBTRy8EeM3Fpump",
+     "pool": "5SpztG8hdXCG3YWx7hWjHGHF8CYGNRSWZ1smmfQQkAMX",
+     "name": "ARCTIS",
+     "opened": "2026-10-23T12:04:37Z",
+     "entry_price": 8.394518106158366e-05,
+     "entry_liq": 22795.9198,
+     "tokens": 116654.45625250673,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "fees": 0.2074205482427322,
+     "partial": false,
+     "risk": "temiz",
+     "miss": 0,
+     "last_price": 8.394518106158366e-05,
+     "max_m": 1.0,
+     "entry_exec": 8.401736474417274e-05
     }
    ],
    "closed": [
@@ -2235,7 +2253,8 @@
     "g22PMViZFFRBHMrrPyf1S2CYSQ16QXnBibzWqWCpump",
     "z1gC6KiMdhnp5RjRtH63JjXhrWKpqK1qaDVBLfCpump",
     "2hPYWv4SydoBYmiecpqVi1AdTDSM4xeHbKeBDBQMpump",
-    "2qPoPQQCHGtDbgdSxXfrzW1iRS3cGbKmMWSMapZ4pump"
+    "2qPoPQQCHGtDbgdSxXfrzW1iRS3cGbKmMWSMapZ4pump",
+    "2JSj9dzLQwAi3q1dHYjCPF5Gveg81hBTRy8EeM3Fpump"
    ],
    "rejected": [
     "Bm67LrewgThV5H72LC4EkyPc9xk6iwMR1CkSkK8z72q9",
@@ -2312,13 +2331,13 @@
      "giris": 20
     },
     "2026-10-23": {
-     "tarama": 5639,
-     "yas": 414,
-     "likidite": 32,
-     "hacim": 32,
-     "yukselis": 24,
+     "tarama": 5714,
+     "yas": 420,
+     "likidite": 33,
+     "hacim": 33,
+     "yukselis": 25,
      "guvenlik_red": 10,
-     "giris": 14
+     "giris": 15
     }
    }
   }
