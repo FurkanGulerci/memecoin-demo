@@ -235,27 +235,8 @@
    }
   },
   "B": {
-   "cash": 46.1946697073874,
-   "positions": [
-    {
-     "mint": "547q1FEqDR6mkJ5bjVKt9xT3RNVYnLkH6ZdMD91Bpump",
-     "pool": "9izbEkzhmzStsutp1ComkJsHxQNVnoEpvjHFL9Ngp5aq",
-     "name": "Doroni",
-     "opened": "2026-10-22T22:57:53Z",
-     "entry_price": 0.35796945304122174,
-     "entry_liq": 1612084.0477,
-     "tokens": 27.379098254754343,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.19911917298371956,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.37125889533186673,
-     "max_m": 1.0413348100999558,
-     "entry_exec": 0.35797380574059157
-    }
-   ],
+   "cash": 56.21307646806427,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -1965,6 +1946,24 @@
      "reason": "TP",
      "risk": "temiz",
      "max_m": 1.533,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "Doroni",
+     "mint": "547q1FEqDR6mkJ5bjVKt9xT3RNVYnLkH6ZdMD91Bpump",
+     "pool": "9izbEkzhmzStsutp1ComkJsHxQNVnoEpvjHFL9Ngp5aq",
+     "opened": "2026-10-22T22:57:53Z",
+     "closed": "2026-10-23T00:58:09Z",
+     "closed_day": "2026-10-23",
+     "hold_min": 120.3,
+     "cost": 10.0,
+     "proceeds": 10.0184,
+     "pnl": 0.0184,
+     "fees": 0.4015,
+     "reason": "SURE",
+     "risk": "temiz",
+     "max_m": 1.043,
      "partial": false
     }
    ],
