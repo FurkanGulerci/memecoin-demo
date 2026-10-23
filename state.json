@@ -235,27 +235,8 @@
    }
   },
   "B": {
-   "cash": 44.19356179244262,
-   "positions": [
-    {
-     "mint": "BbaZXnPRUWYfvuhNWwK25vzhWd5PRwDJ5N47nJtgpump",
-     "pool": "Haf1B6ZobWmuram9bDZkLmhaPapTGyD27G4ruVQirqif",
-     "name": "KIMCHINU",
-     "opened": "2026-10-23T01:17:39Z",
-     "entry_price": 0.0009258159427330127,
-     "entry_liq": 89974.4292,
-     "tokens": 10584.031607507008,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20113479937989548,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.0009258159427330127,
-     "max_m": 1.0,
-     "entry_exec": 0.0009260176427523495
-    }
-   ],
+   "cash": 56.24101018792331,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -2001,6 +1982,24 @@
      "reason": "STOP",
      "risk": "temiz",
      "max_m": 1.0,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "KIMCHINU",
+     "mint": "BbaZXnPRUWYfvuhNWwK25vzhWd5PRwDJ5N47nJtgpump",
+     "pool": "Haf1B6ZobWmuram9bDZkLmhaPapTGyD27G4ruVQirqif",
+     "opened": "2026-10-23T01:17:39Z",
+     "closed": "2026-10-23T01:23:39Z",
+     "closed_day": "2026-10-23",
+     "hold_min": 6.0,
+     "cost": 10.0,
+     "proceeds": 12.0474,
+     "pnl": 2.0474,
+     "fees": 0.4272,
+     "reason": "TP",
+     "risk": "temiz",
+     "max_m": 1.253,
      "partial": false
     }
    ],
