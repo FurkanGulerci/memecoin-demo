@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 36.393736071006394,
+   "cash": 26.393736071006394,
    "positions": [
     {
      "mint": "FuX4Pwc66aBnM4bX3zyvXGsXHE5wsjHgXuAeqQBnpump",
@@ -251,8 +251,8 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.07226522605250946,
-     "max_m": 1.0242452725011923,
+     "last_price": 0.07236641987099325,
+     "max_m": 1.025679534813097,
      "entry_exec": 0.07055653390141854
     },
     {
@@ -269,9 +269,27 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.17555657520594983,
-     "max_m": 1.0034108058028035,
+     "last_price": 0.1757535759066986,
+     "max_m": 1.0037904255190662,
      "entry_exec": 0.17509293531852285
+    },
+    {
+     "mint": "Cy7qKnoNQEsUUafCvSYWroqrHD4vu7jrCoeurXyxpump",
+     "pool": "D2krLXfaRYqiD8oWT2KUtynnXAUWYPC3GtZFcghqLfjg",
+     "name": "McNugget",
+     "opened": "2026-10-23T17:12:28Z",
+     "entry_price": 0.0004781301289867755,
+     "entry_liq": 60072.7547,
+     "tokens": 20491.917033625567,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "fees": 0.20219706552630629,
+     "partial": false,
+     "risk": "temiz",
+     "miss": 0,
+     "last_price": 0.0004781301289867755,
+     "max_m": 1.0,
+     "entry_exec": 0.0004782861449183772
     }
    ],
    "closed": [
@@ -2330,7 +2348,8 @@
     "6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump",
     "FuX4Pwc66aBnM4bX3zyvXGsXHE5wsjHgXuAeqQBnpump",
     "84qut46jTfT8nqdviG4HBZ5JQMN1sJg7hBzJgXvfpump",
-    "7rkkR4t5evHGLCDzdRqA6zEJknPWSyYBPCEQp8PSpump"
+    "7rkkR4t5evHGLCDzdRqA6zEJknPWSyYBPCEQp8PSpump",
+    "Cy7qKnoNQEsUUafCvSYWroqrHD4vu7jrCoeurXyxpump"
    ],
    "rejected": [
     "Bm67LrewgThV5H72LC4EkyPc9xk6iwMR1CkSkK8z72q9",
@@ -2408,13 +2427,13 @@
      "giris": 20
     },
     "2026-10-23": {
-     "tarama": 7618,
-     "yas": 599,
-     "likidite": 42,
-     "hacim": 42,
-     "yukselis": 30,
+     "tarama": 7684,
+     "yas": 607,
+     "likidite": 43,
+     "hacim": 43,
+     "yukselis": 31,
      "guvenlik_red": 11,
-     "giris": 19
+     "giris": 20
     }
    }
   }
