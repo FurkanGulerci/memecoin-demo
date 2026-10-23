@@ -235,27 +235,8 @@
    }
   },
   "B": {
-   "cash": 48.19280808354901,
-   "positions": [
-    {
-     "mint": "E7yGMLy8drjm2YnVQXyGKizSR5nx594CyrhBCEVpump",
-     "pool": "J8HYdNqhuEjPu7ZtCZt84vNiaWvpFSXzJADFmNEVMXcr",
-     "name": "AODF",
-     "opened": "2026-10-23T19:28:58Z",
-     "entry_price": 0.18320866560179713,
-     "entry_liq": 1155833.892,
-     "tokens": 53.495470608118154,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.19916621414651398,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.18751197537085953,
-     "max_m": 1.0234885711051225,
-     "entry_exec": 0.1832117726713233
-    }
-   ],
+   "cash": 58.01572002822569,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -2253,6 +2234,24 @@
      "reason": "SURE",
      "risk": "temiz",
      "max_m": 1.009,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "AODF",
+     "mint": "E7yGMLy8drjm2YnVQXyGKizSR5nx594CyrhBCEVpump",
+     "pool": "J8HYdNqhuEjPu7ZtCZt84vNiaWvpFSXzJADFmNEVMXcr",
+     "opened": "2026-10-23T19:28:58Z",
+     "closed": "2026-10-23T21:28:58Z",
+     "closed_day": "2026-10-24",
+     "hold_min": 120.0,
+     "cost": 10.0,
+     "proceeds": 9.8229,
+     "pnl": -0.1771,
+     "fees": 0.3996,
+     "reason": "SURE",
+     "risk": "temiz",
+     "max_m": 1.024,
      "partial": false
     }
    ],
