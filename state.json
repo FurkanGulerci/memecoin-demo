@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 36.24608054499099,
+   "cash": 48.510849647670554,
    "positions": [
     {
      "mint": "7rkkR4t5evHGLCDzdRqA6zEJknPWSyYBPCEQp8PSpump",
@@ -251,27 +251,9 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.17590136098459805,
+     "last_price": 0.17579260428463145,
      "max_m": 1.0046344780253367,
      "entry_exec": 0.17509293531852285
-    },
-    {
-     "mint": "Cy7qKnoNQEsUUafCvSYWroqrHD4vu7jrCoeurXyxpump",
-     "pool": "D2krLXfaRYqiD8oWT2KUtynnXAUWYPC3GtZFcghqLfjg",
-     "name": "McNugget",
-     "opened": "2026-10-23T17:12:28Z",
-     "entry_price": 0.0004781301289867755,
-     "entry_liq": 60072.7547,
-     "tokens": 20491.917033625567,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20219706552630629,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.0005369819024560393,
-     "max_m": 1.16880757273993,
-     "entry_exec": 0.0004782861449183772
     }
    ],
    "closed": [
@@ -2235,6 +2217,24 @@
      "reason": "SURE",
      "risk": "temiz",
      "max_m": 1.026,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "McNugget",
+     "mint": "Cy7qKnoNQEsUUafCvSYWroqrHD4vu7jrCoeurXyxpump",
+     "pool": "D2krLXfaRYqiD8oWT2KUtynnXAUWYPC3GtZFcghqLfjg",
+     "opened": "2026-10-23T17:12:28Z",
+     "closed": "2026-10-23T17:24:28Z",
+     "closed_day": "2026-10-23",
+     "hold_min": 12.0,
+     "cost": 10.0,
+     "proceeds": 12.2648,
+     "pnl": 2.2648,
+     "fees": 0.4317,
+     "reason": "TP",
+     "risk": "temiz",
+     "max_m": 1.275,
      "partial": false
     }
    ],
