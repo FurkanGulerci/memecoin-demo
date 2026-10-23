@@ -235,8 +235,27 @@
    }
   },
   "B": {
-   "cash": 54.19720128787875,
-   "positions": [],
+   "cash": 44.19720128787875,
+   "positions": [
+    {
+     "mint": "ENxyhuUVEJZZB4ttstSkLq6mpfnMKW976PLiFPNpump",
+     "pool": "FCHzyHzgvcMjKuTNKjP9HBFta75XAmewToyKJ5LT8Rje",
+     "name": "XTO",
+     "opened": "2026-10-23T04:37:09Z",
+     "entry_price": 0.19990792797389895,
+     "entry_liq": 1213340.9363,
+     "tokens": 49.02677829179526,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "fees": 0.1991583364514808,
+     "partial": false,
+     "risk": "temiz",
+     "miss": 0,
+     "last_price": 0.19990792797389895,
+     "max_m": 1.0,
+     "entry_exec": 0.19991115756509376
+    }
+   ],
    "closed": [
     {
      "strategy": "B",
@@ -2139,7 +2158,8 @@
     "5UHeHyfB4fo7sy4hHN9gGBJvYSQdz7w6ienZoSTDpump",
     "BbaZXnPRUWYfvuhNWwK25vzhWd5PRwDJ5N47nJtgpump",
     "8d3LbpJBEwcUhA5Xn2s1FUNNo2qLdzw3CQJsgtJqpump",
-    "6CaTKnA3eJEisxYrS4dKGmqBPJ8apePbc65xteJhpump"
+    "6CaTKnA3eJEisxYrS4dKGmqBPJ8apePbc65xteJhpump",
+    "ENxyhuUVEJZZB4ttstSkLq6mpfnMKW976PLiFPNpump"
    ],
    "rejected": [
     "Bm67LrewgThV5H72LC4EkyPc9xk6iwMR1CkSkK8z72q9",
@@ -2210,13 +2230,13 @@
      "giris": 20
     },
     "2026-10-23": {
-     "tarama": 2829,
-     "yas": 231,
-     "likidite": 18,
-     "hacim": 18,
-     "yukselis": 13,
+     "tarama": 2895,
+     "yas": 237,
+     "likidite": 19,
+     "hacim": 19,
+     "yukselis": 14,
      "guvenlik_red": 4,
-     "giris": 9
+     "giris": 10
     }
    }
   }
