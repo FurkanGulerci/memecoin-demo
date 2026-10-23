@@ -235,27 +235,8 @@
    }
   },
   "B": {
-   "cash": 44.07824288391604,
-   "positions": [
-    {
-     "mint": "g22PMViZFFRBHMrrPyf1S2CYSQ16QXnBibzWqWCpump",
-     "pool": "6a3vvWsBzBh5jCYEgPdZLusoZEGhZ96pTtWa1pknRQo4",
-     "name": "TRUTH",
-     "opened": "2026-10-23T07:07:25Z",
-     "entry_price": 0.19953856670021772,
-     "entry_liq": 1210225.897,
-     "tokens": 49.11752859652644,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.19915874399215755,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.20458453427076764,
-     "max_m": 1.025288181898845,
-     "entry_exec": 0.19954179862162527
-    }
-   ],
+   "cash": 53.926255725450574,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -2073,6 +2054,24 @@
      "reason": "SURE",
      "risk": "temiz",
      "max_m": 1.029,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "TRUTH",
+     "mint": "g22PMViZFFRBHMrrPyf1S2CYSQ16QXnBibzWqWCpump",
+     "pool": "6a3vvWsBzBh5jCYEgPdZLusoZEGhZ96pTtWa1pknRQo4",
+     "opened": "2026-10-23T07:07:25Z",
+     "closed": "2026-10-23T09:07:25Z",
+     "closed_day": "2026-10-23",
+     "hold_min": 120.0,
+     "cost": 10.0,
+     "proceeds": 9.848,
+     "pnl": -0.152,
+     "fees": 0.3998,
+     "reason": "SURE",
+     "risk": "temiz",
+     "max_m": 1.025,
      "partial": false
     }
    ],
