@@ -2150,7 +2150,8 @@
     "Ecmsss7ijkFgaWoXR7YN4zmiYPZRBKwRwddFc4ymmmCM",
     "8trzyTDGJ4bHsixAY7YzzASk1L64fkky8gLBrtxkYinn",
     "B1Y2fJW8rtirrBuUcda14pSaeiASHaGqTxQdxU8Mpump",
-    "9TErWawMz5BnWwocKg3yB6tKWKYBLk4MTLcD5wHaEBmL"
+    "9TErWawMz5BnWwocKg3yB6tKWKYBLk4MTLcD5wHaEBmL",
+    "BKQnGn4AzAvrhis3ATCGdVWmNwkb84hkCehUN5VqYmU7"
    ],
    "funnel": {
     "2026-10-19": {
@@ -2190,12 +2191,12 @@
      "giris": 20
     },
     "2026-10-23": {
-     "tarama": 2368,
-     "yas": 186,
-     "likidite": 16,
-     "hacim": 16,
-     "yukselis": 11,
-     "guvenlik_red": 3,
+     "tarama": 2434,
+     "yas": 192,
+     "likidite": 17,
+     "hacim": 17,
+     "yukselis": 12,
+     "guvenlik_red": 4,
      "giris": 8
     }
    }
