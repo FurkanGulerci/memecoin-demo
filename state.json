@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 40.82753331173478,
+   "cash": 30.827533311734783,
    "positions": [
     {
      "mint": "3YYqFkPaob7SzUCyk59DGVhPZK1LN9odKMJc1uy3pump",
@@ -251,7 +251,7 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.0007164419159711914,
+     "last_price": 0.000807943261618874,
      "max_m": 1.218875377205506,
      "entry_exec": 0.0006737641078270546
     },
@@ -269,9 +269,27 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.17629296419608545,
-     "max_m": 1.016286981195764,
+     "last_price": 0.17658677310081253,
+     "max_m": 1.0187448602819513,
      "entry_exec": 0.1734707440778116
+    },
+    {
+     "mint": "D35x555XCejXLQ8wvUUEXj8Lw2PPp6eG2Xk6jgffpump",
+     "pool": "6k1X8c1QykXSKFKeM5k3XGBzgZif7QRtBiZs55ehFPE1",
+     "name": "XTO",
+     "opened": "2026-10-24T06:47:34Z",
+     "entry_price": 0.038998764686735535,
+     "entry_liq": 528257.9357,
+     "tokens": 251.30632746345165,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "fees": 0.1993636709651449,
+     "partial": false,
+     "risk": "temiz",
+     "miss": 0,
+     "last_price": 0.038998764686735535,
+     "max_m": 1.0,
+     "entry_exec": 0.03900021180893423
     }
    ],
    "closed": [
@@ -2672,7 +2690,8 @@
     "3YYqFkPaob7SzUCyk59DGVhPZK1LN9odKMJc1uy3pump",
     "EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump",
     "1btC9yCTw1EEjm57hJpDAmm9DsxXZwq4EyhfEe7pump",
-    "9daaq4QBFia2C9BcAEwMP2RfWqseDsTYudqM4Lfmpump"
+    "9daaq4QBFia2C9BcAEwMP2RfWqseDsTYudqM4Lfmpump",
+    "D35x555XCejXLQ8wvUUEXj8Lw2PPp6eG2Xk6jgffpump"
    ],
    "rejected": [
     "Bm67LrewgThV5H72LC4EkyPc9xk6iwMR1CkSkK8z72q9",
@@ -2761,13 +2780,13 @@
      "giris": 21
     },
     "2026-10-24": {
-     "tarama": 3715,
-     "yas": 276,
-     "likidite": 45,
-     "hacim": 45,
-     "yukselis": 18,
+     "tarama": 3787,
+     "yas": 284,
+     "likidite": 47,
+     "hacim": 47,
+     "yukselis": 19,
      "guvenlik_red": 2,
-     "giris": 16
+     "giris": 17
     }
    }
   }
