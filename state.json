@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 30.856179534000816,
+   "cash": 10.856179534000816,
    "positions": [
     {
      "mint": "9E4d5MUKxJb6cYKjA2uETKv66bU1uzchiY6x5AeGpump",
@@ -251,7 +251,7 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.01615182026839461,
+     "last_price": 0.016089335431249772,
      "max_m": 1.0228578332558138,
      "entry_exec": 0.015804929637265
     },
@@ -269,8 +269,8 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 5.864865989484229e-05,
-     "max_m": 1.0078206377425094,
+     "last_price": 6.594210775076353e-05,
+     "max_m": 1.0725869015752578,
      "entry_exec": 6.153937694914542e-05
     },
     {
@@ -287,9 +287,45 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.0006925434671573589,
+     "last_price": 0.0007109828559324568,
      "max_m": 1.218875377205506,
      "entry_exec": 0.0006737641078270546
+    },
+    {
+     "mint": "1btC9yCTw1EEjm57hJpDAmm9DsxXZwq4EyhfEe7pump",
+     "pool": "6CzsA5RWFKxwCaWKXgTSf5QCN57my33uK2QRB3vGWns5",
+     "name": "NODF",
+     "opened": "2026-10-24T05:55:04Z",
+     "entry_price": 0.17346769904368844,
+     "entry_liq": 1116675.1173,
+     "tokens": 56.49944059503018,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "fees": 0.19917204272455197,
+     "partial": false,
+     "risk": "temiz",
+     "miss": 0,
+     "last_price": 0.17346769904368844,
+     "max_m": 1.0,
+     "entry_exec": 0.1734707440778116
+    },
+    {
+     "mint": "9daaq4QBFia2C9BcAEwMP2RfWqseDsTYudqM4Lfmpump",
+     "pool": "78TxeedEi2hCvcdd6Aqi2ZeMUscQ7MWnsXvUBUixJaTo",
+     "name": "PRIVACY",
+     "opened": "2026-10-24T05:55:04Z",
+     "entry_price": 8.000223582283534e-05,
+     "entry_liq": 23812.618,
+     "tokens": 122408.31243238144,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "fees": 0.2070613221093131,
+     "partial": false,
+     "risk": "temiz",
+     "miss": 0,
+     "last_price": 8.000223582283534e-05,
+     "max_m": 1.0,
+     "entry_exec": 8.006809182516987e-05
     }
    ],
    "closed": [
@@ -2634,7 +2670,9 @@
     "9E4d5MUKxJb6cYKjA2uETKv66bU1uzchiY6x5AeGpump",
     "PairUottr9sWf6REag62Y8xeFfrWSpL1F9zikNyqWLV",
     "3YYqFkPaob7SzUCyk59DGVhPZK1LN9odKMJc1uy3pump",
-    "EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump"
+    "EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump",
+    "1btC9yCTw1EEjm57hJpDAmm9DsxXZwq4EyhfEe7pump",
+    "9daaq4QBFia2C9BcAEwMP2RfWqseDsTYudqM4Lfmpump"
    ],
    "rejected": [
     "Bm67LrewgThV5H72LC4EkyPc9xk6iwMR1CkSkK8z72q9",
@@ -2723,13 +2761,13 @@
      "giris": 21
     },
     "2026-10-24": {
-     "tarama": 3469,
-     "yas": 262,
-     "likidite": 40,
-     "hacim": 40,
-     "yukselis": 16,
+     "tarama": 3527,
+     "yas": 265,
+     "likidite": 42,
+     "hacim": 42,
+     "yukselis": 18,
      "guvenlik_red": 2,
-     "giris": 14
+     "giris": 16
     }
    }
   }
