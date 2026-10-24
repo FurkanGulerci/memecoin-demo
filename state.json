@@ -235,26 +235,8 @@
    }
   },
   "B": {
-   "cash": 32.93881109372359,
+   "cash": 43.10818883256392,
    "positions": [
-    {
-     "mint": "D35x555XCejXLQ8wvUUEXj8Lw2PPp6eG2Xk6jgffpump",
-     "pool": "6k1X8c1QykXSKFKeM5k3XGBzgZif7QRtBiZs55ehFPE1",
-     "name": "XTO",
-     "opened": "2026-10-24T06:47:34Z",
-     "entry_price": 0.038998764686735535,
-     "entry_liq": 528257.9357,
-     "tokens": 251.30632746345165,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.1993636709651449,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.0412535892417586,
-     "max_m": 1.0578178455942218,
-     "entry_exec": 0.03900021180893423
-    },
     {
      "mint": "Bdmz1BAj5B2YbYVdMyZexWbjX33kfhNonHGDtQjipump",
      "pool": "BDFCdXTi8JfCkioHtytKCBfy2axEMmQoUV6j9BoLj2KJ",
@@ -269,7 +251,7 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.00014688592207260393,
+     "last_price": 0.00014057884568896903,
      "max_m": 1.0,
      "entry_exec": 0.00014697548861565497
     }
@@ -2577,6 +2559,24 @@
      "reason": "STOP",
      "risk": "temiz",
      "max_m": 1.027,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "XTO",
+     "mint": "D35x555XCejXLQ8wvUUEXj8Lw2PPp6eG2Xk6jgffpump",
+     "pool": "6k1X8c1QykXSKFKeM5k3XGBzgZif7QRtBiZs55ehFPE1",
+     "opened": "2026-10-24T06:47:34Z",
+     "closed": "2026-10-24T08:47:47Z",
+     "closed_day": "2026-10-24",
+     "hold_min": 120.2,
+     "cost": 10.0,
+     "proceeds": 10.1694,
+     "pnl": 0.1694,
+     "fees": 0.4035,
+     "reason": "SURE",
+     "risk": "temiz",
+     "max_m": 1.058,
      "partial": false
     }
    ],
