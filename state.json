@@ -235,27 +235,8 @@
    }
   },
   "B": {
-   "cash": 44.70411736629765,
-   "positions": [
-    {
-     "mint": "H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump",
-     "pool": "3p3uYa9AYzV7w2nHEJeo8ANkuuwhYUonQvhHS8LyrqJY",
-     "name": "CATTLEAXE",
-     "opened": "2026-10-24T23:34:45Z",
-     "entry_price": 0.001088390599826278,
-     "entry_liq": 90416.7308,
-     "tokens": 9003.087350218473,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.2011243586073414,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.0013156751985612515,
-     "max_m": 1.2088263154526062,
-     "entry_exec": 0.0010886265587284527
-    }
-   ],
+   "cash": 57.070613825030534,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -2847,6 +2828,24 @@
      "reason": "TP",
      "risk": "temiz",
      "max_m": 1.254,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "CATTLEAXE",
+     "mint": "H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump",
+     "pool": "3p3uYa9AYzV7w2nHEJeo8ANkuuwhYUonQvhHS8LyrqJY",
+     "opened": "2026-10-24T23:34:45Z",
+     "closed": "2026-10-24T23:43:45Z",
+     "closed_day": "2026-10-25",
+     "hold_min": 9.0,
+     "cost": 10.0,
+     "proceeds": 12.3665,
+     "pnl": 2.3665,
+     "fees": 0.4302,
+     "reason": "TP",
+     "risk": "temiz",
+     "max_m": 1.285,
      "partial": false
     }
    ],
