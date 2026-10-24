@@ -235,45 +235,8 @@
    }
   },
   "B": {
-   "cash": 32.820027115107024,
-   "positions": [
-    {
-     "mint": "YtCbkq4nggXF1NrgQ3gfdFBn76BivmzanJmiJRWpump",
-     "pool": "A7iAyJWZbvVXAgkyfK827spUoXjvvwMFRUG6MrYsVsp1",
-     "name": "FOTF",
-     "opened": "2026-10-23T22:09:49Z",
-     "entry_price": 0.20992806670632827,
-     "entry_liq": 1236052.5583,
-     "tokens": 46.6866804739223,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.19915542717340545,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.21318267440833627,
-     "max_m": 1.0155034424556528,
-     "entry_exec": 0.20993139586085002
-    },
-    {
-     "mint": "J9WL4zQVCFvLTydjtHoMGcLasjhRMZomnVmp4Y2cpump",
-     "pool": "FFXScKY624ixVSvoBp3iZRLHUqcTERNwCouvNFDhgFrX",
-     "name": "Moustache",
-     "opened": "2026-10-23T23:44:19Z",
-     "entry_price": 0.0005540050458920425,
-     "entry_liq": 66594.6499,
-     "tokens": 17685.968777932147,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20188405553646954,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.0006286083566025448,
-     "max_m": 1.2115831110634188,
-     "entry_exec": 0.0005541681161525797
-    }
-   ],
+   "cash": 55.89065206492353,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -2325,6 +2288,42 @@
      "reason": "STOP",
      "risk": "temiz",
      "max_m": 1.164,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "FOTF",
+     "mint": "YtCbkq4nggXF1NrgQ3gfdFBn76BivmzanJmiJRWpump",
+     "pool": "A7iAyJWZbvVXAgkyfK827spUoXjvvwMFRUG6MrYsVsp1",
+     "opened": "2026-10-23T22:09:49Z",
+     "closed": "2026-10-24T00:09:49Z",
+     "closed_day": "2026-10-24",
+     "hold_min": 120.0,
+     "cost": 10.0,
+     "proceeds": 9.7579,
+     "pnl": -0.2421,
+     "fees": 0.3989,
+     "reason": "SURE",
+     "risk": "temiz",
+     "max_m": 1.016,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "Moustache",
+     "mint": "J9WL4zQVCFvLTydjtHoMGcLasjhRMZomnVmp4Y2cpump",
+     "pool": "FFXScKY624ixVSvoBp3iZRLHUqcTERNwCouvNFDhgFrX",
+     "opened": "2026-10-23T23:44:19Z",
+     "closed": "2026-10-24T00:09:49Z",
+     "closed_day": "2026-10-24",
+     "hold_min": 25.5,
+     "cost": 10.0,
+     "proceeds": 13.3127,
+     "pnl": 3.3127,
+     "fees": 0.4424,
+     "reason": "TP",
+     "risk": "temiz",
+     "max_m": 1.383,
      "partial": false
     }
    ],
