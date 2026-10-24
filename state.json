@@ -251,8 +251,8 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.04022111880792717,
-     "max_m": 1.0315194952515014,
+     "last_price": 0.0400850943321511,
+     "max_m": 1.0329509547004396,
      "entry_exec": 0.03900021180893423
     }
    ],
@@ -2731,7 +2731,8 @@
     "tybY2LFHH91VdoPJJkkFAsYaD7wnQQAm3BYg1x3mint",
     "4nZJvocTBuShVKUpgPf4eKgUcrbxh69FJfkXuNurQd37",
     "B44UptqVg1fnkc7eUJy1TmbyGxUnsgmDg1dciMsMxsM8",
-    "GzzoDGDgpxktLgDVZBU1wnXyMYhBCaALXbMwytqg6nJU"
+    "GzzoDGDgpxktLgDVZBU1wnXyMYhBCaALXbMwytqg6nJU",
+    "DjtS7UxVA5giVKCSVfL7aF8zF9o33e1xEcyKX4jxPMRP"
    ],
    "funnel": {
     "2026-10-19": {
@@ -2780,12 +2781,12 @@
      "giris": 21
     },
     "2026-10-24": {
-     "tarama": 4160,
-     "yas": 306,
-     "likidite": 51,
-     "hacim": 51,
-     "yukselis": 19,
-     "guvenlik_red": 2,
+     "tarama": 4213,
+     "yas": 308,
+     "likidite": 52,
+     "hacim": 52,
+     "yukselis": 20,
+     "guvenlik_red": 3,
      "giris": 17
     }
    }
