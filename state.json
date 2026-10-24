@@ -235,27 +235,8 @@
    }
   },
   "B": {
-   "cash": 45.89065206492353,
-   "positions": [
-    {
-     "mint": "J8NLpWf52NrMMXLEhf26NUVrpst8Xm3CS91KZ5RPpump",
-     "pool": "GUPFU34b2msSwPkuBvefUETs8rgwmUX25oN95GXbaBhB",
-     "name": "YMBCOIN",
-     "opened": "2026-10-24T00:26:19Z",
-     "entry_price": 0.0010382051881373925,
-     "entry_liq": 89484.2168,
-     "tokens": 9438.26289859334,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20114649167572923,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.0011206572031321708,
-     "max_m": 1.1502276616453966,
-     "entry_exec": 0.0010384326125796645
-    }
-   ],
+   "cash": 58.123750452364305,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -2343,6 +2324,24 @@
      "reason": "TP",
      "risk": "temiz",
      "max_m": 1.383,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "YMBCOIN",
+     "mint": "J8NLpWf52NrMMXLEhf26NUVrpst8Xm3CS91KZ5RPpump",
+     "pool": "GUPFU34b2msSwPkuBvefUETs8rgwmUX25oN95GXbaBhB",
+     "opened": "2026-10-24T00:26:19Z",
+     "closed": "2026-10-24T01:06:49Z",
+     "closed_day": "2026-10-24",
+     "hold_min": 40.5,
+     "cost": 10.0,
+     "proceeds": 12.2331,
+     "pnl": 2.2331,
+     "fees": 0.429,
+     "reason": "TP",
+     "risk": "temiz",
+     "max_m": 1.272,
      "partial": false
     }
    ],
