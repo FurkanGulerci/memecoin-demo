@@ -235,27 +235,8 @@
    }
   },
   "B": {
-   "cash": 43.10818883256392,
-   "positions": [
-    {
-     "mint": "Bdmz1BAj5B2YbYVdMyZexWbjX33kfhNonHGDtQjipump",
-     "pool": "BDFCdXTi8JfCkioHtytKCBfy2axEMmQoUV6j9BoLj2KJ",
-     "name": "COIL",
-     "opened": "2026-10-24T08:46:17Z",
-     "entry_price": 0.00014688592207260393,
-     "entry_liq": 32146.5778,
-     "tokens": 66684.5886502197,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20497270808018103,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.00014057884568896903,
-     "max_m": 1.0,
-     "entry_exec": 0.00014697548861565497
-    }
-   ],
+   "cash": 50.95335017100115,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -2577,6 +2558,24 @@
      "reason": "SURE",
      "risk": "temiz",
      "max_m": 1.058,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "COIL",
+     "mint": "Bdmz1BAj5B2YbYVdMyZexWbjX33kfhNonHGDtQjipump",
+     "pool": "BDFCdXTi8JfCkioHtytKCBfy2axEMmQoUV6j9BoLj2KJ",
+     "opened": "2026-10-24T08:46:17Z",
+     "closed": "2026-10-24T08:49:17Z",
+     "closed_day": "2026-10-24",
+     "hold_min": 3.0,
+     "cost": 10.0,
+     "proceeds": 7.8452,
+     "pnl": -2.1548,
+     "fees": 0.3897,
+     "reason": "STOP",
+     "risk": "temiz",
+     "max_m": 1.0,
      "partial": false
     }
    ],
