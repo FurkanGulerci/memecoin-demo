@@ -235,8 +235,27 @@
    }
   },
   "B": {
-   "cash": 56.712554429162985,
-   "positions": [],
+   "cash": 46.712554429162985,
+   "positions": [
+    {
+     "mint": "4ipcoJ37nXNXs66SR9MVYTz6vwUdqsXYfLD4vYE6pump",
+     "pool": "AU5eQdjHKeHo4E7Ub78p2DBdjUReBsKEYr9dMphwGbRh",
+     "name": "GDC",
+     "opened": "2026-10-24T15:49:31Z",
+     "entry_price": 0.0006793301823285571,
+     "entry_liq": 73312.6633,
+     "tokens": 14423.590191382604,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "fees": 0.2016198454556674,
+     "partial": false,
+     "risk": "temiz",
+     "miss": 0,
+     "last_price": 0.0006793301823285571,
+     "max_m": 1.0,
+     "entry_exec": 0.0006795118184830031
+    }
+   ],
    "closed": [
     {
      "strategy": "B",
@@ -2804,7 +2823,8 @@
     "3w9tQEQsrLdEVpHZq8rJrnGwagFUmyySwZbKuefWpump",
     "DEL3KmMovmE57YmwzFYFkMuNDs3PZyi3qMvP9Jyfpump",
     "95MV9VPQC7pBZRRS9t8CJvBCi4J3VEH37ZJSGAWapump",
-    "Cggjah6mVhhh6uwCbjGUfPLnapsBbzUL2aAZokHo3iYT"
+    "Cggjah6mVhhh6uwCbjGUfPLnapsBbzUL2aAZokHo3iYT",
+    "4ipcoJ37nXNXs66SR9MVYTz6vwUdqsXYfLD4vYE6pump"
    ],
    "rejected": [
     "Bm67LrewgThV5H72LC4EkyPc9xk6iwMR1CkSkK8z72q9",
@@ -2895,13 +2915,13 @@
      "giris": 21
     },
     "2026-10-24": {
-     "tarama": 7107,
-     "yas": 445,
-     "likidite": 60,
-     "hacim": 60,
-     "yukselis": 27,
+     "tarama": 7174,
+     "yas": 448,
+     "likidite": 61,
+     "hacim": 61,
+     "yukselis": 28,
      "guvenlik_red": 4,
-     "giris": 23
+     "giris": 24
     }
    }
   }
