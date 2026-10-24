@@ -235,27 +235,8 @@
    }
   },
   "B": {
-   "cash": 49.83580655853243,
-   "positions": [
-    {
-     "mint": "BzoYWZL3fXC5KkzkA6dEh9pBKcv9NAqwkTxJReNxpump",
-     "pool": "74UkPPdnQmnBou91H9FNCpRggTfdKvGoJD9N6SDCqX1f",
-     "name": "VELK",
-     "opened": "2026-10-24T16:42:01Z",
-     "entry_price": 6.932701980129267e-05,
-     "entry_liq": 20957.7228,
-     "tokens": 141241.34580765548,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20815842243144383,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 6.38243575330099e-05,
-     "max_m": 1.0106988936188712,
-     "entry_exec": 6.939186216298975e-05
-    }
-   ],
+   "cash": 57.028098697855526,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -2703,6 +2684,24 @@
      "reason": "TP",
      "risk": "temiz",
      "max_m": 1.364,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "VELK",
+     "mint": "BzoYWZL3fXC5KkzkA6dEh9pBKcv9NAqwkTxJReNxpump",
+     "pool": "74UkPPdnQmnBou91H9FNCpRggTfdKvGoJD9N6SDCqX1f",
+     "opened": "2026-10-24T16:42:01Z",
+     "closed": "2026-10-24T16:55:31Z",
+     "closed_day": "2026-10-24",
+     "hold_min": 13.5,
+     "cost": 10.0,
+     "proceeds": 7.1923,
+     "pnl": -2.8077,
+     "fees": 0.388,
+     "reason": "STOP",
+     "risk": "temiz",
+     "max_m": 1.011,
      "partial": false
     }
    ],
