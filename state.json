@@ -235,27 +235,8 @@
    }
   },
   "B": {
-   "cash": 40.20928559281859,
-   "positions": [
-    {
-     "mint": "3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump",
-     "pool": "3tXP9X2W1aL9jtZF1tuAwEZMuX4w3PWNvVAHPJjd3MAq",
-     "name": "SWORDOPE",
-     "opened": "2026-10-24T21:49:45Z",
-     "entry_price": 0.002003102986147577,
-     "entry_liq": 125517.6882,
-     "tokens": 4892.144683622572,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.200530375569633,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.0024985742494069273,
-     "max_m": 1.2473518669213581,
-     "entry_exec": 0.0020034158091870825
-    }
-   ],
+   "cash": 52.64201461799771,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -2811,6 +2792,24 @@
      "reason": "SURE",
      "risk": "temiz",
      "max_m": 1.056,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "SWORDOPE",
+     "mint": "3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump",
+     "pool": "3tXP9X2W1aL9jtZF1tuAwEZMuX4w3PWNvVAHPJjd3MAq",
+     "opened": "2026-10-24T21:49:45Z",
+     "closed": "2026-10-24T22:07:45Z",
+     "closed_day": "2026-10-25",
+     "hold_min": 18.0,
+     "cost": 10.0,
+     "proceeds": 12.4327,
+     "pnl": 2.4327,
+     "fees": 0.4293,
+     "reason": "TP",
+     "risk": "temiz",
+     "max_m": 1.292,
      "partial": false
     }
    ],
