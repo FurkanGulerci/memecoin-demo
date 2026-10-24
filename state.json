@@ -235,27 +235,8 @@
    }
   },
   "B": {
-   "cash": 48.69360278863808,
-   "positions": [
-    {
-     "mint": "Cggjah6mVhhh6uwCbjGUfPLnapsBbzUL2aAZokHo3iYT",
-     "pool": "WvHNACjNgZ1oBx8FRqfjnNuTiytXRgiLJuNu1gW2j1k",
-     "name": "OpenSolana",
-     "opened": "2026-10-24T12:47:47Z",
-     "entry_price": 0.00023496100876842457,
-     "entry_liq": 41775.2483,
-     "tokens": 41693.74030134553,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20359671946713592,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.00020250255510467202,
-     "max_m": 1.0,
-     "entry_exec": 0.00023507125839903847
-    }
-   ],
+   "cash": 56.712554429162985,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -2667,6 +2648,24 @@
      "reason": "TP",
      "risk": "temiz",
      "max_m": 1.361,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "OpenSolana",
+     "mint": "Cggjah6mVhhh6uwCbjGUfPLnapsBbzUL2aAZokHo3iYT",
+     "pool": "WvHNACjNgZ1oBx8FRqfjnNuTiytXRgiLJuNu1gW2j1k",
+     "opened": "2026-10-24T12:47:47Z",
+     "closed": "2026-10-24T12:55:17Z",
+     "closed_day": "2026-10-24",
+     "hold_min": 7.5,
+     "cost": 10.0,
+     "proceeds": 8.019,
+     "pnl": -1.981,
+     "fees": 0.3891,
+     "reason": "STOP",
+     "risk": "temiz",
+     "max_m": 1.0,
      "partial": false
     }
    ],
