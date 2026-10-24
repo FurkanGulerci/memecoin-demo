@@ -235,27 +235,8 @@
    }
   },
   "B": {
-   "cash": 45.594625763678465,
-   "positions": [
-    {
-     "mint": "95MV9VPQC7pBZRRS9t8CJvBCi4J3VEH37ZJSGAWapump",
-     "pool": "BSi5FmmzXof4LmT48hVaoCod1BJvF8ZZtSyQPxwN2r7N",
-     "name": "Pumptache",
-     "opened": "2026-10-24T11:44:47Z",
-     "entry_price": 0.0015841492155215606,
-     "entry_liq": 149914.3171,
-     "tokens": 6186.108319098246,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20028135916911277,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.0017121470042504774,
-     "max_m": 1.205528406797284,
-     "entry_exec": 0.0015843563504605266
-    }
-   ],
+   "cash": 58.69360278863808,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -2649,6 +2630,24 @@
      "reason": "TP",
      "risk": "temiz",
      "max_m": 1.272,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "Pumptache",
+     "mint": "95MV9VPQC7pBZRRS9t8CJvBCi4J3VEH37ZJSGAWapump",
+     "pool": "BSi5FmmzXof4LmT48hVaoCod1BJvF8ZZtSyQPxwN2r7N",
+     "opened": "2026-10-24T11:44:47Z",
+     "closed": "2026-10-24T12:14:47Z",
+     "closed_day": "2026-10-24",
+     "hold_min": 30.0,
+     "cost": 10.0,
+     "proceeds": 13.099,
+     "pnl": 3.099,
+     "fees": 0.4356,
+     "reason": "TP",
+     "risk": "temiz",
+     "max_m": 1.361,
      "partial": false
     }
    ],
