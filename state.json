@@ -235,8 +235,27 @@
    }
   },
   "B": {
-   "cash": 55.89065206492353,
-   "positions": [],
+   "cash": 45.89065206492353,
+   "positions": [
+    {
+     "mint": "J8NLpWf52NrMMXLEhf26NUVrpst8Xm3CS91KZ5RPpump",
+     "pool": "GUPFU34b2msSwPkuBvefUETs8rgwmUX25oN95GXbaBhB",
+     "name": "YMBCOIN",
+     "opened": "2026-10-24T00:26:19Z",
+     "entry_price": 0.0010382051881373925,
+     "entry_liq": 89484.2168,
+     "tokens": 9438.26289859334,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "fees": 0.20114649167572923,
+     "partial": false,
+     "risk": "temiz",
+     "miss": 0,
+     "last_price": 0.0010382051881373925,
+     "max_m": 1.0,
+     "entry_exec": 0.0010384326125796645
+    }
+   ],
    "closed": [
     {
      "strategy": "B",
@@ -2443,7 +2462,8 @@
     "YtCbkq4nggXF1NrgQ3gfdFBn76BivmzanJmiJRWpump",
     "26Aawi1sZSNR8Raumc3hdvKbke6RJ1dYaKqgrHXopump",
     "6bW6xsZxYqcvqabk9rRgQwgjPNwe8SACPusx5o1wpump",
-    "J9WL4zQVCFvLTydjtHoMGcLasjhRMZomnVmp4Y2cpump"
+    "J9WL4zQVCFvLTydjtHoMGcLasjhRMZomnVmp4Y2cpump",
+    "J8NLpWf52NrMMXLEhf26NUVrpst8Xm3CS91KZ5RPpump"
    ],
    "rejected": [
     "Bm67LrewgThV5H72LC4EkyPc9xk6iwMR1CkSkK8z72q9",
@@ -2482,7 +2502,8 @@
     "Fzxj8ZLR1t5UW1ez1j9hsuN47waTnu4392hC1UnxWLkN",
     "tybY2LFHH91VdoPJJkkFAsYaD7wnQQAm3BYg1x3mint",
     "4nZJvocTBuShVKUpgPf4eKgUcrbxh69FJfkXuNurQd37",
-    "B44UptqVg1fnkc7eUJy1TmbyGxUnsgmDg1dciMsMxsM8"
+    "B44UptqVg1fnkc7eUJy1TmbyGxUnsgmDg1dciMsMxsM8",
+    "GzzoDGDgpxktLgDVZBU1wnXyMYhBCaALXbMwytqg6nJU"
    ],
    "funnel": {
     "2026-10-19": {
@@ -2531,13 +2552,13 @@
      "giris": 21
     },
     "2026-10-24": {
-     "tarama": 1357,
-     "yas": 111,
-     "likidite": 14,
-     "hacim": 14,
-     "yukselis": 5,
-     "guvenlik_red": 1,
-     "giris": 4
+     "tarama": 1422,
+     "yas": 117,
+     "likidite": 16,
+     "hacim": 16,
+     "yukselis": 7,
+     "guvenlik_red": 2,
+     "giris": 5
     }
    }
   }
