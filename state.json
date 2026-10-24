@@ -235,26 +235,8 @@
    }
   },
   "B": {
-   "cash": 30.953350171001148,
+   "cash": 43.408518493391576,
    "positions": [
-    {
-     "mint": "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump",
-     "pool": "6JDiSPsWBwcSN8xBa4LNBzMZRikxksbxcto8J3ELR4cG",
-     "name": "REMUS",
-     "opened": "2026-10-24T09:07:17Z",
-     "entry_price": 0.0003104006024219371,
-     "entry_liq": 48410.6434,
-     "tokens": 31562.545296334018,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20296692604824446,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.00036757557978416987,
-     "max_m": 1.2028611711190338,
-     "entry_exec": 0.0003105262870272501
-    },
     {
      "mint": "3w9tQEQsrLdEVpHZq8rJrnGwagFUmyySwZbKuefWpump",
      "pool": "9dEaCnsw3uhKDT1vkxwbv6Z3zpbj2ggi5qDuukRBEFLH",
@@ -269,8 +251,8 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.004625224352990834,
-     "max_m": 1.0131551576275561,
+     "last_price": 0.004669688901816994,
+     "max_m": 1.0154077471749698,
      "entry_exec": 0.004599329671789809
     }
    ],
@@ -2613,6 +2595,24 @@
      "reason": "STOP",
      "risk": "temiz",
      "max_m": 1.0,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "REMUS",
+     "mint": "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump",
+     "pool": "6JDiSPsWBwcSN8xBa4LNBzMZRikxksbxcto8J3ELR4cG",
+     "opened": "2026-10-24T09:07:17Z",
+     "closed": "2026-10-24T09:53:47Z",
+     "closed_day": "2026-10-24",
+     "hold_min": 46.5,
+     "cost": 10.0,
+     "proceeds": 12.4552,
+     "pnl": 2.4552,
+     "fees": 0.4357,
+     "reason": "TP",
+     "risk": "temiz",
+     "max_m": 1.295,
      "partial": false
     }
    ],
