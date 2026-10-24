@@ -235,27 +235,8 @@
    }
   },
   "B": {
-   "cash": 46.712554429162985,
-   "positions": [
-    {
-     "mint": "4ipcoJ37nXNXs66SR9MVYTz6vwUdqsXYfLD4vYE6pump",
-     "pool": "AU5eQdjHKeHo4E7Ub78p2DBdjUReBsKEYr9dMphwGbRh",
-     "name": "GDC",
-     "opened": "2026-10-24T15:49:31Z",
-     "entry_price": 0.0006793301823285571,
-     "entry_liq": 73312.6633,
-     "tokens": 14423.590191382604,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.2016198454556674,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.0006655689299257763,
-     "max_m": 1.1252476907875062,
-     "entry_exec": 0.0006795118184830031
-    }
-   ],
+   "cash": 59.83580655853243,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -2686,6 +2667,24 @@
      "risk": "temiz",
      "max_m": 1.0,
      "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "GDC",
+     "mint": "4ipcoJ37nXNXs66SR9MVYTz6vwUdqsXYfLD4vYE6pump",
+     "pool": "AU5eQdjHKeHo4E7Ub78p2DBdjUReBsKEYr9dMphwGbRh",
+     "opened": "2026-10-24T15:49:31Z",
+     "closed": "2026-10-24T16:31:31Z",
+     "closed_day": "2026-10-24",
+     "hold_min": 42.0,
+     "cost": 10.0,
+     "proceeds": 13.1233,
+     "pnl": 3.1233,
+     "fees": 0.4394,
+     "reason": "TP",
+     "risk": "temiz",
+     "max_m": 1.364,
+     "partial": false
     }
    ],
    "seen": [
@@ -2915,10 +2914,10 @@
      "giris": 21
     },
     "2026-10-24": {
-     "tarama": 7334,
-     "yas": 457,
-     "likidite": 62,
-     "hacim": 62,
+     "tarama": 7398,
+     "yas": 461,
+     "likidite": 63,
+     "hacim": 63,
      "yukselis": 28,
      "guvenlik_red": 4,
      "giris": 24
