@@ -235,26 +235,8 @@
    }
   },
   "B": {
-   "cash": 20.251687915437927,
+   "cash": 30.122411927774237,
    "positions": [
-    {
-     "mint": "12hVaYzb6GgxvyePPbYzdGrefY9hCNLYo5pKN1Brpump",
-     "pool": "Gp22DmWMZmWaPsUnydcruVwWR8AWTGCLEJsDkwX4L3DM",
-     "name": "Doroni",
-     "opened": "2026-10-24T18:27:01Z",
-     "entry_price": 0.17944887784963928,
-     "entry_liq": 1126631.6849,
-     "tokens": 54.616276206990946,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.19917052232952076,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.18420356411380473,
-     "max_m": 1.0273877368475053,
-     "entry_exec": 0.17945200003850612
-    },
     {
      "mint": "6CJUDUxPzGb2vKLDdcYFaRzB4EMUXeJAmZtXZ98ipump",
      "pool": "8TYodyV8Ay6kS9YXypNLLhfZszwi88zoaWTwtwF4b7Rr",
@@ -269,8 +251,8 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.02719369903423629,
-     "max_m": 1.0047263123852141,
+     "last_price": 0.027352109887039507,
+     "max_m": 1.0110090633111897,
      "entry_exec": 0.027066988294717428
     },
     {
@@ -287,8 +269,8 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.01663651186960805,
-     "max_m": 1.0116685260053024,
+     "last_price": 0.016582605817682377,
+     "max_m": 1.0134585941303669,
      "entry_exec": 0.016445574266633834
     }
    ],
@@ -2794,6 +2776,24 @@
      "risk": "temiz",
      "max_m": 1.0,
      "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "Doroni",
+     "mint": "12hVaYzb6GgxvyePPbYzdGrefY9hCNLYo5pKN1Brpump",
+     "pool": "Gp22DmWMZmWaPsUnydcruVwWR8AWTGCLEJsDkwX4L3DM",
+     "opened": "2026-10-24T18:27:01Z",
+     "closed": "2026-10-24T20:27:15Z",
+     "closed_day": "2026-10-24",
+     "hold_min": 120.2,
+     "cost": 10.0,
+     "proceeds": 9.8707,
+     "pnl": -0.1293,
+     "fees": 0.4001,
+     "reason": "SURE",
+     "risk": "temiz",
+     "max_m": 1.028,
+     "partial": false
     }
    ],
    "seen": [
@@ -3029,8 +3029,8 @@
      "giris": 21
     },
     "2026-10-24": {
-     "tarama": 8741,
-     "yas": 505,
+     "tarama": 8807,
+     "yas": 507,
      "likidite": 71,
      "hacim": 71,
      "yukselis": 34,
