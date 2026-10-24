@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 10.856179534000816,
+   "cash": 18.967229109565224,
    "positions": [
     {
      "mint": "9E4d5MUKxJb6cYKjA2uETKv66bU1uzchiY6x5AeGpump",
@@ -251,8 +251,8 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.016182096886457595,
-     "max_m": 1.0243753796540795,
+     "last_price": 0.016195916050031824,
+     "max_m": 1.0247980177713536,
      "entry_exec": 0.015804929637265
     },
     {
@@ -269,8 +269,8 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 6.987205789633548e-05,
-     "max_m": 1.1365098363094064,
+     "last_price": 7.020294110128358e-05,
+     "max_m": 1.1418918449179265,
      "entry_exec": 6.153937694914542e-05
     },
     {
@@ -287,7 +287,7 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.000708213394262248,
+     "last_price": 0.0006928490758855675,
      "max_m": 1.218875377205506,
      "entry_exec": 0.0006737641078270546
     },
@@ -305,27 +305,9 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.1743504061246835,
+     "last_price": 0.17360084722659816,
      "max_m": 1.0050885962393077,
      "entry_exec": 0.1734707440778116
-    },
-    {
-     "mint": "9daaq4QBFia2C9BcAEwMP2RfWqseDsTYudqM4Lfmpump",
-     "pool": "78TxeedEi2hCvcdd6Aqi2ZeMUscQ7MWnsXvUBUixJaTo",
-     "name": "PRIVACY",
-     "opened": "2026-10-24T05:55:04Z",
-     "entry_price": 8.000223582283534e-05,
-     "entry_liq": 23812.618,
-     "tokens": 122408.31243238144,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.2070613221093131,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 6.881815897371003e-05,
-     "max_m": 1.1053824035672188,
-     "entry_exec": 8.006809182516987e-05
     }
    ],
    "closed": [
@@ -2542,6 +2524,24 @@
      "risk": "temiz",
      "max_m": 1.0,
      "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "PRIVACY",
+     "mint": "9daaq4QBFia2C9BcAEwMP2RfWqseDsTYudqM4Lfmpump",
+     "pool": "78TxeedEi2hCvcdd6Aqi2ZeMUscQ7MWnsXvUBUixJaTo",
+     "opened": "2026-10-24T05:55:04Z",
+     "closed": "2026-10-24T06:16:04Z",
+     "closed_day": "2026-10-24",
+     "hold_min": 21.0,
+     "cost": 10.0,
+     "proceeds": 8.111,
+     "pnl": -1.889,
+     "fees": 0.3962,
+     "reason": "STOP",
+     "risk": "temiz",
+     "max_m": 1.105,
+     "partial": false
     }
    ],
    "seen": [
@@ -2761,10 +2761,10 @@
      "giris": 21
     },
     "2026-10-24": {
-     "tarama": 3527,
-     "yas": 265,
-     "likidite": 42,
-     "hacim": 42,
+     "tarama": 3586,
+     "yas": 267,
+     "likidite": 44,
+     "hacim": 44,
      "yukselis": 18,
      "guvenlik_red": 2,
      "giris": 16
