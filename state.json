@@ -235,27 +235,8 @@
    }
   },
   "B": {
-   "cash": 42.64201461799771,
-   "positions": [
-    {
-     "mint": "hFF4rkdzsaoYhkz4dGEQepGmHCBTVFFCoaLXbJqpump",
-     "pool": "9NpHzpd3rjJhRdFi2Xm5by22YPhDTkEBQHAC2YmVXAKX",
-     "name": "WRHND",
-     "opened": "2026-10-24T22:42:15Z",
-     "entry_price": 0.001355987470161167,
-     "entry_liq": 105006.1556,
-     "tokens": 7226.593871760288,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20082925794957357,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.0016729047526642218,
-     "max_m": 1.2337169697190398,
-     "entry_exec": 0.0013562405988109896
-    }
-   ],
+   "cash": 54.70411736629765,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -2829,6 +2810,24 @@
      "reason": "TP",
      "risk": "temiz",
      "max_m": 1.292,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "WRHND",
+     "mint": "hFF4rkdzsaoYhkz4dGEQepGmHCBTVFFCoaLXbJqpump",
+     "pool": "9NpHzpd3rjJhRdFi2Xm5by22YPhDTkEBQHAC2YmVXAKX",
+     "opened": "2026-10-24T22:42:15Z",
+     "closed": "2026-10-24T23:33:15Z",
+     "closed_day": "2026-10-25",
+     "hold_min": 51.0,
+     "cost": 10.0,
+     "proceeds": 12.0621,
+     "pnl": 2.0621,
+     "fees": 0.4263,
+     "reason": "TP",
+     "risk": "temiz",
+     "max_m": 1.254,
      "partial": false
     }
    ],
