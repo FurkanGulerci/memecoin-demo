@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 52.065214823282794,
+   "cash": 42.065214823282794,
    "positions": [
     {
      "mint": "VkxmuwDZhqD8HNMhUvkvvGi5jWEfXt82MJn5f5tpump",
@@ -251,9 +251,27 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.004564625134275556,
-     "max_m": 1.004904756307859,
+     "last_price": 0.004604627798622216,
+     "max_m": 1.0052182749575396,
      "entry_exec": 0.004581222552837924
+    },
+    {
+     "mint": "Biiv46yBzZwwdg3HvYQ52yPXmnMb5EnF8dboTx2qpump",
+     "pool": "7sQcC11sheno53ksNSRDivaiu36t3BKQbccLM5vEFzrm",
+     "name": "ELIZABETH",
+     "opened": "2026-10-24T02:53:19Z",
+     "entry_price": 0.000333138154321384,
+     "entry_liq": 51155.0767,
+     "tokens": 29408.957479326542,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "fees": 0.20275418482109425,
+     "partial": false,
+     "risk": "temiz",
+     "miss": 0,
+     "last_price": 0.000333138154321384,
+     "max_m": 1.0,
+     "entry_exec": 0.00033326580878937165
     }
    ],
    "closed": [
@@ -2501,7 +2519,8 @@
     "J9WL4zQVCFvLTydjtHoMGcLasjhRMZomnVmp4Y2cpump",
     "J8NLpWf52NrMMXLEhf26NUVrpst8Xm3CS91KZ5RPpump",
     "VkxmuwDZhqD8HNMhUvkvvGi5jWEfXt82MJn5f5tpump",
-    "Cn9fH16vWPEbe3GJcRJ5X1aeYGESoJd1jiHsp6KCpump"
+    "Cn9fH16vWPEbe3GJcRJ5X1aeYGESoJd1jiHsp6KCpump",
+    "Biiv46yBzZwwdg3HvYQ52yPXmnMb5EnF8dboTx2qpump"
    ],
    "rejected": [
     "Bm67LrewgThV5H72LC4EkyPc9xk6iwMR1CkSkK8z72q9",
@@ -2590,13 +2609,13 @@
      "giris": 21
     },
     "2026-10-24": {
-     "tarama": 2278,
-     "yas": 178,
-     "likidite": 22,
-     "hacim": 22,
-     "yukselis": 9,
+     "tarama": 2348,
+     "yas": 187,
+     "likidite": 25,
+     "hacim": 25,
+     "yukselis": 10,
      "guvenlik_red": 2,
-     "giris": 7
+     "giris": 8
     }
    }
   }
