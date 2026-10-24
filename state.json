@@ -235,8 +235,27 @@
    }
   },
   "B": {
-   "cash": 50.95335017100115,
-   "positions": [],
+   "cash": 40.95335017100115,
+   "positions": [
+    {
+     "mint": "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump",
+     "pool": "6JDiSPsWBwcSN8xBa4LNBzMZRikxksbxcto8J3ELR4cG",
+     "name": "REMUS",
+     "opened": "2026-10-24T09:07:17Z",
+     "entry_price": 0.0003104006024219371,
+     "entry_liq": 48410.6434,
+     "tokens": 31562.545296334018,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "fees": 0.20296692604824446,
+     "partial": false,
+     "risk": "temiz",
+     "miss": 0,
+     "last_price": 0.0003104006024219371,
+     "max_m": 1.0,
+     "entry_exec": 0.0003105262870272501
+    }
+   ],
    "closed": [
     {
      "strategy": "B",
@@ -2709,7 +2728,8 @@
     "1btC9yCTw1EEjm57hJpDAmm9DsxXZwq4EyhfEe7pump",
     "9daaq4QBFia2C9BcAEwMP2RfWqseDsTYudqM4Lfmpump",
     "D35x555XCejXLQ8wvUUEXj8Lw2PPp6eG2Xk6jgffpump",
-    "Bdmz1BAj5B2YbYVdMyZexWbjX33kfhNonHGDtQjipump"
+    "Bdmz1BAj5B2YbYVdMyZexWbjX33kfhNonHGDtQjipump",
+    "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump"
    ],
    "rejected": [
     "Bm67LrewgThV5H72LC4EkyPc9xk6iwMR1CkSkK8z72q9",
@@ -2799,13 +2819,13 @@
      "giris": 21
     },
     "2026-10-24": {
-     "tarama": 4575,
-     "yas": 326,
-     "likidite": 53,
-     "hacim": 53,
-     "yukselis": 21,
+     "tarama": 4648,
+     "yas": 333,
+     "likidite": 54,
+     "hacim": 54,
+     "yukselis": 22,
      "guvenlik_red": 3,
-     "giris": 18
+     "giris": 19
     }
    }
   }
