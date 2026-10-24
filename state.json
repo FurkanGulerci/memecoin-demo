@@ -235,25 +235,25 @@
    }
   },
   "B": {
-   "cash": 43.37190159467602,
+   "cash": 45.594625763678465,
    "positions": [
     {
-     "mint": "DEL3KmMovmE57YmwzFYFkMuNDs3PZyi3qMvP9Jyfpump",
-     "pool": "6DVtcoCyvNzLJHJVX2gCghzE8gmpVdeNBjJ5Uw1LHmWk",
-     "name": "HUG",
-     "opened": "2026-10-24T11:13:17Z",
-     "entry_price": 0.00013354848282625623,
-     "entry_liq": 29851.2719,
-     "tokens": 73340.91811574477,
+     "mint": "95MV9VPQC7pBZRRS9t8CJvBCi4J3VEH37ZJSGAWapump",
+     "pool": "BSi5FmmzXof4LmT48hVaoCod1BJvF8ZZtSyQPxwN2r7N",
+     "name": "Pumptache",
+     "opened": "2026-10-24T11:44:47Z",
+     "entry_price": 0.0015841492155215606,
+     "entry_liq": 149914.3171,
+     "tokens": 6186.108319098246,
      "cost": 10.0,
      "proceeds": 0.0,
-     "fees": 0.20543165655759504,
+     "fees": 0.20028135916911277,
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.00014306756685933874,
-     "max_m": 1.1256704258338968,
-     "entry_exec": 0.00013363617816363182
+     "last_price": 0.0015841492155215606,
+     "max_m": 1.0,
+     "entry_exec": 0.0015843563504605266
     }
    ],
    "closed": [
@@ -2632,6 +2632,24 @@
      "risk": "temiz",
      "max_m": 1.048,
      "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "HUG",
+     "mint": "DEL3KmMovmE57YmwzFYFkMuNDs3PZyi3qMvP9Jyfpump",
+     "pool": "6DVtcoCyvNzLJHJVX2gCghzE8gmpVdeNBjJ5Uw1LHmWk",
+     "opened": "2026-10-24T11:13:17Z",
+     "closed": "2026-10-24T11:44:47Z",
+     "closed_day": "2026-10-24",
+     "hold_min": 31.5,
+     "cost": 10.0,
+     "proceeds": 12.2227,
+     "pnl": 2.2227,
+     "fees": 0.4389,
+     "reason": "TP",
+     "risk": "temiz",
+     "max_m": 1.272,
+     "partial": false
     }
    ],
    "seen": [
@@ -2767,7 +2785,8 @@
     "Bdmz1BAj5B2YbYVdMyZexWbjX33kfhNonHGDtQjipump",
     "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump",
     "3w9tQEQsrLdEVpHZq8rJrnGwagFUmyySwZbKuefWpump",
-    "DEL3KmMovmE57YmwzFYFkMuNDs3PZyi3qMvP9Jyfpump"
+    "DEL3KmMovmE57YmwzFYFkMuNDs3PZyi3qMvP9Jyfpump",
+    "95MV9VPQC7pBZRRS9t8CJvBCi4J3VEH37ZJSGAWapump"
    ],
    "rejected": [
     "Bm67LrewgThV5H72LC4EkyPc9xk6iwMR1CkSkK8z72q9",
@@ -2858,13 +2877,13 @@
      "giris": 21
     },
     "2026-10-24": {
-     "tarama": 5506,
-     "yas": 372,
-     "likidite": 57,
-     "hacim": 57,
-     "yukselis": 25,
+     "tarama": 5578,
+     "yas": 377,
+     "likidite": 58,
+     "hacim": 58,
+     "yukselis": 26,
      "guvenlik_red": 4,
-     "giris": 21
+     "giris": 22
     }
    }
   }
