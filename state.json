@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 38.123750452364305,
+   "cash": 52.065214823282794,
    "positions": [
     {
      "mint": "VkxmuwDZhqD8HNMhUvkvvGi5jWEfXt82MJn5f5tpump",
@@ -251,27 +251,9 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.004603191656118971,
+     "last_price": 0.004564625134275556,
      "max_m": 1.004904756307859,
      "entry_exec": 0.004581222552837924
-    },
-    {
-     "mint": "Cn9fH16vWPEbe3GJcRJ5X1aeYGESoJd1jiHsp6KCpump",
-     "pool": "HBzVCrBmYSofsRGmZfmGPxTs4ehb8VDWnCrgp6BN56xj",
-     "name": "YMB",
-     "opened": "2026-10-24T02:42:49Z",
-     "entry_price": 0.00019078444696251403,
-     "entry_liq": 37866.3271,
-     "tokens": 51345.53243230003,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20407099090781083,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.0002081552749704087,
-     "max_m": 1.0910494974011573,
-     "entry_exec": 0.00019088320902938902
     }
    ],
    "closed": [
@@ -2379,6 +2361,24 @@
      "reason": "TP",
      "risk": "temiz",
      "max_m": 1.272,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "YMB",
+     "mint": "Cn9fH16vWPEbe3GJcRJ5X1aeYGESoJd1jiHsp6KCpump",
+     "pool": "HBzVCrBmYSofsRGmZfmGPxTs4ehb8VDWnCrgp6BN56xj",
+     "opened": "2026-10-24T02:42:49Z",
+     "closed": "2026-10-24T02:47:19Z",
+     "closed_day": "2026-10-24",
+     "hold_min": 4.5,
+     "cost": 10.0,
+     "proceeds": 13.9415,
+     "pnl": 3.9415,
+     "fees": 0.4548,
+     "reason": "TP",
+     "risk": "temiz",
+     "max_m": 1.449,
      "partial": false
     }
    ],
