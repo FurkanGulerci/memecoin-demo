@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 42.065214823282794,
+   "cash": 50.04917110132499,
    "positions": [
     {
      "mint": "VkxmuwDZhqD8HNMhUvkvvGi5jWEfXt82MJn5f5tpump",
@@ -251,27 +251,9 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.0046097617372994806,
-     "max_m": 1.0063390450190073,
+     "last_price": 0.004613075596218042,
+     "max_m": 1.007328226919225,
      "entry_exec": 0.004581222552837924
-    },
-    {
-     "mint": "Biiv46yBzZwwdg3HvYQ52yPXmnMb5EnF8dboTx2qpump",
-     "pool": "7sQcC11sheno53ksNSRDivaiu36t3BKQbccLM5vEFzrm",
-     "name": "ELIZABETH",
-     "opened": "2026-10-24T02:53:19Z",
-     "entry_price": 0.000333138154321384,
-     "entry_liq": 51155.0767,
-     "tokens": 29408.957479326542,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20275418482109425,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.00032568598033993806,
-     "max_m": 1.0,
-     "entry_exec": 0.00033326580878937165
     }
    ],
    "closed": [
@@ -2397,6 +2379,24 @@
      "reason": "TP",
      "risk": "temiz",
      "max_m": 1.449,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "ELIZABETH",
+     "mint": "Biiv46yBzZwwdg3HvYQ52yPXmnMb5EnF8dboTx2qpump",
+     "pool": "7sQcC11sheno53ksNSRDivaiu36t3BKQbccLM5vEFzrm",
+     "opened": "2026-10-24T02:53:19Z",
+     "closed": "2026-10-24T02:59:19Z",
+     "closed_day": "2026-10-24",
+     "hold_min": 6.0,
+     "cost": 10.0,
+     "proceeds": 7.984,
+     "pnl": -2.016,
+     "fees": 0.3873,
+     "reason": "STOP",
+     "risk": "temiz",
+     "max_m": 1.0,
      "partial": false
     }
    ],
