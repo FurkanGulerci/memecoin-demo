@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 33.076905815576296,
+   "cash": 40.25168791543793,
    "positions": [
     {
      "mint": "12hVaYzb6GgxvyePPbYzdGrefY9hCNLYo5pKN1Brpump",
@@ -251,27 +251,9 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.18266881902218982,
-     "max_m": 1.0179435012976148,
+     "last_price": 0.182732468515276,
+     "max_m": 1.0186542053455074,
      "entry_exec": 0.17945200003850612
-    },
-    {
-     "mint": "1hy4VvRmw6iFkZwBAgpkuRTQn6KokLbqxjDGBSxpump",
-     "pool": "GDJBaNjsbnHRhce2G2ZwMa5eTuxANk5YvbS6ospGCNwb",
-     "name": "swordtrump",
-     "opened": "2026-10-24T19:54:15Z",
-     "entry_price": 0.0007071445279593382,
-     "entry_liq": 75373.9357,
-     "tokens": 13856.363719379595,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.2015482184264174,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.0007071445279593382,
-     "max_m": 1.0,
-     "entry_exec": 0.0007073284303509052
     }
    ],
    "closed": [
@@ -2754,6 +2736,24 @@
      "proceeds": 6.0488,
      "pnl": -3.9512,
      "fees": 0.37,
+     "reason": "STOP",
+     "risk": "temiz",
+     "max_m": 1.0,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "swordtrump",
+     "mint": "1hy4VvRmw6iFkZwBAgpkuRTQn6KokLbqxjDGBSxpump",
+     "pool": "GDJBaNjsbnHRhce2G2ZwMa5eTuxANk5YvbS6ospGCNwb",
+     "opened": "2026-10-24T19:54:15Z",
+     "closed": "2026-10-24T19:57:15Z",
+     "closed_day": "2026-10-24",
+     "hold_min": 3.0,
+     "cost": 10.0,
+     "proceeds": 7.1748,
+     "pnl": -2.8252,
+     "fees": 0.3767,
      "reason": "STOP",
      "risk": "temiz",
      "max_m": 1.0,
