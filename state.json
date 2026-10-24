@@ -235,8 +235,27 @@
    }
   },
   "B": {
-   "cash": 59.83580655853243,
-   "positions": [],
+   "cash": 49.83580655853243,
+   "positions": [
+    {
+     "mint": "BzoYWZL3fXC5KkzkA6dEh9pBKcv9NAqwkTxJReNxpump",
+     "pool": "74UkPPdnQmnBou91H9FNCpRggTfdKvGoJD9N6SDCqX1f",
+     "name": "VELK",
+     "opened": "2026-10-24T16:42:01Z",
+     "entry_price": 6.932701980129267e-05,
+     "entry_liq": 20957.7228,
+     "tokens": 141241.34580765548,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "fees": 0.20815842243144383,
+     "partial": false,
+     "risk": "temiz",
+     "miss": 0,
+     "last_price": 6.932701980129267e-05,
+     "max_m": 1.0,
+     "entry_exec": 6.939186216298975e-05
+    }
+   ],
    "closed": [
     {
      "strategy": "B",
@@ -2823,7 +2842,8 @@
     "DEL3KmMovmE57YmwzFYFkMuNDs3PZyi3qMvP9Jyfpump",
     "95MV9VPQC7pBZRRS9t8CJvBCi4J3VEH37ZJSGAWapump",
     "Cggjah6mVhhh6uwCbjGUfPLnapsBbzUL2aAZokHo3iYT",
-    "4ipcoJ37nXNXs66SR9MVYTz6vwUdqsXYfLD4vYE6pump"
+    "4ipcoJ37nXNXs66SR9MVYTz6vwUdqsXYfLD4vYE6pump",
+    "BzoYWZL3fXC5KkzkA6dEh9pBKcv9NAqwkTxJReNxpump"
    ],
    "rejected": [
     "Bm67LrewgThV5H72LC4EkyPc9xk6iwMR1CkSkK8z72q9",
@@ -2914,13 +2934,13 @@
      "giris": 21
     },
     "2026-10-24": {
-     "tarama": 7398,
-     "yas": 461,
-     "likidite": 63,
-     "hacim": 63,
-     "yukselis": 28,
+     "tarama": 7462,
+     "yas": 464,
+     "likidite": 65,
+     "hacim": 65,
+     "yukselis": 29,
      "guvenlik_red": 4,
-     "giris": 24
+     "giris": 25
     }
    }
   }
