@@ -238,24 +238,6 @@
    "cash": 42.93881109372359,
    "positions": [
     {
-     "mint": "1btC9yCTw1EEjm57hJpDAmm9DsxXZwq4EyhfEe7pump",
-     "pool": "6CzsA5RWFKxwCaWKXgTSf5QCN57my33uK2QRB3vGWns5",
-     "name": "NODF",
-     "opened": "2026-10-24T05:55:04Z",
-     "entry_price": 0.17346769904368844,
-     "entry_liq": 1116675.1173,
-     "tokens": 56.49944059503018,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.19917204272455197,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.17813784344438946,
-     "max_m": 1.0271216657177513,
-     "entry_exec": 0.1734707440778116
-    },
-    {
      "mint": "D35x555XCejXLQ8wvUUEXj8Lw2PPp6eG2Xk6jgffpump",
      "pool": "6k1X8c1QykXSKFKeM5k3XGBzgZif7QRtBiZs55ehFPE1",
      "name": "XTO",
@@ -269,7 +251,7 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.03945483048239357,
+     "last_price": 0.039279464923637854,
      "max_m": 1.0116943651759605,
      "entry_exec": 0.03900021180893423
     }
@@ -2560,6 +2542,24 @@
      "risk": "temiz",
      "max_m": 1.259,
      "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "NODF",
+     "mint": "1btC9yCTw1EEjm57hJpDAmm9DsxXZwq4EyhfEe7pump",
+     "pool": "6CzsA5RWFKxwCaWKXgTSf5QCN57my33uK2QRB3vGWns5",
+     "opened": "2026-10-24T05:55:04Z",
+     "closed": "2026-10-24T07:08:34Z",
+     "closed_day": "2026-10-24",
+     "hold_min": 73.5,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "pnl": -10.0,
+     "fees": 0.2993,
+     "reason": "STOP",
+     "risk": "temiz",
+     "max_m": 1.027,
+     "partial": false
     }
    ],
    "seen": [
@@ -2780,10 +2780,10 @@
      "giris": 21
     },
     "2026-10-24": {
-     "tarama": 3842,
-     "yas": 287,
-     "likidite": 49,
-     "hacim": 49,
+     "tarama": 3915,
+     "yas": 292,
+     "likidite": 50,
+     "hacim": 50,
      "yukselis": 19,
      "guvenlik_red": 2,
      "giris": 17
