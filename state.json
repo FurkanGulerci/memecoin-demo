@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 40.25168791543793,
+   "cash": 20.251687915437927,
    "positions": [
     {
      "mint": "12hVaYzb6GgxvyePPbYzdGrefY9hCNLYo5pKN1Brpump",
@@ -251,9 +251,45 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.18363719270937648,
-     "max_m": 1.0233398776850897,
+     "last_price": 0.1837966685700327,
+     "max_m": 1.0242285756951708,
      "entry_exec": 0.17945200003850612
+    },
+    {
+     "mint": "6CJUDUxPzGb2vKLDdcYFaRzB4EMUXeJAmZtXZ98ipump",
+     "pool": "8TYodyV8Ay6kS9YXypNLLhfZszwi88zoaWTwtwF4b7Rr",
+     "name": "DOAS",
+     "opened": "2026-10-24T20:04:45Z",
+     "entry_price": 0.027065777713812047,
+     "entry_liq": 438255.1983,
+     "tokens": 362.10160854552214,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "fees": 0.19943835329311294,
+     "partial": false,
+     "risk": "temiz",
+     "miss": 0,
+     "last_price": 0.027065777713812047,
+     "max_m": 1.0,
+     "entry_exec": 0.027066988294717428
+    },
+    {
+     "mint": "akRhNAuqczoExHHa6B6PmvutTPpjAnGUF3JDf3npump",
+     "pool": "9SRAaK4AcKgifCMF3mXrs6QaYsATkvoZruBNe3t6Rt4H",
+     "name": "NODF",
+     "opened": "2026-10-24T20:04:45Z",
+     "entry_price": 0.016444627308214638,
+     "entry_liq": 340403.1032,
+     "tokens": 595.9658106853158,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "fees": 0.19956435484198226,
+     "partial": false,
+     "risk": "temiz",
+     "miss": 0,
+     "last_price": 0.016444627308214638,
+     "max_m": 1.0,
+     "entry_exec": 0.016445574266633834
     }
    ],
    "closed": [
@@ -2900,7 +2936,9 @@
     "BzoYWZL3fXC5KkzkA6dEh9pBKcv9NAqwkTxJReNxpump",
     "12hVaYzb6GgxvyePPbYzdGrefY9hCNLYo5pKN1Brpump",
     "2ZTZPzwUH2fFBVy6rDSidVtq6hXVeZPZmxUSLqd7pump",
-    "1hy4VvRmw6iFkZwBAgpkuRTQn6KokLbqxjDGBSxpump"
+    "1hy4VvRmw6iFkZwBAgpkuRTQn6KokLbqxjDGBSxpump",
+    "6CJUDUxPzGb2vKLDdcYFaRzB4EMUXeJAmZtXZ98ipump",
+    "akRhNAuqczoExHHa6B6PmvutTPpjAnGUF3JDf3npump"
    ],
    "rejected": [
     "Bm67LrewgThV5H72LC4EkyPc9xk6iwMR1CkSkK8z72q9",
@@ -2991,13 +3029,13 @@
      "giris": 21
     },
     "2026-10-24": {
-     "tarama": 8614,
-     "yas": 501,
-     "likidite": 69,
-     "hacim": 69,
-     "yukselis": 32,
+     "tarama": 8689,
+     "yas": 504,
+     "likidite": 71,
+     "hacim": 71,
+     "yukselis": 34,
      "guvenlik_red": 4,
-     "giris": 28
+     "giris": 30
     }
    }
   }
