@@ -235,26 +235,8 @@
    }
   },
   "B": {
-   "cash": 30.827533311734783,
+   "cash": 42.93881109372359,
    "positions": [
-    {
-     "mint": "3YYqFkPaob7SzUCyk59DGVhPZK1LN9odKMJc1uy3pump",
-     "pool": "7Yk7UAsViEvP5wkyfapAFS7KySmCnJtpvamxmCMKiavU",
-     "name": "TRUMP",
-     "opened": "2026-10-24T05:34:04Z",
-     "entry_price": 0.0006735838262583141,
-     "entry_liq": 73238.7135,
-     "tokens": 14546.634179741397,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.2016224900298182,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.000807943261618874,
-     "max_m": 1.218875377205506,
-     "entry_exec": 0.0006737641078270546
-    },
     {
      "mint": "1btC9yCTw1EEjm57hJpDAmm9DsxXZwq4EyhfEe7pump",
      "pool": "6CzsA5RWFKxwCaWKXgTSf5QCN57my33uK2QRB3vGWns5",
@@ -269,8 +251,8 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.17658677310081253,
-     "max_m": 1.0187448602819513,
+     "last_price": 0.17683623583412145,
+     "max_m": 1.0194188128914112,
      "entry_exec": 0.1734707440778116
     },
     {
@@ -287,8 +269,8 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.038998764686735535,
-     "max_m": 1.0,
+     "last_price": 0.03902847808040475,
+     "max_m": 1.0007619060220982,
      "entry_exec": 0.03900021180893423
     }
    ],
@@ -2559,6 +2541,24 @@
      "reason": "SURE",
      "risk": "temiz",
      "max_m": 1.027,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "TRUMP",
+     "mint": "3YYqFkPaob7SzUCyk59DGVhPZK1LN9odKMJc1uy3pump",
+     "pool": "7Yk7UAsViEvP5wkyfapAFS7KySmCnJtpvamxmCMKiavU",
+     "opened": "2026-10-24T05:34:04Z",
+     "closed": "2026-10-24T06:49:04Z",
+     "closed_day": "2026-10-24",
+     "hold_min": 75.0,
+     "cost": 10.0,
+     "proceeds": 12.1113,
+     "pnl": 2.1113,
+     "fees": 0.4287,
+     "reason": "TP",
+     "risk": "temiz",
+     "max_m": 1.259,
      "partial": false
     }
    ],
