@@ -235,8 +235,27 @@
    }
   },
   "B": {
-   "cash": 58.69360278863808,
-   "positions": [],
+   "cash": 48.69360278863808,
+   "positions": [
+    {
+     "mint": "Cggjah6mVhhh6uwCbjGUfPLnapsBbzUL2aAZokHo3iYT",
+     "pool": "WvHNACjNgZ1oBx8FRqfjnNuTiytXRgiLJuNu1gW2j1k",
+     "name": "OpenSolana",
+     "opened": "2026-10-24T12:47:47Z",
+     "entry_price": 0.00023496100876842457,
+     "entry_liq": 41775.2483,
+     "tokens": 41693.74030134553,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "fees": 0.20359671946713592,
+     "partial": false,
+     "risk": "temiz",
+     "miss": 0,
+     "last_price": 0.00023496100876842457,
+     "max_m": 1.0,
+     "entry_exec": 0.00023507125839903847
+    }
+   ],
    "closed": [
     {
      "strategy": "B",
@@ -2785,7 +2804,8 @@
     "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump",
     "3w9tQEQsrLdEVpHZq8rJrnGwagFUmyySwZbKuefWpump",
     "DEL3KmMovmE57YmwzFYFkMuNDs3PZyi3qMvP9Jyfpump",
-    "95MV9VPQC7pBZRRS9t8CJvBCi4J3VEH37ZJSGAWapump"
+    "95MV9VPQC7pBZRRS9t8CJvBCi4J3VEH37ZJSGAWapump",
+    "Cggjah6mVhhh6uwCbjGUfPLnapsBbzUL2aAZokHo3iYT"
    ],
    "rejected": [
     "Bm67LrewgThV5H72LC4EkyPc9xk6iwMR1CkSkK8z72q9",
@@ -2876,13 +2896,13 @@
      "giris": 21
     },
     "2026-10-24": {
-     "tarama": 5905,
-     "yas": 396,
-     "likidite": 59,
-     "hacim": 59,
-     "yukselis": 26,
+     "tarama": 5972,
+     "yas": 401,
+     "likidite": 60,
+     "hacim": 60,
+     "yukselis": 27,
      "guvenlik_red": 4,
-     "giris": 22
+     "giris": 23
     }
    }
   }
