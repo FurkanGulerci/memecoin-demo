@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 29.82090577285299,
+   "cash": 42.775549048762926,
    "positions": [
     {
      "mint": "9k6gfTLbDaUpx635kQaGTeDvzYs7hWdDW1MerpjYpump",
@@ -251,27 +251,9 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.1440040691731907,
+     "last_price": 0.14364693779803347,
      "max_m": 1.0787951267609108,
      "entry_exec": 0.13348868039080958
-    },
-    {
-     "mint": "GZYL4JVHikj6H71a7mTdWay1q7DwsWdJFEhkQCsYz4WT",
-     "pool": "VAzfgUPHpLNnDq5hFzAMeTcHhM3aB7MDqPquJ3Xb8xW",
-     "name": "DESSA",
-     "opened": "2026-10-24T04:31:04Z",
-     "entry_price": 0.000112241328407672,
-     "entry_liq": 26222.2239,
-     "tokens": 87255.5504504969,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20632110649358476,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.0001240042267475964,
-     "max_m": 1.1901727280566343,
-     "entry_exec": 0.00011232523260007908
     },
     {
      "mint": "9E4d5MUKxJb6cYKjA2uETKv66bU1uzchiY6x5AeGpump",
@@ -287,8 +269,8 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.01589888613142409,
-     "max_m": 1.0060034234509296,
+     "last_price": 0.01596516516486623,
+     "max_m": 1.0101972351428081,
      "entry_exec": 0.015804929637265
     }
    ],
@@ -2452,6 +2434,24 @@
      "risk": "temiz",
      "max_m": 1.019,
      "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "DESSA",
+     "mint": "GZYL4JVHikj6H71a7mTdWay1q7DwsWdJFEhkQCsYz4WT",
+     "pool": "VAzfgUPHpLNnDq5hFzAMeTcHhM3aB7MDqPquJ3Xb8xW",
+     "opened": "2026-10-24T04:31:04Z",
+     "closed": "2026-10-24T04:52:04Z",
+     "closed_day": "2026-10-24",
+     "hold_min": 21.0,
+     "cost": 10.0,
+     "proceeds": 12.9546,
+     "pnl": 2.9546,
+     "fees": 0.4489,
+     "reason": "TP",
+     "risk": "temiz",
+     "max_m": 1.348,
+     "partial": false
     }
    ],
    "seen": [
@@ -2666,8 +2666,8 @@
      "giris": 21
     },
     "2026-10-24": {
-     "tarama": 3066,
-     "yas": 229,
+     "tarama": 3120,
+     "yas": 230,
      "likidite": 30,
      "hacim": 30,
      "yukselis": 13,
