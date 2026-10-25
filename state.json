@@ -235,26 +235,8 @@
    }
   },
   "B": {
-   "cash": 25.56681621298361,
+   "cash": 39.0018815210586,
    "positions": [
-    {
-     "mint": "AUHK6bsTMU6nemt7epnvELJtGezx9JS76Lm48pxipump",
-     "pool": "DxvCfzrLE4DyctHUZm5Xchmb9zuEaek56zkPbYuivfDF",
-     "name": "KURUMI",
-     "opened": "2026-10-25T08:26:13Z",
-     "entry_price": 0.0003609681316279851,
-     "entry_liq": 49949.3552,
-     "tokens": 27141.330135502874,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20284477108919868,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.00039588922341301055,
-     "max_m": 1.1285532149192383,
-     "entry_exec": 0.00036110978905855333
-    },
     {
      "mint": "7FmeWP3HnyEnc2BEqxU5kYhFVCiPrBA1BmoK2uP1pump",
      "pool": "5FZwqpqu5tkY7Jw9ixa4YmPuunkBYHRtvbYuDfGHRrxP",
@@ -269,8 +251,8 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.16052057547499884,
-     "max_m": 1.0257625011349165,
+     "last_price": 0.16181363591731723,
+     "max_m": 1.0340254475485227,
      "entry_exec": 0.15649195154509513
     }
    ],
@@ -3063,6 +3045,24 @@
      "reason": "STOP",
      "risk": "temiz",
      "max_m": 1.023,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "KURUMI",
+     "mint": "AUHK6bsTMU6nemt7epnvELJtGezx9JS76Lm48pxipump",
+     "pool": "DxvCfzrLE4DyctHUZm5Xchmb9zuEaek56zkPbYuivfDF",
+     "opened": "2026-10-25T08:26:13Z",
+     "closed": "2026-10-25T09:48:43Z",
+     "closed_day": "2026-10-25",
+     "hold_min": 82.5,
+     "cost": 10.0,
+     "proceeds": 13.4351,
+     "pnl": 3.4351,
+     "fees": 0.4459,
+     "reason": "TP",
+     "risk": "temiz",
+     "max_m": 1.396,
      "partial": false
     }
    ],
