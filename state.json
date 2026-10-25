@@ -235,8 +235,27 @@
    }
   },
   "B": {
-   "cash": 46.042679789800744,
-   "positions": [],
+   "cash": 36.042679789800744,
+   "positions": [
+    {
+     "mint": "35fWL6pdJqpconRZPrawUAQegw1QF3p2tgN7mzhTpump",
+     "pool": "Ang7vjh7KoSScfbuE1ZWW6gAoXf7EcAZLPJzmMdcgwZj",
+     "name": "PMUP",
+     "opened": "2026-10-25T11:35:13Z",
+     "entry_price": 0.00011058323114029569,
+     "entry_liq": 25798.3303,
+     "tokens": 88562.78289573385,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "fees": 0.20644130861323812,
+     "partial": false,
+     "risk": "temiz",
+     "miss": 0,
+     "last_price": 0.00011058323114029569,
+     "max_m": 1.0,
+     "entry_exec": 0.00011066725411665134
+    }
+   ],
    "closed": [
     {
      "strategy": "B",
@@ -3241,7 +3260,8 @@
     "DgmECo2oh1h7WC7sb7Y25fuH6YLBDCnjCBzKbVQ1pump",
     "AUHK6bsTMU6nemt7epnvELJtGezx9JS76Lm48pxipump",
     "7FmeWP3HnyEnc2BEqxU5kYhFVCiPrBA1BmoK2uP1pump",
-    "2LVYAfg3ZtgFLp2B9QrTZy18sVzxqmocNmAgBS9Vpump"
+    "2LVYAfg3ZtgFLp2B9QrTZy18sVzxqmocNmAgBS9Vpump",
+    "35fWL6pdJqpconRZPrawUAQegw1QF3p2tgN7mzhTpump"
    ],
    "rejected": [
     "Bm67LrewgThV5H72LC4EkyPc9xk6iwMR1CkSkK8z72q9",
@@ -3345,13 +3365,13 @@
      "giris": 30
     },
     "2026-10-25": {
-     "tarama": 5385,
-     "yas": 410,
-     "likidite": 54,
-     "hacim": 54,
-     "yukselis": 20,
+     "tarama": 5452,
+     "yas": 417,
+     "likidite": 55,
+     "hacim": 55,
+     "yukselis": 21,
      "guvenlik_red": 4,
-     "giris": 16
+     "giris": 17
     }
    }
   }
