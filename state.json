@@ -235,8 +235,27 @@
    }
   },
   "B": {
-   "cash": 45.56681621298361,
-   "positions": [],
+   "cash": 35.56681621298361,
+   "positions": [
+    {
+     "mint": "AUHK6bsTMU6nemt7epnvELJtGezx9JS76Lm48pxipump",
+     "pool": "DxvCfzrLE4DyctHUZm5Xchmb9zuEaek56zkPbYuivfDF",
+     "name": "KURUMI",
+     "opened": "2026-10-25T08:26:13Z",
+     "entry_price": 0.0003609681316279851,
+     "entry_liq": 49949.3552,
+     "tokens": 27141.330135502874,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "fees": 0.20284477108919868,
+     "partial": false,
+     "risk": "temiz",
+     "miss": 0,
+     "last_price": 0.0003609681316279851,
+     "max_m": 1.0,
+     "entry_exec": 0.00036110978905855333
+    }
+   ],
    "closed": [
     {
      "strategy": "B",
@@ -3184,7 +3203,8 @@
     "EVzBqTfq24KS63ahUjRCTxAeWqHJ6pNmrNYqL5Wipump",
     "3qNmUbdKgrupBriiGSgwbne1b4Qo2VMJ6CXNSCF7pump",
     "9iRmfZ9XdZRD8pGCg8C8g5MjHQWdnL1qrAHCjjZopump",
-    "DgmECo2oh1h7WC7sb7Y25fuH6YLBDCnjCBzKbVQ1pump"
+    "DgmECo2oh1h7WC7sb7Y25fuH6YLBDCnjCBzKbVQ1pump",
+    "AUHK6bsTMU6nemt7epnvELJtGezx9JS76Lm48pxipump"
    ],
    "rejected": [
     "Bm67LrewgThV5H72LC4EkyPc9xk6iwMR1CkSkK8z72q9",
@@ -3288,13 +3308,13 @@
      "giris": 30
     },
     "2026-10-25": {
-     "tarama": 4373,
-     "yas": 349,
-     "likidite": 51,
-     "hacim": 51,
-     "yukselis": 17,
+     "tarama": 4435,
+     "yas": 354,
+     "likidite": 52,
+     "hacim": 52,
+     "yukselis": 18,
      "guvenlik_red": 4,
-     "giris": 13
+     "giris": 14
     }
    }
   }
