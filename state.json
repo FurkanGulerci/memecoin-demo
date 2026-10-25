@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 39.27181020342605,
+   "cash": 47.049199375674874,
    "positions": [
     {
      "mint": "GK1Vxw9529MWwvGEwKQfVP4GAtpn1tWa7ec44bmFpump",
@@ -251,27 +251,9 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.05415772398199282,
-     "max_m": 1.034601844045118,
+     "last_price": 0.05451225439540595,
+     "max_m": 1.0369702103121927,
      "entry_exec": 0.05257044763799983
-    },
-    {
-     "mint": "CW8ZQeKbGTk1TYY79QMjhp81R48AKVv1imNimgmrpump",
-     "pool": "GrgWZbWyFvteoJGkCMdoGXZWrH2B81iTN42eb9wZHprz",
-     "name": "Hercules",
-     "opened": "2026-10-25T02:04:58Z",
-     "entry_price": 5.805657457984692e-05,
-     "entry_liq": 20964.7598,
-     "tokens": 168660.39237868506,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20815535120062573,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 5.949168909029593e-05,
-     "max_m": 1.0247192418918076,
-     "entry_exec": 5.811085733747308e-05
     }
    ],
    "closed": [
@@ -2919,6 +2901,24 @@
      "reason": "TP",
      "risk": "temiz",
      "max_m": 1.327,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "Hercules",
+     "mint": "CW8ZQeKbGTk1TYY79QMjhp81R48AKVv1imNimgmrpump",
+     "pool": "GrgWZbWyFvteoJGkCMdoGXZWrH2B81iTN42eb9wZHprz",
+     "opened": "2026-10-25T02:04:58Z",
+     "closed": "2026-10-25T02:10:58Z",
+     "closed_day": "2026-10-25",
+     "hold_min": 6.0,
+     "cost": 10.0,
+     "proceeds": 7.7774,
+     "pnl": -2.2226,
+     "fees": 0.3944,
+     "reason": "STOP",
+     "risk": "temiz",
+     "max_m": 1.026,
      "partial": false
     }
    ],
