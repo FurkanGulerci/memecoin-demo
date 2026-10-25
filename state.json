@@ -235,26 +235,8 @@
    }
   },
   "B": {
-   "cash": 17.070613825030534,
+   "cash": 39.27181020342605,
    "positions": [
-    {
-     "mint": "EfMZfcStz5oxorWLhBLcPzkePLz91BG5knrGAGiXpump",
-     "pool": "5991THFJ2QDEXkPSUP6bq4s7hiwCJo9pj4h2EG4hWCEc",
-     "name": "Pablo",
-     "opened": "2026-10-25T00:06:15Z",
-     "entry_price": 8.890733780451257e-05,
-     "entry_liq": 24265.1413,
-     "tokens": 110149.38850786665,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20691110697060483,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 8.735146723122875e-05,
-     "max_m": 1.1027876687915932,
-     "entry_exec": 8.897915941948268e-05
-    },
     {
      "mint": "GK1Vxw9529MWwvGEwKQfVP4GAtpn1tWa7ec44bmFpump",
      "pool": "85Sd7D3S63w3NLCNRLadhJRPLmmSh9EnrunHU4pm9oJK",
@@ -269,27 +251,9 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.054387752280332255,
+     "last_price": 0.05415772398199282,
      "max_m": 1.034601844045118,
      "entry_exec": 0.05257044763799983
-    },
-    {
-     "mint": "5Dw9h4ySRjRPcED7g23kabJ5KSpReKLitktM9TREpump",
-     "pool": "9ek7USTgXu1w3cgHYJ5UWUHgFYmT4MbYp1Hgg2LWgB5c",
-     "name": "WILDWOOD",
-     "opened": "2026-10-25T01:33:28Z",
-     "entry_price": 7.851565302353786e-05,
-     "entry_liq": 25249.6973,
-     "tokens": 124731.77962219495,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20660287017535078,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 9.325725447506605e-05,
-     "max_m": 1.226199689438296,
-     "entry_exec": 7.857660677725146e-05
     },
     {
      "mint": "CW8ZQeKbGTk1TYY79QMjhp81R48AKVv1imNimgmrpump",
@@ -305,8 +269,8 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 5.805657457984692e-05,
-     "max_m": 1.0,
+     "last_price": 5.949168909029593e-05,
+     "max_m": 1.0247192418918076,
      "entry_exec": 5.811085733747308e-05
     }
    ],
@@ -2919,6 +2883,42 @@
      "reason": "TP",
      "risk": "temiz",
      "max_m": 1.285,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "Pablo",
+     "mint": "EfMZfcStz5oxorWLhBLcPzkePLz91BG5knrGAGiXpump",
+     "pool": "5991THFJ2QDEXkPSUP6bq4s7hiwCJo9pj4h2EG4hWCEc",
+     "opened": "2026-10-25T00:06:15Z",
+     "closed": "2026-10-25T02:06:28Z",
+     "closed_day": "2026-10-25",
+     "hold_min": 120.2,
+     "cost": 10.0,
+     "proceeds": 9.4495,
+     "pnl": -0.5505,
+     "fees": 0.411,
+     "reason": "SURE",
+     "risk": "temiz",
+     "max_m": 1.103,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "WILDWOOD",
+     "mint": "5Dw9h4ySRjRPcED7g23kabJ5KSpReKLitktM9TREpump",
+     "pool": "9ek7USTgXu1w3cgHYJ5UWUHgFYmT4MbYp1Hgg2LWgB5c",
+     "opened": "2026-10-25T01:33:28Z",
+     "closed": "2026-10-25T02:06:28Z",
+     "closed_day": "2026-10-25",
+     "hold_min": 33.0,
+     "cost": 10.0,
+     "proceeds": 12.7517,
+     "pnl": 2.7517,
+     "fees": 0.4486,
+     "reason": "TP",
+     "risk": "temiz",
+     "max_m": 1.327,
      "partial": false
     }
    ],
