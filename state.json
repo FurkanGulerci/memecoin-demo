@@ -235,27 +235,8 @@
    }
   },
   "B": {
-   "cash": 37.60772790619529,
-   "positions": [
-    {
-     "mint": "EVzBqTfq24KS63ahUjRCTxAeWqHJ6pNmrNYqL5Wipump",
-     "pool": "Hs9UF7kuZjk33V6cgH3UzDwngjMR3kqw6v1bV4k5R1rr",
-     "name": "NOTF",
-     "opened": "2026-10-25T05:45:28Z",
-     "entry_price": 0.020535050935652055,
-     "entry_liq": 381548.5245,
-     "tokens": 477.25698522136463,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.19950349908353732,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.021780985901185834,
-     "max_m": 1.0661379730904452,
-     "entry_exec": 0.020536105920909743
-    }
-   ],
+   "cash": 47.82015350093613,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -3010,6 +2991,24 @@
      "risk": "temiz",
      "max_m": 1.076,
      "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "NOTF",
+     "mint": "EVzBqTfq24KS63ahUjRCTxAeWqHJ6pNmrNYqL5Wipump",
+     "pool": "Hs9UF7kuZjk33V6cgH3UzDwngjMR3kqw6v1bV4k5R1rr",
+     "opened": "2026-10-25T05:45:28Z",
+     "closed": "2026-10-25T07:45:43Z",
+     "closed_day": "2026-10-25",
+     "hold_min": 120.3,
+     "cost": 10.0,
+     "proceeds": 10.2124,
+     "pnl": 0.2124,
+     "fees": 0.4042,
+     "reason": "SURE",
+     "risk": "temiz",
+     "max_m": 1.067,
+     "partial": false
     }
    ],
    "seen": [
@@ -3269,7 +3268,7 @@
      "giris": 30
     },
     "2026-10-25": {
-     "tarama": 4131,
+     "tarama": 4180,
      "yas": 330,
      "likidite": 49,
      "hacim": 49,
