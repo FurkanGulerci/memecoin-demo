@@ -235,8 +235,27 @@
    }
   },
   "B": {
-   "cash": 54.558933436988056,
-   "positions": [],
+   "cash": 44.558933436988056,
+   "positions": [
+    {
+     "mint": "FmuciqKXRRnKqhi7BNin5mYH6fm3oTrfVB5A5Fyrpump",
+     "pool": "FYLA8ej1X6n4nBiEKCZ3zmvACeH5MhdPRkkgPqtWsm1n",
+     "name": "Marvin",
+     "opened": "2026-10-25T05:03:28Z",
+     "entry_price": 0.00017712294945171057,
+     "entry_liq": 39598.5259,
+     "tokens": 55307.06639203121,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "fees": 0.20384927512185608,
+     "partial": false,
+     "risk": "temiz",
+     "miss": 0,
+     "last_price": 0.00017712294945171057,
+     "max_m": 1.0,
+     "entry_exec": 0.0001772106285755224
+    }
+   ],
    "closed": [
     {
      "strategy": "B",
@@ -3089,7 +3108,8 @@
     "GK1Vxw9529MWwvGEwKQfVP4GAtpn1tWa7ec44bmFpump",
     "5Dw9h4ySRjRPcED7g23kabJ5KSpReKLitktM9TREpump",
     "CW8ZQeKbGTk1TYY79QMjhp81R48AKVv1imNimgmrpump",
-    "3KpyR7uM657Bbcw64gLHQpJfPYByJEiVhu4ED3cnpump"
+    "3KpyR7uM657Bbcw64gLHQpJfPYByJEiVhu4ED3cnpump",
+    "FmuciqKXRRnKqhi7BNin5mYH6fm3oTrfVB5A5Fyrpump"
    ],
    "rejected": [
     "Bm67LrewgThV5H72LC4EkyPc9xk6iwMR1CkSkK8z72q9",
@@ -3192,13 +3212,13 @@
      "giris": 30
     },
     "2026-10-25": {
-     "tarama": 3111,
-     "yas": 265,
-     "likidite": 45,
-     "hacim": 45,
-     "yukselis": 11,
+     "tarama": 3179,
+     "yas": 271,
+     "likidite": 46,
+     "hacim": 46,
+     "yukselis": 12,
      "guvenlik_red": 3,
-     "giris": 8
+     "giris": 9
     }
    }
   }
