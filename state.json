@@ -235,26 +235,8 @@
    }
   },
   "B": {
-   "cash": 37.049199375674874,
+   "cash": 47.230112699372796,
    "positions": [
-    {
-     "mint": "GK1Vxw9529MWwvGEwKQfVP4GAtpn1tWa7ec44bmFpump",
-     "pool": "85Sd7D3S63w3NLCNRLadhJRPLmmSh9EnrunHU4pm9oJK",
-     "name": "AOP",
-     "opened": "2026-10-25T00:58:45Z",
-     "entry_price": 0.05256877570185392,
-     "entry_liq": 616323.2632,
-     "tokens": 186.4355439293517,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.19931170832477835,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.055681198890865,
-     "max_m": 1.059206689664285,
-     "entry_exec": 0.05257044763799983
-    },
     {
      "mint": "3KpyR7uM657Bbcw64gLHQpJfPYByJEiVhu4ED3cnpump",
      "pool": "2X5p7bVpciv44iGmE7KrKLqNtDzyRK7muXsYVGtyz79v",
@@ -269,7 +251,7 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.0016478350488051048,
+     "last_price": 0.0015482386633198064,
      "max_m": 1.0,
      "entry_exec": 0.001648120046132304
     }
@@ -2937,6 +2919,24 @@
      "reason": "STOP",
      "risk": "temiz",
      "max_m": 1.026,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "AOP",
+     "mint": "GK1Vxw9529MWwvGEwKQfVP4GAtpn1tWa7ec44bmFpump",
+     "pool": "85Sd7D3S63w3NLCNRLadhJRPLmmSh9EnrunHU4pm9oJK",
+     "opened": "2026-10-25T00:58:45Z",
+     "closed": "2026-10-25T02:58:58Z",
+     "closed_day": "2026-10-25",
+     "hold_min": 120.2,
+     "cost": 10.0,
+     "proceeds": 10.1809,
+     "pnl": 0.1809,
+     "fees": 0.4035,
+     "reason": "SURE",
+     "risk": "temiz",
+     "max_m": 1.06,
      "partial": false
     }
    ],
