@@ -235,27 +235,8 @@
    }
   },
   "B": {
-   "cash": 39.37954360128307,
-   "positions": [
-    {
-     "mint": "4yzkM1ts8avWd1EXDcayWWWxu8oEKVBECRAT8qNnQxXx",
-     "pool": "HJLUVfNU7Q4wVsACuBm7eZHKH887KTayTG71hnRH9Pg3",
-     "name": "LAUNCHCAT",
-     "opened": "2026-10-25T19:13:08Z",
-     "entry_price": 0.00030181669699076583,
-     "entry_liq": 49656.1654,
-     "tokens": 32460.53858016615,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20286746319292898,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.00029705421190809816,
-     "max_m": 1.0856346090371054,
-     "entry_exec": 0.00030193584052202235
-    }
-   ],
+   "cash": 47.42765554192585,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -3171,6 +3152,24 @@
      "reason": "SURE",
      "risk": "temiz",
      "max_m": 1.063,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "LAUNCHCAT",
+     "mint": "4yzkM1ts8avWd1EXDcayWWWxu8oEKVBECRAT8qNnQxXx",
+     "pool": "HJLUVfNU7Q4wVsACuBm7eZHKH887KTayTG71hnRH9Pg3",
+     "opened": "2026-10-25T19:13:08Z",
+     "closed": "2026-10-25T19:20:38Z",
+     "closed_day": "2026-10-25",
+     "hold_min": 7.5,
+     "cost": 10.0,
+     "proceeds": 8.0481,
+     "pnl": -1.9519,
+     "fees": 0.3881,
+     "reason": "STOP",
+     "risk": "temiz",
+     "max_m": 1.086,
      "partial": false
     }
    ],
