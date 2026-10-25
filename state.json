@@ -251,27 +251,9 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.021886414642619055,
-     "max_m": 1.0658076627714044,
+     "last_price": 0.021780985901185834,
+     "max_m": 1.0661379730904452,
      "entry_exec": 0.020536105920909743
-    },
-    {
-     "mint": "9iRmfZ9XdZRD8pGCg8C8g5MjHQWdnL1qrAHCjjZopump",
-     "pool": "2oSMWzfDB85XeScHTDMvH4NnybtWfcecqdMfvhJJkPDU",
-     "name": "Gemini",
-     "opened": "2026-10-25T07:33:43Z",
-     "entry_price": 0.003208696576252181,
-     "entry_liq": 150130.242,
-     "tokens": 3054.1125502592886,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.2002795164942041,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.0033996140362397573,
-     "max_m": 1.0595000042698246,
-     "entry_exec": 0.003209115524955985
     }
    ],
    "closed": [
@@ -3009,6 +2991,24 @@
      "reason": "TP",
      "risk": "temiz",
      "max_m": 1.559,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "Gemini",
+     "mint": "9iRmfZ9XdZRD8pGCg8C8g5MjHQWdnL1qrAHCjjZopump",
+     "pool": "2oSMWzfDB85XeScHTDMvH4NnybtWfcecqdMfvhJJkPDU",
+     "opened": "2026-10-25T07:33:43Z",
+     "closed": "2026-10-25T07:42:43Z",
+     "closed_day": "2026-10-25",
+     "hold_min": 9.0,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "pnl": -10.0,
+     "fees": 0.2003,
+     "reason": "RUG",
+     "risk": "temiz",
+     "max_m": 1.076,
      "partial": false
     }
    ],
