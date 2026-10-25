@@ -235,27 +235,8 @@
    }
   },
   "B": {
-   "cash": 38.25234937930969,
-   "positions": [
-    {
-     "mint": "5QREAgtfP1NkuymRaFdHxr5QNF2Yry9M1YCyaompump",
-     "pool": "Fo8EVDB3qphm944An9KKWRJi7U1Ft9JurtWd688dFmce",
-     "name": "PumpkinBot",
-     "opened": "2026-10-25T14:47:25Z",
-     "entry_price": 0.0003534365808790777,
-     "entry_liq": 50529.0898,
-     "tokens": 27719.822604631707,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20280067604439916,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.0003943853266883959,
-     "max_m": 1.1158588217084642,
-     "entry_exec": 0.00035357369128193305
-    }
-   ],
+   "cash": 51.20072867269087,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -3117,6 +3098,24 @@
      "reason": "TP",
      "risk": "temiz",
      "max_m": 1.271,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "PumpkinBot",
+     "mint": "5QREAgtfP1NkuymRaFdHxr5QNF2Yry9M1YCyaompump",
+     "pool": "Fo8EVDB3qphm944An9KKWRJi7U1Ft9JurtWd688dFmce",
+     "opened": "2026-10-25T14:47:25Z",
+     "closed": "2026-10-25T15:11:25Z",
+     "closed_day": "2026-10-25",
+     "hold_min": 24.0,
+     "cost": 10.0,
+     "proceeds": 12.9484,
+     "pnl": 2.9484,
+     "fees": 0.4407,
+     "reason": "TP",
+     "risk": "temiz",
+     "max_m": 1.346,
      "partial": false
     }
    ],
