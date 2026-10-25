@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 27.070613825030534,
+   "cash": 17.070613825030534,
    "positions": [
     {
      "mint": "EfMZfcStz5oxorWLhBLcPzkePLz91BG5knrGAGiXpump",
@@ -251,7 +251,7 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 8.542086795759926e-05,
+     "last_price": 8.735146723122875e-05,
      "max_m": 1.1027876687915932,
      "entry_exec": 8.897915941948268e-05
     },
@@ -269,8 +269,8 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.05434948643075394,
-     "max_m": 1.0338739243044084,
+     "last_price": 0.054387752280332255,
+     "max_m": 1.034601844045118,
      "entry_exec": 0.05257044763799983
     },
     {
@@ -287,9 +287,27 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 9.627586935350713e-05,
+     "last_price": 9.325725447506605e-05,
      "max_m": 1.226199689438296,
      "entry_exec": 7.857660677725146e-05
+    },
+    {
+     "mint": "CW8ZQeKbGTk1TYY79QMjhp81R48AKVv1imNimgmrpump",
+     "pool": "GrgWZbWyFvteoJGkCMdoGXZWrH2B81iTN42eb9wZHprz",
+     "name": "Hercules",
+     "opened": "2026-10-25T02:04:58Z",
+     "entry_price": 5.805657457984692e-05,
+     "entry_liq": 20964.7598,
+     "tokens": 168660.39237868506,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "fees": 0.20815535120062573,
+     "partial": false,
+     "risk": "temiz",
+     "miss": 0,
+     "last_price": 5.805657457984692e-05,
+     "max_m": 1.0,
+     "entry_exec": 5.811085733747308e-05
     }
    ],
    "closed": [
@@ -3052,7 +3070,8 @@
     "H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump",
     "EfMZfcStz5oxorWLhBLcPzkePLz91BG5knrGAGiXpump",
     "GK1Vxw9529MWwvGEwKQfVP4GAtpn1tWa7ec44bmFpump",
-    "5Dw9h4ySRjRPcED7g23kabJ5KSpReKLitktM9TREpump"
+    "5Dw9h4ySRjRPcED7g23kabJ5KSpReKLitktM9TREpump",
+    "CW8ZQeKbGTk1TYY79QMjhp81R48AKVv1imNimgmrpump"
    ],
    "rejected": [
     "Bm67LrewgThV5H72LC4EkyPc9xk6iwMR1CkSkK8z72q9",
@@ -3154,13 +3173,13 @@
      "giris": 30
     },
     "2026-10-25": {
-     "tarama": 1980,
-     "yas": 166,
-     "likidite": 34,
-     "hacim": 34,
-     "yukselis": 8,
+     "tarama": 2049,
+     "yas": 173,
+     "likidite": 35,
+     "hacim": 35,
+     "yukselis": 9,
      "guvenlik_red": 2,
-     "giris": 6
+     "giris": 7
     }
    }
   }
