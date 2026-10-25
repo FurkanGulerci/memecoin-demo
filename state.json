@@ -251,7 +251,7 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.446058746488391,
+     "last_price": 0.4460437556293019,
      "max_m": 1.0630049733119236,
      "entry_exec": 0.41962531496865013
     }
@@ -3422,7 +3422,7 @@
      "giris": 30
     },
     "2026-10-25": {
-     "tarama": 8112,
+     "tarama": 8159,
      "yas": 663,
      "likidite": 61,
      "hacim": 61,
