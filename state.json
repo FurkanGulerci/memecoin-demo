@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 39.0018815210586,
+   "cash": 29.0018815210586,
    "positions": [
     {
      "mint": "7FmeWP3HnyEnc2BEqxU5kYhFVCiPrBA1BmoK2uP1pump",
@@ -251,9 +251,27 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.16181363591731723,
-     "max_m": 1.0340254475485227,
+     "last_price": 0.1618561026743469,
+     "max_m": 1.034296819656285,
      "entry_exec": 0.15649195154509513
+    },
+    {
+     "mint": "2LVYAfg3ZtgFLp2B9QrTZy18sVzxqmocNmAgBS9Vpump",
+     "pool": "AutYPsoEEqr4sDYLTqd2uBn8Xz1BzGn51iT4kjQwEBX1",
+     "name": "Chubby",
+     "opened": "2026-10-25T09:50:13Z",
+     "entry_price": 0.00018251242372080732,
+     "entry_liq": 35797.2899,
+     "tokens": 53671.06453940783,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "fees": 0.20436392723680202,
+     "partial": false,
+     "risk": "temiz",
+     "miss": 0,
+     "last_price": 0.00018251242372080732,
+     "max_m": 1.0,
+     "entry_exec": 0.0001826123644855906
     }
    ],
    "closed": [
@@ -3223,7 +3241,8 @@
     "9iRmfZ9XdZRD8pGCg8C8g5MjHQWdnL1qrAHCjjZopump",
     "DgmECo2oh1h7WC7sb7Y25fuH6YLBDCnjCBzKbVQ1pump",
     "AUHK6bsTMU6nemt7epnvELJtGezx9JS76Lm48pxipump",
-    "7FmeWP3HnyEnc2BEqxU5kYhFVCiPrBA1BmoK2uP1pump"
+    "7FmeWP3HnyEnc2BEqxU5kYhFVCiPrBA1BmoK2uP1pump",
+    "2LVYAfg3ZtgFLp2B9QrTZy18sVzxqmocNmAgBS9Vpump"
    ],
    "rejected": [
     "Bm67LrewgThV5H72LC4EkyPc9xk6iwMR1CkSkK8z72q9",
@@ -3327,13 +3346,13 @@
      "giris": 30
     },
     "2026-10-25": {
-     "tarama": 4824,
-     "yas": 377,
-     "likidite": 53,
-     "hacim": 53,
-     "yukselis": 19,
+     "tarama": 4871,
+     "yas": 378,
+     "likidite": 54,
+     "hacim": 54,
+     "yukselis": 20,
      "guvenlik_red": 4,
-     "giris": 15
+     "giris": 16
     }
    }
   }
