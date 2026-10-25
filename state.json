@@ -235,27 +235,8 @@
    }
   },
   "B": {
-   "cash": 36.042679789800744,
-   "positions": [
-    {
-     "mint": "35fWL6pdJqpconRZPrawUAQegw1QF3p2tgN7mzhTpump",
-     "pool": "Ang7vjh7KoSScfbuE1ZWW6gAoXf7EcAZLPJzmMdcgwZj",
-     "name": "PMUP",
-     "opened": "2026-10-25T11:35:13Z",
-     "entry_price": 0.00011058323114029569,
-     "entry_liq": 25798.3303,
-     "tokens": 88562.78289573385,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20644130861323812,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.0001189679795519872,
-     "max_m": 1.193022164606186,
-     "entry_exec": 0.00011066725411665134
-    }
-   ],
+   "cash": 48.25234937930969,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -3100,6 +3081,24 @@
      "risk": "temiz",
      "max_m": 1.119,
      "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "PMUP",
+     "mint": "35fWL6pdJqpconRZPrawUAQegw1QF3p2tgN7mzhTpump",
+     "pool": "Ang7vjh7KoSScfbuE1ZWW6gAoXf7EcAZLPJzmMdcgwZj",
+     "opened": "2026-10-25T11:35:13Z",
+     "closed": "2026-10-25T11:47:13Z",
+     "closed_day": "2026-10-25",
+     "hold_min": 12.0,
+     "cost": 10.0,
+     "proceeds": 12.2097,
+     "pnl": 2.2097,
+     "fees": 0.441,
+     "reason": "TP",
+     "risk": "temiz",
+     "max_m": 1.271,
+     "partial": false
     }
    ],
    "seen": [
@@ -3365,10 +3364,10 @@
      "giris": 30
     },
     "2026-10-25": {
-     "tarama": 5452,
-     "yas": 417,
-     "likidite": 55,
-     "hacim": 55,
+     "tarama": 5519,
+     "yas": 424,
+     "likidite": 56,
+     "hacim": 56,
      "yukselis": 21,
      "guvenlik_red": 4,
      "giris": 17
