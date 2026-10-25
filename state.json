@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 29.0018815210586,
+   "cash": 35.28420750423055,
    "positions": [
     {
      "mint": "7FmeWP3HnyEnc2BEqxU5kYhFVCiPrBA1BmoK2uP1pump",
@@ -251,27 +251,9 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.1618561026743469,
-     "max_m": 1.034296819656285,
+     "last_price": 0.16312027627200534,
+     "max_m": 1.0423751726497603,
      "entry_exec": 0.15649195154509513
-    },
-    {
-     "mint": "2LVYAfg3ZtgFLp2B9QrTZy18sVzxqmocNmAgBS9Vpump",
-     "pool": "AutYPsoEEqr4sDYLTqd2uBn8Xz1BzGn51iT4kjQwEBX1",
-     "name": "Chubby",
-     "opened": "2026-10-25T09:50:13Z",
-     "entry_price": 0.00018251242372080732,
-     "entry_liq": 35797.2899,
-     "tokens": 53671.06453940783,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20436392723680202,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.00018251242372080732,
-     "max_m": 1.0,
-     "entry_exec": 0.0001826123644855906
     }
    ],
    "closed": [
@@ -3081,6 +3063,24 @@
      "reason": "TP",
      "risk": "temiz",
      "max_m": 1.396,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "Chubby",
+     "mint": "2LVYAfg3ZtgFLp2B9QrTZy18sVzxqmocNmAgBS9Vpump",
+     "pool": "AutYPsoEEqr4sDYLTqd2uBn8Xz1BzGn51iT4kjQwEBX1",
+     "opened": "2026-10-25T09:50:13Z",
+     "closed": "2026-10-25T09:57:43Z",
+     "closed_day": "2026-10-25",
+     "hold_min": 7.5,
+     "cost": 10.0,
+     "proceeds": 6.2823,
+     "pnl": -3.7177,
+     "fees": 0.3717,
+     "reason": "STOP",
+     "risk": "temiz",
+     "max_m": 1.0,
      "partial": false
     }
    ],
