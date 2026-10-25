@@ -235,27 +235,8 @@
    }
   },
   "B": {
-   "cash": 47.230112699372796,
-   "positions": [
-    {
-     "mint": "3KpyR7uM657Bbcw64gLHQpJfPYByJEiVhu4ED3cnpump",
-     "pool": "2X5p7bVpciv44iGmE7KrKLqNtDzyRK7muXsYVGtyz79v",
-     "name": "MAYA",
-     "opened": "2026-10-25T02:57:28Z",
-     "entry_price": 0.0016478350488051048,
-     "entry_liq": 113337.423,
-     "tokens": 5946.775553759157,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20069481513827564,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.0019551494896658662,
-     "max_m": 1.1864958759577329,
-     "entry_exec": 0.001648120046132304
-    }
-   ],
+   "cash": 54.558933436988056,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -2938,6 +2919,24 @@
      "risk": "temiz",
      "max_m": 1.06,
      "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "MAYA",
+     "mint": "3KpyR7uM657Bbcw64gLHQpJfPYByJEiVhu4ED3cnpump",
+     "pool": "2X5p7bVpciv44iGmE7KrKLqNtDzyRK7muXsYVGtyz79v",
+     "opened": "2026-10-25T02:57:28Z",
+     "closed": "2026-10-25T03:39:28Z",
+     "closed_day": "2026-10-25",
+     "hold_min": 42.0,
+     "cost": 10.0,
+     "proceeds": 7.3288,
+     "pnl": -2.6712,
+     "fees": 0.3769,
+     "reason": "STOP",
+     "risk": "temiz",
+     "max_m": 1.186,
+     "partial": false
     }
    ],
    "seen": [
@@ -3193,8 +3192,8 @@
      "giris": 30
     },
     "2026-10-25": {
-     "tarama": 2575,
-     "yas": 221,
+     "tarama": 2640,
+     "yas": 225,
      "likidite": 37,
      "hacim": 37,
      "yukselis": 11,
