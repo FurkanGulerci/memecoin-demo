@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 31.20072867269087,
+   "cash": 39.165800532200784,
    "positions": [
     {
      "mint": "49tCiqESiHKxXYU6W2zwToBgWSQMaaTBGTRbWJpspump",
@@ -251,27 +251,9 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.42608640423764593,
-     "max_m": 1.0182176980260433,
+     "last_price": 0.42841340722393806,
+     "max_m": 1.0209542713773572,
      "entry_exec": 0.41962531496865013
-    },
-    {
-     "mint": "AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C",
-     "pool": "HGJWK4PUjjPCGHJ9cxWPDUFWBaCgFr2n3boFGsk8WVoF",
-     "name": "LAUNCH",
-     "opened": "2026-10-25T17:24:55Z",
-     "entry_price": 0.001967915401843326,
-     "entry_liq": 38333.6059,
-     "tokens": 4977.851579729261,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.20400920816065432,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.001967915401843326,
-     "max_m": 1.0,
-     "entry_exec": 0.0019689217010630646
     }
    ],
    "closed": [
@@ -3153,6 +3135,24 @@
      "reason": "TP",
      "risk": "temiz",
      "max_m": 1.346,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "LAUNCH",
+     "mint": "AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C",
+     "pool": "HGJWK4PUjjPCGHJ9cxWPDUFWBaCgFr2n3boFGsk8WVoF",
+     "opened": "2026-10-25T17:24:55Z",
+     "closed": "2026-10-25T17:26:25Z",
+     "closed_day": "2026-10-25",
+     "hold_min": 1.5,
+     "cost": 10.0,
+     "proceeds": 7.9651,
+     "pnl": -2.0349,
+     "fees": 0.3889,
+     "reason": "STOP",
+     "risk": "temiz",
+     "max_m": 1.0,
      "partial": false
     }
    ],
