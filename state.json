@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 37.070613825030534,
+   "cash": 27.070613825030534,
    "positions": [
     {
      "mint": "EfMZfcStz5oxorWLhBLcPzkePLz91BG5knrGAGiXpump",
@@ -251,7 +251,7 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 9.258984783236814e-05,
+     "last_price": 8.327732394299287e-05,
      "max_m": 1.1027876687915932,
      "entry_exec": 8.897915941948268e-05
     },
@@ -269,9 +269,27 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.05347776992342533,
-     "max_m": 1.0172915235220013,
+     "last_price": 0.05351767934984068,
+     "max_m": 1.0180507085302597,
      "entry_exec": 0.05257044763799983
+    },
+    {
+     "mint": "5Dw9h4ySRjRPcED7g23kabJ5KSpReKLitktM9TREpump",
+     "pool": "9ek7USTgXu1w3cgHYJ5UWUHgFYmT4MbYp1Hgg2LWgB5c",
+     "name": "WILDWOOD",
+     "opened": "2026-10-25T01:33:28Z",
+     "entry_price": 7.851565302353786e-05,
+     "entry_liq": 25249.6973,
+     "tokens": 124731.77962219495,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "fees": 0.20660287017535078,
+     "partial": false,
+     "risk": "temiz",
+     "miss": 0,
+     "last_price": 7.851565302353786e-05,
+     "max_m": 1.0,
+     "entry_exec": 7.857660677725146e-05
     }
    ],
    "closed": [
@@ -3033,7 +3051,8 @@
     "hFF4rkdzsaoYhkz4dGEQepGmHCBTVFFCoaLXbJqpump",
     "H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump",
     "EfMZfcStz5oxorWLhBLcPzkePLz91BG5knrGAGiXpump",
-    "GK1Vxw9529MWwvGEwKQfVP4GAtpn1tWa7ec44bmFpump"
+    "GK1Vxw9529MWwvGEwKQfVP4GAtpn1tWa7ec44bmFpump",
+    "5Dw9h4ySRjRPcED7g23kabJ5KSpReKLitktM9TREpump"
    ],
    "rejected": [
     "Bm67LrewgThV5H72LC4EkyPc9xk6iwMR1CkSkK8z72q9",
@@ -3135,13 +3154,13 @@
      "giris": 30
     },
     "2026-10-25": {
-     "tarama": 1770,
-     "yas": 147,
-     "likidite": 33,
-     "hacim": 33,
-     "yukselis": 7,
+     "tarama": 1841,
+     "yas": 154,
+     "likidite": 34,
+     "hacim": 34,
+     "yukselis": 8,
      "guvenlik_red": 2,
-     "giris": 5
+     "giris": 6
     }
    }
   }
