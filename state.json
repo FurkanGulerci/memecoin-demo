@@ -235,7 +235,7 @@
    }
   },
   "B": {
-   "cash": 32.60608366952134,
+   "cash": 47.60772790619529,
    "positions": [
     {
      "mint": "EVzBqTfq24KS63ahUjRCTxAeWqHJ6pNmrNYqL5Wipump",
@@ -251,27 +251,9 @@
      "partial": false,
      "risk": "temiz",
      "miss": 0,
-     "last_price": 0.021436356175744145,
+     "last_price": 0.021367172348049943,
      "max_m": 1.04389106425479,
      "entry_exec": 0.020536105920909743
-    },
-    {
-     "mint": "3qNmUbdKgrupBriiGSgwbne1b4Qo2VMJ6CXNSCF7pump",
-     "pool": "AwiPCFN5P83P2HHS7f7SaqWfC3jrvqu6tGnsDsgNgzxT",
-     "name": "Bugmageddon",
-     "opened": "2026-10-25T06:41:13Z",
-     "entry_price": 7.457605668658079e-05,
-     "entry_liq": 22573.1395,
-     "tokens": 131308.85238933782,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.2075035807628735,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 7.266271685065652e-05,
-     "max_m": 1.1072772848902472,
-     "entry_exec": 7.464081683494962e-05
     }
    ],
    "closed": [
@@ -2991,6 +2973,24 @@
      "reason": "STOP",
      "risk": "temiz",
      "max_m": 1.052,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "Bugmageddon",
+     "mint": "3qNmUbdKgrupBriiGSgwbne1b4Qo2VMJ6CXNSCF7pump",
+     "pool": "AwiPCFN5P83P2HHS7f7SaqWfC3jrvqu6tGnsDsgNgzxT",
+     "opened": "2026-10-25T06:41:13Z",
+     "closed": "2026-10-25T07:21:43Z",
+     "closed_day": "2026-10-25",
+     "hold_min": 40.5,
+     "cost": 10.0,
+     "proceeds": 15.0016,
+     "pnl": 5.0016,
+     "fees": 0.4763,
+     "reason": "TP",
+     "risk": "temiz",
+     "max_m": 1.559,
      "partial": false
     }
    ],
