@@ -235,8 +235,27 @@
    }
   },
   "B": {
-   "cash": 57.070613825030534,
-   "positions": [],
+   "cash": 47.070613825030534,
+   "positions": [
+    {
+     "mint": "EfMZfcStz5oxorWLhBLcPzkePLz91BG5knrGAGiXpump",
+     "pool": "5991THFJ2QDEXkPSUP6bq4s7hiwCJo9pj4h2EG4hWCEc",
+     "name": "Pablo",
+     "opened": "2026-10-25T00:06:15Z",
+     "entry_price": 8.890733780451257e-05,
+     "entry_liq": 24265.1413,
+     "tokens": 110149.38850786665,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "fees": 0.20691110697060483,
+     "partial": false,
+     "risk": "temiz",
+     "miss": 0,
+     "last_price": 8.890733780451257e-05,
+     "max_m": 1.0,
+     "entry_exec": 8.897915941948268e-05
+    }
+   ],
    "closed": [
     {
      "strategy": "B",
@@ -2994,7 +3013,8 @@
     "akRhNAuqczoExHHa6B6PmvutTPpjAnGUF3JDf3npump",
     "3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump",
     "hFF4rkdzsaoYhkz4dGEQepGmHCBTVFFCoaLXbJqpump",
-    "H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump"
+    "H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump",
+    "EfMZfcStz5oxorWLhBLcPzkePLz91BG5knrGAGiXpump"
    ],
    "rejected": [
     "Bm67LrewgThV5H72LC4EkyPc9xk6iwMR1CkSkK8z72q9",
@@ -3036,7 +3056,9 @@
     "B44UptqVg1fnkc7eUJy1TmbyGxUnsgmDg1dciMsMxsM8",
     "GzzoDGDgpxktLgDVZBU1wnXyMYhBCaALXbMwytqg6nJU",
     "DjtS7UxVA5giVKCSVfL7aF8zF9o33e1xEcyKX4jxPMRP",
-    "AWAGoGb2Srrdr5Qx7L7kFC5fW1GeYwwMFNHmXxjuQ4MG"
+    "AWAGoGb2Srrdr5Qx7L7kFC5fW1GeYwwMFNHmXxjuQ4MG",
+    "GbRnMa22J2XWStSTRENQNsRfpHALQuydDx6CmcTYpump",
+    "TTWofwAge91oFhZs7kpQdyrVRkmevgM88xijGvQFbKo"
    ],
    "funnel": {
     "2026-10-19": {
@@ -3094,13 +3116,13 @@
      "giris": 30
     },
     "2026-10-25": {
-     "tarama": 1154,
-     "yas": 84,
-     "likidite": 21,
-     "hacim": 21,
-     "yukselis": 3,
-     "guvenlik_red": 0,
-     "giris": 3
+     "tarama": 1230,
+     "yas": 94,
+     "likidite": 25,
+     "hacim": 25,
+     "yukselis": 6,
+     "guvenlik_red": 2,
+     "giris": 4
     }
    }
   }
