@@ -235,27 +235,8 @@
    }
   },
   "B": {
-   "cash": 37.82015350093613,
-   "positions": [
-    {
-     "mint": "DgmECo2oh1h7WC7sb7Y25fuH6YLBDCnjCBzKbVQ1pump",
-     "pool": "Bozb9ALBQf4JBayYXKYHA7KmsRk5vKYaBPn75oZFK8mV",
-     "name": "REACHY",
-     "opened": "2026-10-25T08:05:13Z",
-     "entry_price": 0.0002748997412400233,
-     "entry_liq": 42926.0491,
-     "tokens": 35636.724913437974,
-     "cost": 10.0,
-     "proceeds": 0.0,
-     "fees": 0.2034735426540097,
-     "partial": false,
-     "risk": "temiz",
-     "miss": 0,
-     "last_price": 0.000234368410190784,
-     "max_m": 1.022843301840591,
-     "entry_exec": 0.00027502527305207604
-    }
-   ],
+   "cash": 45.56681621298361,
+   "positions": [],
    "closed": [
     {
      "strategy": "B",
@@ -3027,6 +3008,24 @@
      "reason": "SURE",
      "risk": "temiz",
      "max_m": 1.067,
+     "partial": false
+    },
+    {
+     "strategy": "B",
+     "token": "REACHY",
+     "mint": "DgmECo2oh1h7WC7sb7Y25fuH6YLBDCnjCBzKbVQ1pump",
+     "pool": "Bozb9ALBQf4JBayYXKYHA7KmsRk5vKYaBPn75oZFK8mV",
+     "opened": "2026-10-25T08:05:13Z",
+     "closed": "2026-10-25T08:24:43Z",
+     "closed_day": "2026-10-25",
+     "hold_min": 19.5,
+     "cost": 10.0,
+     "proceeds": 7.7467,
+     "pnl": -2.2533,
+     "fees": 0.3859,
+     "reason": "STOP",
+     "risk": "temiz",
+     "max_m": 1.023,
      "partial": false
     }
    ],
