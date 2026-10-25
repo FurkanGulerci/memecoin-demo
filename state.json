@@ -235,8 +235,27 @@
    }
   },
   "B": {
-   "cash": 47.82015350093613,
-   "positions": [],
+   "cash": 37.82015350093613,
+   "positions": [
+    {
+     "mint": "DgmECo2oh1h7WC7sb7Y25fuH6YLBDCnjCBzKbVQ1pump",
+     "pool": "Bozb9ALBQf4JBayYXKYHA7KmsRk5vKYaBPn75oZFK8mV",
+     "name": "REACHY",
+     "opened": "2026-10-25T08:05:13Z",
+     "entry_price": 0.0002748997412400233,
+     "entry_liq": 42926.0491,
+     "tokens": 35636.724913437974,
+     "cost": 10.0,
+     "proceeds": 0.0,
+     "fees": 0.2034735426540097,
+     "partial": false,
+     "risk": "temiz",
+     "miss": 0,
+     "last_price": 0.0002748997412400233,
+     "max_m": 1.0,
+     "entry_exec": 0.00027502527305207604
+    }
+   ],
    "closed": [
     {
      "strategy": "B",
@@ -3165,7 +3184,8 @@
     "FmuciqKXRRnKqhi7BNin5mYH6fm3oTrfVB5A5Fyrpump",
     "EVzBqTfq24KS63ahUjRCTxAeWqHJ6pNmrNYqL5Wipump",
     "3qNmUbdKgrupBriiGSgwbne1b4Qo2VMJ6CXNSCF7pump",
-    "9iRmfZ9XdZRD8pGCg8C8g5MjHQWdnL1qrAHCjjZopump"
+    "9iRmfZ9XdZRD8pGCg8C8g5MjHQWdnL1qrAHCjjZopump",
+    "DgmECo2oh1h7WC7sb7Y25fuH6YLBDCnjCBzKbVQ1pump"
    ],
    "rejected": [
     "Bm67LrewgThV5H72LC4EkyPc9xk6iwMR1CkSkK8z72q9",
@@ -3269,13 +3289,13 @@
      "giris": 30
     },
     "2026-10-25": {
-     "tarama": 4245,
-     "yas": 337,
-     "likidite": 50,
-     "hacim": 50,
-     "yukselis": 16,
+     "tarama": 4311,
+     "yas": 344,
+     "likidite": 51,
+     "hacim": 51,
+     "yukselis": 17,
      "guvenlik_red": 4,
-     "giris": 12
+     "giris": 13
     }
    }
   }
